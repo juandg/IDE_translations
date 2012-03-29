@@ -19,7 +19,7 @@ msgstr ""
 
 #: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr ""
+msgstr "Erro não fatal enquanto configurava Aparência"
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
@@ -27,7 +27,7 @@ msgstr ""
 
 #: Base.java:217
 msgid "Problem Setting the Platform"
-msgstr ""
+msgstr "Problema ao configurar a Plataforma"
 
 #: Base.java:218
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: Base.java:229
 msgid "Please install JDK 1.5 or later"
-msgstr ""
+msgstr "Por favor instale a JDK 1.5 ou posterior"
 
 #: Base.java:230
 msgid ""
@@ -45,10 +45,13 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
+"Arduino requer a JDK completa (não apenas a JRE)\n"
+"para rodar. Por favor instale a JDK 1.5 ou posterior.\n"
+"Mais informações podem ser encontradas na referência."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
-msgstr ""
+msgstr "Diretório de Sketchbook disapareceu"
 
 #: Base.java:255
 msgid ""
@@ -58,20 +61,27 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
+"O diretório de sketchbook não existe mais.\n"
+"Arduino irá trocar para a localização padrão,\n"
+"e irá criar um novo diretório de sketchbook se\n"
+"necessário. Arduino então irá parar de falar sobre\n"
+"ele mesmo em terceira pessoa."
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr ""
+msgstr "Hora de uma pausa"
 
 #: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
+"Você chegou ao limite de auto nomeação de novas sketches\n"
+"para o dia. Que tal em vez disso sair para uma caminha?"
 
 #: Base.java:534
 msgid "Sunshine"
-msgstr ""
+msgstr "Luz do Sol"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
