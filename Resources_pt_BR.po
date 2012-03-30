@@ -143,7 +143,7 @@ msgstr ""
 "{1}"
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "Ignorando sketch com nome ruim"
+msgstr "Ignorando sketch com nome estranho"
 
 #: Base.java:1199
 #, java-format
@@ -1279,11 +1279,11 @@ msgstr ""
 
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
-msgstr ""
+msgstr "Faltando */ no fim do /* comentário */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr ""
+msgstr "O Sketch Desapareceu"
 
 #: Sketch.java:1797
 msgid ""
@@ -1291,16 +1291,23 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
+"O diretório do sketch desapareceu.\n"
+"Uma nova tentativa de salvar no mesmo diretório acontecerá,\n"
+"nada no seu código será perdido."
+
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr ""
+msgstr "Não foi possível re-salvar o sketch"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
+"Não foi possível re-salvar corretamente o sketch. Você deve estar em apuros agora, \n"
+"e deve copiar e colar seu cógido em outro editor de texto."
+
 
 #: Sketch.java:2060
 msgid ""
@@ -1308,11 +1315,14 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
+"O nome do sketch teve que ser modificado. Os nomes para Sketch só podem\n"
+"tem caracters ASCII e números (não podem começar com um número).\n"
+"Eles devem ter no máximo 64 caracters de comprimento."
 
 #: SketchCode.java:83
 #, java-format
 msgid "Error while loading code {0}"
-msgstr ""
+msgstr "Erro ao tentar carregar código {0}"
 
 #: SketchCode.java:258
 #, java-format
@@ -1322,75 +1332,83 @@ msgid ""
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
 msgstr ""
+"\"{0}\" contém caracteres desconhecidos. Caso este código tenha sido criado"
+"com uma versão antiga do Processing, você deve ir em Ferramentas -> Corrir Codificação &"
+"Recarregar para atualizar o sketch e usar UTF-8 como codificação. Caso contrário, você precisa "
+"apagar os caracteres estranhos para se livrar desta mensagem."
 
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
+"As configurações de cor do tema não podem ser lidas.\n"
+"Você precisa reinstalar o Processing."
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr ""
+msgstr "Arquivar o Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr ""
+msgstr "ddMMyy"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr ""
+msgstr "O sketch não pode ser arquivado"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
+"Arquivando o sketch foi cancelado pois\n"
+"o sketch não pode ser salvo corretamente."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr ""
+msgstr "Arquivar sketch como: "
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr ""
+msgstr "Arquivar sketch cancelado"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr ""
+msgstr "Auto Fomatação"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr ""
+msgstr "Sem alterações necessários para o Auto Formato"
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr ""
+msgstr "Auto Formatação Cancelada: Excesso de parêntese para a direita"
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr ""
+msgstr "Auto Formatação Cancelada: Excesso de parênteses para a esquerda"
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr ""
+msgstr "Auto Formatação Cancelada: Excesso de colchets para direita"
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr ""
+msgstr "Auto Formatação Cancelada: Excesso de colchetes para esquerda"
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr ""
+msgstr "Auto Formatação terminada"
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr ""
+msgstr "Corrigindo a codificação e Reabrindo"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr ""
+msgstr "Descartar todas as alterações e reabrir o sketch?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -1398,21 +1416,26 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
+"Ocorreu um erro na tentativa de corrigir a codificação do arquivo.\n"
+"Não tente salvar esse sketch pois você pode sobrescrever a \n"
+"versão antiga. Utilize Abrir para reabrir o sketch e tentar novamente.\n"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
-msgstr ""
+msgstr "http://www.arduino.cc/latest.txt"
 
 #: UpdateCheck.java:103
 msgid ""
 "A new version of Arduino is available,\n"
 "would you like to visit the Arduino download page?"
 msgstr ""
+"Uma nova versão do Arduino esta disponível,\n"
+"você gostaria de visitar a página de donwload do Arduino?"
 
 #: UpdateCheck.java:111
 msgid "Update"
-msgstr ""
+msgstr "Atualização"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
-msgstr ""
+msgstr "http://www.arduino.cc/en/Main/Software"
