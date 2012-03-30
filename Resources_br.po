@@ -85,15 +85,15 @@ msgstr "Luz do Sol"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr ""
+msgstr "Sério, hora de você tomar um ar puro."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr ""
+msgstr "Abri um sketch Arduino..."
 
 #: Base.java:769
 msgid "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr ""
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Você tem certeza que quer sair?</b><p>Fechar o último sketch aberto irá sair do Arduino."
 
 #: Base.java:779
 #: Editor.java:586
@@ -103,15 +103,15 @@ msgstr "Sair"
 #: Base.java:900
 #: Editor.java:494
 msgid "Open..."
-msgstr ""
+msgstr "Abrir..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr ""
+msgstr "Contribuíram"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr ""
+msgstr "Sketch não existe"
 
 #: Base.java:1093
 msgid ""
