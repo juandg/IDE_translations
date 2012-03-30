@@ -111,7 +111,7 @@ msgstr "Abrir..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr "Contribuição"
+msgstr "Contribuições"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
@@ -143,7 +143,7 @@ msgstr ""
 "{1}"
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "Ignorando sketch com nome estranho"
+msgstr "Ignorando sketch com nome errado"
 
 #: Base.java:1199
 #, java-format
@@ -152,46 +152,55 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
+"A biblioteca \"{0}\" não pode ser utilizada.\n"
+"Nomes para bibliotecas devem conter somente letras básicas e números.\n"
+"(somente ASCII e sem espaços, e não podem começar com números)"
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr ""
+msgstr "Ignorando bibliotecas com nome errado"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
-msgstr ""
+msgstr "Problema ao obter diretório de dados"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr ""
+msgstr "Erro ao obter o diretório de dados do Arduino"
 
 #: Base.java:1437
 msgid "Settings issues"
-msgstr ""
+msgstr "Questões de configurações"
 
 #: Base.java:1438
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
+"O Arduino não pode ser executado pois não\n"
+"conseguiu criar um diretório para guardar suas configurações."
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr ""
+msgstr "Você esqueçeu seu sketchbook"
 
 #: Base.java:1600
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
+"O Arduino não pode ser executado pois não\n" 
+"conseguiu criar um diretório para seu sketchbook."
+
+
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr ""
+msgstr "Selecione (ou crie um novo) diretório para seus sketches..."
 
 #: Base.java:1644
 msgid "Problem Opening URL"
-msgstr ""
+msgstr "Problem ao Carregar a URL"
 
 #: Base.java:1645
 #, java-format
@@ -199,10 +208,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
+"Não foi possível abrir a URL\n"
+"{0}"
 
 #: Base.java:1668
 msgid "Problem Opening Folder"
-msgstr ""
+msgstr "Problema ao Abrir o Diretório"
 
 #: Base.java:1669
 #, java-format
@@ -210,14 +221,16 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
+"Não foi possível abrir o diretório\n"
+"{0}"
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
-msgstr ""
+msgstr "Guia_MacOSX.html"
 
 #: Base.java:1784
 msgid "Guide_Windows.html"
-msgstr ""
+msgstr "Guia_Windows.html"
 
 #: Base.java:1786
 msgid "http://www.arduino.cc/playground/Learning/Linux"
@@ -259,22 +272,22 @@ msgstr ""
 #: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
 #: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr ""
+msgstr "Não foi possível remover a versão antiga {0}"
 
 #: Base.java:2203
 #, java-format
 msgid "Could not replace {0}"
-msgstr ""
+msgstr "Não foi possível substituir {0}"
 
 #: Base.java:2244 Base.java:2267
 #, java-format
 msgid "Could not delete {0}"
-msgstr ""
+msgstr "Não foi possível apagar {0}"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -283,24 +296,24 @@ msgstr ""
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr ""
+msgstr "Erro do compilador, por favor envie este código para {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr ""
+msgstr "Nenhuma placa selecionad, por favor escolha a placa em Ferramentas > Menu Placas"
 
 #: debug/Compiler.java:422
 #, java-format
 msgid "{0} returned {1}"
-msgstr ""
+msgstr "{0} retornou {1}"
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr ""
+msgstr "Error ao compilar."
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr ""
+msgstr "Por favor importe a biblioteca SPI em Sketch > Menu Importar Biblioteca "
 
 #: debug/Compiler.java:466
 msgid ""
@@ -1335,7 +1348,7 @@ msgstr ""
 "\"{0}\" contém caracteres desconhecidos. Caso este código tenha sido criado"
 "com uma versão antiga do Processing, você deve ir em Ferramentas -> Corrir Codificação &"
 "Recarregar para atualizar o sketch e usar UTF-8 como codificação. Caso contrário, você precisa "
-"apagar os caracteres estranhos para se livrar desta mensagem."
+"apagar os caracteres errados para se livrar desta mensagem."
 
 #: Theme.java:52
 msgid ""
