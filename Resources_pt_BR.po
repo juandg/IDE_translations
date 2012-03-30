@@ -47,10 +47,12 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
-
+"O Arduino requer o JDK completo (não somente a JRE)\n"
+"para funcionar. Por favor instale o JDK 1.5 ou superior.\n"
+"Mais informações podem ser encontradas na referência."
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
-msgstr "Diretório do Sketchbook desapareceu"
+msgstr "O diretório sketchbook desapareceu"
 
 #: Base.java:255
 msgid ""
@@ -60,28 +62,35 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
+"O diretório sketchbook não existe mais.\n"
+"O Arduino irá trocá-lo para o local padrão\n"
+"criando um novo diretório sketchbook se\n"
+"necessário. Assim o Arduino vai parar\n"
+"de falar de si mesmo na terceira pessoa."
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr ""
+msgstr "Hora de uma pause"
 
 #: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
+"Você atingiu o limite diário de nomes automáticos\n"
+"para novos sketches. O que acha de sair e dar uma volta?"
 
 #: Base.java:534
 msgid "Sunshine"
-msgstr ""
+msgstr "Luz do Sol"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr ""
+msgstr "Sério, agora é hora de um pouco de ar fresco para você"
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr ""
+msgstr "Abrir um sketch Arduino..."
 
 #: Base.java:769
 msgid ""
@@ -89,22 +98,24 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
-
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Você tem "
+"certeza que quer sair?</b><p>Ao fechar o último sketch o Arduino se encerrará."
 #: Base.java:779 Editor.java:586
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: Base.java:900 Editor.java:494
 msgid "Open..."
-msgstr ""
+msgstr "Abrir..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr ""
+msgstr "Contribuição"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr ""
+msgstr "O sketch não existe"
 
 #: Base.java:1093
 msgid ""
@@ -112,6 +123,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
+"O sketch selecionado não existe mais.\n"
+"Você deve reiniciar o Arduino para atulizar\n"
+"o menu do sketchbook."
 
 #: Base.java:1122
 #, java-format
@@ -122,10 +136,14 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-
+"O sketch \"{0}\" não pode ser usado.\n"
+"Os nomes para sketchs deve conter somente letras e números básicos\n"
+"(somente ASCII sem espaços, e não podem começar com um número).\n"
+"Para se livrar desta mensagem, remova o sketch do\n"
+"{1}"
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr ""
+msgstr "Ignorando sketch com nome ruim"
 
 #: Base.java:1199
 #, java-format
