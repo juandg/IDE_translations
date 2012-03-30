@@ -1,4 +1,4 @@
-# German translations for PACKAGE package.
+# Norwegian translations for PACKAGE package.
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # David A. Mellis <>, 2012.
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
 "PO-Revision-Date: 2012-03-29 10:24-0400\n"
 "Last-Translator: David A. Mellis <>\n"
-"Language-Team: German\n"
-"Language: de\n"
+"Language-Team: Norwegian\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,10 +34,12 @@ msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr ""
+"En ukjent feil oppstod under lasting av\n"
+"plattformspesifik kode for din maskin."
 
 #: Base.java:229
 msgid "Please install JDK 1.5 or later"
-msgstr ""
+msgstr "Vennligst installer JDK 1.5 eller nyere"
 
 #: Base.java:230
 msgid ""
@@ -45,10 +47,13 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
+"Arduino er avhengig av full JDK (ikke bare JRE)\n"
+"for å kjøre. Vennligst innstaller JDK 1.5 eller nyere.\"
+"Mer informasjon finnes i referansedokumentasjonen."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
-msgstr ""
+msgstr "Mappen for skisser er forsvunnet"
 
 #: Base.java:255
 msgid ""
@@ -58,28 +63,35 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
+"Mappen for skisser eksisterer ikke lenger.\n"
+"Arduino vil nå gå over til å bruke standard mappe for\n"
+"skisser, og hvis nødvendig opprette en ny mappe\n."
+"Etterpå vil Arduino slutte å omtale seg selv i\n"
+"tredje person."
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr ""
+msgstr "Tid for Pause"
 
 #: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
+"Du har nådd maksimalt antall skissenavn som kan genereres\n"
+"automatisk i løpet av en dag. Hva med å gå seg en tur i stedet?"
 
 #: Base.java:534
 msgid "Sunshine"
-msgstr ""
+msgstr "Solskinn"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr ""
+msgstr "Ærlig talt, nå er det på tide med litt frisk luft."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr ""
+msgstr "Åpne en Arduino skisse"
 
 #: Base.java:769
 msgid ""
@@ -87,22 +99,25 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Er du "
+"sikker på at du vil avslutte?</b><p>Lukker du den siste skissen, avsluttes Arduino."
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
-msgstr ""
+msgstr "Avslutt"
 
 #: Base.java:900 Editor.java:494
 msgid "Open..."
-msgstr ""
+msgstr "Åpne..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr ""
+msgstr "Bidratt"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr ""
+msgstr "Skissen eksisterer ikke"
 
 #: Base.java:1093
 msgid ""
@@ -110,6 +125,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
+"Den valgte skissen eksisterer ikke lenger.\n"
+"Då må kanskje starte om Arduino for å oppdatere\n"
+"skissebokmenyen"
 
 #: Base.java:1122
 #, java-format
@@ -120,10 +138,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
+"Skissen \"{0}\" kan ikke benyttes.\n"
+"Skissenavn kan kun inneholde bokstaver og tall\n"
+"(kun ASCII, ingen mellomrom, og kan ikke starte med et tall).\n"
+"For å bli kvitt denne meldingen, fjern skissen fra\n"
+"{1}"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr ""
+msgstr "Overser skisse med ugyldig navn"
 
 #: Base.java:1199
 #, java-format
@@ -132,10 +155,13 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
+"Biblioteket \"{0}\" kan ikke benyttes.\n"
+"Biblioteknavn kan kun inneholde bokstaver og tall.\n"
+"(kun ASCII, ingen mellomrom, og kan ikke starte med et tall)"
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr ""
+msgstr "Overser ugyldig biblioteksnavn"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
