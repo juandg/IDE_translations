@@ -1366,66 +1366,70 @@ msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
+"Não foi possível ler as opções de cor do tema.\n"
+"Você precisará reinstalar Processing."
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr ""
+msgstr "Arquivar Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr ""
+msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr ""
+msgstr "Não foi possível arquivar a sketch"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
+"Arquivamento de sketch cancelado pois\n"
+"a sketch não pode ser salva corretamente"
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr ""
+msgstr "Arquivar sketch como:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr ""
+msgstr "Arquivar sketch cancelado"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr ""
+msgstr "Identação Automática"
 
 #: tools/AutoFormat.java:913
 #: tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr ""
+msgstr "Nenhuma alteração necessária para Identação Automática"
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "Identação automática cancelada: Parenteses a esquerda excedentes."
+msgstr "Identação Automática cancelada: Parenteses a esquerda excedentes."
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "Identação automática cancelada: Parenteses a esquerda excedentes."
+msgstr "Identação Automática cancelada: Parenteses a esquerda excedentes."
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "Identação automática cancelada: Colchetes a direita excedentes."
+msgstr "Identação Automática cancelada: Colchetes a direita excedentes."
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "Identação automática cancelada: Colchetes a esquerda excedentes."
+msgstr "Identação Automática cancelada: Colchetes a esquerda excedentes."
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "Identação automática concluída."
+msgstr "Identação Automática concluída."
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr "Corrigir codificação e recarregar"
+msgstr "Corrigir Codificação e Recarregar"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
