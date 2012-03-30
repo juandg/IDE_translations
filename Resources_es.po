@@ -1,15 +1,15 @@
 # Spanish translations for for the Arduino IDE.
 # Copyright (C) 2012
 # This file is distributed under the same license as the Arduino IDE package.
-# Juan Gomez <>, 2012.
+# Juan Gomez <6f7cc6a35f49c4c2110f60217d8c28d688b8cae0>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-29 10:24-0400\n"
-"Last-Translator: Juan Gomez <>\n"
+"POT-Creation-Date: 2012-03-29 18:10 +0600\n"
+"PO-Revision-Date: 2012-03-29 20:00 +0600\n"
+"Last-Translator: Juan Gomez <6f7cc6a35f49c4c2110f60217d8c28d688b8cae0>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,8 @@ msgstr "Error no fatal mientras se configuraba el Look & Feel"
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
-msgstr ""
+msgstr "El que sigue es el mensaje de error, pero Arduino debe continuar\n" 
+"funcionando sin problemas"
 
 #: Base.java:217
 msgid "Problem Setting the Platform"
@@ -80,7 +81,7 @@ msgstr "No en serio, es hora de un poco de aire fresco para ti."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "Abrir un diseño de Arduino"
+msgstr "Abrir un Sketch de Arduino"
 
 #: Base.java:769
 msgid ""
@@ -103,7 +104,7 @@ msgstr "Contribuido"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr "El "
+msgstr "El Sketch no existe"
 
 #: Base.java:1093
 msgid ""
@@ -124,7 +125,7 @@ msgstr ""
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr ""
+msgstr "Ignorando sketch con nombre erróneo"
 
 #: Base.java:1199
 #, java-format
@@ -136,19 +137,19 @@ msgstr ""
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr ""
+msgstr "Ignorando nombre erróneo de librería"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
-msgstr ""
+msgstr "Problema obteniendo la carpeta de datos"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr ""
+msgstr "Error obteniedo la carpeta de datos de Arduino"
 
 #: Base.java:1437
 msgid "Settings issues"
-msgstr ""
+msgstr "Problema de configuración"
 
 #: Base.java:1438
 msgid ""
@@ -158,7 +159,7 @@ msgstr ""
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr ""
+msgstr "Olvido su sketchbook"
 
 #: Base.java:1600
 msgid ""
@@ -168,11 +169,11 @@ msgstr ""
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr ""
+msgstr "Seleccione (o cree una nueva) Carpeta para sketches…"
 
 #: Base.java:1644
 msgid "Problem Opening URL"
-msgstr ""
+msgstr "Plobelma abriendo la URL"
 
 #: Base.java:1645
 #, java-format
@@ -180,10 +181,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
+"No se pudo abrir la URL\n"
+"{0}"
 
 #: Base.java:1668
 msgid "Problem Opening Folder"
-msgstr ""
+msgstr "Problema abriendo carpeta"
 
 #: Base.java:1669
 #, java-format
@@ -191,6 +194,8 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
+"No se pudo abrir la carpeta\n"
+"{0}"
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
@@ -230,32 +235,32 @@ msgstr ""
 
 #: Base.java:1823
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
 #: Base.java:1839
 msgid "Warning"
-msgstr ""
+msgstr "Alerta"
 
 #: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
 #: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
 #: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr ""
+msgstr "No se pudo remover la versión anterior de {0}"
 
 #: Base.java:2203
 #, java-format
 msgid "Could not replace {0}"
-msgstr ""
+msgstr "No se pudo reemplazar {0}"
 
 #: Base.java:2244 Base.java:2267
 #, java-format
 msgid "Could not delete {0}"
-msgstr ""
+msgstr "No se pudo borrar {0}"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -264,7 +269,7 @@ msgstr ""
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr ""
+msgstr "Error de compilación, por favor envíe este código a {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
@@ -273,15 +278,15 @@ msgstr ""
 #: debug/Compiler.java:422
 #, java-format
 msgid "{0} returned {1}"
-msgstr ""
+msgstr "{0} retornó {1}"
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr ""
+msgstr "Error compilando"
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr ""
+msgstr "Por favor importe la liberaría SPI utilizando el menú Sketch > Importar Librería."
 
 #: debug/Compiler.java:466
 msgid ""
@@ -402,16 +407,16 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "Ningun archivo fue agregado al diseño."
+msgstr "Ningun archivo fue agregado al sketch."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "Un archivo agregado al diseño."
+msgstr "Un archivo agregado al sketch."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr ""
+msgstr "{0} archivos agregados al sketch."
 
 #: Editor.java:484
 msgid "File"
@@ -423,7 +428,7 @@ msgstr "Nuevo"
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr "Libro de Diseños"
+msgstr ""
 
 #: Editor.java:509
 msgid "Examples"
@@ -464,7 +469,7 @@ msgstr "Preferencias"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr "Diseño"
+msgstr ""
 
 #: Editor.java:602
 msgid "Verify / Compile"
@@ -476,7 +481,7 @@ msgstr "Importar Librearia..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "Mostrar Carpeta de Diseños"
+msgstr "Mostrar Carpeta de Sketchs"
 
 #: Editor.java:643
 msgid "Add File..."
@@ -638,7 +643,7 @@ msgstr ""
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "Compilando Diseño…"
+msgstr "Compilando Sketch…"
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
@@ -696,11 +701,11 @@ msgstr "Moviendo"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Ya existe una carpeta llamada \"{0}\". No se pudo abrir el Diseño."
+msgstr "Ya existe una carpeta llamada \"{0}\". No se pudo abrir el Sketch."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "No se ha podido creara la carpeta de Diseños."
+msgstr "No se ha podido creara la carpeta de Sketchs."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
@@ -708,7 +713,7 @@ msgstr "No se ha podido copiar a una parte apropiada."
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "No se ha podido crear el Diseño."
+msgstr "No se ha podido crear el Sketch."
 
 #: Editor.java:2166
 #, java-format
@@ -1273,7 +1278,7 @@ msgstr ""Falta el */ al final de un /* comentario */
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "El Diseño ha desaparecido"
+msgstr "El Sketch ha desaparecido"
 
 #: Sketch.java:1797
 msgid ""
@@ -1284,7 +1289,7 @@ msgstr ""
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "No se puedo re-guardar el Diseño"
+msgstr "No se puedo re-guardar el Sketch"
 
 #: Sketch.java:1811
 msgid ""
@@ -1321,7 +1326,7 @@ msgstr "Necesitas re-instalar Processing."
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "Archivar Diseño"
+msgstr "Archivar Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -1329,21 +1334,21 @@ msgstr ""
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "No se ha podido archivar el Diseño"
+msgstr "No se ha podido archivar el Sketch"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
-msgstr "El Diseño no se pudo guardar debidamente"
+msgstr "El Sketch no se pudo guardar debidamente"
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "Archivar Diseño como:"
+msgstr "Archivar Sketch como:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "Archivado de Diseño cancelado"
+msgstr "Archivado de Sketch cancelado"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
@@ -1380,7 +1385,7 @@ msgstr "Arreglar Codificación y Re-abrir"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "Descartar todos los cambios y re-abrir Diseño?"
+msgstr "Descartar todos los cambios y re-abrir Sketch?"
 
 #: tools/FixEncoding.java:77
 msgid ""
