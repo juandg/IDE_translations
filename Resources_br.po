@@ -1404,33 +1404,32 @@ msgstr ""
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr ""
+msgstr "Identação automática cancelada: Parenteses a esquerda excedentes."
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr ""
+msgstr "Identação automática cancelada: Parenteses a esquerda excedentes."
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr ""
+msgstr "Identação automática cancelada: Colchetes a direita excedentes."
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr ""
+msgstr "Identação automática cancelada: Colchetes a esquerda excedentes."
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr ""
+msgstr "Identação automática concluída."
 
-#: tools/FixEncoding.java:41
-#: tools/FixEncoding.java:58
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr ""
+msgstr "Corrigir codificação e recarregar"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr ""
+msgstr "Descartar todas as mudanças e recarregar a sketch??"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -1438,22 +1437,27 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
+"Um erro ocorreu ao tentar corrigir a codificação do arquivo.\n"
+"Não tente salvar a sketch pois pode sobrescrever\n"
+"a antiga versão. Use Abrir para reabrir a sketch e tente novamente.\n"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
-msgstr ""
+msgstr "http://www.arduino.cc/latest.txt"
 
 #: UpdateCheck.java:103
 msgid ""
 "A new version of Arduino is available,\n"
 "would you like to visit the Arduino download page?"
 msgstr ""
+"Uma nova versão do Arduino está disponível,\n"
+"você gostaria de visitar a pagina de download do Arduino?"
+
 
 #: UpdateCheck.java:111
 msgid "Update"
-msgstr ""
+msgstr "Atualizar"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
-msgstr ""
-
+msgstr "http://www.arduino.cc/en/Main/Software"
