@@ -672,7 +672,7 @@ msgstr ""
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
 #: Sketch.java:589 Sketch.java:741 Sketch.java:1046
 msgid "Cancel"
-msgstr ""
+msgstr "Odustani"
 
 #: Editor.java:2017
 msgid "Don't Save"
