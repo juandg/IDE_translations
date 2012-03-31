@@ -106,7 +106,7 @@ msgstr "Otvori..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr "Pridoneseno"
+msgstr ""
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
@@ -1412,4 +1412,4 @@ msgstr ""
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
-msgstr ""
+msgstr "http://www.arduino.cc/en/Main/Software"
