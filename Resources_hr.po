@@ -174,7 +174,7 @@ msgstr ""
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr ""
+msgstr "Zaboravili ste skeć knižicu"
 
 #: Base.java:1600
 msgid ""
@@ -184,11 +184,11 @@ msgstr ""
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr ""
+msgstr "Izaberite ili napravite novi direktorij za skećove"
 
 #: Base.java:1644
 msgid "Problem Opening URL"
-msgstr ""
+msgstr "Problem u otvaranju URL-a"
 
 #: Base.java:1645
 #, java-format
@@ -196,10 +196,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
+"Dostup URL-u nije bio uspješan\n"
+"{0}"
 
 #: Base.java:1668
 msgid "Problem Opening Folder"
-msgstr ""
+msgstr "Problem u otvaranju direktorija"
 
 #: Base.java:1669
 #, java-format
@@ -207,13 +209,15 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
+"Dostup direktoriju nije bio uspješan\n"
+"{0}"
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
 msgstr ""
 
 #: Base.java:1784
-msgid "Guide_Windows.html"
+msgid ""
 msgstr ""
 
 #: Base.java:1786
@@ -230,7 +234,7 @@ msgstr ""
 
 #: Base.java:1801
 msgid "environment"
-msgstr ""
+msgstr "okolina"
 
 #: Base.java:1801
 msgid "platforms.html"
@@ -246,17 +250,17 @@ msgstr ""
 
 #: Base.java:1823
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
 #: Base.java:1839
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
 #: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
 #: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: Base.java:2193
 #, java-format
@@ -280,11 +284,11 @@ msgstr ""
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr ""
+msgstr "Pogreška u kompiliranju, molim pošaljite kod {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr ""
+msgstr "Nijedna pločica nije izabrana. Molimo izaberite pločicu iz menija Alati > Pločice"
 
 #: debug/Compiler.java:422
 #, java-format
@@ -293,11 +297,11 @@ msgstr ""
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr ""
+msgstr "Pogreška u kompiliranju"
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr ""
+msgstr "Importirajte SPI datoteku iz menija Skeć > Import"
 
 #: debug/Compiler.java:466
 msgid ""
