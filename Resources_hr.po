@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Croatian\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -37,7 +37,7 @@ msgstr ""
 
 #: Base.java:229
 msgid "Please install JDK 1.5 or later"
-msgstr ""
+msgstr "Instalirajte JDK 1.5 ili noviju verziju"
 
 #: Base.java:230
 msgid ""
@@ -45,6 +45,9 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
+"Za upotrebu Arduina je potrebna puna instalacija JDK-a (ne same JRE)\n"
+"Instalirajte JDK 1.5 ili noviju verziju.\n"
+"Dodatne informacije mozete naci u referenci."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
@@ -61,25 +64,27 @@ msgstr ""
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr ""
+msgstr "Vrijeme je za pauzu"
 
 #: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
+"Dostigli ste današnji limit za automatsko davanje imena novih skećova\n"
+"Zašto ne bi otišli u šetnju?"
 
 #: Base.java:534
 msgid "Sunshine"
-msgstr ""
+msgstr "Sunce"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr ""
+msgstr "Ne, vrijeme je da otiđete na zrak"
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr ""
+msgstr "Otvori Arduino skeć..."
 
 #: Base.java:769
 msgid ""
@@ -87,22 +92,25 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Jeste li sigurni da želite odustati?
+</b><p>Zatvaranje zadnjeg otvorenog skeća ce zatvoriti Arduino."
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
-msgstr ""
+msgstr "Odustani"
 
 #: Base.java:900 Editor.java:494
 msgid "Open..."
-msgstr ""
+msgstr "Otvori..."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr ""
+msgstr "Pridoneseno"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr ""
+msgstr "Skeć ne postoji"
 
 #: Base.java:1093
 msgid ""
@@ -110,7 +118,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-
+"Izabrali ste skeć koji više ne postoji.\n"
+"Provajte ponovno startati Arduino da bi ste obnovili\n"
+"meni"
 #: Base.java:1122
 #, java-format
 msgid ""
@@ -120,10 +130,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
+"Skeć \"{0}\" se ne moze koristiti.\n"
+"Ime skeća se smi samo sastojati od obićnih slova i brojeva.\n"
+"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
+"Da bi ste zatvorili ovu poruku, izbrišite skeć iz\n"
+"{1}"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr ""
+msgstr "Skeć sa nevažecem imenom se ignorira"
 
 #: Base.java:1199
 #, java-format
@@ -132,10 +147,12 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
+"Ime library-a se smi samo sastojati od obićnih slova i brojeva.\n"
+"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr ""
+msgstr "Library sa nevažecem imenom se ignorira"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
