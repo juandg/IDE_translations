@@ -1,7 +1,7 @@
 # Spanish translations for the Arduino IDE.
 # Copyright (C) 2012
 # This file is distributed under the same license as the Arduino IDE package.
-# Juan Gomez <f22aecb973117bd1ba9003912fa55b32a3c0c0b8>, 2012.
+# Juan Gomez <98d8710ae9e86958d6b159f186bfca1aacf708ef>, 2012.
 # David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
 # Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
 # Eduardo Sacristan <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 18:10 +0600\n"
-"PO-Revision-Date: 2012-04-01 02:51 +0600\n"
-"Last-Translator: Juan Gomez <f22aecb973117bd1ba9003912fa55b32a3c0c0b8>\n"
+"PO-Revision-Date: 2012-04-01 16:15 +0600\n"
+"Last-Translator: Juan Gomez <98d8710ae9e86958d6b159f186bfca1aacf708ef>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Error no fatal mientras se configuraba la Apariencia"
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
-msgstr "El que sigue es el mensaje de error, pero Arduino debera continuar\n" 
+msgstr "El que sigue es el mensaje de error, pero Arduino debería continuar\n" 
 "funcionando bien"
 
 #: Base.java:217
@@ -83,7 +83,6 @@ msgid ""
 msgstr ""
 "Por hoy haz alcanzado el limite para auto nombramiento de Sketches nuevos\n"
 "por hoy. Que tal si vas a dar un paseo?"
-
 
 #: Base.java:534
 msgid "Sunshine"
