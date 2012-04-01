@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-31 16:51+0100\n"
-"Last-Translator: David A. Mellis <>\n"
+"PO-Revision-Date: 2012-04-01 16:12+0100\n"
+"Last-Translator: Alexis Morin <>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -227,23 +227,23 @@ msgstr ""
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
-msgstr ""
+msgstr "Guide_MacOSX.html"
 
 #: Base.java:1784
 msgid "Guide_Windows.html"
-msgstr ""
+msgstr "Guide_Windows.html"
 
 #: Base.java:1786
 msgid "http://www.arduino.cc/playground/Learning/Linux"
-msgstr ""
+msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
 #: Base.java:1791
 msgid "index.html"
-msgstr ""
+msgstr "index.html"
 
 #: Base.java:1796
 msgid "Guide_Environment.html"
-msgstr ""
+msgstr "Guide_Environment.html"
 
 #: Base.java:1801
 msgid "environment"
@@ -251,19 +251,19 @@ msgstr "environnement"
 
 #: Base.java:1801
 msgid "platforms.html"
-msgstr ""
+msgstr "platforms.html"
 
 #: Base.java:1806
 msgid "Guide_Troubleshooting.html"
-msgstr ""
+msgstr "Guide_Troubleshooting.html"
 
 #: Base.java:1811
 msgid "FAQ.html"
-msgstr ""
+msgstr "FAQ.html"
 
 #: Base.java:1823
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: Base.java:1839
 msgid "Warning"
@@ -292,7 +292,7 @@ msgstr "N'a pu supprimer"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
-msgstr ""
+msgstr "http://code.google.com/p/arduino/issues/list"
 
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
@@ -428,7 +428,7 @@ msgstr ""
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr ""
+msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 
 #: debug/Uploader.java:199
 #, java-format
@@ -613,7 +613,7 @@ msgstr "Vistier Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
-msgstr ""
+msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
@@ -695,7 +695,7 @@ msgstr "Aucune référence disponible pour \"{0}\""
 #: Editor.java:1826
 #, java-format
 msgid "{0}.html"
-msgstr ""
+msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
@@ -746,7 +746,7 @@ msgstr ""
 #: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: Editor.java:2100
 #, java-format
@@ -783,7 +783,7 @@ msgstr "N'a pu créer le croquis."
 #: Editor.java:2166
 #, java-format
 msgid "{0} | Arduino {1}"
-msgstr ""
+msgstr "{0} | Arduino {1}"
 
 #: Editor.java:2223 Editor.java:2261
 msgid "Saving..."
@@ -926,7 +926,7 @@ msgstr "Ignorer la casse"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "Retourner en haut de page"
+msgstr "Recherche circulaire"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
@@ -1022,11 +1022,11 @@ msgstr "Afficher les résultats détaillés pendant: "
 
 #: Preferences.java:295
 msgid "compilation "
-msgstr "la compilation "
+msgstr "compilation "
 
 #: Preferences.java:297
 msgid "upload"
-msgstr "le téléchargement"
+msgstr "téléchargement"
 
 #: Preferences.java:315
 msgid "Use external editor"
@@ -1077,7 +1077,7 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Port série ''{0}'' non trouvé. Avez-vous sélectionnée le bon du menu Outils > "
+"Le port série ''{0}'' n'a pu être trouvé. Avez-vous sélectionnée le bon du menu Outils > "
 "Port Série?"
 
 #: Serial.java:424
@@ -1120,7 +1120,7 @@ msgstr "NL & CR"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr ""
+msgstr " baud"
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
@@ -1466,6 +1466,8 @@ msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
+"L'archivage du croquis a été annulé car \n"
+"le croquis n'a pu s'enregistrer correctement."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
@@ -1524,7 +1526,7 @@ msgstr ""
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
-msgstr ""
+msgstr "http://www.arduino.cc/latest.txt"
 
 #: UpdateCheck.java:103
 msgid ""
@@ -1540,4 +1542,4 @@ msgstr "Mise à jour"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
-msgstr ""
+msgstr "http://www.arduino.cc/en/Main/Software"
