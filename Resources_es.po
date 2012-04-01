@@ -1,7 +1,7 @@
 # Spanish translations for the Arduino IDE.
 # Copyright (C) 2012
 # This file is distributed under the same license as the Arduino IDE package.
-# Juan Gomez <ee9252ef6c46b7f1545425a9786c60c4ca9eaaa6>, 2012.
+# Juan Gomez <f22aecb973117bd1ba9003912fa55b32a3c0c0b8>, 2012.
 # David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
 # Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
 # Eduardo Sacristan <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 18:10 +0600\n"
 "PO-Revision-Date: 2012-04-01 02:51 +0600\n"
-"Last-Translator: Juan Gomez <ee9252ef6c46b7f1545425a9786c60c4ca9eaaa6>\n"
+"Last-Translator: Juan Gomez <f22aecb973117bd1ba9003912fa55b32a3c0c0b8>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -692,7 +692,7 @@ msgstr "Utilizar selección para buscar"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr "Primero selecciona una plabra para buscar en la referencia."
+msgstr "Primero selecciona una palabra para buscar en la referencia."
 
 #: Editor.java:1823
 #, java-format
@@ -1013,7 +1013,7 @@ msgstr "Ubicación del Sketchbook:"
 
 #: Preferences.java:252
 msgid "Select new sketchbook location"
-msgstr "Seleccione la nueva ubicación del sketchbook"
+msgstr "Seleccione la nueva ubicación del Sketchbook"
 
 #: Preferences.java:276
 msgid "Editor font size: "
@@ -1045,7 +1045,7 @@ msgstr "Verificar actualizaciones al iniciar"
 
 #: Preferences.java:334
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "Actualizar archivos de sketch a nueva extensión al guardar \n"
+msgstr "Actualizar archivos de Sketch a nueva extensión al guardar \n"
 "(.pde -> .ino)"
 
 #: Preferences.java:345
@@ -1141,7 +1141,7 @@ msgid ""
 "and try again."
 msgstr ""
 "Algunos archivos están marcados como \"solo lectura\",\n"
-"así que necesitara volver a guardar este sketch en otra ubicación, e \n"
+"así que necesitaras volver a guardar este Sketch en otra ubicación, e \n"
 "intentar de nuevo."
 
 #: Sketch.java:286
@@ -1150,7 +1150,7 @@ msgstr "Nombre para el nuevo archivo"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "El sketch no tiene nombre"
+msgstr "El Sketch no tiene nombre"
 
 #: Sketch.java:299
 msgid ""
@@ -1194,15 +1194,15 @@ msgstr "Ya existe un archivo llamado \"{0}\" en \"{1}\""
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "No puede tener un archivo .cpp con el mismo nombre que el sketch."
+msgstr "No puede tener un archivo .cpp con el mismo nombre que el Sketch."
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"No puedes renombrar el sketch a \"{0}\"\n"
-"porque el sketch ya tiene un archivo .cpp con ese nombre"
+"No puedes renombrar el Sketch a \"{0}\"\n"
+"porque el Sketch ya tiene un archivo .cpp con ese nombre"
 
 #: Sketch.java:459
 msgid "Cannot Rename"
@@ -1211,11 +1211,11 @@ msgstr "No se puede renombrar"
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "Lo siento, ya existe un sketch (o carpeta) llamado \"{0}\"."
+msgstr "Lo siento, ya existe un Sketch (o carpeta) llamado \"{0}\"."
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "No se puedo renombrar el sketch. (0)"
+msgstr "No se puedo renombrar el Sketch. (0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
@@ -1236,7 +1236,7 @@ msgstr "createNewFile() retorno falso"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "Esta seguro que desea borrar este sketch?"
+msgstr "Esta seguro que desea borrar este Sketch?"
 
 #: Sketch.java:592
 #, java-format
@@ -1245,7 +1245,7 @@ msgstr "Esta seguro que desea borrar \"{0}\"?"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
-msgstr "No puede hacerlo"
+msgstr "No lo pude hacer"
 
 #: Sketch.java:621
 #, java-format
@@ -1254,7 +1254,7 @@ msgstr "No se pudo borrar \"{0}\"."
 
 #: Sketch.java:651
 msgid "removeCode: internal error.. could not find code"
-msgstr "removeCode: error interno... no se pudo encontrar el código"
+msgstr "removeCode: error interno... No se pudo encontrar el código"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
@@ -1266,7 +1266,7 @@ msgid ""
 "need to re-save this sketch to another location."
 msgstr ""
 "Algunos archivos están marcados como \"solo lectura\",\n"
-"así que necesitara volver a guardar este sketch en otra ubicación."
+"así que necesitara volver a guardar este Sketch en otra ubicación."
 
 #: Sketch.java:743
 msgid ""
@@ -1278,13 +1278,13 @@ msgid ""
 "\n"
 "Save sketch and update its extension?"
 msgstr ""
-"En Arduino 1.0, la extensin por defecto ha sido cambiada\n"
-"de .pde a .ino. Sketches nuevos (incluyendo los creados con\n"
-"\"Guardar como\" usarn la nueva extensin. La extensin\n"
-"de sketches existentes ser actualizada al guardar, pero\n"
-"puede deshabilitarlo en el dilogo de Preferencias\n"
+"En Arduino 1.0, la extensión por defecto ha sido cambiada\n"
+"de .pde a .ino. Los nuevos Sketches (incluyendo los creados con\n"
+"\"Guardar como\" usarán la nueva extensión. La extensión\n"
+"de los Sketches ya existentes será actualizada al guardar, pero esto\n"
+"puede ser deshabilitado en el diálogo de Preferencias\n"
 "\n"
-"Guardar el sketch y actualizar la extensin?"
+"Guardar el sketch y actualizar la extensión?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -1299,8 +1299,8 @@ msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"No puede guardar el sketch como \"{0}\"\n"
-"porque el sketch ya tiene un archivo .cpp con ese nombre."
+"No puede guardar el Sketch como \"{0}\"\n"
+"porque el Sketch ya tiene un archivo .cpp con ese nombre."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
@@ -1311,13 +1311,13 @@ msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"No puede guardar el sketch en una carpeta\n"
-"dentro del mismo. Esto seguir por siempre."
+"No puede guardar el Sketch en una carpeta\n"
+"dentro de sí mismo. Esto podría seguir por siempre."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "Seleccione una imagen o algún otro archivo de datos para copiar a su "
-"sketch"
+msgstr "Seleccione una imagen o algún otro archivo de datos para copiar al "
+"Sketch"
 
 #: Sketch.java:1047
 #, java-format
@@ -1344,17 +1344,17 @@ msgid ""
 "I ain't not doin nuthin'."
 msgstr ""
 "Este archivo ya ha sido copiado al lugar\n"
-"desde el que est intentando agregarlo.\n"
-"No estoy haciendo nada"
+"desde el que está intentando agregarlo.\n"
+"Simplemente voy a ignorarte"
 
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "No se pudo agregar ''{0}'' al sketch."
+msgstr "No se pudo agregar ''{0}'' al Sketch."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr "La carpeta de construiccin despareci o no puede ser escrita"
+msgstr "La carpeta de construcción despareció o no puede ser escrita"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
@@ -1368,7 +1368,7 @@ msgstr "Excepción no atrapada de tipo: {0}"
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "Problema moviendo {0} a la carpeta de construccin"
+msgstr "Problema moviendo {0} a la carpeta de construcción"
 
 #: Sketch.java:1661
 msgid "Uploading..."
@@ -1377,7 +1377,7 @@ msgstr "Cargando..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Tamaño binario del sketch: {0} bytes (de un máximo de {1} bytes)"
+msgstr "Tamaño binario del Sketch: {0} bytes (de un máximo de {1} bytes)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -1405,9 +1405,9 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-"La carpeta sketch ha desaparecido.\n"
-" Intentar volver a guardarla en el mismo lugar,\n"
-"pero cualquier cosa aparte del cdigo se perder."
+"La carpeta Sketch ha desaparecido.\n"
+" Intentará volver a guardarla en el mismo lugar,\n"
+"pero cualquier cosa aparte del código se perderá."
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
@@ -1418,8 +1418,8 @@ msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"No se pudo volver a guardar el sketch adecuadamente. Puede estar en problemas\n"
-"en este punto, y tal vez sea hora de compiar y pegar su cdigo en otro editor."
+"No se pudo volver a guardar el Sketch adecuadamente. Puede estar en problemas\n"
+"en este punto, y tal vez sea hora de copiar y pegar su código en otro editor."
 
 #: Sketch.java:2060
 msgid ""
@@ -1427,9 +1427,9 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"El nombre del sketch tuvo que ser modificado. Los nombres de sketch\n"
-"slo pueden consistir de caracteres ASCII y nmeros (pero no pueden\n"
-"empezar con un nmero). Tambin deben ser de tamao menor a 64 caracteres.\n"
+"El nombre del Sketch tuvo que ser modificado. Los nombres de Sketch\n"
+"sólo pueden consistir de caracteres ASCII y números (pero no pueden\n"
+"empezar con un número). También deben ser de tamaño menor a 64 caracteres.\n"
 
 #: SketchCode.java:83
 #, java-format
@@ -1444,9 +1444,9 @@ msgid ""
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
 msgstr ""
-"\"{0}\" contiene caracteres irreconocibles. Si este código fue creado con "
+"\"{0}\" contiene caracteres incorrectos. Si este código fue creado con "
 "una versión anterior de Processing, puede que necesite usar Herramientas ->"
-" Corregir Codificación y Recargar para actualizar el sketch a codificación "
+" Corregir Codificación y Recargar para actualizar el Sketch a codificación "
 "UTF-8. Si no, es posible que necesite borrar los caracteres incorrectos "
 "para deshacerse de esta advertencia."
 
@@ -1456,11 +1456,11 @@ msgid ""
 "You'll need to reinstall Processing."
 msgstr ""
 "No se pudo leer la configuración de esquema de color."
-"Necesitas reinstalar Processing."
+"Necesitarás reinstalar Processing."
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "Archivar Sketch"
+msgstr "Archivar el Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -1475,8 +1475,8 @@ msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr "" 
-"El archivado del sketch ha sido cancelado porque\n"
-"el sketch no se pudo guardar debidamente"
+"El archivado del Sketch ha sido cancelado porque\n"
+"el Sketch no se pudo guardar debidamente"
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
@@ -1484,7 +1484,7 @@ msgstr "Archivar el Sketch como:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "Archivado de el Sketch cancelado"
+msgstr "Archivado de el Sketch ha sido cancelado."
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
@@ -1512,7 +1512,7 @@ msgstr "Formato automático cancelado: demasiados corchetes izquierdos"
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "Formato automático terminado"
+msgstr "Formato automático terminado."
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
@@ -1521,7 +1521,7 @@ msgstr "Reparar Codificación y Recargar"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "Descartar todos los cambios y recargar sketch?"
+msgstr "Descartar todos los cambios y recargar el Sketch?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -1530,8 +1530,8 @@ msgid ""
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
 "Ha ocurrido un error mientras se intentaba arreglar la codificación del\n"
-"archivo. No intente guardar este sketch porque puede sobreescribir la\n"
-"versión anterior. Utilice Abrir para reabrir el sketch e intentar de nuevo\n"
+"archivo. No intente guardar este Sketch porque puede sobreescribir la\n"
+"versión anterior. Utilice Abrir para reabrir el Sketch e intentar de nuevo.\n"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
