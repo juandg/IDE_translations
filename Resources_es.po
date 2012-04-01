@@ -63,9 +63,9 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"La carpeta skectchbook ya no existe.\n"
+"La carpeta Sketchbook ya no existe.\n"
 "Arduino cambiará a la ubicación predeterminada\n"
-"del skectchbook, y creará una nueva carpeta sketchbook\n"
+"del Sketchbook, y creará una nueva carpeta Sketchbook\n"
 "si es necesario. Arduino después dejara de hablar de si mismo\n"
 "en tercera persona"
 
@@ -75,11 +75,11 @@ msgstr "Hora de un descanso"
 
 #: Base.java:530
 msgid ""
-"You've reached the limit for auto naming of new sketches\n"
+"You've reached the limit for auto naming of new Sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Ha alcanzado el limite para auto nombramiento de nuevos sketches\n"
-"por hoy. Que tal si vas a tomar un paseo?"
+"Ha alcanzado el limite para auto nombramiento de nuevos Sketches\n"
+"por hoy. Que tal si vas a dar un paseo?"
 
 
 #: Base.java:534
@@ -88,7 +88,7 @@ msgstr "Luz del Sol"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr "De verdad, es hora de un poco de aire fresco para ti."
+msgstr "De verdad, es hora de que tomes un poco de aire fresco."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Esta \n"
-"seguro que desea Salir?</b><p>Cerrar el ultimo sketch abierto hará salir a\n"
+"Seguro que desea Salir?</b><p>Cerrando el último Sketch abierto hará salir a\n"
 "Arduino."
 
 
@@ -128,9 +128,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"El skecth seleccionado no existe.\n"
+"El Sketch seleccionado no existe.\n"
 "Es posible que necesite reiniciar Arduino\n"
-"para actualizar el menú de skectchbook."
+"para actualizar el menú de Sketchbook."
 
 #: Base.java:1122
 #, java-format
@@ -141,15 +141,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"El sketch \"{0}\" no puede ser usado.\n"
+"El Sketch \"{0}\" no puede ser usado.\n"
 "Los nombres de Sketch deben contener solo letras básicas y números\n"
 "(Solo ASCII sin espacios, y no puede empezar con un numero).\n"
-"Para deshacerse de este mensaje, remueva el sketch de\n"
+"Para deshacerse de este mensaje, elimine el Sketch de\n"
 "{1}"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "Ignorando sketch con nombre incorrecto"
+msgstr "Ignorando Sketch con nombre incorrecto"
 
 #: Base.java:1199
 #, java-format
@@ -160,7 +160,7 @@ msgid ""
 msgstr ""
 "La librería \"{0}\" no puede ser usada.\n"
 "Los nombres de Librería deben contener solo letras básicas y números\n"
-"(Solo ASCII sin espacios, y no puede empezar con un numero).\n"
+"(Solo ASCII sin espacios, y no puede empezar con un número).\n"
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
@@ -172,7 +172,7 @@ msgstr "Problema obteniendo carpeta de datos"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr "Error obteniendo la carpeta de datos de Arduino"
+msgstr "Error obteniendo la carpeta de datos de Arduino."
 
 #: Base.java:1437
 msgid "Settings issues"
@@ -188,20 +188,20 @@ msgstr ""
 
 #:  Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr "Olvido su sketchbook"
+msgstr "Olvido su Sketchbook"
 
 #: Base.java:1600
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"Arduino no puede correr porque no pudo\n"
-"crear una carpeta para guardar su sketchbook."
+"Arduino no puede ejecutarse porque no pudo\n"
+"crear una carpeta para guardar su Sketchbook."
 
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr "Seleccione (o cree una nueva) Carpeta para sketches..."
+msgstr "Seleccione (o cree una nueva) Carpeta para Sketches..."
 
 #: Base.java:1644
 msgid "Problem Opening URL"
@@ -282,7 +282,7 @@ msgstr "Error"
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "No se pudo remover la versión anterior de {0}"
+msgstr "No se pudo eliminar la versión anterior de {0}"
 
 #: Base.java:2203
 #, java-format
@@ -305,7 +305,7 @@ msgstr "Error de compilación, por favor envíe este código a {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "No hay tarjeta seleccionada; Por favor escoja una tarjeta del menú\n"
+msgstr "No hay tarjeta seleccionada; por favor, escoja una tarjeta del menú\n"
 "Herramientas > Tarjeta"
 
 #: debug/Compiler.java:422
@@ -346,13 +346,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la palabra clave 'BYTE' ya no es soportada.\n"
+"Desde Arduino 1.0, la palabra clave 'BYTE' ya no es soportada en Serial.print(var, BYTE).\n"
 "Por favor utilice Serial.write() en su lugar.\n"
 "\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr "La clase Server ha sido renombrada EthernetServer."
+msgstr "La clase Server ha sido renombrada como EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
