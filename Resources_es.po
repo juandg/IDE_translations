@@ -4,14 +4,14 @@
 # Juan Gomez <98d8710ae9e86958d6b159f186bfca1aacf708ef>, 2012.
 # David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
 # Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
-# Eduardo Sacristan <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
+# Eduardo Sacristan <7f5a2090532c81a9cb6cbd3efd258258b1fbed7a>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 18:10 +0600\n"
-"PO-Revision-Date: 2012-04-01 16:15 +0600\n"
+"PO-Revision-Date: 2012-04-01 23:00 +0600\n"
 "Last-Translator: Juan Gomez <98d8710ae9e86958d6b159f186bfca1aacf708ef>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
