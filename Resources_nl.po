@@ -1093,7 +1093,7 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-De readBytesUntil()-byte-buffer is te klein voor de bytes {0} tot en "
+"De readBytesUntil()-byte-buffer is te klein voor de bytes {0} tot en "
 "met karakter {1}"
 
 
@@ -1197,8 +1197,7 @@ msgstr "U kunt geen .cpp-bestand hebben met dezelfde naam als de sketch."
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
-"because the sketch already has a .cpp file
- with that name."
+"because the sketch already has a .cpp file with that name."
 msgstr ""
 "U kunt de sketch niet hernoemen naar \"{0}\"\n"
 "omdat de sketch al een .cpp-bestand heeft met die naam."
