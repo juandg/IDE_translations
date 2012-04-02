@@ -1,7 +1,7 @@
 # German translations for PACKAGE package.
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Lukas Bestle <lukas@lu-x-it.de>, 2012.
+# Lukas Bestle (http://www.lu-x-it.de), 2012.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
 "PO-Revision-Date: 2012-03-29 10:24-0400\n"
-"Last-Translator: Lukas Bestle <lukas@lu-x-it.de>\n"
+"Last-Translator: Lukas Bestle (http://www.lu-x-it.de); Benjamin Hogl\n"
 "Language-Team: German\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr "Fehler beim Lesen des Arduino Datenordners."
 
 #: Base.java:1437
 msgid "Settings issues"
-msgstr "Fehler setzen"
+msgstr "Fehler bei den Einstellungen"
 
 #: Base.java:1438
 msgid ""
@@ -189,7 +189,7 @@ msgstr "Problem beim Öffnen des Ordners"
 msgid ""
 "Could not open the folder\n"
 "{0}"
-msgstr "Der Ordner konnte nicht geöffnet werden."
+msgstr "Der Ordner {0} konnte nicht geöffnet werden."
 
 #: Base.java:1782
 msgid "Guide_MacOSX.html"
@@ -267,7 +267,7 @@ msgstr "Compiler-Fehler, bitte übermitteln Sie diesen Code zu {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Es wurde kein Board ausgewählt; bitte wählen Sie ein Board aus dem Tools > Board Menü."
+msgstr "Es wurde kein Board ausgewählt; bitte wählen Sie ein Board aus dem Menü Tools > Board."
 
 #: debug/Compiler.java:422
 #, java-format
@@ -280,7 +280,7 @@ msgstr "Fehler beim Kompilieren."
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "Bitte importieren Sie die SPI Library aus dem Sketch > Library importieren Menü."
+msgstr "Bitte importieren Sie die SPI Library aus dem Menü Sketch > Library importieren."
 
 #: debug/Compiler.java:466
 msgid ""
@@ -289,7 +289,7 @@ msgid ""
 "You appear to be using it or another library that depends on the SPI "
 "library.\n"
 "\n"
-msgstr "Seit Arduino 0019 hängt die Ethernet Library von der SPI Library ab.\n Es scheint so, als würden Sie sie\noder eine andere Library verwenden, die die SPI Library benötigt."
+msgstr "\nSeit Arduino 0019 hängt die Ethernet Library von der SPI Library ab.\n Es scheint so, als würden Sie diese\noder eine andere Library verwenden, die die SPI Library benötigt.\n\n"
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
@@ -301,7 +301,7 @@ msgid ""
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
 "Please use Serial.write() instead.\n"
 "\n"
-msgstr "Seit Arduino 1.0 wird das Keyword 'BYTE' nicht mehr unterstützt.\nBitte verwenden Sie stattdessen Serial.write()."
+msgstr "\nSeit Arduino 1.0 wird das Keyword 'BYTE' nicht mehr unterstützt.\nBitte verwenden Sie stattdessen Serial.write().\n\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
@@ -389,7 +389,7 @@ msgstr "Problem beim Uploaden zum Board. Beachten Sie http://www.arduino.cc/en/G
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
-msgstr "Es wurde ein falscher Microcontroller gefunden. Haben Sie den richtigen aus dem Tools > Board Menü ausgewählt?"
+msgstr "Es wurde ein falscher Microcontroller gefunden. Haben Sie den richtigen aus dem Menü Tools > Board ausgewählt?"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
@@ -431,7 +431,7 @@ msgstr "Speichern"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr "Speichern als..."
+msgstr "Speichern unter..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
@@ -439,7 +439,7 @@ msgstr "Upload"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Upload mit Verwendung eines Programmers"
+msgstr "Upload mit Programmer"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -615,7 +615,7 @@ msgstr "Auswahl zum Suchen verwenden"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr "Selektieren Sie erst ein Word, um es in der Referenz zu finden."
+msgstr "Selektieren Sie erst ein Wort, um es in der Referenz zu finden."
 
 #: Editor.java:1823
 #, java-format
@@ -682,7 +682,7 @@ msgstr "Die Datei \"{0}\" muss sich innerhalb\neines Sketchordners mit dem Namen
 
 #: Editor.java:2109
 msgid "Moving"
-msgstr "Bewegen"
+msgstr "Verschieben"
 
 #: Editor.java:2122
 #, java-format
@@ -747,7 +747,7 @@ msgstr "Export wurde abgebrochen, die Änderungen müssen erst gespeichert werde
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
-msgstr "Bootloader wird auf dem I/O Board installiert (das kann eine Minute dauern)..."
+msgstr "Bootloader wird auf dem I/O Board installiert (das kann eine Weile dauern)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
@@ -873,7 +873,7 @@ msgid ""
 "Unspecified platform, no launcher available.\n"
 "To enable opening URLs or folders, add a \n"
 "\"launcher=/path/to/app\" line to preferences.txt"
-msgstr "Unspezifizierte Plattform, kein Starter verfügbar.\nUm Öffnen von URLs oder Ordnern zu aktivieren,\nfügen Sie bitte eine Zeile\n\"launcher=/path/to/app\" in der preferences.txt hinzu."
+msgstr "Unspezifizierte Plattform, kein Starter verfügbar.\nUm das Öffnen von URLs oder Ordnern zu aktivieren,\nfügen Sie bitte die Zeile\n\"launcher=/path/to/app\" in der preferences.txt hinzu."
 
 #: Preferences.java:76 UpdateCheck.java:108
 msgid "Yes"
@@ -907,7 +907,7 @@ msgstr "Fehler beim Lesen der Einstellungen"
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
-msgstr "Fehler beim Lesen der Einstellungs-Datei. Bitte löschen\n(oder bewegen) Sie {0} und starten Sie Arduino neu."
+msgstr "Fehler beim Lesen der Einstellungs-Datei. Bitte löschen\n(oder verschieben) Sie {0} und starten Sie Arduino neu."
 
 #: Preferences.java:237
 msgid "Sketchbook location:"
@@ -935,7 +935,7 @@ msgstr "Kompilierung "
 
 #: Preferences.java:297
 msgid "upload"
-msgstr "Upload "
+msgstr "Upload"
 
 #: Preferences.java:315
 msgid "Use external editor"
@@ -983,7 +983,7 @@ msgstr "Fehler beim Öffnen des seriellen Ports ''{0}''."
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
-msgstr "Der serielle Port ''{0}'' wurde nicht gefunden. Haben Sie den richtigen aus dem Tools > Serieller Port Menü ausgewählt?"
+msgstr "Der serielle Port ''{0}'' wurde nicht gefunden. Haben Sie den richtigen aus dem Menü Tools > Serieller Port ausgewählt?"
 
 #: Serial.java:424
 #, java-format
@@ -995,7 +995,7 @@ msgstr "Der readBytesUntil() Byte Puffer ist zu klein für die {0} Bytes bis ein
 #: Serial.java:567
 #, java-format
 msgid "Error inside Serial.{0}()"
-msgstr "Fehler bei Serial.{0}()"
+msgstr "Fehler in Serial.{0}()"
 
 #: SerialMonitor.java:93
 msgid "Send"
@@ -1027,14 +1027,14 @@ msgstr " baud"
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "Sketch ist Read-Only"
+msgstr "Sketch ist schreibgeschützt"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
 "Some files are marked \"read-only\", so you'll\n"
 "need to re-save the sketch in another location,\n"
 "and try again."
-msgstr "Einige Dateien wurden als \"Read-Only\" markiert,\nalso müssen Sie sie den Sketch an einem anderen\nSpeicherort speichern und es erneut versuchen."
+msgstr "Einige Dateien wurden als schreibgeschützt markiert,\nalso müssen Sie den Sketch woanders\nspeichern und es erneut versuchen."
 
 #: Sketch.java:286
 msgid "Name for new file:"
@@ -1130,7 +1130,7 @@ msgstr "Sind Sie sicher, dass Sie \"{0}\" löschen möchten?"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
-msgstr "Konnte nicht getan werden"
+msgstr "Konnte nicht gemacht werden"
 
 #: Sketch.java:621
 #, java-format
@@ -1143,7 +1143,7 @@ msgstr "removeCode: interner Fehler.. Konnte Code nicht finden"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "Sketch ist Read-Only"
+msgstr "Sketch ist schreibgeschützt"
 
 #: Sketch.java:725
 msgid ""
@@ -1160,7 +1160,7 @@ msgid ""
 "disable this in the Preferences dialog.\n"
 "\n"
 "Save sketch and update its extension?"
-msgstr "In Arduino 1.0 hat sich die Standard-Dateiendung von .pde zu .ino geändert.\nNeue Sketche (inklusive diese, die über \"Speichern als\" erstellt worden sind)\nverwenden diese neue Endung.\nDie Endung von existierenden Sketchen wird beim Speichern geändert,\ndieses Verhalten kann jedoch in den Einstellungen geändert werden.\n\n"
+msgstr "In Arduino 1.0 hat sich die Standard-Dateiendung von .pde zu .ino geändert.\nNeue Sketche (inklusive diese, die über \"Speichern unter\" erstellt worden sind)\nverwenden diese neue Endung.\nDie Endung von existierenden Sketchen wird beim Speichern geändert,\ndieses Verhalten kann jedoch in den Einstellungen geändert werden.\n\nSketch speichern und Endung anpassen?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -1193,7 +1193,7 @@ msgstr "Wählen Sie ein Bild oder eine andere Datei zum Kopieren in ihren Sketch
 #: Sketch.java:1047
 #, java-format
 msgid "Replace the existing version of {0}?"
-msgstr "Existierende Version von {0} löschen?"
+msgstr "Existierende Version von {0} ersetzen?"
 
 #: Sketch.java:1069 Sketch.java:1092
 msgid "Error adding file"
@@ -1202,7 +1202,7 @@ msgstr "Fehler beim Hinzufügen der Datei"
 #: Sketch.java:1070
 #, java-format
 msgid "Could not delete the existing ''{0}'' file."
-msgstr "Konnte nicht die existierende Datei ''{0}'' löschen."
+msgstr "Konnte die existierende Datei ''{0}'' nicht löschen."
 
 #: Sketch.java:1078
 msgid "You can't fool me"
@@ -1231,12 +1231,12 @@ msgstr "Die Hauptklasse wurde nicht gefunden"
 #: Sketch.java:1433
 #, java-format
 msgid "Uncaught exception type: {0}"
-msgstr "Nicht abgefangene Exception vom Typ: {0}"
+msgstr "Nicht abgefangener Exception-Typ: {0}"
 
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "Problem beim Bewegen von {0} in den Build-Ordner"
+msgstr "Problem beim Verschieben von {0} in den Build-Ordner"
 
 #: Sketch.java:1661
 msgid "Uploading..."
@@ -1245,7 +1245,7 @@ msgstr "Uploaden..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Binäre Sketchgröße: {0} Bytes (von einem {1} Bytes Maximum)"
+msgstr "Binäre Sketchgröße: {0} Bytes (von einem Maximum von {1} Bytes)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -1301,7 +1301,7 @@ msgid ""
 "older version of Processing,you may need to use Tools -> Fix Encoding & "
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
-msgstr "\"{0}\" enthält unbekannte Zeichen. Wenn dieser Code mit einer älteren\nVersion von Arduino erstellt worden war, könnte es notwendig sein,\nTools > Kodierung reparieren & neu laden zu benutzen, um den Sketch\nin UTF-8 zu konvertieren. Wenn nicht, sollten Sie die\nschlechten Zeichen löschen, um die Meldung loszuwerden."
+msgstr "\"{0}\" enthält fehlerhafte Zeichen. Wenn dieser Code mit einer älteren\nVersion von Arduino erstellt worden war, könnte es notwendig sein,\nTools > Kodierung reparieren & neu laden zu benutzen, um den Sketch\nin UTF-8 zu konvertieren. Wenn nicht, sollten Sie die\nschlechten Zeichen löschen, um die Meldung loszuwerden."
 
 #: Theme.java:52
 msgid ""
@@ -1345,19 +1345,19 @@ msgstr "Es sind keine Änderungen für automatisches Formatieren nötig."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "Automatische Formatierung wurde abgebrochen: Zu viele rechte Klammern"
+msgstr "Automatische Formatierung wurde abgebrochen: Zu viele schließende Klammern"
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "Automatische Formatierung wurde abgebrochen: Zu viele linke Klammern"
+msgstr "Automatische Formatierung wurde abgebrochen: Zu viele öffnende Klammern"
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "Automatische Formatierung wurde abgebrochen: Zu viele rechte geschweifte Klammern"
+msgstr "Automatische Formatierung wurde abgebrochen: Zu viele schließende geschweifte Klammern"
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "Automatische Formatierung wurde abgebrochen: Zu viele linke geschweifte Klammern"
+msgstr "Automatische Formatierung wurde abgebrochen: Zu viele öffnende geschweifte Klammern"
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
@@ -1377,7 +1377,7 @@ msgid ""
 "An error occurred while trying to fix the file encoding.\n"
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
-msgstr "Es ist ein Fehler aufgetreten, während versucht wurde,\ndie Dateikodierung zu reparieren. Versuchen Sie nicht, diesen Sketch zu speichern,nweil es die alte Version überschreiben könnte.\nVerwenden Sie \"Öffnen\", um den Sketch neu zu öffnen und versuchen Sie es erneut."
+msgstr "Es ist ein Fehler beim Reparieren der Dateikodierung aufgetreten.\nVersuchen Sie nicht, diesen Sketch zu speichern,\nnweil es die alte Version überschreiben könnte.\nVerwenden Sie \"Öffnen\", um den Sketch neu zu öffnen und versuchen Sie es erneut."
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
