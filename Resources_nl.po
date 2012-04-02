@@ -984,7 +984,7 @@ msgstr "Bladeren"
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
-msgstr "
+msgstr ""
 "Kon de standaard-instellingen niet lezen.\n"
 "U dient Arduino opnieuw te installeren."
 
@@ -1003,7 +1003,7 @@ msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
 msgstr ""
-Fout bij lezen instellingenbestand. Verwijder (of verplaats)\n"
+"Fout bij lezen instellingenbestand. Verwijder (of verplaats)\n"
 "{0} en start Arduino opnieuw op."
 
 #: Preferences.java:237
