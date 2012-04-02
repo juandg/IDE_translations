@@ -4,7 +4,8 @@
 # Juan Gomez <98d8710ae9e86958d6b159f186bfca1aacf708ef>, 2012.
 # David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
 # Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
-# Eduardo Sacristan <7f5a2090532c81a9cb6cbd3efd258258b1fbed7a>, 2012.
+# Eduardo Sacristan <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
+# Jose Manuel Escuder <josemescuder[at]gmail[dot]com>, 2012
 #
 msgid ""
 msgstr ""
@@ -52,7 +53,7 @@ msgid ""
 msgstr ""
 "Arduino requiere el JDK completo (no solo el JRE)\n"
 "para funcionar. Por favor instale el JDK 1.5 o superior.\n"
-"Podra encontrar mas información en la referencia."
+"Podrá encontrar más información en la referencia."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
@@ -68,7 +69,7 @@ msgid ""
 msgstr ""
 "La carpeta Sketchbook ya no existe.\n"
 "Arduino cambiará a la ubicación predeterminada\n"
-"del Sketchbook, y creará una nueva carpeta Sketchbook\n"
+"del Sketchbook y creará una nueva carpeta Sketchbook\n"
 "si es necesario. Arduino dejara después de hablar de si mismo\n"
 "en tercera persona"
 
@@ -81,7 +82,7 @@ msgid ""
 "You've reached the limit for auto naming of new Sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Por hoy haz alcanzado el limite para auto nombramiento de Sketches nuevos\n"
+"Por hoy haz alcanzado el límite para auto nombramiento de Sketches nuevos\n"
 "por hoy. ¿Que tal si vas a dar un paseo?"
 
 #: Base.java:534
@@ -104,9 +105,8 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>¿Esta \n"
-"Seguro que desea Salir?</b><p>Cerrar el último Sketch abierto hará salir a\n"
+"seguro de que desea Salir?</b><p>Cerrar el último Sketch abierto cerrará\n"
 "Arduino."
-
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 "El Sketch seleccionado ya no existe.\n"
 "Es posible que necesite reiniciar Arduino\n"
-"para actualizar el menú de Sketchbook."
+"para actualizar el menú Sketchbook."
 
 #: Base.java:1122
 #, java-format
@@ -143,7 +143,7 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"El Sketch \"{0}\" no puede ser usado.\n"
+"El Sketch \"{0}\" no puede ser utilizado.\n"
 "Los nombres de Sketch deben contener solo letras básicas y números\n"
 "(Solo ASCII sin espacios, y no puede empezar con un numero).\n"
 "Para deshacerse de este mensaje, elimine el Sketch de\n"
@@ -160,9 +160,9 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
-"La librería \"{0}\" no puede ser usada.\n"
+"La librería \"{0}\" no puede ser utilizada.\n"
 "Los nombres de Librería deben contener solo letras básicas y números\n"
-"(Solo ASCII sin espacios, y no puede empezar con un número).\n"
+"(Solo ASCII sin espacios y no puede empezar con un número).\n"
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
@@ -307,8 +307,8 @@ msgstr "Error de compilación, por favor envíe este código a {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "No hay tarjeta seleccionada; por favor, escoja una tarjeta del menú\n"
-"Herramientas > Tarjeta"
+msgstr "No hay tarjeta seleccionada; por favor, escoja una placa del menú\n"
+"Herramientas > Placa"
 
 #: debug/Compiler.java:422
 #, java-format
@@ -448,15 +448,15 @@ msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
-"El dispositivo no responde, revise que el puerto serial correcto este "
-"seleccionado o REINICIE la tarjeta antes de exportar"
+"El dispositivo no responde, revise que el puerto serie correcto este "
+"seleccionado o REINICIE la placa antes de exportar"
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
-"Problema cargando a la tarjeta. Vea http://www.arduino.cc/en/Guide/"
+"Problema al subir código a la placa. Vea http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload para sugerencias."
 
 #: debug/Uploader.java:213
@@ -464,8 +464,8 @@ msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
-"Se ha encontrado un Microcontrolador equivocado. Seleccionaste la tarjeta \n"
-"correcta del menú Herramientas > Tarjeta"
+"Se ha encontrado un Microcontrolador equivocado. ¿Seleccionaste la tarjeta \n"
+"correcta del menú Herramientas > Tarjeta?"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
@@ -555,15 +555,15 @@ msgstr "Herramientas"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr "Monitor Serial"
+msgstr "Monitor Serie"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Tarjeta"
+msgstr "Placa"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr "Puerto Serial"
+msgstr "Puerto Serie"
 
 #: Editor.java:695
 msgid "Programmer"
@@ -571,7 +571,7 @@ msgstr "Programador"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "Quemar Secuencia de Inicio"
+msgstr "Grabar Gestor de Arranque"
 
 #: Editor.java:923
 msgid "serialMenu is null"
@@ -763,7 +763,7 @@ msgid ""
 msgstr ""
 "El archivo \"{0}\" necesita estar dentro\n"
 "de la carpeta de un sketch llamada \"{1}\".\n"
-"¿Crear esta carpeta, mover este archivo, y continuar?"
+"¿Crear esta carpeta, mover este archivo y continuar?"
 
 #: Editor.java:2109
 msgid "Moving"
@@ -814,7 +814,7 @@ msgstr ""
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "Cargando a la Tarjeta I/O..."
+msgstr "Cargando a la placa E/S..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
@@ -834,16 +834,16 @@ msgstr "Exportación cancelada, primero se deben guardados los cambios."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
-msgstr "Quemando secuencia de inicio a la Tarjeta I/O (Esto puede tomar un \n"
+msgstr "Grabando gestor de arranque en la placa E/S (Esto puede tardar un \n"
 "minuto)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr "Finalizada la quema de la secuencia de inicio."
+msgstr "Finalizada la grabación del gestor de arranque."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "Error al quemar la secuencia de inicio."
+msgstr "Error al grabar la gestor de arranque."
 
 #: Editor.java:2500
 msgid "Printing..."
@@ -1057,7 +1057,7 @@ msgstr "Más preferencias pueden ser editadas directamente en el archivo"
 
 #: Preferences.java:385
 msgid "(edit only when Arduino is not running)"
-msgstr "(editar solo cuando Arduino no este corriendo)"
+msgstr "(editar sólo cuando Arduino no este corriendo)"
 
 #: Preferences.java:532
 #, java-format
@@ -1070,13 +1070,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"El puerto serial ''{0}'' ya esta en uso. Intente cerrar cualquier otro "
+"El puerto serie ''{0}'' ya esta en uso. Intente cerrar cualquier otro "
 "programa que pueda estar usándolo."
 
 #: Serial.java:154
 #, java-format
 msgid "Error opening serial port ''{0}''."
-msgstr "Error al abrir el puerto serial ''{0}''."
+msgstr "Error al abrir el puerto serie ''{0}''."
 
 #: Serial.java:167
 #, java-format
@@ -1115,19 +1115,19 @@ msgstr "No hay fin de línea"
 
 #: SerialMonitor.java:112
 msgid "Newline"
-msgstr "Nueva línea"
+msgstr "Nueva Línea"
 
 #: SerialMonitor.java:112
 msgid "Carriage return"
-msgstr "Retorno de carro"
+msgstr "Retorno de Carro"
 
 #: SerialMonitor.java:112
 msgid "Both NL & CR"
-msgstr "Ambos NL & CR"
+msgstr "Ambos NL & RC"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr " baudio"
+msgstr " baudios"
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
@@ -1141,7 +1141,7 @@ msgid ""
 msgstr ""
 "Algunos archivos están marcados como \"solo lectura\",\n"
 "así que necesitaras volver a guardar este Sketch en otra ubicación, e \n"
-"intentar de nuevo."
+"intentarlo de nuevo."
 
 #: Sketch.java:286
 msgid "Name for new file:"
@@ -1231,7 +1231,7 @@ msgstr "No se pude renombrar el Sketch. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
-msgstr "createNewFile() retorno falso"
+msgstr "createNewFile() retornó falso"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
