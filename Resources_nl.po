@@ -1538,7 +1538,7 @@ msgid ""
 "would you like to visit the Arduino download page?"
 msgstr ""
 "Er is een nieuwe versie van Arduino beschikbaar,\n"
-"wilt u de Arduino-downloadpagina bezoeken?"
+"wilt u de Arduino download pagina bezoeken?"
 
 #: UpdateCheck.java:111
 msgid "Update"
