@@ -1,0 +1,1394 @@
+# Polish translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Maciej Wojnicki, Maciej Wójciga <>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-01 10:24-0400\n"
+"PO-Revision-Date: 2012-04-01 10:24-0400\n"
+"Last-Translator: Maciej Wojnicki, Maciej Wójciga <>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Base.java:181
+msgid "Błąd podczas ustawiania Look & Feel."
+msgstr ""
+
+#: Base.java:182
+msgid "Wystąpił błąd opisany poniżej, Arduino powinno jednak pracować poprawnie."
+msgstr ""
+
+#: Base.java:217
+msgid "Błąd podczas ustawiania platformy"
+msgstr ""
+
+#: Base.java:218
+msgid ""
+"Wystąpił nieznany błąd podczas próby wgrania\n"
+"kodu specyficznego dla platformy na Twoje urządzenie."
+msgstr ""
+
+#: Base.java:229
+msgid "Zainstaluj JDK 1.5 lub nowsze."
+msgstr ""
+
+#: Base.java:230
+msgid ""
+"Arduino wymaga pełnego JDK (nie tylko JRE)\n"
+"do działania. Zainstaluj JDK 1.5 lud nowsze.\n"
+"Więcej informacji na ten temat znajdziesz w dokumentacji"
+msgstr ""
+
+#: Base.java:254
+msgid "Folder szkicownika nie istnieje."
+msgstr ""
+
+#: Base.java:255
+msgid ""
+"Folder szkicownika (Sketchbook) nie istnieje.\n"
+"Arduino spróbuje utworzyć folder szkicownika\n"
+"w domyślnej lokalizacji jeśli to konieczne.\n"
+"Potem Arduino przestanie gadać o sobie\n"
+"w trzeciej osobie."
+msgstr ""
+
+#: Base.java:529
+msgid "Czas na przerwę"
+msgstr ""
+
+#: Base.java:530
+msgid ""
+"Wykorzystałeś limit auto-nazw szkicy\n"
+"na dzisiaj. Może pora na spacer?"
+msgstr ""
+
+#: Base.java:534
+msgid "Słońce!"
+msgstr ""
+
+#: Base.java:535
+msgid "Naprawdę, czas na odrobinę świeżego powietrza."
+msgstr ""
+
+#: Base.java:630
+msgid "Otwórz szkic Arduino..."
+msgstr ""
+
+#: Base.java:769
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Jesteś pewien, że chcesz wyjść?</b><p>Zamknięcie ostatniego szkicu zamknie program."
+msgstr ""
+
+#: Base.java:779 Editor.java:586
+msgid "Zamknij"
+msgstr ""
+
+#: Base.java:900 Editor.java:494
+msgid "Otwórz..."
+msgstr ""
+
+#: Base.java:967
+msgid "Contributed"
+msgstr ""
+
+#: Base.java:1092
+msgid "Szkic nie istnieje"
+msgstr ""
+
+#: Base.java:1093
+msgid ""
+"Wybrany szkic nie istnieje.\n"
+"Być może musisz zrestartować Arduino\n"
+"aby odświeżyć listę szkiców."
+msgstr ""
+
+#: Base.java:1122
+#, java-format
+msgid ""
+"Nazwa szkicu \"{0}\" nie może zostać użyta.\n"
+"Nazwy szkiców mogą zawierać jedynie podstawowe litery i cyfry\n"
+"(ASCII, bez spacji, nie mogą zaczynać się cyfrą).\n"
+"Aby pozbyć się tej wiadomości, usuń szkic z\n"
+"{1}"
+msgstr ""
+
+#: Base.java:1129
+msgid "Ignoruj błędną nazwę szkicu"
+msgstr ""
+
+#: Base.java:1199
+#, java-format
+msgid ""
+"Biblioteka \"{0}\" nie może być użyta.\n"
+"Nazwy bibliotek mogą zawierać jedynie podstawowe litery i cyfry.\n"
+"(ASCII, bez spacji, nie mogą zaczynać się cyfrą)"
+msgstr ""
+
+#: Base.java:1204
+msgid "Ignoruj błędną nazwę biblioteki"
+msgstr ""
+
+#: Base.java:1429
+msgid "Problem z dostępem do folderu z danymi."
+msgstr ""
+
+#: Base.java:1430
+msgid "Problem z dostępem do folderu danych Arduino."
+msgstr ""
+
+#: Base.java:1437
+msgid "Problem z ustawieniami"
+msgstr ""
+
+#: Base.java:1438
+msgid ""
+"Arduino nie zostanie uruchomione bo nie może\n"
+"stworzyć folderu do przechowywania ustawień."
+msgstr ""
+
+#: Base.java:1599
+msgid "Zapomniałeś o folderze szkicownika"
+msgstr ""
+
+#: Base.java:1600
+msgid ""
+"Arduino nie zostanie uruchomione\n"
+"ponieważ nie może utworzyć folderu do przechowania Twojego szkicu."
+msgstr ""
+
+#: Base.java:1620
+msgid "Wybierz (albo utwórz) folder szkiców..."
+msgstr ""
+
+#: Base.java:1644
+msgid "Problem z otworzeniem URL"
+msgstr ""
+
+#: Base.java:1645
+#, java-format
+msgid ""
+"Nie mogę otworzyć URL\n"
+"{0}"
+msgstr ""
+
+#: Base.java:1668
+msgid "Problem z otworzeniem folderu"
+msgstr ""
+
+#: Base.java:1669
+#, java-format
+msgid ""
+"Nie mogę otworzyć folderu\n"
+"{0}"
+msgstr ""
+
+#: Base.java:1782
+msgid "Guide_MacOSX.html"
+msgstr ""
+
+#: Base.java:1784
+msgid "Guide_Windows.html"
+msgstr ""
+
+#: Base.java:1786
+msgid "http://www.arduino.cc/playground/Learning/Linux"
+msgstr ""
+
+#: Base.java:1791
+msgid "index.html"
+msgstr ""
+
+#: Base.java:1796
+msgid "Guide_Environment.html"
+msgstr ""
+
+#: Base.java:1801
+msgid "środowisko"
+msgstr ""
+
+#: Base.java:1801
+msgid "platforms.html"
+msgstr ""
+
+#: Base.java:1806
+msgid "Guide_Troubleshooting.html"
+msgstr ""
+
+#: Base.java:1811
+msgid "FAQ.html"
+msgstr ""
+
+#: Base.java:1823
+msgid "Wiadomość"
+msgstr ""
+
+#: Base.java:1839
+msgid "Ostrzeżenie"
+msgstr ""
+
+#: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
+#: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
+#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
+msgid "Błąd"
+msgstr ""
+
+#: Base.java:2193
+#, java-format
+msgid "Nie można usunąć starej wersji {0}"
+msgstr ""
+
+#: Base.java:2203
+#, java-format
+msgid "Nie można zamienić {0}"
+msgstr ""
+
+#: Base.java:2244 Base.java:2267
+#, java-format
+msgid "Nie można skasować {0}"
+msgstr ""
+
+#: debug/Compiler.java:41
+msgid "http://code.google.com/p/arduino/issues/list"
+msgstr ""
+
+#: debug/Compiler.java:43 debug/Uploader.java:54
+#, java-format
+msgid "Błąd kompilatora, prześlij ten kod do {0}"
+msgstr ""
+
+#: debug/Compiler.java:79
+msgid "Nie wybrano modelu płytki; proszę wybierz model z menu Narzędzia (Tools) > Model płytki(Board)."
+msgstr ""
+
+#: debug/Compiler.java:422
+#, java-format
+msgid "{0} zwrócił {1}"
+msgstr ""
+
+#: debug/Compiler.java:426
+msgid "Błąd kompilacji."
+msgstr ""
+
+#: debug/Compiler.java:465
+msgid "Zaimportuj bibliotekę SPI z Szkic (Sketch) > Importuj bibliotekę (Import Library)."
+msgstr ""
+
+#: debug/Compiler.java:466
+msgid ""
+"\n"
+"Od wersji Arduino 0019, biblioteka Ethernet zależy od biblioteki SPI.\n"
+"Wygląda na to że używasz innej bilioteki również zależnej od biblioteki SPI."
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:471
+msgid "Słowo 'BYTE' nie jest już wspierane."
+msgstr ""
+
+#: debug/Compiler.java:472
+msgid ""
+"\n"
+"Od wersji Arduino 1.0, słowo 'BYTE' nie jest wspierane.\n"
+"Użyj proszę funkcji Serial.write()\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:477
+msgid "Klasa Server zmieniła nazwę na EthernetServer."
+msgstr ""
+
+#: debug/Compiler.java:478
+msgid ""
+"\n"
+"Od wersji Arduino 1.0, klasa Server z biblioteki Ethernet zmieniła nazwę "
+"na EthernetServer.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:483
+msgid "Klasa Client zmieniła nazwę na EthernetClient."
+msgstr ""
+
+#: debug/Compiler.java:484
+msgid ""
+"\n"
+"Od wersji Arduino 1.0, klasa Client z biblioteki Ethernet zmieniła nazwę "
+"na EthernetClient.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:489
+msgid "Klasa Udp zmieniła nazwę na EthernetUdp."
+msgstr ""
+
+#: debug/Compiler.java:490
+msgid ""
+"\n"
+"Od wersji Arduino 1.0, klasa Udp z biblioteki Ethernet zmieniła nazwę na "
+"EthernetClient.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:495
+msgid "Funkcja Wire.send() zmieniła nazwę na Wire.write()."
+msgstr ""
+
+#: debug/Compiler.java:496
+msgid ""
+"\n"
+"Od wersji Arduino 1.0, funkcja Wire.send() zmieniła nazwę Wire.write() aby "
+"zachować spójność nazewnictwa z innymi bibliotekami.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:501
+msgid "Funkcja Wire.receive() zmieniła nazwę na Wire.read()."
+msgstr ""
+
+#: debug/Compiler.java:502
+msgid ""
+"\n"
+"Od wersji 1.0, funkcja Wire.receive() zmieniła nazwę na Wire.read() "
+"zachować spójność nazewnictwa z innymi bibliotekami.\n"
+"\n"
+msgstr ""
+
+#: debug/Uploader.java:52
+msgid "https://developer.berlios.de/bugs/?group_id=3590"
+msgstr ""
+
+#: debug/Uploader.java:199
+#, java-format
+msgid ""
+"port szeregowy {0} nie istnieje lub twoja płytka nie jest podłączona"
+msgstr ""
+
+#: debug/Uploader.java:203
+msgid ""
+"Urządzenie nie odpowiada, sprawdź czy wybrano odpowiedni port szeregowy "
+"lub zresetuj płytkę przed eksportowaniem szkicu"
+msgstr ""
+
+#: debug/Uploader.java:209
+msgid ""
+"Problem z przesyłaniem danych na płytkę.  Sprawdź http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload aby otrzymać więcej informacji."
+msgstr ""
+
+#: debug/Uploader.java:213
+msgid ""
+"Wykryto inny mikrokontroler. Czy wybrałeś odpowiedni model płytki z menu Narzędzia (Tools) "
+"> Model płytki (Board)?"
+msgstr ""
+
+#: Editor.java:366
+msgid "Nie dodano żadnych plików do szkicu."
+msgstr ""
+
+#: Editor.java:369 Sketch.java:996
+msgid "Dodano jeden plik do szkicu."
+msgstr ""
+
+#: Editor.java:373
+#, java-format
+msgid "{0} plików zostało dodanych do szkicu."
+msgstr ""
+
+#: Editor.java:484
+msgid "File"
+msgstr ""
+
+#: Editor.java:486 EditorToolbar.java:41
+msgid "Nowy"
+msgstr ""
+
+#: Editor.java:503
+msgid "Szkicownik"
+msgstr ""
+
+#: Editor.java:509
+msgid "Przykłady"
+msgstr ""
+
+#: Editor.java:514 Editor.java:1977
+msgid "Zamknij"
+msgstr ""
+
+#: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
+#: EditorToolbar.java:46
+msgid "Zapisz"
+msgstr ""
+
+#: Editor.java:530
+msgid "Zapisz jako..."
+msgstr ""
+
+#: Editor.java:538 EditorToolbar.java:41
+msgid "Załaduj"
+msgstr ""
+
+#: Editor.java:546 EditorToolbar.java:46
+msgid "Załaduj używając programatora"
+msgstr ""
+
+#: Editor.java:556
+msgid "Ustawienia strony"
+msgstr ""
+
+#: Editor.java:564
+msgid "Drukuj"
+msgstr ""
+
+#: Editor.java:576 Preferences.java:217
+msgid "Ustawienia"
+msgstr ""
+
+#: Editor.java:600
+msgid "Szkic"
+msgstr ""
+
+#: Editor.java:602
+msgid "Weryfikuj / Kompiluj"
+msgstr ""
+
+#: Editor.java:629
+msgid "Importuj bibliotekę..."
+msgstr ""
+
+#: Editor.java:634
+msgid "Pokaż folder szkicu"
+msgstr ""
+
+#: Editor.java:643
+msgid "Dodaj plik..."
+msgstr ""
+
+#: Editor.java:656
+msgid "Narzędzia"
+msgstr ""
+
+#: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Monitor portu szeregowego"
+msgstr ""
+
+#: Editor.java:682
+msgid "Płytka"
+msgstr ""
+
+#: Editor.java:690
+msgid "Port szeregowy"
+msgstr ""
+
+#: Editor.java:695
+msgid "Programator"
+msgstr ""
+
+#: Editor.java:699
+msgid "Wypal Bootloader"
+msgstr ""
+
+#: Editor.java:923
+msgid "serialMenu jest null"
+msgstr ""
+
+#: Editor.java:927 Editor.java:934
+msgid "nazwa jest null"
+msgstr ""
+
+#: Editor.java:986
+msgid "problem z pozyskaniem listy portów"
+msgstr ""
+
+#: Editor.java:1002
+msgid "Pomoc"
+msgstr ""
+
+#: Editor.java:1041
+msgid "Jak zacząć"
+msgstr ""
+
+#: Editor.java:1049
+msgid "Środowisko"
+msgstr ""
+
+#: Editor.java:1057
+msgid "Rozwiązywanie problemów"
+msgstr ""
+
+#: Editor.java:1065
+msgid "Dokumentacja"
+msgstr ""
+
+#: Editor.java:1073 Editor.java:2728
+msgid "Znajdź w dokumentacji"
+msgstr ""
+
+#: Editor.java:1083
+msgid "Często zadawane pytania"
+msgstr ""
+
+#: Editor.java:1091
+msgid "Odwiedź Arduino.cc"
+msgstr ""
+
+#: Editor.java:1094
+msgid "http://arduino.cc/"
+msgstr ""
+
+#: Editor.java:1102
+msgid "O Arduino"
+msgstr ""
+
+#: Editor.java:1116
+msgid "Edytuj"
+msgstr ""
+
+#: Editor.java:1119 Editor.java:1341
+msgid "Cofnij"
+msgstr ""
+
+#: Editor.java:1124 Editor.java:1126 Editor.java:1376
+msgid "Ponów"
+msgstr ""
+
+#: Editor.java:1135 Editor.java:2652
+msgid "Wytnij"
+msgstr ""
+
+#: Editor.java:1143 Editor.java:2660
+msgid "Kopiuj"
+msgstr ""
+
+#: Editor.java:1151 Editor.java:2668
+msgid "Kopiuj dla Forum"
+msgstr ""
+
+#: Editor.java:1163 Editor.java:2676
+msgid "Kopiuj jako HTML"
+msgstr ""
+
+#: Editor.java:1175 Editor.java:2684
+msgid "Wklej"
+msgstr ""
+
+#: Editor.java:1184 Editor.java:2692
+msgid "Zaznacz wszystko"
+msgstr ""
+
+#: Editor.java:1194 Editor.java:2702
+msgid "Komentuj/Odkomentuj"
+msgstr ""
+
+#: Editor.java:1202 Editor.java:2710
+msgid "Zwiększ wcięcie"
+msgstr ""
+
+#: Editor.java:1210 Editor.java:2718
+msgid "Zmniejsz wcięcie"
+msgstr ""
+
+#: Editor.java:1220
+msgid "Znajdź..."
+msgstr ""
+
+#: Editor.java:1235
+msgid "Znajdź następne"
+msgstr ""
+
+#: Editor.java:1245
+msgid "Znajdź wcześniejsze"
+msgstr ""
+
+#: Editor.java:1255
+msgid "Szukaj według zaznaczenia"
+msgstr ""
+
+#: Editor.java:1816
+msgid "Najpierw zaznacz słowo aby wyszukać je w dokumentacji."
+msgstr ""
+
+#: Editor.java:1823
+#, java-format
+msgid "Nie ma dokumentacji dla \"{0}\""
+msgstr ""
+
+#: Editor.java:1826
+#, java-format
+msgid "{0}.html"
+msgstr ""
+
+#: Editor.java:1843 Sketch.java:1647
+msgid "Kompiluję szkic..."
+msgstr ""
+
+#: Editor.java:1864 Editor.java:1881
+msgid "Kompilowanie zakończone."
+msgstr ""
+
+#: Editor.java:1973
+#, java-format
+msgid "Zapisać zmiany jako \"{0}\"?  "
+msgstr ""
+
+#: Editor.java:2006
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Czy chcesz zapisać zmiany w tym szkicu<BR> przed zamknięciem?</b><p>Jeśli ich nie zapiszesz, "
+"zmiany będą utracone."
+msgstr ""
+
+#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
+#: Sketch.java:589 Sketch.java:741 Sketch.java:1046
+msgid "Anuluj"
+msgstr ""
+
+#: Editor.java:2017
+msgid "Nie zapisuj"
+msgstr ""
+
+#: Editor.java:2089
+msgid "Wybrano niepoprawny plik"
+msgstr ""
+
+#: Editor.java:2090
+msgid ""
+"Processing może otwierać tylko własne szkice\n"
+"i inne pliki z rozszerzeniem .ino lub .pde"
+msgstr ""
+
+#: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
+#: Sketch.java:741 Sketch.java:1046
+msgid "OK"
+msgstr ""
+
+#: Editor.java:2100
+#, java-format
+msgid ""
+"Plik \"{0}\" musi być wewnątrz\n"
+"folderu szkicu o nazwie \"{1}\".\n"
+"Utwórzyć folder, przenieść plik i kontynuować?"
+msgstr ""
+
+#: Editor.java:2109
+msgid "Przenoszę"
+msgstr ""
+
+#: Editor.java:2122
+#, java-format
+msgid "Folder o nazwie \"{0}\" już istnieje. Nie mogę otworzyć szkicu."
+msgstr ""
+
+#: Editor.java:2132
+msgid "Nie można utworzyć folderu szkicu."
+msgstr ""
+
+#: Editor.java:2141
+msgid "Nie można przenieść do odpowiedniej lokalizacji."
+msgstr ""
+
+#: Editor.java:2159
+msgid "Nie można utworzyć szkicu."
+msgstr ""
+
+#: Editor.java:2166
+#, java-format
+msgid "{0} | Arduino {1}"
+msgstr ""
+
+#: Editor.java:2223 Editor.java:2261
+msgid "Zapisuję..."
+msgstr ""
+
+#: Editor.java:2228 Editor.java:2264
+msgid "Zapisano."
+msgstr ""
+
+#: Editor.java:2270
+msgid "Anulowano zapisywanie."
+msgstr ""
+
+#: Editor.java:2296
+#, java-format
+msgid ""
+"Port szeregowy {0} nie został znaleziony.\n"
+"Ponówić ładowanie danych przez inny port?"
+msgstr ""
+
+#: Editor.java:2331
+msgid "Ładuję dane na płytkę…"
+msgstr ""
+
+#: Editor.java:2348 Editor.java:2384
+msgid "Ładowanie zakończone pomyślnie."
+msgstr ""
+
+#: Editor.java:2356 Editor.java:2392
+msgid "Ładowanie anulowane."
+msgstr ""
+
+#: Editor.java:2420
+msgid "Zapisać zmiany przed eksportowaniem?"
+msgstr ""
+
+#: Editor.java:2435
+msgid "Eksportowanie anulowane, zmiany muszą zostać najpierw zapisane."
+msgstr ""
+
+#: Editor.java:2457
+msgid "Wypalanie bootloadera na płytce (może to potrwać chwilę)…"
+msgstr ""
+
+#: Editor.java:2463
+msgid "Wypalanie bootloadera zakończone pomyślnie."
+msgstr ""
+
+#: Editor.java:2465 Editor.java:2469 Editor.java:2473
+msgid "Wystąpił błąd podczas wypalania bootloadera."
+msgstr ""
+
+#: Editor.java:2500
+msgid "Drukowanie..."
+msgstr ""
+
+#: Editor.java:2517
+msgid "Drukowanie zakończone."
+msgstr ""
+
+#: Editor.java:2520
+msgid "Wystąpił błąd podczas drukowania."
+msgstr ""
+
+#: Editor.java:2524
+msgid "Drukowanie anulowane."
+msgstr ""
+
+#: Editor.java:2572
+#, java-format
+msgid "Bład w linii: {0}"
+msgstr ""
+
+#: Editor.java:2641
+msgid "Otwórz URL"
+msgstr ""
+
+#: EditorConsole.java:152
+msgid "Błąd konsoli"
+msgstr ""
+
+#: EditorConsole.java:153
+msgid ""
+"Wystąpił błąd podczas otwierania plików\n"
+"przechowujących wartość wyjścia konsoli."
+msgstr ""
+
+#: EditorHeader.java:292
+msgid "Nowa zakładka"
+msgstr ""
+
+#: EditorHeader.java:300
+msgid "Zmień nazwę"
+msgstr ""
+
+#: EditorHeader.java:314 Sketch.java:595
+msgid "Usuń"
+msgstr ""
+
+#: EditorHeader.java:326
+msgid "Poprzednia zakładka"
+msgstr ""
+
+#: EditorHeader.java:340
+msgid "Następna zakładka"
+msgstr ""
+
+#: EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Weryfikuj"
+msgstr ""
+
+#: EditorToolbar.java:41
+msgid "Otwórz"
+msgstr ""
+
+#: EditorToolbar.java:46
+msgid "Nowe okno"
+msgstr ""
+
+#: EditorToolbar.java:46
+msgid "Otwórz w nowym oknie"
+msgstr ""
+
+#: FindReplace.java:80
+msgid "Znajdź:"
+msgstr ""
+
+#: FindReplace.java:81
+msgid "Zamień na:"
+msgstr ""
+
+#: FindReplace.java:96
+msgid "Ignoruj"
+msgstr ""
+
+#: FindReplace.java:105
+msgid "Przewijaj"
+msgstr ""
+
+#: FindReplace.java:120 FindReplace.java:131
+msgid "Zamień wszystko"
+msgstr ""
+
+#: FindReplace.java:121 FindReplace.java:130 Sketch.java:1050
+msgid "Zamień"
+msgstr ""
+
+#: FindReplace.java:122 FindReplace.java:129
+msgid "Zamień i znajdź"
+msgstr ""
+
+#: FindReplace.java:123 FindReplace.java:128
+msgid "Poprzedni"
+msgstr ""
+
+#: FindReplace.java:124 FindReplace.java:127
+msgid "Następny"
+msgstr ""
+
+#: Platform.java:167
+msgid "Brak dostępnego launchera."
+msgstr ""
+
+#: Platform.java:168
+msgid ""
+"Brak określonej platformy, brak dostępnego launchera.\n"
+"Aby umożliwić otwieranie URL oraz folderów, dodaj linię\n"
+"\"launcher=/path/to/app\" do pliku preferences.txt"
+msgstr ""
+
+#: Preferences.java:76 UpdateCheck.java:108
+msgid "Tak"
+msgstr ""
+
+#: Preferences.java:77 UpdateCheck.java:108
+msgid "Nie"
+msgstr ""
+
+#: Preferences.java:80
+msgid "Przeglądaj"
+msgstr ""
+
+#: Preferences.java:148
+msgid ""
+"Nie można wczytać ustawień domyślnych.\n"
+"Konieczna jest ponowna instalacja Arduino."
+msgstr ""
+
+#: Preferences.java:180
+#, java-format
+msgid "Nie można wczytać ustawień z {0}"
+msgstr ""
+
+#: Preferences.java:199
+msgid "Błąd podczas wczytywania ustawień"
+msgstr ""
+
+#: Preferences.java:201
+#, java-format
+msgid ""
+"Błąd wczytywania pliku z ustawieniami. Proszę usunąć (lub przenieść)\n"
+"{0} i zrestartować Arduino."
+msgstr ""
+
+#: Preferences.java:237
+msgid "Lokalizacja szkicownika:"
+msgstr ""
+
+#: Preferences.java:252
+msgid "Wybierz nową lokalizację szkicownika"
+msgstr ""
+
+#: Preferences.java:276
+msgid "Wielkość czcionki edytora: "
+msgstr ""
+
+#: Preferences.java:280
+msgid "  (wymaga zrestartowania Arduino)"
+msgstr ""
+
+#: Preferences.java:293
+msgid "Pokaż \"gadatliwe wyjście\" podczas: "
+msgstr ""
+
+#: Preferences.java:295
+msgid "kompilacja "
+msgstr ""
+
+#: Preferences.java:297
+msgid "Wgraj"
+msgstr ""
+
+#: Preferences.java:315
+msgid "Użyj zewnętrznego edytora"
+msgstr ""
+
+#: Preferences.java:325
+msgid "Sprawdzaj aktualizacje podczas startu"
+msgstr ""
+
+#: Preferences.java:334
+msgid "Uaktualnij rozszerzenia plików szkicownika podczas zapisywania (.pde -> .ino)"
+msgstr ""
+
+#: Preferences.java:345
+msgid "Automatycznie przyporządkuj pliki .ino do Arduino"
+msgstr ""
+
+#: Preferences.java:356
+msgid "Więcej ustawień może być edytowanych bezpośrednio w pliku"
+msgstr ""
+
+#: Preferences.java:385
+msgid "(edytuj tylko wtedy kiedy Arduino nie jest uruchomione)"
+msgstr ""
+
+#: Preferences.java:532
+#, java-format
+msgid "ignoruję nieprawidłowy rozmiar czcionki {0}"
+msgstr ""
+
+#: Serial.java:147
+#, java-format
+msgid ""
+"Port szeregowy ''{0}'' jest obecnie w uzyciu. Spróbuj zamknąć programy które mogą "
+"go używać."
+msgstr ""
+
+#: Serial.java:154
+#, java-format
+msgid "Błąd podczas otwierania portu szeregowego ''{0}''."
+msgstr ""
+
+#: Serial.java:167
+#, java-format
+msgid ""
+"Port szeregowy ''{0}'' nie został znaleziony. Czy wybrałeś prawidłowy z menu Narzędzia (Tools) > "
+"Port szeregowy (Serial Port) ?"
+msgstr ""
+
+#: Serial.java:424
+#, java-format
+msgid ""
+"Bufor bajtowy readBytesUntil() jest za mały dla {0} bajtów "
+"włącznie z char {1}"
+msgstr ""
+
+#: Serial.java:567
+#, java-format
+msgid "Błąd w Serial.{0}()"
+msgstr ""
+
+#: SerialMonitor.java:93
+msgid "Wyślij"
+msgstr ""
+
+#: SerialMonitor.java:110
+msgid "Przewijaj automatycznie"
+msgstr ""
+
+#: SerialMonitor.java:112
+msgid "Bez znaku końca linii"
+msgstr ""
+
+#: SerialMonitor.java:112
+msgid "Nowa linia (NL)"
+msgstr ""
+
+#: SerialMonitor.java:112
+msgid "Powrót do początku linii (CR)"
+msgstr ""
+
+#: SerialMonitor.java:112
+msgid "Zarówno NL jak i CR"
+msgstr ""
+
+#: SerialMonitor.java:130 SerialMonitor.java:133
+msgid " bodów"
+msgstr ""
+
+#: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
+msgid "Ten szkic jest oznaczony jako \"Tylko do odczytu\" "
+msgstr ""
+
+#: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
+msgid ""
+"Niektóre pliki są oznaczone jako \"Tylko do odczytu\", więc musisz\n"
+"zachować szkic w innej lokalizacji i spróbować ponownie."
+msgstr ""
+
+#: Sketch.java:286
+msgid "Nazwa nowego pliku:"
+msgstr ""
+
+#: Sketch.java:298
+msgid "Szkic nie ma nazwy"
+msgstr ""
+
+#: Sketch.java:299
+msgid ""
+"Czy chciałbyś zachować ten plik \n"
+"przed zmianą jego nazwy?"
+msgstr ""
+
+#: Sketch.java:359 Sketch.java:366 Sketch.java:377
+msgid "Problem ze zmianą nazwy"
+msgstr ""
+
+#: Sketch.java:360
+msgid "Nazwa nie może zaczynać się od kropki."
+msgstr ""
+
+#: Sketch.java:368
+#, java-format
+msgid "\".{0}\" nie jest prawidłowym rozszerzeniem."
+msgstr ""
+
+#: Sketch.java:378
+msgid ""
+"Plik główny nie może używać rozszerzenia.\n"
+"(Być może nadszedł czas abyś zaczął używać\n"
+"\"prawdziwego\" środowiska programistycznego?)"
+msgstr ""
+
+#: Sketch.java:400 Sketch.java:414 Sketch.java:423 Sketch.java:863
+msgid "Nope"
+msgstr ""
+
+#: Sketch.java:402
+#, java-format
+msgid "Plik o nazwie \"{0}\" już istnieje w \"{1}\""
+msgstr ""
+
+#: Sketch.java:415
+msgid "Nie możesz używać pliku .cpp o tej samej nazwie co szkic."
+msgstr ""
+
+#: Sketch.java:425
+msgid ""
+"Nie możesz zmienić nazwy szkicu na \"{0}\"\n"
+"ponieważ szkic już posiada plik .cpp o tej samej nazwie."
+msgstr ""
+
+#: Sketch.java:459
+msgid "Nie można zmienić nazwy"
+msgstr ""
+
+#: Sketch.java:461
+#, java-format
+msgid "Szkic (lub folder) o nazwie \"{0}\" już istnieje."
+msgstr ""
+
+#: Sketch.java:479
+msgid "Nie można zmienić nazwy szkicu. (0)"
+msgstr ""
+
+#: Sketch.java:487 Sketch.java:532
+#, java-format
+msgid "Nie można zmienić nazwy \"{0}\" na \"{1}\""
+msgstr ""
+
+#: Sketch.java:500
+msgid "Nie można zmienić nazwy szkicu. (1)"
+msgstr ""
+
+#: Sketch.java:507
+msgid "Nie można zmienić nazwy szkicu. (2)"
+msgstr ""
+
+#: Sketch.java:544
+msgid "createNewFile() zwrócił false"
+msgstr ""
+
+#: Sketch.java:591
+msgid "Czy jesteś pewny że chcesz usunąć ten szkic?"
+msgstr ""
+
+#: Sketch.java:592
+#, java-format
+msgid "Czy jesteś pewny że chcesz usunąć \"{0}\"?"
+msgstr ""
+
+#: Sketch.java:620
+msgid "Nie można było tego zrobić"
+msgstr ""
+
+#: Sketch.java:621
+#, java-format
+msgid "Nie można usunąć \"{0}\"."
+msgstr ""
+
+#: Sketch.java:651
+msgid "removeCode: internal error.. nie można znaleźć kodu"
+msgstr ""
+
+#: Sketch.java:724
+msgid "Ten szkic jest oznaczony jako \"Tylko do odczytu\" "
+msgstr ""
+
+#: Sketch.java:725
+msgid ""
+"Niektóre pliki są oznaczone jako \"Tylko do odczytu\", więc musisz\n"
+"zachować szkic w innej lokalizacji."
+msgstr ""
+
+#: Sketch.java:743
+msgid ""
+"W Arduino 1.0 zmieniło się domyślne rozszerzenie pliku\n"
+"z .pde na .ino. Nowe szkice (włącznie z tymi stworzonymi\n"
+"przez \"Zapisz jako\" będą używać nowego rozszerzenia.\n"
+"Rozszerzenia istniejących szkiców będą zmieniane podczas zapisywania,\n"
+"jednak możesz wyłączyć tą opcję w ustawieniach.\n"
+"\n"
+"Zapisać szkic i zmienić jego rozszerzenie?"
+msgstr ""
+
+#: Sketch.java:750
+msgid ".pde -> .ino"
+msgstr ""
+
+#: Sketch.java:829
+msgid "Zapisz folder szkicu jako..."
+msgstr ""
+
+#: Sketch.java:865
+msgid ""
+"Nie możesz zapisać szkicu jako \"{0}\"\n"
+"ponieważ szkic już posiada plik .cpp o tej samej nazwie."
+msgstr ""
+
+#: Sketch.java:886
+msgid "Czytałeś kiedyś Borgesa?"
+msgstr ""
+
+#: Sketch.java:887
+msgid ""
+"Nie możesz zapisać szkicu w folderze znajdującym się\n"
+"w swoim środku. To by trwało w nieskończoność."
+msgstr ""
+
+#: Sketch.java:979
+msgid "Wybierz obraz lub plik z innymi danymi do wklejenia do Twojego szkicu"
+msgstr ""
+
+#: Sketch.java:1047
+#, java-format
+msgid "Zamienić istniejącą już wersję {0}?"
+msgstr ""
+
+#: Sketch.java:1069 Sketch.java:1092
+msgid "Błąd podczas dodawania pliku"
+msgstr ""
+
+#: Sketch.java:1070
+#, java-format
+msgid "Nie można było usunąć istniejącego pliku ''{0}''."
+msgstr ""
+
+#: Sketch.java:1078
+msgid "Nie przechytrzysz mnie."
+msgstr ""
+
+#: Sketch.java:1079
+msgid ""
+"Ten plik już został skopiowany do miejsca\n"
+"z którego chcesz go dodać.\n"
+"Nie zrobię tego."
+msgstr ""
+
+#: Sketch.java:1093
+#, java-format
+msgid "Nie można dodać ''{0}'' do szkicu."
+msgstr ""
+
+#: Sketch.java:1393 Sketch.java:1424
+msgid "Folder projektu nie został odnaleziony lub nie mógł zostać zapisany"
+msgstr ""
+
+#: Sketch.java:1408
+msgid "Nie można było znaleźć klasy głównej"
+msgstr ""
+
+#: Sketch.java:1433
+#, java-format
+msgid "Nierozpoznany rodzaj wyjątku: {0}"
+msgstr ""
+
+#: Sketch.java:1465
+#, java-format
+msgid "Wystąpił problem podczas przenoszenia {0} do folderu projektu"
+msgstr ""
+
+#: Sketch.java:1661
+msgid "Wysyłanie..."
+msgstr ""
+
+#: Sketch.java:1684
+#, java-format
+msgid "Wielkość binarna szkicu: {0} bajtów (maksymalnie: {1} bajtów)"
+msgstr ""
+
+#: Sketch.java:1689
+msgid "Nie można określić wielkości pliku: {0}"
+msgstr ""
+
+#: Sketch.java:1694
+msgid ""
+"Szkic jest za duży; zobacz porady na http://www.arduino.cc/en/Guide/Troubleshooting#size "
+"w celu zmniejszenia go."
+msgstr ""
+
+#: Sketch.java:1754
+msgid "Brakuje */ na końcu /* komentarza */"
+msgstr ""
+
+#: Sketch.java:1796
+msgid "Szkic zniknął"
+msgstr ""
+
+#: Sketch.java:1797
+msgid ""
+"Folder szkicu zniknął.\n"
+"Ponowię probę aby zapisać szkic w tym samym miejscu,\n"
+"jednak wszystkie dane oprócz kodu zostaną utracone."
+msgstr ""
+
+#: Sketch.java:1810
+msgid "Nie można było ponownie zapisać szkicu"
+msgstr ""
+
+#: Sketch.java:1811
+msgid ""
+"Nie można było prawidłowo ponownie zapisać pliku. Może to być początek kłopotów,\n"
+"dlatego najlepiej skopiuj kod i przeklej go do innego edytora tekstu."
+msgstr ""
+
+#: Sketch.java:2060
+msgid ""
+"Nazwa pliku musiała być zmieniona. Nazwy szkiców mogą zawierać jedynie\n"
+"znaki ASCII oraz liczby (ale nie mogą zaczynać się od liczby).\n"
+"Powinny również zawierać mniej niż 64 znaki."
+msgstr ""
+
+#: SketchCode.java:83
+#, java-format
+msgid "Błąd podczas wgrywania kodu {0}"
+msgstr ""
+
+#: SketchCode.java:258
+#, java-format
+msgid ""
+"\"{0}\" zawiera nierozpoznawalne znaki. Jeżeli kod był stworzony przy pomocy "
+"starszej wersji Processing, wejdź do menu Tools -> Fix Encoding & "
+"Reload w celu zaktualizowania szkicu do używania kodowania UTF-8. Jeśli to nie zadziała, "
+"usuń wszystkie błędne znaki w celu pozbycia się tego ostrzeżenia."
+msgstr ""
+
+#: Theme.java:52
+msgid ""
+"Nie można było wczytać ustawień motywu.\n"
+"Będziesz musiał przeinstalować Processing."
+msgstr ""
+
+#: tools/Archiver.java:48
+msgid "Zarchiwizuj szkic"
+msgstr ""
+
+#: tools/Archiver.java:59
+msgid "rrMMdd"
+msgstr ""
+
+#: tools/Archiver.java:74
+msgid "Nie można było zarchiwizować szkicu"
+msgstr ""
+
+#: tools/Archiver.java:75
+msgid ""
+"Archiwizowanie szkicu zostało anulowane ponieważ\n"
+"szkic nie mógł być zapisany poprawnie."
+msgstr ""
+
+#: tools/Archiver.java:109
+msgid "Zarchiwizuj szkic jako:"
+msgstr ""
+
+#: tools/Archiver.java:139
+msgid "Archiwizacja szkicu anulowana."
+msgstr ""
+
+#: tools/AutoFormat.java:91
+msgid "Automatyczne formatowanie"
+msgstr ""
+
+#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
+msgid "Brak zmian niezbędnych dla automatycznego formatowania."
+msgstr ""
+
+#: tools/AutoFormat.java:919
+msgid "Automatyczne formatowanie anulowane: Zbyt dużo prawych nawiasów."
+msgstr ""
+
+#: tools/AutoFormat.java:922
+msgid "Automatyczne formatowanie anulowane: Zbyt dużo lewych nawiasów."
+msgstr ""
+
+#: tools/AutoFormat.java:928
+msgid "Automatyczne formatowanie anulowane: Zbyt dużo prawych nawiasów klamrowych."
+msgstr ""
+
+#: tools/AutoFormat.java:931
+msgid "Automatyczne formatowanie anulowane: Zbyt dużo lewych nawiasów klamrowych."
+msgstr ""
+
+#: tools/AutoFormat.java:941
+msgid "Automatyczne formatowanie zakończone."
+msgstr ""
+
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
+#: tools/FixEncoding.java:79
+msgid "Napraw kodowanie i załaduj ponownie"
+msgstr ""
+
+#: tools/FixEncoding.java:57
+msgid "Odrzucić wszystkie zmiany i przeładować szkic?"
+msgstr ""
+
+#: tools/FixEncoding.java:77
+msgid ""
+"Wystąpił błąd podczas próby naprawienia kodowania pliku.\n"
+"Nie próbuj zapisać tego szkicu ponieważ może on nadpisać\n"
+"poprzednią wersję. Użyj Otwórz aby ponownie otworzyć szkic i spróbuj jeszcze raz.\n"
+msgstr ""
+
+#: UpdateCheck.java:53
+msgid "http://www.arduino.cc/latest.txt"
+msgstr ""
+
+#: UpdateCheck.java:103
+msgid ""
+"Nowa wersja Arduino jest już dostępna,\n"
+"czy chciałbyć odwiedzić oficjalną stronę Arduino?"
+msgstr ""
+
+#: UpdateCheck.java:111
+msgid "Aktualizacja"
+msgstr ""
+
+#: UpdateCheck.java:118
+msgid "http://www.arduino.cc/en/Main/Software"
+msgstr ""
