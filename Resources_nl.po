@@ -228,7 +228,7 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-Kan deze folder niet openen:\n"
+"Kan deze folder niet openen:\n"
 "{0}"
 
 #: Base.java:1782
