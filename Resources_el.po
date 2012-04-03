@@ -18,374 +18,6 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: Base.java:181
-msgid "Non-fatal error while setting the Look & Feel."
-msgstr "Mή ανεπανόρθωτο σφάλμα κατά τον καθορισμό της εμφάνισης."
-
-#: Base.java:182
-msgid "The error message follows, however Arduino should run fine."
-msgstr "Το μήνυμα σφάλματος παρατίθεται, αλλά το Arduino θα πρέπει να είναι εντάξει."
-
-#: Base.java:217
-msgid "Problem Setting the Platform"
-msgstr "Πρόβλημα κατά τον καθορισμό της Πλατφόρμας"
-
-#: Base.java:218
-msgid ""
-"An unknown error occurred while trying to load\n"
-"platform-specific code for your machine."
-msgstr "Ένα άγνωστο σφάλμα συνέβη κατά την φόρτωση\nκώδικα συγκεκριμένης πλατφόρμας στο μηχάνημα σας."
-
-#: Base.java:229
-msgid "Please install JDK 1.5 or later"
-msgstr "Παρακαλούμε εγκαταστήστε το JDK 1.5 ή μεγαλύτερο."
-
-#: Base.java:230
-msgid ""
-"Arduino requires a full JDK (not just a JRE)\n"
-"to run. Please install JDK 1.5 or later.\n"
-"More information can be found in the reference."
-msgstr "Το Arduino χρειάζεται ολόκληρο το JDK (όχι μόνο ένα JRE)\nγια να τρέξει. Παρακαλούμε εγκαταστήστε το JDK 1.5 ή αργότερο.\nΠερισσότερες πληροφορίες μπορούν να βρεθούν στις πληροφορίες."
-
-#: Base.java:254
-msgid "Sketchbook folder disappeared"
-msgstr "Ο φάκελος σχεδίων εξαφανίστηκε"
-
-#: Base.java:255
-msgid ""
-"The sketchbook folder no longer exists.\n"
-"Arduino will switch to the default sketchbook\n"
-"location, and create a new sketchbook folder if\n"
-"necessary. Arduino will then stop talking about\n"
-"himself in the third person."
-msgstr "Ο φάκελος σχεδίων δεν υπάρχει πλέον.\nΤο Arduino θα γυρίσει στην προεπιλεγμένη τοποθεσία του φακέλου και θα δημιουργήσει έναν νεο φάκελο σχεδίων αν είναι απαραίτητο. Στη συνέχεια, το Arduino θα σταματήσει να μιλάει για τον εαυτό του\nσε τρίτο πρόσωπο."
-
-#: Base.java:529
-msgid "Time for a Break"
-msgstr "Ώρα για Διάλειμα"
-
-#: Base.java:530
-msgid ""
-"You've reached the limit for auto naming of new sketches\n"
-"for the day. How about going for a walk instead?"
-msgstr "Έχετε φτάσει το όριο αυτόματης ονομασίας των νέων σχεδίων ανα\nμέρα. Γιατί δεν κάνετε μια βόλτα καλύτερα;"
-
-#: Base.java:534
-msgid "Sunshine"
-msgstr "Λιακάδα"
-
-#: Base.java:535
-msgid "No really, time for some fresh air for you."
-msgstr "Όχι σοβαρά τώρα, καιρός να πάρετε λίγο φρέσκο αέρα."
-
-#: Base.java:630
-msgid "Open an Arduino sketch..."
-msgstr "Άνοιγμα σχεδίου Arduino..."
-
-#: Base.java:769
-msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p {"
-" font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
-"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Είστε σίγουροι πως θέλετε να εξέλθετε;</b><p>Το κλείσιμο του τελευταίου σχεδίου θα κλείσει το Arduino."
-
-#: Base.java:779 Editor.java:586
-msgid "Quit"
-msgstr "Έξοδος"
-
-#: Base.java:900 Editor.java:494
-msgid "Open..."
-msgstr "Άνοιγμα..."
-
-#: Base.java:967
-msgid "Contributed"
-msgstr "Συνεισέφεραν"
-
-#: Base.java:1092
-msgid "Sketch Does Not Exist"
-msgstr "Το Σχέδιο Δεν Υπάρχει"
-
-#: Base.java:1093
-msgid ""
-"The selected sketch no longer exists.\n"
-"You may need to restart Arduino to update\n"
-"the sketchbook menu."
-msgstr "Το επιλεγμένο σχέδιο δεν υπάρχει πλέον.\nΜπορεί να χρειαστεί να επανεκκινήσετε το Arduino για να\nανανεώσετε το μενού των σχεδίων σας."
-
-#: Base.java:1122
-#, java-format
-msgid ""
-"The sketch \"{0}\" cannot be used.\n"
-"Sketch names must contain only basic letters and numbers\n"
-"(ASCII-only with no spaces, and it cannot start with a number).\n"
-"To get rid of this message, remove the sketch from\n"
-"{1}"
-msgstr "Το σχέδιο \"{0}\" δεν μπορεί να χρησιμοποιηθεί.\nΤα ονόματα των σχεδίων πρέπει να περιέχουν μόνο βασικά γράμματα και αριθμούς.\n(Μόνο ASCII χωρίς κενά, και δεν μπορούν να ξεκινούν με αριθμό).\nΓια να απαλαχθείτε από αυτό το μήνυμα, αφαιρέστε το σχέδιο από το\n{1}"
-
-#: Base.java:1129
-msgid "Ignoring sketch with bad name"
-msgstr "Παράβλεψη σχεδίου με λανθασμένο όνομα"
-
-#: Base.java:1199
-#, java-format
-msgid ""
-"The library \"{0}\" cannot be used.\n"
-"Library names must contain only basic letters and numbers.\n"
-"(ASCII only and no spaces, and it cannot start with a number)"
-msgstr "Η βιβλιοθήκη \"{0}\" δεν μπορεί να χρησιμοποιηθεί.\nΤα ονόματα βιβλιοθηκών μπορούν να περιέχουν μόνο βασικά γράμματα και αρθμούς.\n(μόνο  ASCII και χωρίς κενά, και δεν μπορούν να ξεκινούν με αριθμό)"
-
-#: Base.java:1204
-msgid "Ignoring bad library name"
-msgstr "Παράβλεψη βιβλιοθήκης με λανθασμένο όνομα"
-
-#: Base.java:1429
-msgid "Problem getting data folder"
-msgstr "Πρόβλημα κατά την λήψη του φακέλου δεδομένων"
-
-#: Base.java:1430
-msgid "Error getting the Arduino data folder."
-msgstr "Σφάλμα κατά την λήψη του φακέλου δεδομένων του Arduino."
-
-#: Base.java:1437
-msgid "Settings issues"
-msgstr "Πρόβλημα ρυθμίσεων"
-
-#: Base.java:1438
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your settings."
-msgstr "Το Arduino δεν μπορεί να τρέξει επειδή δεν μπορούσε να\nδημιουργήσει έναν φάκελο για την αποθήκευση των ρυθμίσεων σας."
-
-#: Base.java:1599
-msgid "You forgot your sketchbook"
-msgstr "Ξεχάσατε τα σχέδια σας"
-
-#: Base.java:1600
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your sketchbook."
-msgstr "Το Arduino δεν μπορεί να τρέξει επειδή δεν μπορούσε να\nδημιουργήσει έναν φάκελο για την αποθήκευση των σχεδίων σας."
-
-#: Base.java:1620
-msgid "Select (or create new) folder for sketches..."
-msgstr "Επιλέξτε (ή δημιουργήστε) έναν φάκελο για τα σχέδια σας..."
-
-#: Base.java:1644
-msgid "Problem Opening URL"
-msgstr "Πρόβλημα Ανοίγματος του URI"
-
-#: Base.java:1645
-#, java-format
-msgid ""
-"Could not open the URL\n"
-"{0}"
-msgstr "Δεν ήταν δυνατό το άνοιγμα του URL\n{0}"
-
-#: Base.java:1668
-msgid "Problem Opening Folder"
-msgstr "Πρόβλημα Ανοίγματος Φακέλου"
-
-#: Base.java:1669
-#, java-format
-msgid ""
-"Could not open the folder\n"
-"{0}"
-msgstr "Δεν ήταν δυνατό το άνουγμα του φακέλου\n{0}"
-
-#: Base.java:1782
-msgid "Guide_MacOSX.html"
-msgstr "Guide_MacOSX.html"
-
-#: Base.java:1784
-msgid "Guide_Windows.html"
-msgstr "Guide_Windows.html"
-
-#: Base.java:1786
-msgid "http://www.arduino.cc/playground/Learning/Linux"
-msgstr "http://www.arduino.cc/playground/Learning/Linux"
-
-#: Base.java:1791
-msgid "index.html"
-msgstr "index.html"
-
-#: Base.java:1796
-msgid "Guide_Environment.html"
-msgstr "Guide_Environment.html"
-
-#: Base.java:1801
-msgid "environment"
-msgstr "περιβάλλον"
-
-#: Base.java:1801
-msgid "platforms.html"
-msgstr "platforms.html"
-
-#: Base.java:1806
-msgid "Guide_Troubleshooting.html"
-msgstr "Guide_Troubleshooting.html"
-
-#: Base.java:1811
-msgid "FAQ.html"
-msgstr "FAQ.html"
-
-#: Base.java:1823
-msgid "Message"
-msgstr "Μήνυμα"
-
-#: Base.java:1839
-msgid "Warning"
-msgstr "Προειδοποίηση"
-
-#: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
-#: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "Σφάλμα"
-
-#: Base.java:2193
-#, java-format
-msgid "Could not remove old version of {0}"
-msgstr "Αδύνατη η αφαίρεση της παλιάς έκδοσης του {0}"
-
-#: Base.java:2203
-#, java-format
-msgid "Could not replace {0}"
-msgstr "Αδύνατη η αφαίρεση του {0}"
-
-#: Base.java:2244 Base.java:2267
-#, java-format
-msgid "Could not delete {0}"
-msgstr "Αδύνατη η διαγραφή του {0}"
-
-#: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr "http://code.google.com/p/arduino/issues/list"
-
-#: debug/Compiler.java:43 debug/Uploader.java:54
-#, java-format
-msgid "Compiler error, please submit this code to {0}"
-msgstr "Σφάλμα μεταγλωττιστή, παρακαλούμε στείλτε μας τον κώδικα στο {0}"
-
-#: debug/Compiler.java:79
-msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Δεν έχει επιλεχθεί πλακέτα. Παρακαλούμε επιλέξτε ένα απο το μενού Εργαλεία -> Πλακέτα"
-
-#: debug/Compiler.java:422
-#, java-format
-msgid "{0} returned {1}"
-msgstr "Το {0} επέστρεψε {1}"
-
-#: debug/Compiler.java:426
-msgid "Error compiling."
-msgstr "Σφάλμα μεταγλώττισης."
-
-#: debug/Compiler.java:465
-msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "Παρακαλούμε εισάγετε την βιβλιοθήκη SPI από τ μενού Σχέδιο -> Εισαγωγή Βιβλιοθήκης."
-
-#: debug/Compiler.java:466
-msgid ""
-"\n"
-"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
-"You appear to be using it or another library that depends on the SPI library.\n"
-"\n"
-msgstr "\nΑπό το Arduino 0019, η βιβλιοθήκη Ethernet βασίζεται στην βιβλιοθήκη SPI.\nΦαίνεται πως την χρησιμοποιείτε, ή κάποια άλλη βιβλιοθήκη που βασίζεται στην βιβλιοθήκη SPI.\n\n"
-
-#: debug/Compiler.java:471
-msgid "The 'BYTE' keyword is no longer supported."
-msgstr "Η λέξη 'BYTE' δεν υποστηρίζεται πλέον."
-
-#: debug/Compiler.java:472
-msgid ""
-"\n"
-"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
-"Please use Serial.write() instead.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η λέξη 'BYTE' δεν υποστηρίζεται πλέον.\nΠαρακαλούμε χρησιμοποιήστε την Serial.write() αντί αυτής.\n\n"
-
-#: debug/Compiler.java:477
-msgid "The Server class has been renamed EthernetServer."
-msgstr "Η κλάση Server έχει μετονομαστεί σε EthernetServer."
-
-#: debug/Compiler.java:478
-msgid ""
-"\n"
-"As of Arduino 1.0, the Server class in the Ethernet library has been renamed to EthernetServer.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η κλάση Server στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetServer.\n\n"
-
-#: debug/Compiler.java:483
-msgid "The Client class has been renamed EthernetClient."
-msgstr "Η κλάση Client έχει μετονομαστεί σε EthernetClient."
-
-#: debug/Compiler.java:484
-msgid ""
-"\n"
-"As of Arduino 1.0, the Client class in the Ethernet library has been renamed to EthernetClient.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetClient.\n\n"
-
-#: debug/Compiler.java:489
-msgid "The Udp class has been renamed EthernetUdp."
-msgstr "Η κλάση Udp έχει μετονομαστεί σε EthernetUdp."
-
-#: debug/Compiler.java:490
-msgid ""
-"\n"
-"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to EthernetClient.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Udp έχει μετονομαστεί σε EthernetUdp.\n\n"
-
-#: debug/Compiler.java:495
-msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Η Wire.send() έχει μετονομαστεί σε Wire.write()."
-
-#: debug/Compiler.java:496
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for consistency with other libraries.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.send() μετονομάστηκε σε Wire.write() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
-
-#: debug/Compiler.java:501
-msgid "Wire.receive() has been renamed Wire.read()."
-msgstr "Η Wire.receive() μετονομάστηκε σε Wire.read()."
-
-#: debug/Compiler.java:502
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() for consistency with other libraries.\n"
-"\n"
-msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.receive() μετονομάστηκε σε Wire.read() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
-
-#: debug/Uploader.java:52
-msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr "https://developer.berlios.de/bugs/?group_id=3590"
-
-#: debug/Uploader.java:199
-#, java-format
-msgid ""
-"the selected serial port {0} does not exist or your board is not connected"
-msgstr "η επιλεγμένη σειριακή θύρα {0} δεν υπάρχει ή η πλακέτα σας δεν είναι συνδεδεμένη"
-
-#: debug/Uploader.java:203
-msgid ""
-"Device is not responding, check the right serial port is selected or RESET "
-"the board right before exporting"
-msgstr "Η συσκευή δεν ανταποκρίνεται, ελέξτε ότι έχει επιλεχθεί η σωστή σειριακή θύρα, ή ΕΠΑΝΕΚΙΝΗΣΤΕ την πλακέτα σας αμέσως πριν την εξαγωγή"
-
-#: debug/Uploader.java:209
-msgid ""
-"Problem uploading to board.  See "
-"http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions."
-msgstr "Πρόβλημα φόρτωσης στην πλακέτα.  Δείτε το http://www.arduino.cc/en/Guide/Troubleshooting#upload για οδηγίες."
-
-#: debug/Uploader.java:213
-msgid ""
-"Wrong microcontroller found.  Did you select the right board from the Tools "
-"> Board menu?"
-msgstr "Βρέθηκε λάθος μικροελεγκτής.  Επιλέξατε την σωστή πλακέτα από το μενού Εργαλεία > Πλακέτα;"
-
 #: Editor.java:366
 msgid "No files were added to the sketch."
 msgstr "Δεν έχουν προστεθεί αρχεία στο σχέδιο."
@@ -406,6 +38,10 @@ msgstr "Αρχείο"
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
 msgstr "Νέο"
+
+#: Editor.java:494 Base.java:900
+msgid "Open..."
+msgstr "Άνοιγμα..."
 
 #: Editor.java:503
 msgid "Sketchbook"
@@ -447,6 +83,10 @@ msgstr "Εκτύπωση"
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
 msgstr "Επιλογές"
+
+#: Editor.java:586 Base.java:779
+msgid "Quit"
+msgstr "Έξοδος"
 
 #: Editor.java:600
 msgid "Sketch"
@@ -637,14 +277,14 @@ msgstr "Αποθήκευση αλλαγών στο \"{0}\";"
 
 #: Editor.java:2006
 msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p {"
-" font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
 msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Θέλετε να αποθηκεύσετε αυτό το σχέδιο<BR> πρίν εξέλθετε;</b><p>Αν δεν το αποθηκεύσετε, όλες οι αλλαγές σας θα χαθούν."
 
-#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
-#: Sketch.java:589 Sketch.java:741 Sketch.java:1046
+#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
+#: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -662,8 +302,8 @@ msgid ""
 "and other files ending in .ino or .pde"
 msgstr "Η Processing μπορεί να ανοίξει μόνο τα δικά της σχέδια\nκαι άλλα αρχεία με κατάληξη .ino ή .pde"
 
-#: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
-#: Sketch.java:741 Sketch.java:1046
+#: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
+#: Sketch.java:1046 Preferences.java:79
 msgid "OK"
 msgstr "OK"
 
@@ -678,6 +318,12 @@ msgstr "Το αρχείο \"{0}\" πρέπει να είναι μέσα\nσε έ
 #: Editor.java:2109
 msgid "Moving"
 msgstr "Μεταφορά"
+
+#: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+msgid "Error"
+msgstr "Σφάλμα"
 
 #: Editor.java:2122
 #, java-format
@@ -777,51 +423,31 @@ msgstr "Λανθασμένη γραμμή σφάλματος: {0}"
 msgid "Open URL"
 msgstr "Άνοιγμα URL"
 
-#: EditorConsole.java:152
-msgid "Console Error"
-msgstr "Σφάλμα Κονσόλας"
+#: UpdateCheck.java:53
+msgid "http://www.arduino.cc/latest.txt"
+msgstr "http://www.arduino.cc/latest.txt"
 
-#: EditorConsole.java:153
+#: UpdateCheck.java:103
 msgid ""
-"A problem occurred while trying to open the\n"
-"files used to store the console output."
-msgstr "Προέκυψε κάποιο πρόβλημα κατά το άνοιγμα των αρχείων που\nχρησιμοποιούνται για την αποθήκευση της εξόδου της κονσόλας."
+"A new version of Arduino is available,\n"
+"would you like to visit the Arduino download page?"
+msgstr "Μια νέα έκδοση του Arduino είναι διαθέσιμη,\nθα θέλατε να επισκεφθείτε την σελίδα κατεβάσματος του Arduino;"
 
-#: EditorHeader.java:292
-msgid "New Tab"
-msgstr "Νέα Καρτέλα"
+#: UpdateCheck.java:108 Preferences.java:76
+msgid "Yes"
+msgstr "Ναι"
 
-#: EditorHeader.java:300
-msgid "Rename"
-msgstr "Μετονομασία"
+#: UpdateCheck.java:108 Preferences.java:77
+msgid "No"
+msgstr "Όχι"
 
-#: EditorHeader.java:314 Sketch.java:595
-msgid "Delete"
-msgstr "Διαγραφή"
+#: UpdateCheck.java:111
+msgid "Update"
+msgstr "Ενημέρωση"
 
-#: EditorHeader.java:326
-msgid "Previous Tab"
-msgstr "Προηγούμενη Καρτέλα"
-
-#: EditorHeader.java:340
-msgid "Next Tab"
-msgstr "Επόμενη Καρτέλα"
-
-#: EditorToolbar.java:41 EditorToolbar.java:46
-msgid "Verify"
-msgstr "Επαλήθευση"
-
-#: EditorToolbar.java:41
-msgid "Open"
-msgstr "Άνοιγμα"
-
-#: EditorToolbar.java:46
-msgid "New Editor Window"
-msgstr "Νέο Παράθυρο Επεξεργασίας"
-
-#: EditorToolbar.java:46
-msgid "Open in Another Window"
-msgstr "Άνοιγμα σε Νεο Παράθυρο"
+#: UpdateCheck.java:118
+msgid "http://www.arduino.cc/en/Main/Software"
+msgstr "http://www.arduino.cc/en/Main/Software"
 
 #: FindReplace.java:80
 msgid "Find:"
@@ -859,139 +485,6 @@ msgstr "Προηγούμενο"
 msgid "Find"
 msgstr "Εύρεση"
 
-#: Platform.java:167
-msgid "No launcher available"
-msgstr "Δεν βρέθηκε εκκινητής"
-
-#: Platform.java:168
-msgid ""
-"Unspecified platform, no launcher available.\n"
-"To enable opening URLs or folders, add a \n"
-"\"launcher=/path/to/app\" line to preferences.txt"
-msgstr "Άγνωστη πλατφόρμα, δεν βρέθηκε εκκινητής.\nΓια να ενεργοποιήσετε το άνοιγμα URL και φακέλων, προσθέστε μια\nγραμμή \"launcher=/path/to/app\" στο preferences.txt"
-
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
-msgstr "Ναι"
-
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
-msgstr "Όχι"
-
-#: Preferences.java:80
-msgid "Browse"
-msgstr "Περιήγηση"
-
-#: Preferences.java:148
-msgid ""
-"Could not read default settings.\n"
-"You'll need to reinstall Arduino."
-msgstr "Αδύνατη η ανάγνωση προεπιλεγμένων ρυθμίσεων.\nΘα χρειαστεί να επανεγκαταστήσετε το Arduino."
-
-#: Preferences.java:180
-#, java-format
-msgid "Could not read preferences from {0}"
-msgstr "Αδύνατη η ανάγνωση των επιλογών από το {0}"
-
-#: Preferences.java:199
-msgid "Error reading preferences"
-msgstr "Σφάλμα ανάγνωσης επιλογών"
-
-#: Preferences.java:201
-#, java-format
-msgid ""
-"Error reading the preferences file. Please delete (or move)\n"
-"{0} and restart Arduino."
-msgstr "Σφάλμα ανάγνωσης του αρχείου επιλογών. Παρακαλούμε διαγράψτε\n(ή μεταφέρετε) το {0} και επανεκκινήστε το Arduino."
-
-#: Preferences.java:237
-msgid "Sketchbook location:"
-msgstr "Τοποθεσία Σχεδίων:"
-
-#: Preferences.java:252
-msgid "Select new sketchbook location"
-msgstr "Επιλέξτε καινούργια τοποθεσία σχεδίων"
-
-#: Preferences.java:276
-msgid "Editor font size: "
-msgstr "Μέγεθος γραμματοσειράς επεξεργαστή κειμένου: "
-
-#: Preferences.java:280
-msgid "  (requires restart of Arduino)"
-msgstr "  (απαιτεί επανεκκίνηση του Arduino)"
-
-#: Preferences.java:293
-msgid "Show verbose output during: "
-msgstr "Εμφάνιση αναλυτικής εξόδου κατά την: "
-
-#: Preferences.java:295
-msgid "compilation "
-msgstr "μεταγλώττιση "
-
-#: Preferences.java:297
-msgid "upload"
-msgstr "φόρτωση"
-
-#: Preferences.java:315
-msgid "Use external editor"
-msgstr "Χρήση εξωτερικού προγράμματος επεξεργασίας"
-
-#: Preferences.java:325
-msgid "Check for updates on startup"
-msgstr "Έλεγχος ενημερώσεων στην εκκίνηση"
-
-#: Preferences.java:334
-msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "Αναβάθμιση των αρχείων σχεδίων στην νέα κατάληξη κατά την αποθήκευση (.pde -> .ino)"
-
-#: Preferences.java:345
-msgid "Automatically associate .ino files with Arduino"
-msgstr "Αυτόματη σύνδεση των αρχείων .ino με το Arduino"
-
-#: Preferences.java:356
-msgid "More preferences can be edited directly in the file"
-msgstr "Περισσότερες προτιμήσεις μπορούν να επεξεργασθούν απεθείας στο αρχείο"
-
-#: Preferences.java:385
-msgid "(edit only when Arduino is not running)"
-msgstr "(επεξεργαστείτε το αρχείο μόνο ενώ το Arduino δεν τρέχει)"
-
-#: Preferences.java:532
-#, java-format
-msgid "ignoring invalid font size {0}"
-msgstr "Παράβλεψη λανθασμένου μεγέθος γραμματοσειράς {0}"
-
-#: Serial.java:147
-#, java-format
-msgid ""
-"Serial port ''{0}'' already in use. Try quiting any programs that may be "
-"using it."
-msgstr "Η σειριακή θύρα \"{0}\" χρησιμοποιείται ήδη. Δοκιμάστε να κλείσετε όλα τα προγράμματα που μπορεί να την χρησιμοποιούν."
-
-#: Serial.java:154
-#, java-format
-msgid "Error opening serial port ''{0}''."
-msgstr "Σφάλμα ανοίγματος της σειριακής θύρας \"{0}\"."
-
-#: Serial.java:167
-#, java-format
-msgid ""
-"Serial port ''{0}'' not found. Did you select the right one from the Tools >"
-" Serial Port menu?"
-msgstr "Η σειριακή θύρα \"{0}\" δεν βρέθηκε. Επιλέξατε την σωστή από το μενού Εργαλεία > Σειριακή Θύρα;"
-
-#: Serial.java:424
-#, java-format
-msgid ""
-"readBytesUntil() byte buffer is too small for the {0} bytes up to and "
-"including char {1}"
-msgstr "Ο buffer readBytesUntil() είανι πολύ μικρός για τα {0} bytes μέχρι τον char {1}, συμπεριλαμβανομένου αυτού"
-
-#: Serial.java:567
-#, java-format
-msgid "Error inside Serial.{0}()"
-msgstr "Σφάλμα μέσα στην Serial.{0}()"
-
 #: SerialMonitor.java:93
 msgid "Send"
 msgstr "Αποστολή"
@@ -1019,6 +512,121 @@ msgstr "Νέα γραμμή και Επιστροφή δρομέα, NL & CR"
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
 msgstr " baud"
+
+#: Serial.java:147
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quiting any programs that may be "
+"using it."
+msgstr "Η σειριακή θύρα \"{0}\" χρησιμοποιείται ήδη. Δοκιμάστε να κλείσετε όλα τα προγράμματα που μπορεί να την χρησιμοποιούν."
+
+#: Serial.java:154
+#, java-format
+msgid "Error opening serial port ''{0}''."
+msgstr "Σφάλμα ανοίγματος της σειριακής θύρας \"{0}\"."
+
+#: Serial.java:167
+#, java-format
+msgid ""
+"Serial port ''{0}'' not found. Did you select the right one from the Tools > "
+"Serial Port menu?"
+msgstr "Η σειριακή θύρα \"{0}\" δεν βρέθηκε. Επιλέξατε την σωστή από το μενού Εργαλεία > Σειριακή Θύρα;"
+
+#: Serial.java:424
+#, java-format
+msgid ""
+"readBytesUntil() byte buffer is too small for the {0} bytes up to and "
+"including char {1}"
+msgstr "Ο buffer readBytesUntil() είανι πολύ μικρός για τα {0} bytes μέχρι τον char {1}, συμπεριλαμβανομένου αυτού"
+
+#: Serial.java:567
+#, java-format
+msgid "Error inside Serial.{0}()"
+msgstr "Σφάλμα μέσα στην Serial.{0}()"
+
+#: tools/AutoFormat.java:91
+msgid "Auto Format"
+msgstr "Αυτόματη Μορφοποίηση"
+
+#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
+msgid "No changes necessary for Auto Format."
+msgstr "Δεν χρειάζονται αλλαγές για την Αυτόματη Μορφοποίηση"
+
+#: tools/AutoFormat.java:919
+msgid "Auto Format Canceled: Too many right parentheses."
+msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές δεξιές παρενθέσεις."
+
+#: tools/AutoFormat.java:922
+msgid "Auto Format Canceled: Too many left parentheses."
+msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές αριστερές παρενθέσεις."
+
+#: tools/AutoFormat.java:928
+msgid "Auto Format Canceled: Too many right curly braces."
+msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές δεξιές αγκύλες."
+
+#: tools/AutoFormat.java:931
+msgid "Auto Format Canceled: Too many left curly braces."
+msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές αριστερές αγκύλες."
+
+#: tools/AutoFormat.java:941
+msgid "Auto Format finished."
+msgstr "Τέλος Αυτόματης Μορφοποίησης"
+
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
+#: tools/FixEncoding.java:79
+msgid "Fix Encoding & Reload"
+msgstr "Διόρθωση Κωδικοποίησης & Επαναφόρτωση"
+
+#: tools/FixEncoding.java:57
+msgid "Discard all changes and reload sketch?"
+msgstr "Ακύρωση αλλαγών και επαναφόρτωση του σχεδίου;"
+
+#: tools/FixEncoding.java:77
+msgid ""
+"An error occurred while trying to fix the file encoding.\n"
+"Do not attempt to save this sketch as it may overwrite\n"
+"the old version. Use Open to re-open the sketch and try again.\n"
+msgstr "Προέκυψε κάποιο σφάλμα κατά την διόρθωση της κωδικοποίησης.\nΜην προσπαθήσετε να αποθηκεύσετε αυτό το σχέδιο, καθώς μπορεί να αντικαταστήσετε\nτην παλιά έκδοση. Χρησιμοποιήστε την Άνοιγμα για να ξανα-ανοίξετε το σχέδιο και να ξαναπροσπαθήσετε.\n"
+
+#: tools/Archiver.java:48
+msgid "Archive Sketch"
+msgstr "Αρχειοθέτηση Σχεδίου"
+
+#: tools/Archiver.java:59
+msgid "yyMMdd"
+msgstr "χχΜΜμμ"
+
+#: tools/Archiver.java:74
+msgid "Couldn't archive sketch"
+msgstr "Αδύνατη η αρχειοθέτηση σχεδίου"
+
+#: tools/Archiver.java:75
+msgid ""
+"Archiving the sketch has been canceled because\n"
+"the sketch couldn't save properly."
+msgstr "Η αρχειοθέτηση του σχεδίου ακυρώθηκε γιατί το σχέδιο δεν μπορούσε να αποθηκευθεί σωστά."
+
+#: tools/Archiver.java:109
+msgid "Archive sketch as:"
+msgstr "Αρχειοθέτηση σχεδίου ως:"
+
+#: tools/Archiver.java:139
+msgid "Archive sketch canceled."
+msgstr "Ακύρωση αρχειοθέτησης σχεδίου."
+
+#: SketchCode.java:83
+#, java-format
+msgid "Error while loading code {0}"
+msgstr "Σφάλμα φόρτωσης κώδικα {0}"
+
+#: SketchCode.java:258
+#, java-format
+msgid ""
+"\"{0}\" contains unrecognized characters.If this code was created with an "
+"older version of Processing,you may need to use Tools -> Fix Encoding & "
+"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
+"todelete the bad characters to get rid of this warning."
+msgstr "Το \"{0}\" περιέχει μη αναγνωρίσιμους χαρακτήρες. Αν ο κώδικας είχε δημιουργηθεί με παλαιότερη έκδοση της Processing, μπορεί να χρειαστεί να χρησιμοποιήσετε το Εργαλεία > Διόρθωση Κωδικοποίησης & Επαναφόρτωση για να ανανεώσετε το σχέδιο σας σε κωδικοποίηση UTF-8. Αλλιώς, μπορεί να χρειαστεί να διαγράψετε τους λανθασμένους χαρακτήρες για να απαλαχθείτε από αυτό το μήνυμα."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
@@ -1122,6 +730,10 @@ msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετ�
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε το \"{0}\";"
+
+#: Sketch.java:595 EditorHeader.java:314
+msgid "Delete"
+msgstr "Διαγραφή"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
@@ -1284,19 +896,418 @@ msgid ""
 "They should also be less less than 64 characters long."
 msgstr "Το όνομα του σχεδίου έχει αλλάκει. Τα ονόματα των σχεδίων μπορούν να\nαποτελούνται από χαρακτήρες ASCII και αριθμούς (αλλά όχι να αρχίζουν με αριθμό).\nΘα πρέπει επίσης να είναι λιγότερο από 64 χαρακτήρες."
 
-#: SketchCode.java:83
-#, java-format
-msgid "Error while loading code {0}"
-msgstr "Σφάλμα φόρτωσης κώδικα {0}"
+#: debug/Uploader.java:52
+msgid "https://developer.berlios.de/bugs/?group_id=3590"
+msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 
-#: SketchCode.java:258
+#: debug/Uploader.java:54 debug/Compiler.java:43
+#, java-format
+msgid "Compiler error, please submit this code to {0}"
+msgstr "Σφάλμα μεταγλωττιστή, παρακαλούμε στείλτε μας τον κώδικα στο {0}"
+
+#: debug/Uploader.java:199
 #, java-format
 msgid ""
-"\"{0}\" contains unrecognized characters.If this code was created with an "
-"older version of Processing,you may need to use Tools -> Fix Encoding & "
-"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
-"todelete the bad characters to get rid of this warning."
-msgstr "Το \"{0}\" περιέχει μη αναγνωρίσιμους χαρακτήρες. Αν ο κώδικας είχε δημιουργηθεί με παλαιότερη έκδοση της Processing, μπορεί να χρειαστεί να χρησιμοποιήσετε το Εργαλεία > Διόρθωση Κωδικοποίησης & Επαναφόρτωση για να ανανεώσετε το σχέδιο σας σε κωδικοποίηση UTF-8. Αλλιώς, μπορεί να χρειαστεί να διαγράψετε τους λανθασμένους χαρακτήρες για να απαλαχθείτε από αυτό το μήνυμα."
+"the selected serial port {0} does not exist or your board is not connected"
+msgstr "η επιλεγμένη σειριακή θύρα {0} δεν υπάρχει ή η πλακέτα σας δεν είναι συνδεδεμένη"
+
+#: debug/Uploader.java:203
+msgid ""
+"Device is not responding, check the right serial port is selected or RESET "
+"the board right before exporting"
+msgstr "Η συσκευή δεν ανταποκρίνεται, ελέξτε ότι έχει επιλεχθεί η σωστή σειριακή θύρα, ή ΕΠΑΝΕΚΙΝΗΣΤΕ την πλακέτα σας αμέσως πριν την εξαγωγή"
+
+#: debug/Uploader.java:209
+msgid ""
+"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for suggestions."
+msgstr "Πρόβλημα φόρτωσης στην πλακέτα.  Δείτε το http://www.arduino.cc/en/Guide/Troubleshooting#upload για οδηγίες."
+
+#: debug/Uploader.java:213
+msgid ""
+"Wrong microcontroller found.  Did you select the right board from the Tools "
+"> Board menu?"
+msgstr "Βρέθηκε λάθος μικροελεγκτής.  Επιλέξατε την σωστή πλακέτα από το μενού Εργαλεία > Πλακέτα;"
+
+#: debug/Compiler.java:41
+msgid "http://code.google.com/p/arduino/issues/list"
+msgstr "http://code.google.com/p/arduino/issues/list"
+
+#: debug/Compiler.java:79
+msgid "No board selected; please choose a board from the Tools > Board menu."
+msgstr "Δεν έχει επιλεχθεί πλακέτα. Παρακαλούμε επιλέξτε ένα απο το μενού Εργαλεία -> Πλακέτα"
+
+#: debug/Compiler.java:422
+#, java-format
+msgid "{0} returned {1}"
+msgstr "Το {0} επέστρεψε {1}"
+
+#: debug/Compiler.java:426
+msgid "Error compiling."
+msgstr "Σφάλμα μεταγλώττισης."
+
+#: debug/Compiler.java:465
+msgid "Please import the SPI library from the Sketch > Import Library menu."
+msgstr "Παρακαλούμε εισάγετε την βιβλιοθήκη SPI από τ μενού Σχέδιο -> Εισαγωγή Βιβλιοθήκης."
+
+#: debug/Compiler.java:466
+msgid ""
+"\n"
+"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
+"You appear to be using it or another library that depends on the SPI "
+"library.\n"
+"\n"
+msgstr "\nΑπό το Arduino 0019, η βιβλιοθήκη Ethernet βασίζεται στην βιβλιοθήκη SPI.\nΦαίνεται πως την χρησιμοποιείτε, ή κάποια άλλη βιβλιοθήκη που βασίζεται στην βιβλιοθήκη SPI.\n\n"
+
+#: debug/Compiler.java:471
+msgid "The 'BYTE' keyword is no longer supported."
+msgstr "Η λέξη 'BYTE' δεν υποστηρίζεται πλέον."
+
+#: debug/Compiler.java:472
+msgid ""
+"\n"
+"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
+"Please use Serial.write() instead.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η λέξη 'BYTE' δεν υποστηρίζεται πλέον.\nΠαρακαλούμε χρησιμοποιήστε την Serial.write() αντί αυτής.\n\n"
+
+#: debug/Compiler.java:477
+msgid "The Server class has been renamed EthernetServer."
+msgstr "Η κλάση Server έχει μετονομαστεί σε EthernetServer."
+
+#: debug/Compiler.java:478
+msgid ""
+"\n"
+"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
+"to EthernetServer.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η κλάση Server στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetServer.\n\n"
+
+#: debug/Compiler.java:483
+msgid "The Client class has been renamed EthernetClient."
+msgstr "Η κλάση Client έχει μετονομαστεί σε EthernetClient."
+
+#: debug/Compiler.java:484
+msgid ""
+"\n"
+"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
+"to EthernetClient.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetClient.\n\n"
+
+#: debug/Compiler.java:489
+msgid "The Udp class has been renamed EthernetUdp."
+msgstr "Η κλάση Udp έχει μετονομαστεί σε EthernetUdp."
+
+#: debug/Compiler.java:490
+msgid ""
+"\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
+"EthernetClient.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Udp έχει μετονομαστεί σε EthernetUdp.\n\n"
+
+#: debug/Compiler.java:495
+msgid "Wire.send() has been renamed Wire.write()."
+msgstr "Η Wire.send() έχει μετονομαστεί σε Wire.write()."
+
+#: debug/Compiler.java:496
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
+"consistency with other libraries.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.send() μετονομάστηκε σε Wire.write() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
+
+#: debug/Compiler.java:501
+msgid "Wire.receive() has been renamed Wire.read()."
+msgstr "Η Wire.receive() μετονομάστηκε σε Wire.read()."
+
+#: debug/Compiler.java:502
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
+"for consistency with other libraries.\n"
+"\n"
+msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.receive() μετονομάστηκε σε Wire.read() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
+
+#: EditorConsole.java:152
+msgid "Console Error"
+msgstr "Σφάλμα Κονσόλας"
+
+#: EditorConsole.java:153
+msgid ""
+"A problem occurred while trying to open the\n"
+"files used to store the console output."
+msgstr "Προέκυψε κάποιο πρόβλημα κατά το άνοιγμα των αρχείων που\nχρησιμοποιούνται για την αποθήκευση της εξόδου της κονσόλας."
+
+#: Base.java:181
+msgid "Non-fatal error while setting the Look & Feel."
+msgstr "Mή ανεπανόρθωτο σφάλμα κατά τον καθορισμό της εμφάνισης."
+
+#: Base.java:182
+msgid "The error message follows, however Arduino should run fine."
+msgstr "Το μήνυμα σφάλματος παρατίθεται, αλλά το Arduino θα πρέπει να είναι εντάξει."
+
+#: Base.java:217
+msgid "Problem Setting the Platform"
+msgstr "Πρόβλημα κατά τον καθορισμό της Πλατφόρμας"
+
+#: Base.java:218
+msgid ""
+"An unknown error occurred while trying to load\n"
+"platform-specific code for your machine."
+msgstr "Ένα άγνωστο σφάλμα συνέβη κατά την φόρτωση\nκώδικα συγκεκριμένης πλατφόρμας στο μηχάνημα σας."
+
+#: Base.java:229
+msgid "Please install JDK 1.5 or later"
+msgstr "Παρακαλούμε εγκαταστήστε το JDK 1.5 ή μεγαλύτερο."
+
+#: Base.java:230
+msgid ""
+"Arduino requires a full JDK (not just a JRE)\n"
+"to run. Please install JDK 1.5 or later.\n"
+"More information can be found in the reference."
+msgstr "Το Arduino χρειάζεται ολόκληρο το JDK (όχι μόνο ένα JRE)\nγια να τρέξει. Παρακαλούμε εγκαταστήστε το JDK 1.5 ή αργότερο.\nΠερισσότερες πληροφορίες μπορούν να βρεθούν στις πληροφορίες."
+
+#: Base.java:254
+msgid "Sketchbook folder disappeared"
+msgstr "Ο φάκελος σχεδίων εξαφανίστηκε"
+
+#: Base.java:255
+msgid ""
+"The sketchbook folder no longer exists.\n"
+"Arduino will switch to the default sketchbook\n"
+"location, and create a new sketchbook folder if\n"
+"necessary. Arduino will then stop talking about\n"
+"himself in the third person."
+msgstr "Ο φάκελος σχεδίων δεν υπάρχει πλέον.\nΤο Arduino θα γυρίσει στην προεπιλεγμένη τοποθεσία του φακέλου και θα δημιουργήσει έναν νεο φάκελο σχεδίων αν είναι απαραίτητο. Στη συνέχεια, το Arduino θα σταματήσει να μιλάει για τον εαυτό του\nσε τρίτο πρόσωπο."
+
+#: Base.java:529
+msgid "Time for a Break"
+msgstr "Ώρα για Διάλειμα"
+
+#: Base.java:530
+msgid ""
+"You've reached the limit for auto naming of new sketches\n"
+"for the day. How about going for a walk instead?"
+msgstr "Έχετε φτάσει το όριο αυτόματης ονομασίας των νέων σχεδίων ανα\nμέρα. Γιατί δεν κάνετε μια βόλτα καλύτερα;"
+
+#: Base.java:534
+msgid "Sunshine"
+msgstr "Λιακάδα"
+
+#: Base.java:535
+msgid "No really, time for some fresh air for you."
+msgstr "Όχι σοβαρά τώρα, καιρός να πάρετε λίγο φρέσκο αέρα."
+
+#: Base.java:630
+msgid "Open an Arduino sketch..."
+msgstr "Άνοιγμα σχεδίου Arduino..."
+
+#: Base.java:769
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
+"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Είστε σίγουροι πως θέλετε να εξέλθετε;</b><p>Το κλείσιμο του τελευταίου σχεδίου θα κλείσει το Arduino."
+
+#: Base.java:967
+msgid "Contributed"
+msgstr "Συνεισέφεραν"
+
+#: Base.java:1092
+msgid "Sketch Does Not Exist"
+msgstr "Το Σχέδιο Δεν Υπάρχει"
+
+#: Base.java:1093
+msgid ""
+"The selected sketch no longer exists.\n"
+"You may need to restart Arduino to update\n"
+"the sketchbook menu."
+msgstr "Το επιλεγμένο σχέδιο δεν υπάρχει πλέον.\nΜπορεί να χρειαστεί να επανεκκινήσετε το Arduino για να\nανανεώσετε το μενού των σχεδίων σας."
+
+#: Base.java:1122
+#, java-format
+msgid ""
+"The sketch \"{0}\" cannot be used.\n"
+"Sketch names must contain only basic letters and numbers\n"
+"(ASCII-only with no spaces, and it cannot start with a number).\n"
+"To get rid of this message, remove the sketch from\n"
+"{1}"
+msgstr "Το σχέδιο \"{0}\" δεν μπορεί να χρησιμοποιηθεί.\nΤα ονόματα των σχεδίων πρέπει να περιέχουν μόνο βασικά γράμματα και αριθμούς.\n(Μόνο ASCII χωρίς κενά, και δεν μπορούν να ξεκινούν με αριθμό).\nΓια να απαλαχθείτε από αυτό το μήνυμα, αφαιρέστε το σχέδιο από το\n{1}"
+
+#: Base.java:1129
+msgid "Ignoring sketch with bad name"
+msgstr "Παράβλεψη σχεδίου με λανθασμένο όνομα"
+
+#: Base.java:1199
+#, java-format
+msgid ""
+"The library \"{0}\" cannot be used.\n"
+"Library names must contain only basic letters and numbers.\n"
+"(ASCII only and no spaces, and it cannot start with a number)"
+msgstr "Η βιβλιοθήκη \"{0}\" δεν μπορεί να χρησιμοποιηθεί.\nΤα ονόματα βιβλιοθηκών μπορούν να περιέχουν μόνο βασικά γράμματα και αρθμούς.\n(μόνο  ASCII και χωρίς κενά, και δεν μπορούν να ξεκινούν με αριθμό)"
+
+#: Base.java:1204
+msgid "Ignoring bad library name"
+msgstr "Παράβλεψη βιβλιοθήκης με λανθασμένο όνομα"
+
+#: Base.java:1429
+msgid "Problem getting data folder"
+msgstr "Πρόβλημα κατά την λήψη του φακέλου δεδομένων"
+
+#: Base.java:1430
+msgid "Error getting the Arduino data folder."
+msgstr "Σφάλμα κατά την λήψη του φακέλου δεδομένων του Arduino."
+
+#: Base.java:1437
+msgid "Settings issues"
+msgstr "Πρόβλημα ρυθμίσεων"
+
+#: Base.java:1438
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your settings."
+msgstr "Το Arduino δεν μπορεί να τρέξει επειδή δεν μπορούσε να\nδημιουργήσει έναν φάκελο για την αποθήκευση των ρυθμίσεων σας."
+
+#: Base.java:1599
+msgid "You forgot your sketchbook"
+msgstr "Ξεχάσατε τα σχέδια σας"
+
+#: Base.java:1600
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your sketchbook."
+msgstr "Το Arduino δεν μπορεί να τρέξει επειδή δεν μπορούσε να\nδημιουργήσει έναν φάκελο για την αποθήκευση των σχεδίων σας."
+
+#: Base.java:1620
+msgid "Select (or create new) folder for sketches..."
+msgstr "Επιλέξτε (ή δημιουργήστε) έναν φάκελο για τα σχέδια σας..."
+
+#: Base.java:1644
+msgid "Problem Opening URL"
+msgstr "Πρόβλημα Ανοίγματος του URI"
+
+#: Base.java:1645
+#, java-format
+msgid ""
+"Could not open the URL\n"
+"{0}"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του URL\n{0}"
+
+#: Base.java:1668
+msgid "Problem Opening Folder"
+msgstr "Πρόβλημα Ανοίγματος Φακέλου"
+
+#: Base.java:1669
+#, java-format
+msgid ""
+"Could not open the folder\n"
+"{0}"
+msgstr "Δεν ήταν δυνατό το άνουγμα του φακέλου\n{0}"
+
+#: Base.java:1782
+msgid "Guide_MacOSX.html"
+msgstr "Guide_MacOSX.html"
+
+#: Base.java:1784
+msgid "Guide_Windows.html"
+msgstr "Guide_Windows.html"
+
+#: Base.java:1786
+msgid "http://www.arduino.cc/playground/Learning/Linux"
+msgstr "http://www.arduino.cc/playground/Learning/Linux"
+
+#: Base.java:1791
+msgid "index.html"
+msgstr "index.html"
+
+#: Base.java:1796
+msgid "Guide_Environment.html"
+msgstr "Guide_Environment.html"
+
+#: Base.java:1801
+msgid "environment"
+msgstr "περιβάλλον"
+
+#: Base.java:1801
+msgid "platforms.html"
+msgstr "platforms.html"
+
+#: Base.java:1806
+msgid "Guide_Troubleshooting.html"
+msgstr "Guide_Troubleshooting.html"
+
+#: Base.java:1811
+msgid "FAQ.html"
+msgstr "FAQ.html"
+
+#: Base.java:1823
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: Base.java:1839
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: Base.java:2193
+#, java-format
+msgid "Could not remove old version of {0}"
+msgstr "Αδύνατη η αφαίρεση της παλιάς έκδοσης του {0}"
+
+#: Base.java:2203
+#, java-format
+msgid "Could not replace {0}"
+msgstr "Αδύνατη η αφαίρεση του {0}"
+
+#: Base.java:2244 Base.java:2267
+#, java-format
+msgid "Could not delete {0}"
+msgstr "Αδύνατη η διαγραφή του {0}"
+
+#: EditorHeader.java:292
+msgid "New Tab"
+msgstr "Νέα Καρτέλα"
+
+#: EditorHeader.java:300
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: EditorHeader.java:326
+msgid "Previous Tab"
+msgstr "Προηγούμενη Καρτέλα"
+
+#: EditorHeader.java:340
+msgid "Next Tab"
+msgstr "Επόμενη Καρτέλα"
+
+#: EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+#: EditorToolbar.java:41
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: EditorToolbar.java:46
+msgid "New Editor Window"
+msgstr "Νέο Παράθυρο Επεξεργασίας"
+
+#: EditorToolbar.java:46
+msgid "Open in Another Window"
+msgstr "Άνοιγμα σε Νεο Παράθυρο"
+
+#: Platform.java:167
+msgid "No launcher available"
+msgstr "Δεν βρέθηκε εκκινητής"
+
+#: Platform.java:168
+msgid ""
+"Unspecified platform, no launcher available.\n"
+"To enable opening URLs or folders, add a \n"
+"\"launcher=/path/to/app\" line to preferences.txt"
+msgstr "Άγνωστη πλατφόρμα, δεν βρέθηκε εκκινητής.\nΓια να ενεργοποιήσετε το άνοιγμα URL και φακέλων, προσθέστε μια\nγραμμή \"launcher=/path/to/app\" στο preferences.txt"
 
 #: Theme.java:52
 msgid ""
@@ -1304,90 +1315,85 @@ msgid ""
 "You'll need to reinstall Processing."
 msgstr "Αδύνατη η ανάγνωση των ρυθμίσεων χρώματος του θέματος.\nΘα χρειαστεί να επανεγκαταστήστετε την Processing."
 
-#: tools/Archiver.java:48
-msgid "Archive Sketch"
-msgstr "Αρχειοθέτηση Σχεδίου"
+#: Preferences.java:80
+msgid "Browse"
+msgstr "Περιήγηση"
 
-#: tools/Archiver.java:59
-msgid "yyMMdd"
-msgstr "χχΜΜμμ"
-
-#: tools/Archiver.java:74
-msgid "Couldn't archive sketch"
-msgstr "Αδύνατη η αρχειοθέτηση σχεδίου"
-
-#: tools/Archiver.java:75
+#: Preferences.java:148
 msgid ""
-"Archiving the sketch has been canceled because\n"
-"the sketch couldn't save properly."
-msgstr "Η αρχειοθέτηση του σχεδίου ακυρώθηκε γιατί το σχέδιο δεν μπορούσε να αποθηκευθεί σωστά."
+"Could not read default settings.\n"
+"You'll need to reinstall Arduino."
+msgstr "Αδύνατη η ανάγνωση προεπιλεγμένων ρυθμίσεων.\nΘα χρειαστεί να επανεγκαταστήσετε το Arduino."
 
-#: tools/Archiver.java:109
-msgid "Archive sketch as:"
-msgstr "Αρχειοθέτηση σχεδίου ως:"
+#: Preferences.java:180
+#, java-format
+msgid "Could not read preferences from {0}"
+msgstr "Αδύνατη η ανάγνωση των επιλογών από το {0}"
 
-#: tools/Archiver.java:139
-msgid "Archive sketch canceled."
-msgstr "Ακύρωση αρχειοθέτησης σχεδίου."
+#: Preferences.java:199
+msgid "Error reading preferences"
+msgstr "Σφάλμα ανάγνωσης επιλογών"
 
-#: tools/AutoFormat.java:91
-msgid "Auto Format"
-msgstr "Αυτόματη Μορφοποίηση"
-
-#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
-msgid "No changes necessary for Auto Format."
-msgstr "Δεν χρειάζονται αλλαγές για την Αυτόματη Μορφοποίηση"
-
-#: tools/AutoFormat.java:919
-msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές δεξιές παρενθέσεις."
-
-#: tools/AutoFormat.java:922
-msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές αριστερές παρενθέσεις."
-
-#: tools/AutoFormat.java:928
-msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές δεξιές αγκύλες."
-
-#: tools/AutoFormat.java:931
-msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "Ακύρωση Αυτόματης Μορφοποίησης: Πάρα πολλές αριστερές αγκύλες."
-
-#: tools/AutoFormat.java:941
-msgid "Auto Format finished."
-msgstr "Τέλος Αυτόματης Μορφοποίησης"
-
-#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
-#: tools/FixEncoding.java:79
-msgid "Fix Encoding & Reload"
-msgstr "Διόρθωση Κωδικοποίησης & Επαναφόρτωση"
-
-#: tools/FixEncoding.java:57
-msgid "Discard all changes and reload sketch?"
-msgstr "Ακύρωση αλλαγών και επαναφόρτωση του σχεδίου;"
-
-#: tools/FixEncoding.java:77
+#: Preferences.java:201
+#, java-format
 msgid ""
-"An error occurred while trying to fix the file encoding.\n"
-"Do not attempt to save this sketch as it may overwrite\n"
-"the old version. Use Open to re-open the sketch and try again.\n"
-msgstr "Προέκυψε κάποιο σφάλμα κατά την διόρθωση της κωδικοποίησης.\nΜην προσπαθήσετε να αποθηκεύσετε αυτό το σχέδιο, καθώς μπορεί να αντικαταστήσετε\nτην παλιά έκδοση. Χρησιμοποιήστε την Άνοιγμα για να ξανα-ανοίξετε το σχέδιο και να ξαναπροσπαθήσετε.\n"
+"Error reading the preferences file. Please delete (or move)\n"
+"{0} and restart Arduino."
+msgstr "Σφάλμα ανάγνωσης του αρχείου επιλογών. Παρακαλούμε διαγράψτε\n(ή μεταφέρετε) το {0} και επανεκκινήστε το Arduino."
 
-#: UpdateCheck.java:53
-msgid "http://www.arduino.cc/latest.txt"
-msgstr "http://www.arduino.cc/latest.txt"
+#: Preferences.java:237
+msgid "Sketchbook location:"
+msgstr "Τοποθεσία Σχεδίων:"
 
-#: UpdateCheck.java:103
-msgid ""
-"A new version of Arduino is available,\n"
-"would you like to visit the Arduino download page?"
-msgstr "Μια νέα έκδοση του Arduino είναι διαθέσιμη,\nθα θέλατε να επισκεφθείτε την σελίδα κατεβάσματος του Arduino;"
+#: Preferences.java:252
+msgid "Select new sketchbook location"
+msgstr "Επιλέξτε καινούργια τοποθεσία σχεδίων"
 
-#: UpdateCheck.java:111
-msgid "Update"
-msgstr "Ενημέρωση"
+#: Preferences.java:276
+msgid "Editor font size: "
+msgstr "Μέγεθος γραμματοσειράς επεξεργαστή κειμένου: "
 
-#: UpdateCheck.java:118
-msgid "http://www.arduino.cc/en/Main/Software"
-msgstr "http://www.arduino.cc/en/Main/Software"
+#: Preferences.java:280
+msgid "  (requires restart of Arduino)"
+msgstr "  (απαιτεί επανεκκίνηση του Arduino)"
+
+#: Preferences.java:293
+msgid "Show verbose output during: "
+msgstr "Εμφάνιση αναλυτικής εξόδου κατά την: "
+
+#: Preferences.java:295
+msgid "compilation "
+msgstr "μεταγλώττιση "
+
+#: Preferences.java:297
+msgid "upload"
+msgstr "φόρτωση"
+
+#: Preferences.java:315
+msgid "Use external editor"
+msgstr "Χρήση εξωτερικού προγράμματος επεξεργασίας"
+
+#: Preferences.java:325
+msgid "Check for updates on startup"
+msgstr "Έλεγχος ενημερώσεων στην εκκίνηση"
+
+#: Preferences.java:334
+msgid "Update sketch files to new extension on save (.pde -> .ino)"
+msgstr "Αναβάθμιση των αρχείων σχεδίων στην νέα κατάληξη κατά την αποθήκευση (.pde -> .ino)"
+
+#: Preferences.java:345
+msgid "Automatically associate .ino files with Arduino"
+msgstr "Αυτόματη σύνδεση των αρχείων .ino με το Arduino"
+
+#: Preferences.java:356
+msgid "More preferences can be edited directly in the file"
+msgstr "Περισσότερες προτιμήσεις μπορούν να επεξεργασθούν απεθείας στο αρχείο"
+
+#: Preferences.java:385
+msgid "(edit only when Arduino is not running)"
+msgstr "(επεξεργαστείτε το αρχείο μόνο ενώ το Arduino δεν τρέχει)"
+
+#: Preferences.java:532
+#, java-format
+msgid "ignoring invalid font size {0}"
+msgstr "Παράβλεψη λανθασμένου μεγέθος γραμματοσειράς {0}"
