@@ -16,446 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Base.java:181
-msgid "Non-fatal error while setting the Look & Feel."
-msgstr "設定外觀&感覺時發生非嚴重性的錯誤"
-
-#: Base.java:182
-msgid "The error message follows, however Arduino should run fine."
-msgstr "底下會有錯誤訊息，但Arduino應該還是可以正常運作"
-
-#: Base.java:217
-msgid "Problem Setting the Platform"
-msgstr "設定平台時發生問題"
-
-#: Base.java:218
-msgid ""
-"An unknown error occurred while trying to load\n"
-"platform-specific code for your machine."
-msgstr ""
-"試著為你的機器載入與平台相關的程式碼時時，\n"
-"發生未知錯誤。"
-
-#: Base.java:229
-msgid "Please install JDK 1.5 or later"
-msgstr "請安裝JDK 1.5（或更新的版本）"
-
-#: Base.java:230
-msgid ""
-"Arduino requires a full JDK (not just a JRE)\n"
-"to run. Please install JDK 1.5 or later.\n"
-"More information can be found in the reference."
-msgstr ""
-"執行Arduino需要完整的JDK（不僅是JRE），\n"
-"請安裝JDK 1.5（或更新的版本）。\n"
-"更多資訊可在參考文件裡找到。"
-
-#: Base.java:254
-msgid "Sketchbook folder disappeared"
-msgstr "草稿碼簿目錄不見了"
-
-#: Base.java:255
-msgid ""
-"The sketchbook folder no longer exists.\n"
-"Arduino will switch to the default sketchbook\n"
-"location, and create a new sketchbook folder if\n"
-"necessary. Arduino will then stop talking about\n"
-"himself in the third person."
-msgstr ""
-"草稿碼簿目錄不存在。\n"
-"Arduino將改成預設的草稿碼簿的路徑，\n"
-"若有需要會建立新的。\n"
-"Arduino接下來將停止以第三人稱\n"
-"討論它自己。"
-
-#: Base.java:529
-msgid "Time for a Break"
-msgstr "該是休息一下的時刻囉"
-
-#: Base.java:530
-msgid ""
-"You've reached the limit for auto naming of new sketches\n"
-"for the day. How about going for a walk instead?"
-msgstr ""
-"你今天已經達到自動命名草稿碼的數目上限了，\n"
-"何不外出散散步呢？"
-
-#: Base.java:534
-msgid "Sunshine"
-msgstr "陽光"
-
-#: Base.java:535
-msgid "No really, time for some fresh air for you."
-msgstr "不，我說真的，該是時候呼吸呼吸新鮮空氣了。"
-
-#: Base.java:630
-msgid "Open an Arduino sketch..."
-msgstr "開啟Arduino草稿碼..."
-
-#: Base.java:769
-msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
-"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>你確定"
-"要離開嗎？</b><p>關閉最後一份開啟中的草稿碼就回離開Arduino。"
-
-#: Base.java:779 Editor.java:586
-msgid "Quit"
-msgstr "離開"
-
-#: Base.java:900 Editor.java:494
-msgid "Open..."
-msgstr "開啟..."
-
-#: Base.java:967
-msgid "Contributed"
-msgstr "貢獻"
-
-#: Base.java:1092
-msgid "Sketch Does Not Exist"
-msgstr "草稿碼不存在"
-
-#: Base.java:1093
-msgid ""
-"The selected sketch no longer exists.\n"
-"You may need to restart Arduino to update\n"
-"the sketchbook menu."
-msgstr ""
-"被選的草稿碼已經不存在了。\n"
-"你可能需要重新啟動Arduino，\n"
-"以更新草稿碼簿的目錄。"
-
-#: Base.java:1122
-#, java-format
-msgid ""
-"The sketch \"{0}\" cannot be used.\n"
-"Sketch names must contain only basic letters and numbers\n"
-"(ASCII-only with no spaces, and it cannot start with a number).\n"
-"To get rid of this message, remove the sketch from\n"
-"{1}"
-msgstr ""
-"這份草稿碼\"{0}\"無法使用。\n"
-"草稿碼的名稱只能含有一般的字母與數字\n"
-"（只能用ASCII，不能有空白，不能以數字開頭。）\n"
-"若不想看到此訊息，請從{1}移除草稿碼。\n"
-
-#: Base.java:1129
-msgid "Ignoring sketch with bad name"
-msgstr "忽略名稱錯誤的草稿碼"
-
-#: Base.java:1199
-#, java-format
-msgid ""
-"The library \"{0}\" cannot be used.\n"
-"Library names must contain only basic letters and numbers.\n"
-"(ASCII only and no spaces, and it cannot start with a number)"
-msgstr ""
-"這份程式庫\"{0}\"無法使用。\n"
-"程式庫的名稱只能含有一般的字母與數字\n"
-"（只能用ASCII，不能有空白，不能以數字開頭。）\n"
-
-#: Base.java:1204
-msgid "Ignoring bad library name"
-msgstr "忽略名稱錯誤的程式庫"
-
-#: Base.java:1429
-msgid "Problem getting data folder"
-msgstr "取得資料目錄時發生問題"
-
-#: Base.java:1430
-msgid "Error getting the Arduino data folder."
-msgstr "取得Arduino資料目錄時發生錯誤"
-
-#: Base.java:1437
-msgid "Settings issues"
-msgstr "設定問題"
-
-#: Base.java:1438
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your settings."
-msgstr ""
-"Arduino無法執行，因為它無法\n"
-"建立儲存你的設定值的目錄。"
-
-#: Base.java:1599
-msgid "You forgot your sketchbook"
-msgstr "你忘記你的草稿碼簿了"
-
-#: Base.java:1600
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your sketchbook."
-msgstr ""
-"Arduino無法執行，因為它無法\n"
-"建立儲存你的草稿碼簿的目錄。"
-
-#: Base.java:1620
-msgid "Select (or create new) folder for sketches..."
-msgstr "選擇（或建立）存放草稿碼的目錄..."
-
-#: Base.java:1644
-msgid "Problem Opening URL"
-msgstr "開啟URL時發生問題"
-
-#: Base.java:1645
-#, java-format
-msgid ""
-"Could not open the URL\n"
-"{0}"
-msgstr ""
-"無法開啟這個URL\n"
-"{0}"
-
-#: Base.java:1668
-msgid "Problem Opening Folder"
-msgstr "開啟目錄時發生問題"
-
-#: Base.java:1669
-#, java-format
-msgid ""
-"Could not open the folder\n"
-"{0}"
-msgstr ""
-"無法開啟這個目錄\n"
-"{0}"
-
-#: Base.java:1782
-msgid "Guide_MacOSX.html"
-msgstr ""
-
-#: Base.java:1784
-msgid "Guide_Windows.html"
-msgstr "Guide_Windows.html"
-
-#: Base.java:1786
-msgid "http://www.arduino.cc/playground/Learning/Linux"
-msgstr "http://www.arduino.cc/playground/Learning/Linux"
-
-#: Base.java:1791
-msgid "index.html"
-msgstr "index.html"
-
-#: Base.java:1796
-msgid "Guide_Environment.html"
-msgstr "Guide_Environment.html"
-
-#: Base.java:1801
-msgid "environment"
-msgstr "環境"
-
-#: Base.java:1801
-msgid "platforms.html"
-msgstr "platforms.html"
-
-#: Base.java:1806
-msgid "Guide_Troubleshooting.html"
-msgstr "Guide_Troubleshooting.html"
-
-#: Base.java:1811
-msgid "FAQ.html"
-msgstr "FAQ.html"
-
-#: Base.java:1823
-msgid "Message"
-msgstr "訊息"
-
-#: Base.java:1839
-msgid "Warning"
-msgstr "警告"
-
-#: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
-#: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "錯誤"
-
-#: Base.java:2193
-#, java-format
-msgid "Could not remove old version of {0}"
-msgstr "無法移除{0}的舊版"
-
-#: Base.java:2203
-#, java-format
-msgid "Could not replace {0}"
-msgstr "無法取代{0}"
-
-#: Base.java:2244 Base.java:2267
-#, java-format
-msgid "Could not delete {0}"
-msgstr "無法刪除{0}"
-
-#: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr "http://code.google.com/p/arduino/issues/list"
-
-#: debug/Compiler.java:43 debug/Uploader.java:54
-#, java-format
-msgid "Compiler error, please submit this code to {0}"
-msgstr "編譯錯誤，請將這個碼提交給{0}"
-
-#: debug/Compiler.java:79
-msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "沒有選擇板子；請從「工具 > 板子」選擇板子"
-
-#: debug/Compiler.java:422
-#, java-format
-msgid "{0} returned {1}"
-msgstr "{0}回傳{1}"
-
-#: debug/Compiler.java:426
-msgid "Error compiling."
-msgstr "編譯出錯"
-
-#: debug/Compiler.java:465
-msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "請從「草稿碼 > 匯入程式庫」選單匯入SPI程式庫"
-
-#: debug/Compiler.java:466
-msgid ""
-"\n"
-"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
-"You appear to be using it or another library that depends on the SPI "
-"library.\n"
-"\n"
-msgstr ""
-"從Arduino 0019開始，Ethernet程式庫相依於SPI程式庫。\n"
-"你似乎正在使用相依於SPI的Ethernet或其他程式庫。\n"
-"\n"
-
-#: debug/Compiler.java:471
-msgid "The 'BYTE' keyword is no longer supported."
-msgstr "不再支援關鍵字'BYTE'"
-
-#: debug/Compiler.java:472
-msgid ""
-"\n"
-"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
-"Please use Serial.write() instead.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，不再支援關鍵字'BYTE'。\n"
-"請改用Serial.write()。\n"
-"\n"
-
-#: debug/Compiler.java:477
-msgid "The Server class has been renamed EthernetServer."
-msgstr "類別Server已經改名為EthernetServer"
-
-#: debug/Compiler.java:478
-msgid ""
-"\n"
-"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
-"to EthernetServer.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，Ethernet程式庫的Server類別已經改名"
-"為EthernetServer。\n"
-"\n"
-
-#: debug/Compiler.java:483
-msgid "The Client class has been renamed EthernetClient."
-msgstr "類別Client已經改名為EthernetClient。"
-
-#: debug/Compiler.java:484
-msgid ""
-"\n"
-"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
-"to EthernetClient.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，Ethernet程式庫的Client類別已經改名"
-"為EthernetClient。\n"
-"\n"
-
-#: debug/Compiler.java:489
-msgid "The Udp class has been renamed EthernetUdp."
-msgstr "類別Udp已經改名為EthernetUdp。"
-
-#: debug/Compiler.java:490
-msgid ""
-"\n"
-"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetUdp.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，Ethernet程式庫的Udp類別已經改名"
-"為EthernetUdp。\n"
-"\n"
-
-#: debug/Compiler.java:495
-msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Wire.send()已經改名為Wire.write()。"
-
-#: debug/Compiler.java:496
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
-"consistency with other libraries.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，Wire.send()函式已經改名為Wire.wirte()，"
-"以便與其他程式庫保持一致。\n"
-"\n"
-
-#: debug/Compiler.java:501
-msgid "Wire.receive() has been renamed Wire.read()."
-msgstr "Wire.receive()已經改名為Wire.read()。"
-
-#: debug/Compiler.java:502
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
-"for consistency with other libraries.\n"
-"\n"
-msgstr ""
-"\n"
-"從Arduino 1.0開始，Wire.receive()函式已經改名為Wire.read()，"
-"以便與其他程式庫保持一致。\n"
-"\n"
-
-#: debug/Uploader.java:52
-msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr "https://developer.berlios.de/bugs/?group_id=3590"
-
-#: debug/Uploader.java:199
-#, java-format
-msgid ""
-"the selected serial port {0} does not exist or your board is not connected"
-msgstr ""
-"你選擇的序列埠{0}不存在，或是你的板子尚未連接。"
-
-#: debug/Uploader.java:203
-msgid ""
-"Device is not responding, check the right serial port is selected or RESET "
-"the board right before exporting"
-msgstr ""
-"裝置沒有回應，請確認選擇的序列埠是否正確，或是在匯出之前立即"
-"RESET重置板子"
-
-#: debug/Uploader.java:209
-msgid ""
-"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload for suggestions."
-msgstr ""
-"上傳到板子裡時發生問題，"
-"請見http://www.arduino.cc/en/Guide/Troubleshooting#upload尋找解決方法"
-
-#: debug/Uploader.java:213
-msgid ""
-"Wrong microcontroller found.  Did you select the right board from the Tools "
-"> Board menu?"
-msgstr "找到不對的微處理器，你在「工具 > 板子」選單裡"
-"選對板子了嗎？"
-
 #: Editor.java:366
 msgid "No files were added to the sketch."
 msgstr "並沒有檔案加入草稿碼"
@@ -476,6 +36,10 @@ msgstr "檔案"
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
 msgstr "新增"
+
+#: Editor.java:494 Base.java:900
+msgid "Open..."
+msgstr "開啟..."
 
 #: Editor.java:503
 msgid "Sketchbook"
@@ -517,6 +81,10 @@ msgstr "列印"
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
 msgstr "偏好設定"
+
+#: Editor.java:586 Base.java:779
+msgid "Quit"
+msgstr "離開"
 
 #: Editor.java:600
 msgid "Sketch"
@@ -717,8 +285,8 @@ msgstr ""
 "關閉草稿碼前儲存變更的地方嗎？<BR></b><p>若不儲存，"
 "將會遺失變更的地方。"
 
-#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
-#: Sketch.java:589 Sketch.java:741 Sketch.java:1046
+#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
+#: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
 msgstr "取消"
 
@@ -738,8 +306,8 @@ msgstr ""
 "Processing只能開啟它自己的草稿碼，\n"
 "以及其他.ino或.pde的檔案。"
 
-#: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
-#: Sketch.java:741 Sketch.java:1046
+#: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
+#: Sketch.java:1046 Preferences.java:79
 msgid "OK"
 msgstr "好"
 
@@ -757,6 +325,12 @@ msgstr ""
 #: Editor.java:2109
 msgid "Moving"
 msgstr "移動中"
+
+#: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+msgid "Error"
+msgstr "錯誤"
 
 #: Editor.java:2122
 #, java-format
@@ -858,53 +432,33 @@ msgstr "不對的行數：{0}"
 msgid "Open URL"
 msgstr "開啟URL"
 
-#: EditorConsole.java:152
-msgid "Console Error"
-msgstr "主控台錯誤"
+#: UpdateCheck.java:53
+msgid "http://www.arduino.cc/latest.txt"
+msgstr "http://www.arduino.cc/latest.txt"
 
-#: EditorConsole.java:153
+#: UpdateCheck.java:103
 msgid ""
-"A problem occurred while trying to open the\n"
-"files used to store the console output."
+"A new version of Arduino is available,\n"
+"would you like to visit the Arduino download page?"
 msgstr ""
-"試著開啟用來儲存主控台輸出的檔案時，"
-"發生問題。"
+"Arduino有新版本了，\n"
+"你想要開啟Arduino的下載頁面嗎？"
 
-#: EditorHeader.java:292
-msgid "New Tab"
-msgstr "新增標籤"
+#: UpdateCheck.java:108 Preferences.java:76
+msgid "Yes"
+msgstr "是"
 
-#: EditorHeader.java:300
-msgid "Rename"
-msgstr "重新命名"
+#: UpdateCheck.java:108 Preferences.java:77
+msgid "No"
+msgstr "否"
 
-#: EditorHeader.java:314 Sketch.java:595
-msgid "Delete"
-msgstr "刪除"
+#: UpdateCheck.java:111
+msgid "Update"
+msgstr "更新"
 
-#: EditorHeader.java:326
-msgid "Previous Tab"
-msgstr "上一個標籤"
-
-#: EditorHeader.java:340
-msgid "Next Tab"
-msgstr "下一個標籤"
-
-#: EditorToolbar.java:41 EditorToolbar.java:46
-msgid "Verify"
-msgstr "驗證"
-
-#: EditorToolbar.java:41
-msgid "Open"
-msgstr "開啟"
-
-#: EditorToolbar.java:46
-msgid "New Editor Window"
-msgstr "新編輯器視窗"
-
-#: EditorToolbar.java:46
-msgid "Open in Another Window"
-msgstr "以另一個視窗開啟"
+#: UpdateCheck.java:118
+msgid "http://www.arduino.cc/en/Main/Software"
+msgstr "http://www.arduino.cc/en/Main/Software"
 
 #: FindReplace.java:80
 msgid "Find:"
@@ -942,114 +496,33 @@ msgstr "前一個"
 msgid "Find"
 msgstr "尋找"
 
-#: Platform.java:167
-msgid "No launcher available"
-msgstr "沒有啟動者"
+#: SerialMonitor.java:93
+msgid "Send"
+msgstr "傳送"
 
-#: Platform.java:168
-msgid ""
-"Unspecified platform, no launcher available.\n"
-"To enable opening URLs or folders, add a \n"
-"\"launcher=/path/to/app\" line to preferences.txt"
-msgstr ""
-"沒有指定平台，沒有啟動者。\n"
-"若要開啟URL或目錄，請在preferences.txt加入這一行：\n"
-"\"launcher=/path/to/app\"。"
+#: SerialMonitor.java:110
+msgid "Autoscroll"
+msgstr "自動捲動"
 
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
-msgstr "是"
+#: SerialMonitor.java:112
+msgid "No line ending"
+msgstr "沒有行結尾"
 
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
-msgstr "否"
+#: SerialMonitor.java:112
+msgid "Newline"
+msgstr "NL(newline)"
 
-#: Preferences.java:80
-msgid "Browse"
-msgstr "瀏覽"
+#: SerialMonitor.java:112
+msgid "Carriage return"
+msgstr "CR(carriage return)"
 
-#: Preferences.java:148
-msgid ""
-"Could not read default settings.\n"
-"You'll need to reinstall Arduino."
-msgstr ""
-"無法讀取預設設定，\n"
-"你需要重新安裝Arduino"
+#: SerialMonitor.java:112
+msgid "Both NL & CR"
+msgstr "NL與CR"
 
-#: Preferences.java:180
-#, java-format
-msgid "Could not read preferences from {0}"
-msgstr "無法從{0}讀取偏好設定"
-
-#: Preferences.java:199
-msgid "Error reading preferences"
-msgstr "讀取偏好設定時發生錯誤"
-
-#: Preferences.java:201
-#, java-format
-msgid ""
-"Error reading the preferences file. Please delete (or move)\n"
-"{0} and restart Arduino."
-msgstr ""
-"讀取偏好設定檔時發生錯誤，請刪除（或移動）\n"
-"{0}並且重新啟動Arduino"
-
-#: Preferences.java:237
-msgid "Sketchbook location:"
-msgstr "草稿碼簿的位置："
-
-#: Preferences.java:252
-msgid "Select new sketchbook location"
-msgstr "選擇新的草稿碼簿位置"
-
-#: Preferences.java:276
-msgid "Editor font size: "
-msgstr "編輯器字型大小："
-
-#: Preferences.java:280
-msgid "  (requires restart of Arduino)"
-msgstr "  （需要重新啟動Arduino）"
-
-#: Preferences.java:293
-msgid "Show verbose output during: "
-msgstr "顯示詳細輸出："
-
-#: Preferences.java:295
-msgid "compilation "
-msgstr "編譯"
-
-#: Preferences.java:297
-msgid "upload"
-msgstr "上傳"
-
-#: Preferences.java:315
-msgid "Use external editor"
-msgstr "使用外部編輯器"
-
-#: Preferences.java:325
-msgid "Check for updates on startup"
-msgstr "在啟動時檢查更新"
-
-#: Preferences.java:334
-msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "儲存時更新草稿碼檔案的附檔名（.pde -> .ino）"
-
-#: Preferences.java:345
-msgid "Automatically associate .ino files with Arduino"
-msgstr "自動將.ino檔案與Arduino關聯起來"
-
-#: Preferences.java:356
-msgid "More preferences can be edited directly in the file"
-msgstr "在偏好設定檔案裡還有更多的設定值，可以直接編輯"
-
-#: Preferences.java:385
-msgid "(edit only when Arduino is not running)"
-msgstr "（只能在不執行Arduino時進行編輯）"
-
-#: Preferences.java:532
-#, java-format
-msgid "ignoring invalid font size {0}"
-msgstr "忽略無效的字型大小{0}"
+#: SerialMonitor.java:130 SerialMonitor.java:133
+msgid " baud"
+msgstr " 傳輸鮑率"
 
 #: Serial.java:147
 #, java-format
@@ -1088,33 +561,98 @@ msgstr ""
 msgid "Error inside Serial.{0}()"
 msgstr "在Serial.{0}()裡發生錯誤"
 
-#: SerialMonitor.java:93
-msgid "Send"
-msgstr "傳送"
+#: tools/AutoFormat.java:91
+msgid "Auto Format"
+msgstr "自動格式化"
 
-#: SerialMonitor.java:110
-msgid "Autoscroll"
-msgstr "自動捲動"
+#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
+msgid "No changes necessary for Auto Format."
+msgstr "自動格式化沒有需要變更的地方"
 
-#: SerialMonitor.java:112
-msgid "No line ending"
-msgstr "沒有行結尾"
+#: tools/AutoFormat.java:919
+msgid "Auto Format Canceled: Too many right parentheses."
+msgstr "自動格式化被取消了：太多右括號"
 
-#: SerialMonitor.java:112
-msgid "Newline"
-msgstr "NL(newline)"
+#: tools/AutoFormat.java:922
+msgid "Auto Format Canceled: Too many left parentheses."
+msgstr "自動格式化被取消了：太多左括號"
 
-#: SerialMonitor.java:112
-msgid "Carriage return"
-msgstr "CR(carriage return)"
+#: tools/AutoFormat.java:928
+msgid "Auto Format Canceled: Too many right curly braces."
+msgstr "自動格式化被取消了：太多右大括號"
 
-#: SerialMonitor.java:112
-msgid "Both NL & CR"
-msgstr "NL與CR"
+#: tools/AutoFormat.java:931
+msgid "Auto Format Canceled: Too many left curly braces."
+msgstr "自動格式化被取消了：太多左大括號"
 
-#: SerialMonitor.java:130 SerialMonitor.java:133
-msgid " baud"
-msgstr " 傳輸鮑率"
+#: tools/AutoFormat.java:941
+msgid "Auto Format finished."
+msgstr "自動格式化完畢"
+
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
+#: tools/FixEncoding.java:79
+msgid "Fix Encoding & Reload"
+msgstr "修正編碼並重新載入"
+
+#: tools/FixEncoding.java:57
+msgid "Discard all changes and reload sketch?"
+msgstr "放棄所有變更並重新載入草稿碼？"
+
+#: tools/FixEncoding.java:77
+msgid ""
+"An error occurred while trying to fix the file encoding.\n"
+"Do not attempt to save this sketch as it may overwrite\n"
+"the old version. Use Open to re-open the sketch and try again.\n"
+msgstr ""
+"試著修正檔案編碼時發生錯誤。\n"
+"請不要試著儲存這份草稿碼，可能會覆蓋舊版本。\n"
+"請用「開啟」重新開啟草稿碼再試一次。\n"
+
+#: tools/Archiver.java:48
+msgid "Archive Sketch"
+msgstr "封存草稿碼"
+
+#: tools/Archiver.java:59
+msgid "yyMMdd"
+msgstr "yyMMdd"
+
+#: tools/Archiver.java:74
+msgid "Couldn't archive sketch"
+msgstr "無法封存草稿碼"
+
+#: tools/Archiver.java:75
+msgid ""
+"Archiving the sketch has been canceled because\n"
+"the sketch couldn't save properly."
+msgstr ""
+"草稿碼封存動作被取消了\n"
+"，因為無法適當地儲存草稿碼。"
+
+#: tools/Archiver.java:109
+msgid "Archive sketch as:"
+msgstr "將草稿碼封存為："
+
+#: tools/Archiver.java:139
+msgid "Archive sketch canceled."
+msgstr "草稿碼封存動作被取消了"
+
+#: SketchCode.java:83
+#, java-format
+msgid "Error while loading code {0}"
+msgstr "載入程式碼{0}時發生錯誤"
+
+#: SketchCode.java:258
+#, java-format
+msgid ""
+"\"{0}\" contains unrecognized characters.If this code was created with an "
+"older version of Processing,you may need to use Tools -> Fix Encoding & "
+"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
+"todelete the bad characters to get rid of this warning."
+msgstr ""
+"\"{0}\"含有無法辨識的字元。若這份程式是以舊版Processing"
+"建立的話，你需要以「工具 -> 修正編碼並重新載入」將草稿碼"
+"更新為UTF-8編碼格式，若不想這麼做的話，"
+"請刪除不正確的字元，以免除此警告訊息。"
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
@@ -1132,7 +670,7 @@ msgstr ""
 
 #: Sketch.java:286
 msgid "Name for new file:"
-msgstr 新檔案命名：""
+msgstr "新檔案命名："
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
@@ -1228,6 +766,10 @@ msgstr "確定要刪除這個草稿碼？"
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "你確定想要刪除\"{0}\"？"
+
+#: Sketch.java:595 EditorHeader.java:314
+msgid "Delete"
+msgstr "刪除"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
@@ -1416,23 +958,485 @@ msgstr ""
 "（但不能以數字開頭）。\n"
 "名稱必須少於64個字元。"
 
-#: SketchCode.java:83
-#, java-format
-msgid "Error while loading code {0}"
-msgstr "載入程式碼{0}時發生錯誤"
+#: debug/Uploader.java:52
+msgid "https://developer.berlios.de/bugs/?group_id=3590"
+msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 
-#: SketchCode.java:258
+#: debug/Uploader.java:54 debug/Compiler.java:43
+#, java-format
+msgid "Compiler error, please submit this code to {0}"
+msgstr "編譯錯誤，請將這個碼提交給{0}"
+
+#: debug/Uploader.java:199
 #, java-format
 msgid ""
-"\"{0}\" contains unrecognized characters.If this code was created with an "
-"older version of Processing,you may need to use Tools -> Fix Encoding & "
-"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
-"todelete the bad characters to get rid of this warning."
+"the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
-"\"{0}\"含有無法辨識的字元。若這份程式是以舊版Processing"
-"建立的話，你需要以「工具 -> 修正編碼並重新載入」將草稿碼"
-"更新為UTF-8編碼格式，若不想這麼做的話，"
-"請刪除不正確的字元，以免除此警告訊息。"
+"你選擇的序列埠{0}不存在，或是你的板子尚未連接。"
+
+#: debug/Uploader.java:203
+msgid ""
+"Device is not responding, check the right serial port is selected or RESET "
+"the board right before exporting"
+msgstr ""
+"裝置沒有回應，請確認選擇的序列埠是否正確，或是在匯出之前立即"
+"RESET重置板子"
+
+#: debug/Uploader.java:209
+msgid ""
+"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for suggestions."
+msgstr ""
+"上傳到板子裡時發生問題，"
+"請見http://www.arduino.cc/en/Guide/Troubleshooting#upload尋找解決方法"
+
+#: debug/Uploader.java:213
+msgid ""
+"Wrong microcontroller found.  Did you select the right board from the Tools "
+"> Board menu?"
+msgstr "找到不對的微處理器，你在「工具 > 板子」選單裡"
+"選對板子了嗎？"
+
+#: debug/Compiler.java:41
+msgid "http://code.google.com/p/arduino/issues/list"
+msgstr "http://code.google.com/p/arduino/issues/list"
+
+#: debug/Compiler.java:79
+msgid "No board selected; please choose a board from the Tools > Board menu."
+msgstr "沒有選擇板子；請從「工具 > 板子」選擇板子"
+
+#: debug/Compiler.java:422
+#, java-format
+msgid "{0} returned {1}"
+msgstr "{0}回傳{1}"
+
+#: debug/Compiler.java:426
+msgid "Error compiling."
+msgstr "編譯出錯"
+
+#: debug/Compiler.java:465
+msgid "Please import the SPI library from the Sketch > Import Library menu."
+msgstr "請從「草稿碼 > 匯入程式庫」選單匯入SPI程式庫"
+
+#: debug/Compiler.java:466
+msgid ""
+"\n"
+"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
+"You appear to be using it or another library that depends on the SPI "
+"library.\n"
+"\n"
+msgstr ""
+"從Arduino 0019開始，Ethernet程式庫相依於SPI程式庫。\n"
+"你似乎正在使用相依於SPI的Ethernet或其他程式庫。\n"
+"\n"
+
+#: debug/Compiler.java:471
+msgid "The 'BYTE' keyword is no longer supported."
+msgstr "不再支援關鍵字'BYTE'"
+
+#: debug/Compiler.java:472
+msgid ""
+"\n"
+"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
+"Please use Serial.write() instead.\n"
+"\n"
+msgstr ""
+"\n"
+"從Arduino 1.0開始，不再支援關鍵字'BYTE'。\n"
+"請改用Serial.write()。\n"
+"\n"
+
+#: debug/Compiler.java:477
+msgid "The Server class has been renamed EthernetServer."
+msgstr "類別Server已經改名為EthernetServer"
+
+#: debug/Compiler.java:478
+msgid ""
+"\n"
+"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
+"to EthernetServer.\n"
+"\n"
+msgstr ""
+"\n"
+"從Arduino 1.0開始，Ethernet程式庫的Server類別已經改名"
+"為EthernetServer。\n"
+"\n"
+
+#: debug/Compiler.java:483
+msgid "The Client class has been renamed EthernetClient."
+msgstr "類別Client已經改名為EthernetClient。"
+
+#: debug/Compiler.java:484
+msgid ""
+"\n"
+"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
+"to EthernetClient.\n"
+"\n"
+msgstr ""
+"\n"
+"從Arduino 1.0開始，Ethernet程式庫的Client類別已經改名"
+"為EthernetClient。\n"
+"\n"
+
+#: debug/Compiler.java:489
+msgid "The Udp class has been renamed EthernetUdp."
+msgstr "類別Udp已經改名為EthernetUdp。"
+
+#: debug/Compiler.java:490
+msgid ""
+"\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
+"EthernetClient.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:495
+msgid "Wire.send() has been renamed Wire.write()."
+msgstr "Wire.send()已經改名為Wire.write()。"
+
+#: debug/Compiler.java:496
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
+"consistency with other libraries.\n"
+"\n"
+msgstr ""
+"\n"
+"從Arduino 1.0開始，Wire.send()函式已經改名為Wire.wirte()，"
+"以便與其他程式庫保持一致。\n"
+"\n"
+
+#: debug/Compiler.java:501
+msgid "Wire.receive() has been renamed Wire.read()."
+msgstr "Wire.receive()已經改名為Wire.read()。"
+
+#: debug/Compiler.java:502
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
+"for consistency with other libraries.\n"
+"\n"
+msgstr ""
+"\n"
+"從Arduino 1.0開始，Wire.receive()函式已經改名為Wire.read()，"
+"以便與其他程式庫保持一致。\n"
+"\n"
+
+#: EditorConsole.java:152
+msgid "Console Error"
+msgstr "主控台錯誤"
+
+#: EditorConsole.java:153
+msgid ""
+"A problem occurred while trying to open the\n"
+"files used to store the console output."
+msgstr ""
+"試著開啟用來儲存主控台輸出的檔案時，"
+"發生問題。"
+
+#: Base.java:181
+msgid "Non-fatal error while setting the Look & Feel."
+msgstr "設定外觀&感覺時發生非嚴重性的錯誤"
+
+#: Base.java:182
+msgid "The error message follows, however Arduino should run fine."
+msgstr "底下會有錯誤訊息，但Arduino應該還是可以正常運作"
+
+#: Base.java:217
+msgid "Problem Setting the Platform"
+msgstr "設定平台時發生問題"
+
+#: Base.java:218
+msgid ""
+"An unknown error occurred while trying to load\n"
+"platform-specific code for your machine."
+msgstr ""
+"試著為你的機器載入與平台相關的程式碼時時，\n"
+"發生未知錯誤。"
+
+#: Base.java:229
+msgid "Please install JDK 1.5 or later"
+msgstr "請安裝JDK 1.5（或更新的版本）"
+
+#: Base.java:230
+msgid ""
+"Arduino requires a full JDK (not just a JRE)\n"
+"to run. Please install JDK 1.5 or later.\n"
+"More information can be found in the reference."
+msgstr ""
+"執行Arduino需要完整的JDK（不僅是JRE），\n"
+"請安裝JDK 1.5（或更新的版本）。\n"
+"更多資訊可在參考文件裡找到。"
+
+#: Base.java:254
+msgid "Sketchbook folder disappeared"
+msgstr "草稿碼簿目錄不見了"
+
+#: Base.java:255
+msgid ""
+"The sketchbook folder no longer exists.\n"
+"Arduino will switch to the default sketchbook\n"
+"location, and create a new sketchbook folder if\n"
+"necessary. Arduino will then stop talking about\n"
+"himself in the third person."
+msgstr ""
+"草稿碼簿目錄不存在。\n"
+"Arduino將改成預設的草稿碼簿的路徑，\n"
+"若有需要會建立新的。\n"
+"Arduino接下來將停止以第三人稱\n"
+"討論它自己。"
+
+#: Base.java:529
+msgid "Time for a Break"
+msgstr "該是休息一下的時刻囉"
+
+#: Base.java:530
+msgid ""
+"You've reached the limit for auto naming of new sketches\n"
+"for the day. How about going for a walk instead?"
+msgstr ""
+"你今天已經達到自動命名草稿碼的數目上限了，\n"
+"何不外出散散步呢？"
+
+#: Base.java:534
+msgid "Sunshine"
+msgstr "陽光"
+
+#: Base.java:535
+msgid "No really, time for some fresh air for you."
+msgstr "不，我說真的，該是時候呼吸呼吸新鮮空氣了。"
+
+#: Base.java:630
+msgid "Open an Arduino sketch..."
+msgstr "開啟Arduino草稿碼..."
+
+#: Base.java:769
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
+"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>你確定"
+"要離開嗎？</b><p>關閉最後一份開啟中的草稿碼就回離開Arduino。"
+
+#: Base.java:967
+msgid "Contributed"
+msgstr "貢獻"
+
+#: Base.java:1092
+msgid "Sketch Does Not Exist"
+msgstr "草稿碼不存在"
+
+#: Base.java:1093
+msgid ""
+"The selected sketch no longer exists.\n"
+"You may need to restart Arduino to update\n"
+"the sketchbook menu."
+msgstr ""
+"被選的草稿碼已經不存在了。\n"
+"你可能需要重新啟動Arduino，\n"
+"以更新草稿碼簿的目錄。"
+
+#: Base.java:1122
+#, java-format
+msgid ""
+"The sketch \"{0}\" cannot be used.\n"
+"Sketch names must contain only basic letters and numbers\n"
+"(ASCII-only with no spaces, and it cannot start with a number).\n"
+"To get rid of this message, remove the sketch from\n"
+"{1}"
+msgstr ""
+"這份草稿碼\"{0}\"無法使用。\n"
+"草稿碼的名稱只能含有一般的字母與數字\n"
+"（只能用ASCII，不能有空白，不能以數字開頭。）\n"
+"若不想看到此訊息，請從{1}移除草稿碼。\n"
+
+#: Base.java:1129
+msgid "Ignoring sketch with bad name"
+msgstr "忽略名稱錯誤的草稿碼"
+
+#: Base.java:1199
+#, java-format
+msgid ""
+"The library \"{0}\" cannot be used.\n"
+"Library names must contain only basic letters and numbers.\n"
+"(ASCII only and no spaces, and it cannot start with a number)"
+msgstr ""
+"這份程式庫\"{0}\"無法使用。\n"
+"程式庫的名稱只能含有一般的字母與數字\n"
+"（只能用ASCII，不能有空白，不能以數字開頭。）\n"
+
+#: Base.java:1204
+msgid "Ignoring bad library name"
+msgstr "忽略名稱錯誤的程式庫"
+
+#: Base.java:1429
+msgid "Problem getting data folder"
+msgstr "取得資料目錄時發生問題"
+
+#: Base.java:1430
+msgid "Error getting the Arduino data folder."
+msgstr "取得Arduino資料目錄時發生錯誤"
+
+#: Base.java:1437
+msgid "Settings issues"
+msgstr "設定問題"
+
+#: Base.java:1438
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your settings."
+msgstr ""
+"Arduino無法執行，因為它無法\n"
+"建立儲存你的設定值的目錄。"
+
+#: Base.java:1599
+msgid "You forgot your sketchbook"
+msgstr "你忘記你的草稿碼簿了"
+
+#: Base.java:1600
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your sketchbook."
+msgstr ""
+"Arduino無法執行，因為它無法\n"
+"建立儲存你的草稿碼簿的目錄。"
+
+#: Base.java:1620
+msgid "Select (or create new) folder for sketches..."
+msgstr "選擇（或建立）存放草稿碼的目錄..."
+
+#: Base.java:1644
+msgid "Problem Opening URL"
+msgstr "開啟URL時發生問題"
+
+#: Base.java:1645
+#, java-format
+msgid ""
+"Could not open the URL\n"
+"{0}"
+msgstr ""
+"無法開啟這個URL\n"
+"{0}"
+
+#: Base.java:1668
+msgid "Problem Opening Folder"
+msgstr "開啟目錄時發生問題"
+
+#: Base.java:1669
+#, java-format
+msgid ""
+"Could not open the folder\n"
+"{0}"
+msgstr ""
+"無法開啟這個目錄\n"
+"{0}"
+
+#: Base.java:1782
+msgid "Guide_MacOSX.html"
+msgstr ""
+
+#: Base.java:1784
+msgid "Guide_Windows.html"
+msgstr "Guide_Windows.html"
+
+#: Base.java:1786
+msgid "http://www.arduino.cc/playground/Learning/Linux"
+msgstr "http://www.arduino.cc/playground/Learning/Linux"
+
+#: Base.java:1791
+msgid "index.html"
+msgstr "index.html"
+
+#: Base.java:1796
+msgid "Guide_Environment.html"
+msgstr "Guide_Environment.html"
+
+#: Base.java:1801
+msgid "environment"
+msgstr "環境"
+
+#: Base.java:1801
+msgid "platforms.html"
+msgstr "platforms.html"
+
+#: Base.java:1806
+msgid "Guide_Troubleshooting.html"
+msgstr "Guide_Troubleshooting.html"
+
+#: Base.java:1811
+msgid "FAQ.html"
+msgstr "FAQ.html"
+
+#: Base.java:1823
+msgid "Message"
+msgstr "訊息"
+
+#: Base.java:1839
+msgid "Warning"
+msgstr "警告"
+
+#: Base.java:2193
+#, java-format
+msgid "Could not remove old version of {0}"
+msgstr "無法移除{0}的舊版"
+
+#: Base.java:2203
+#, java-format
+msgid "Could not replace {0}"
+msgstr "無法取代{0}"
+
+#: Base.java:2244 Base.java:2267
+#, java-format
+msgid "Could not delete {0}"
+msgstr "無法刪除{0}"
+
+#: EditorHeader.java:292
+msgid "New Tab"
+msgstr "新增標籤"
+
+#: EditorHeader.java:300
+msgid "Rename"
+msgstr "重新命名"
+
+#: EditorHeader.java:326
+msgid "Previous Tab"
+msgstr "上一個標籤"
+
+#: EditorHeader.java:340
+msgid "Next Tab"
+msgstr "下一個標籤"
+
+#: EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Verify"
+msgstr "驗證"
+
+#: EditorToolbar.java:41
+msgid "Open"
+msgstr "開啟"
+
+#: EditorToolbar.java:46
+msgid "New Editor Window"
+msgstr "新編輯器視窗"
+
+#: EditorToolbar.java:46
+msgid "Open in Another Window"
+msgstr "以另一個視窗開啟"
+
+#: Platform.java:167
+msgid "No launcher available"
+msgstr "沒有啟動者"
+
+#: Platform.java:168
+msgid ""
+"Unspecified platform, no launcher available.\n"
+"To enable opening URLs or folders, add a \n"
+"\"launcher=/path/to/app\" line to preferences.txt"
+msgstr ""
+"沒有指定平台，沒有啟動者。\n"
+"若要開啟URL或目錄，請在preferences.txt加入這一行：\n"
+"\"launcher=/path/to/app\"。"
 
 #: Theme.java:52
 msgid ""
@@ -1442,97 +1446,89 @@ msgstr ""
 "無法讀取色彩佈景主題的設定。\n"
 "你需要重新安裝Processing。"
 
-#: tools/Archiver.java:48
-msgid "Archive Sketch"
-msgstr "封存草稿碼"
+#: Preferences.java:80
+msgid "Browse"
+msgstr "瀏覽"
 
-#: tools/Archiver.java:59
-msgid "yyMMdd"
-msgstr "yyMMdd"
-
-#: tools/Archiver.java:74
-msgid "Couldn't archive sketch"
-msgstr "無法封存草稿碼"
-
-#: tools/Archiver.java:75
+#: Preferences.java:148
 msgid ""
-"Archiving the sketch has been canceled because\n"
-"the sketch couldn't save properly."
+"Could not read default settings.\n"
+"You'll need to reinstall Arduino."
 msgstr ""
-"草稿碼封存動作被取消了\n"
-"，因為無法適當地儲存草稿碼。"
+"無法讀取預設設定，\n"
+"你需要重新安裝Arduino"
 
-#: tools/Archiver.java:109
-msgid "Archive sketch as:"
-msgstr "將草稿碼封存為："
+#: Preferences.java:180
+#, java-format
+msgid "Could not read preferences from {0}"
+msgstr "無法從{0}讀取偏好設定"
 
-#: tools/Archiver.java:139
-msgid "Archive sketch canceled."
-msgstr "草稿碼封存動作被取消了"
+#: Preferences.java:199
+msgid "Error reading preferences"
+msgstr "讀取偏好設定時發生錯誤"
 
-#: tools/AutoFormat.java:91
-msgid "Auto Format"
-msgstr "自動格式化"
-
-#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
-msgid "No changes necessary for Auto Format."
-msgstr "自動格式化沒有需要變更的地方"
-
-#: tools/AutoFormat.java:919
-msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "自動格式化被取消了：太多右括號"
-
-#: tools/AutoFormat.java:922
-msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "自動格式化被取消了：太多左括號"
-
-#: tools/AutoFormat.java:928
-msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "自動格式化被取消了：太多右大括號"
-
-#: tools/AutoFormat.java:931
-msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "自動格式化被取消了：太多左大括號"
-
-#: tools/AutoFormat.java:941
-msgid "Auto Format finished."
-msgstr "自動格式化完畢"
-
-#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
-#: tools/FixEncoding.java:79
-msgid "Fix Encoding & Reload"
-msgstr "修正編碼並重新載入"
-
-#: tools/FixEncoding.java:57
-msgid "Discard all changes and reload sketch?"
-msgstr "放棄所有變更並重新載入草稿碼？"
-
-#: tools/FixEncoding.java:77
+#: Preferences.java:201
+#, java-format
 msgid ""
-"An error occurred while trying to fix the file encoding.\n"
-"Do not attempt to save this sketch as it may overwrite\n"
-"the old version. Use Open to re-open the sketch and try again.\n"
+"Error reading the preferences file. Please delete (or move)\n"
+"{0} and restart Arduino."
 msgstr ""
-"試著修正檔案編碼時發生錯誤。\n"
-"請不要試著儲存這份草稿碼，可能會覆蓋舊版本。\n"
-"請用「開啟」重新開啟草稿碼再試一次。\n"
+"讀取偏好設定檔時發生錯誤，請刪除（或移動）\n"
+"{0}並且重新啟動Arduino"
 
-#: UpdateCheck.java:53
-msgid "http://www.arduino.cc/latest.txt"
-msgstr "http://www.arduino.cc/latest.txt"
+#: Preferences.java:237
+msgid "Sketchbook location:"
+msgstr "草稿碼簿的位置："
 
-#: UpdateCheck.java:103
-msgid ""
-"A new version of Arduino is available,\n"
-"would you like to visit the Arduino download page?"
-msgstr ""
-"Arduino有新版本了，\n"
-"你想要開啟Arduino的下載頁面嗎？"
+#: Preferences.java:252
+msgid "Select new sketchbook location"
+msgstr "選擇新的草稿碼簿位置"
 
-#: UpdateCheck.java:111
-msgid "Update"
-msgstr "更新"
+#: Preferences.java:276
+msgid "Editor font size: "
+msgstr "編輯器字型大小："
 
-#: UpdateCheck.java:118
-msgid "http://www.arduino.cc/en/Main/Software"
-msgstr "http://www.arduino.cc/en/Main/Software"
+#: Preferences.java:280
+msgid "  (requires restart of Arduino)"
+msgstr "  （需要重新啟動Arduino）"
+
+#: Preferences.java:293
+msgid "Show verbose output during: "
+msgstr "顯示詳細輸出："
+
+#: Preferences.java:295
+msgid "compilation "
+msgstr "編譯"
+
+#: Preferences.java:297
+msgid "upload"
+msgstr "上傳"
+
+#: Preferences.java:315
+msgid "Use external editor"
+msgstr "使用外部編輯器"
+
+#: Preferences.java:325
+msgid "Check for updates on startup"
+msgstr "在啟動時檢查更新"
+
+#: Preferences.java:334
+msgid "Update sketch files to new extension on save (.pde -> .ino)"
+msgstr "儲存時更新草稿碼檔案的附檔名（.pde -> .ino）"
+
+#: Preferences.java:345
+msgid "Automatically associate .ino files with Arduino"
+msgstr "自動將.ino檔案與Arduino關聯起來"
+
+#: Preferences.java:356
+msgid "More preferences can be edited directly in the file"
+msgstr "在偏好設定檔案裡還有更多的設定值，可以直接編輯"
+
+#: Preferences.java:385
+msgid "(edit only when Arduino is not running)"
+msgstr "（只能在不執行Arduino時進行編輯）"
+
+#: Preferences.java:532
+#, java-format
+msgid "ignoring invalid font size {0}"
+msgstr "忽略無效的字型大小{0}"
