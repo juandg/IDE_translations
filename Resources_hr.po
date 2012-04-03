@@ -17,401 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Base.java:181
-msgid "Non-fatal error while setting the Look & Feel."
-msgstr ""
-
-#: Base.java:182
-msgid "The error message follows, however Arduino should run fine."
-msgstr ""
-
-#: Base.java:217
-msgid "Problem Setting the Platform"
-msgstr ""
-
-#: Base.java:218
-msgid ""
-"An unknown error occurred while trying to load\n"
-"platform-specific code for your machine."
-msgstr ""
-
-#: Base.java:229
-msgid "Please install JDK 1.5 or later"
-msgstr "Instalirajte JDK 1.5 ili noviju verziju"
-
-#: Base.java:230
-msgid ""
-"Arduino requires a full JDK (not just a JRE)\n"
-"to run. Please install JDK 1.5 or later.\n"
-"More information can be found in the reference."
-msgstr ""
-"Za upotrebu Arduina je potrebna puna instalacija JDK-a (ne same JRE)\n"
-"Instalirajte JDK 1.5 ili noviju verziju.\n"
-"Dodatne informacije mozete naci u referenci."
-
-#: Base.java:254
-msgid "Sketchbook folder disappeared"
-msgstr ""
-
-#: Base.java:255
-msgid ""
-"The sketchbook folder no longer exists.\n"
-"Arduino will switch to the default sketchbook\n"
-"location, and create a new sketchbook folder if\n"
-"necessary. Arduino will then stop talking about\n"
-"himself in the third person."
-msgstr ""
-
-#: Base.java:529
-msgid "Time for a Break"
-msgstr "Vrijeme je za pauzu"
-
-#: Base.java:530
-msgid ""
-"You've reached the limit for auto naming of new sketches\n"
-"for the day. How about going for a walk instead?"
-msgstr ""
-"Dostigli ste današnji limit za automatsko davanje imena novih skećova\n"
-"Zašto ne bi otišli u šetnju?"
-
-#: Base.java:534
-msgid "Sunshine"
-msgstr "Sunce"
-
-#: Base.java:535
-msgid "No really, time for some fresh air for you."
-msgstr "Ne, vrijeme je da otiđete na zrak"
-
-#: Base.java:630
-msgid "Open an Arduino sketch..."
-msgstr "Otvori Arduino skeć..."
-
-#: Base.java:769
-msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
-"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Jeste li sigurni da želite odustati?
-</b><p>Zatvaranje zadnjeg otvorenog skeća ce zatvoriti Arduino."
-
-#: Base.java:779 Editor.java:586
-msgid "Quit"
-msgstr "Odustani"
-
-#: Base.java:900 Editor.java:494
-msgid "Open..."
-msgstr "Otvori..."
-
-#: Base.java:967
-msgid "Contributed"
-msgstr ""
-
-#: Base.java:1092
-msgid "Sketch Does Not Exist"
-msgstr "Skeć ne postoji"
-
-#: Base.java:1093
-msgid ""
-"The selected sketch no longer exists.\n"
-"You may need to restart Arduino to update\n"
-"the sketchbook menu."
-msgstr ""
-"Izabrali ste skeć koji više ne postoji.\n"
-"Provajte ponovno startati Arduino da bi ste obnovili\n"
-"meni"
-#: Base.java:1122
-#, java-format
-msgid ""
-"The sketch \"{0}\" cannot be used.\n"
-"Sketch names must contain only basic letters and numbers\n"
-"(ASCII-only with no spaces, and it cannot start with a number).\n"
-"To get rid of this message, remove the sketch from\n"
-"{1}"
-msgstr ""
-"Skeć \"{0}\" se ne moze koristiti.\n"
-"Ime skeća se smi samo sastojati od obićnih slova i brojeva.\n"
-"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
-"Da bi ste zatvorili ovu poruku, izbrišite skeć iz\n"
-"{1}"
-
-#: Base.java:1129
-msgid "Ignoring sketch with bad name"
-msgstr "Skeć sa nevažecem imenom se ignorira"
-
-#: Base.java:1199
-#, java-format
-msgid ""
-"The library \"{0}\" cannot be used.\n"
-"Library names must contain only basic letters and numbers.\n"
-"(ASCII only and no spaces, and it cannot start with a number)"
-msgstr ""
-"Ime library-a se smi samo sastojati od obićnih slova i brojeva.\n"
-"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
-
-#: Base.java:1204
-msgid "Ignoring bad library name"
-msgstr "Library sa nevažecem imenom se ignorira"
-
-#: Base.java:1429
-msgid "Problem getting data folder"
-msgstr ""
-
-#: Base.java:1430
-msgid "Error getting the Arduino data folder."
-msgstr ""
-
-#: Base.java:1437
-msgid "Settings issues"
-msgstr ""
-
-#: Base.java:1438
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your settings."
-msgstr ""
-
-#: Base.java:1599
-msgid "You forgot your sketchbook"
-msgstr "Zaboravili ste skeć knižicu"
-
-#: Base.java:1600
-msgid ""
-"Arduino cannot run because it could not\n"
-"create a folder to store your sketchbook."
-msgstr ""
-
-#: Base.java:1620
-msgid "Select (or create new) folder for sketches..."
-msgstr "Izaberite ili napravite novi direktorij za skećove"
-
-#: Base.java:1644
-msgid "Problem Opening URL"
-msgstr "Problem u otvaranju URL-a"
-
-#: Base.java:1645
-#, java-format
-msgid ""
-"Could not open the URL\n"
-"{0}"
-msgstr ""
-"Dostup URL-u nije bio uspješan\n"
-"{0}"
-
-#: Base.java:1668
-msgid "Problem Opening Folder"
-msgstr "Problem u otvaranju direktorija"
-
-#: Base.java:1669
-#, java-format
-msgid ""
-"Could not open the folder\n"
-"{0}"
-msgstr ""
-"Dostup direktoriju nije bio uspješan\n"
-"{0}"
-
-#: Base.java:1782
-msgid "Guide_MacOSX.html"
-msgstr ""
-
-#: Base.java:1784
-msgid ""
-msgstr ""
-
-#: Base.java:1786
-msgid "http://www.arduino.cc/playground/Learning/Linux"
-msgstr ""
-
-#: Base.java:1791
-msgid "index.html"
-msgstr ""
-
-#: Base.java:1796
-msgid "Guide_Environment.html"
-msgstr ""
-
-#: Base.java:1801
-msgid "environment"
-msgstr "okolina"
-
-#: Base.java:1801
-msgid "platforms.html"
-msgstr ""
-
-#: Base.java:1806
-msgid "Guide_Troubleshooting.html"
-msgstr ""
-
-#: Base.java:1811
-msgid "FAQ.html"
-msgstr ""
-
-#: Base.java:1823
-msgid "Message"
-msgstr "Poruka"
-
-#: Base.java:1839
-msgid "Warning"
-msgstr "Upozorenje"
-
-#: Base.java:1858 Editor.java:2120 Editor.java:2131 Editor.java:2141
-#: Editor.java:2159 Preferences.java:178 Sketch.java:479 Sketch.java:485
-#: Sketch.java:500 Sketch.java:507 Sketch.java:530 Sketch.java:547
-msgid "Error"
-msgstr "Pogreška"
-
-#: Base.java:2193
-#, java-format
-msgid "Could not remove old version of {0}"
-msgstr ""
-
-#: Base.java:2203
-#, java-format
-msgid "Could not replace {0}"
-msgstr ""
-
-#: Base.java:2244 Base.java:2267
-#, java-format
-msgid "Could not delete {0}"
-msgstr ""
-
-#: debug/Compiler.java:41
-msgid "http://code.google.com/p/arduino/issues/list"
-msgstr ""
-
-#: debug/Compiler.java:43 debug/Uploader.java:54
-#, java-format
-msgid "Compiler error, please submit this code to {0}"
-msgstr "Pogreška u kompiliranju, molim pošaljite kod {0}"
-
-#: debug/Compiler.java:79
-msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Nijedna pločica nije izabrana. Molimo izaberite pločicu iz menija Alati > Pločice"
-
-#: debug/Compiler.java:422
-#, java-format
-msgid "{0} returned {1}"
-msgstr ""
-
-#: debug/Compiler.java:426
-msgid "Error compiling."
-msgstr "Pogreška u kompiliranju"
-
-#: debug/Compiler.java:465
-msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "Importirajte SPI datoteku iz menija Skeć > Import"
-
-#: debug/Compiler.java:466
-msgid ""
-"\n"
-"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
-"You appear to be using it or another library that depends on the SPI "
-"library.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:471
-msgid "The 'BYTE' keyword is no longer supported."
-msgstr ""
-
-#: debug/Compiler.java:472
-msgid ""
-"\n"
-"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
-"Please use Serial.write() instead.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:477
-msgid "The Server class has been renamed EthernetServer."
-msgstr ""
-
-#: debug/Compiler.java:478
-msgid ""
-"\n"
-"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
-"to EthernetServer.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:483
-msgid "The Client class has been renamed EthernetClient."
-msgstr ""
-
-#: debug/Compiler.java:484
-msgid ""
-"\n"
-"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
-"to EthernetClient.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:489
-msgid "The Udp class has been renamed EthernetUdp."
-msgstr ""
-
-#: debug/Compiler.java:490
-msgid ""
-"\n"
-"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:495
-msgid "Wire.send() has been renamed Wire.write()."
-msgstr ""
-
-#: debug/Compiler.java:496
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
-"consistency with other libraries.\n"
-"\n"
-msgstr ""
-
-#: debug/Compiler.java:501
-msgid "Wire.receive() has been renamed Wire.read()."
-msgstr ""
-
-#: debug/Compiler.java:502
-msgid ""
-"\n"
-"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
-"for consistency with other libraries.\n"
-"\n"
-msgstr ""
-
-#: debug/Uploader.java:52
-msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr ""
-
-#: debug/Uploader.java:199
-#, java-format
-msgid ""
-"the selected serial port {0} does not exist or your board is not connected"
-msgstr ""
-
-#: debug/Uploader.java:203
-msgid ""
-"Device is not responding, check the right serial port is selected or RESET "
-"the board right before exporting"
-msgstr ""
-
-#: debug/Uploader.java:209
-msgid ""
-"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload for suggestions."
-msgstr ""
-
-#: debug/Uploader.java:213
-msgid ""
-"Wrong microcontroller found.  Did you select the right board from the Tools "
-"> Board menu?"
-msgstr ""
-
 #: Editor.java:366
 msgid "No files were added to the sketch."
 msgstr ""
@@ -432,6 +37,10 @@ msgstr ""
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
 msgstr ""
+
+#: Editor.java:494 Base.java:900
+msgid "Open..."
+msgstr "Otvori..."
 
 #: Editor.java:503
 msgid "Sketchbook"
@@ -473,6 +82,10 @@ msgstr ""
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
 msgstr ""
+
+#: Editor.java:586 Base.java:779
+msgid "Quit"
+msgstr "Odustani"
 
 #: Editor.java:600
 msgid "Sketch"
@@ -669,8 +282,8 @@ msgid ""
 "save, your changes will be lost."
 msgstr ""
 
-#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Preferences.java:78
-#: Sketch.java:589 Sketch.java:741 Sketch.java:1046
+#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
+#: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
 msgstr "Odustani"
 
@@ -688,8 +301,8 @@ msgid ""
 "and other files ending in .ino or .pde"
 msgstr ""
 
-#: Editor.java:2098 Editor.java:2418 Preferences.java:79 Sketch.java:589
-#: Sketch.java:741 Sketch.java:1046
+#: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
+#: Sketch.java:1046 Preferences.java:79
 msgid "OK"
 msgstr ""
 
@@ -704,6 +317,12 @@ msgstr ""
 #: Editor.java:2109
 msgid "Moving"
 msgstr ""
+
+#: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+msgid "Error"
+msgstr "Pogreška"
 
 #: Editor.java:2122
 #, java-format
@@ -803,51 +422,31 @@ msgstr ""
 msgid "Open URL"
 msgstr ""
 
-#: EditorConsole.java:152
-msgid "Console Error"
+#: UpdateCheck.java:53
+msgid "http://www.arduino.cc/latest.txt"
 msgstr ""
 
-#: EditorConsole.java:153
+#: UpdateCheck.java:103
 msgid ""
-"A problem occurred while trying to open the\n"
-"files used to store the console output."
+"A new version of Arduino is available,\n"
+"would you like to visit the Arduino download page?"
 msgstr ""
 
-#: EditorHeader.java:292
-msgid "New Tab"
+#: UpdateCheck.java:108 Preferences.java:76
+msgid "Yes"
 msgstr ""
 
-#: EditorHeader.java:300
-msgid "Rename"
+#: UpdateCheck.java:108 Preferences.java:77
+msgid "No"
 msgstr ""
 
-#: EditorHeader.java:314 Sketch.java:595
-msgid "Delete"
+#: UpdateCheck.java:111
+msgid "Update"
 msgstr ""
 
-#: EditorHeader.java:326
-msgid "Previous Tab"
-msgstr ""
-
-#: EditorHeader.java:340
-msgid "Next Tab"
-msgstr ""
-
-#: EditorToolbar.java:41 EditorToolbar.java:46
-msgid "Verify"
-msgstr ""
-
-#: EditorToolbar.java:41
-msgid "Open"
-msgstr ""
-
-#: EditorToolbar.java:46
-msgid "New Editor Window"
-msgstr ""
-
-#: EditorToolbar.java:46
-msgid "Open in Another Window"
-msgstr ""
+#: UpdateCheck.java:118
+msgid "http://www.arduino.cc/en/Main/Software"
+msgstr "http://www.arduino.cc/en/Main/Software"
 
 #: FindReplace.java:80
 msgid "Find:"
@@ -885,106 +484,32 @@ msgstr ""
 msgid "Find"
 msgstr ""
 
-#: Platform.java:167
-msgid "No launcher available"
+#: SerialMonitor.java:93
+msgid "Send"
 msgstr ""
 
-#: Platform.java:168
-msgid ""
-"Unspecified platform, no launcher available.\n"
-"To enable opening URLs or folders, add a \n"
-"\"launcher=/path/to/app\" line to preferences.txt"
+#: SerialMonitor.java:110
+msgid "Autoscroll"
 msgstr ""
 
-#: Preferences.java:76 UpdateCheck.java:108
-msgid "Yes"
+#: SerialMonitor.java:112
+msgid "No line ending"
 msgstr ""
 
-#: Preferences.java:77 UpdateCheck.java:108
-msgid "No"
+#: SerialMonitor.java:112
+msgid "Newline"
 msgstr ""
 
-#: Preferences.java:80
-msgid "Browse"
+#: SerialMonitor.java:112
+msgid "Carriage return"
 msgstr ""
 
-#: Preferences.java:148
-msgid ""
-"Could not read default settings.\n"
-"You'll need to reinstall Arduino."
+#: SerialMonitor.java:112
+msgid "Both NL & CR"
 msgstr ""
 
-#: Preferences.java:180
-#, java-format
-msgid "Could not read preferences from {0}"
-msgstr ""
-
-#: Preferences.java:199
-msgid "Error reading preferences"
-msgstr ""
-
-#: Preferences.java:201
-#, java-format
-msgid ""
-"Error reading the preferences file. Please delete (or move)\n"
-"{0} and restart Arduino."
-msgstr ""
-
-#: Preferences.java:237
-msgid "Sketchbook location:"
-msgstr ""
-
-#: Preferences.java:252
-msgid "Select new sketchbook location"
-msgstr ""
-
-#: Preferences.java:276
-msgid "Editor font size: "
-msgstr ""
-
-#: Preferences.java:280
-msgid "  (requires restart of Arduino)"
-msgstr ""
-
-#: Preferences.java:293
-msgid "Show verbose output during: "
-msgstr ""
-
-#: Preferences.java:295
-msgid "compilation "
-msgstr ""
-
-#: Preferences.java:297
-msgid "upload"
-msgstr ""
-
-#: Preferences.java:315
-msgid "Use external editor"
-msgstr ""
-
-#: Preferences.java:325
-msgid "Check for updates on startup"
-msgstr ""
-
-#: Preferences.java:334
-msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr ""
-
-#: Preferences.java:345
-msgid "Automatically associate .ino files with Arduino"
-msgstr ""
-
-#: Preferences.java:356
-msgid "More preferences can be edited directly in the file"
-msgstr ""
-
-#: Preferences.java:385
-msgid "(edit only when Arduino is not running)"
-msgstr ""
-
-#: Preferences.java:532
-#, java-format
-msgid "ignoring invalid font size {0}"
+#: SerialMonitor.java:130 SerialMonitor.java:133
+msgid " baud"
 msgstr ""
 
 #: Serial.java:147
@@ -1018,32 +543,88 @@ msgstr ""
 msgid "Error inside Serial.{0}()"
 msgstr ""
 
-#: SerialMonitor.java:93
-msgid "Send"
+#: tools/AutoFormat.java:91
+msgid "Auto Format"
 msgstr ""
 
-#: SerialMonitor.java:110
-msgid "Autoscroll"
+#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
+msgid "No changes necessary for Auto Format."
 msgstr ""
 
-#: SerialMonitor.java:112
-msgid "No line ending"
+#: tools/AutoFormat.java:919
+msgid "Auto Format Canceled: Too many right parentheses."
 msgstr ""
 
-#: SerialMonitor.java:112
-msgid "Newline"
+#: tools/AutoFormat.java:922
+msgid "Auto Format Canceled: Too many left parentheses."
 msgstr ""
 
-#: SerialMonitor.java:112
-msgid "Carriage return"
+#: tools/AutoFormat.java:928
+msgid "Auto Format Canceled: Too many right curly braces."
 msgstr ""
 
-#: SerialMonitor.java:112
-msgid "Both NL & CR"
+#: tools/AutoFormat.java:931
+msgid "Auto Format Canceled: Too many left curly braces."
 msgstr ""
 
-#: SerialMonitor.java:130 SerialMonitor.java:133
-msgid " baud"
+#: tools/AutoFormat.java:941
+msgid "Auto Format finished."
+msgstr ""
+
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
+#: tools/FixEncoding.java:79
+msgid "Fix Encoding & Reload"
+msgstr ""
+
+#: tools/FixEncoding.java:57
+msgid "Discard all changes and reload sketch?"
+msgstr ""
+
+#: tools/FixEncoding.java:77
+msgid ""
+"An error occurred while trying to fix the file encoding.\n"
+"Do not attempt to save this sketch as it may overwrite\n"
+"the old version. Use Open to re-open the sketch and try again.\n"
+msgstr ""
+
+#: tools/Archiver.java:48
+msgid "Archive Sketch"
+msgstr ""
+
+#: tools/Archiver.java:59
+msgid "yyMMdd"
+msgstr ""
+
+#: tools/Archiver.java:74
+msgid "Couldn't archive sketch"
+msgstr ""
+
+#: tools/Archiver.java:75
+msgid ""
+"Archiving the sketch has been canceled because\n"
+"the sketch couldn't save properly."
+msgstr ""
+
+#: tools/Archiver.java:109
+msgid "Archive sketch as:"
+msgstr ""
+
+#: tools/Archiver.java:139
+msgid "Archive sketch canceled."
+msgstr ""
+
+#: SketchCode.java:83
+#, java-format
+msgid "Error while loading code {0}"
+msgstr ""
+
+#: SketchCode.java:258
+#, java-format
+msgid ""
+"\"{0}\" contains unrecognized characters.If this code was created with an "
+"older version of Processing,you may need to use Tools -> Fix Encoding & "
+"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
+"todelete the bad characters to get rid of this warning."
 msgstr ""
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
@@ -1147,6 +728,10 @@ msgstr ""
 #: Sketch.java:592
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
+msgstr ""
+
+#: Sketch.java:595 EditorHeader.java:314
+msgid "Delete"
 msgstr ""
 
 #: Sketch.java:620
@@ -1310,18 +895,438 @@ msgid ""
 "They should also be less less than 64 characters long."
 msgstr ""
 
-#: SketchCode.java:83
-#, java-format
-msgid "Error while loading code {0}"
+#: debug/Uploader.java:52
+msgid "https://developer.berlios.de/bugs/?group_id=3590"
 msgstr ""
 
-#: SketchCode.java:258
+#: debug/Uploader.java:54 debug/Compiler.java:43
+#, java-format
+msgid "Compiler error, please submit this code to {0}"
+msgstr "Pogreška u kompiliranju, molim pošaljite kod {0}"
+
+#: debug/Uploader.java:199
 #, java-format
 msgid ""
-"\"{0}\" contains unrecognized characters.If this code was created with an "
-"older version of Processing,you may need to use Tools -> Fix Encoding & "
-"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
-"todelete the bad characters to get rid of this warning."
+"the selected serial port {0} does not exist or your board is not connected"
+msgstr ""
+
+#: debug/Uploader.java:203
+msgid ""
+"Device is not responding, check the right serial port is selected or RESET "
+"the board right before exporting"
+msgstr ""
+
+#: debug/Uploader.java:209
+msgid ""
+"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for suggestions."
+msgstr ""
+
+#: debug/Uploader.java:213
+msgid ""
+"Wrong microcontroller found.  Did you select the right board from the Tools "
+"> Board menu?"
+msgstr ""
+
+#: debug/Compiler.java:41
+msgid "http://code.google.com/p/arduino/issues/list"
+msgstr ""
+
+#: debug/Compiler.java:79
+msgid "No board selected; please choose a board from the Tools > Board menu."
+msgstr "Nijedna pločica nije izabrana. Molimo izaberite pločicu iz menija Alati > Pločice"
+
+#: debug/Compiler.java:422
+#, java-format
+msgid "{0} returned {1}"
+msgstr ""
+
+#: debug/Compiler.java:426
+msgid "Error compiling."
+msgstr "Pogreška u kompiliranju"
+
+#: debug/Compiler.java:465
+msgid "Please import the SPI library from the Sketch > Import Library menu."
+msgstr "Importirajte SPI datoteku iz menija Skeć > Import"
+
+#: debug/Compiler.java:466
+msgid ""
+"\n"
+"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
+"You appear to be using it or another library that depends on the SPI "
+"library.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:471
+msgid "The 'BYTE' keyword is no longer supported."
+msgstr ""
+
+#: debug/Compiler.java:472
+msgid ""
+"\n"
+"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
+"Please use Serial.write() instead.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:477
+msgid "The Server class has been renamed EthernetServer."
+msgstr ""
+
+#: debug/Compiler.java:478
+msgid ""
+"\n"
+"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
+"to EthernetServer.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:483
+msgid "The Client class has been renamed EthernetClient."
+msgstr ""
+
+#: debug/Compiler.java:484
+msgid ""
+"\n"
+"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
+"to EthernetClient.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:489
+msgid "The Udp class has been renamed EthernetUdp."
+msgstr ""
+
+#: debug/Compiler.java:490
+msgid ""
+"\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
+"EthernetClient.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:495
+msgid "Wire.send() has been renamed Wire.write()."
+msgstr ""
+
+#: debug/Compiler.java:496
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
+"consistency with other libraries.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:501
+msgid "Wire.receive() has been renamed Wire.read()."
+msgstr ""
+
+#: debug/Compiler.java:502
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
+"for consistency with other libraries.\n"
+"\n"
+msgstr ""
+
+#: EditorConsole.java:152
+msgid "Console Error"
+msgstr ""
+
+#: EditorConsole.java:153
+msgid ""
+"A problem occurred while trying to open the\n"
+"files used to store the console output."
+msgstr ""
+
+#: Base.java:181
+msgid "Non-fatal error while setting the Look & Feel."
+msgstr ""
+
+#: Base.java:182
+msgid "The error message follows, however Arduino should run fine."
+msgstr ""
+
+#: Base.java:217
+msgid "Problem Setting the Platform"
+msgstr ""
+
+#: Base.java:218
+msgid ""
+"An unknown error occurred while trying to load\n"
+"platform-specific code for your machine."
+msgstr ""
+
+#: Base.java:229
+msgid "Please install JDK 1.5 or later"
+msgstr "Instalirajte JDK 1.5 ili noviju verziju"
+
+#: Base.java:230
+msgid ""
+"Arduino requires a full JDK (not just a JRE)\n"
+"to run. Please install JDK 1.5 or later.\n"
+"More information can be found in the reference."
+msgstr ""
+"Za upotrebu Arduina je potrebna puna instalacija JDK-a (ne same JRE)\n"
+"Instalirajte JDK 1.5 ili noviju verziju.\n"
+"Dodatne informacije mozete naci u referenci."
+
+#: Base.java:254
+msgid "Sketchbook folder disappeared"
+msgstr ""
+
+#: Base.java:255
+msgid ""
+"The sketchbook folder no longer exists.\n"
+"Arduino will switch to the default sketchbook\n"
+"location, and create a new sketchbook folder if\n"
+"necessary. Arduino will then stop talking about\n"
+"himself in the third person."
+msgstr ""
+
+#: Base.java:529
+msgid "Time for a Break"
+msgstr "Vrijeme je za pauzu"
+
+#: Base.java:530
+msgid ""
+"You've reached the limit for auto naming of new sketches\n"
+"for the day. How about going for a walk instead?"
+msgstr ""
+"Dostigli ste današnji limit za automatsko davanje imena novih skećova\n"
+"Zašto ne bi otišli u šetnju?"
+
+#: Base.java:534
+msgid "Sunshine"
+msgstr "Sunce"
+
+#: Base.java:535
+msgid "No really, time for some fresh air for you."
+msgstr "Ne, vrijeme je da otiđete na zrak"
+
+#: Base.java:630
+msgid "Open an Arduino sketch..."
+msgstr "Otvori Arduino skeć..."
+
+#: Base.java:769
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
+"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Jeste li sigurni da želite odustati?</b><p>Zatvaranje zadnjeg otvorenog skeća ce zatvoriti Arduino."
+
+#: Base.java:967
+msgid "Contributed"
+msgstr ""
+
+#: Base.java:1092
+msgid "Sketch Does Not Exist"
+msgstr "Skeć ne postoji"
+
+#: Base.java:1093
+msgid ""
+"The selected sketch no longer exists.\n"
+"You may need to restart Arduino to update\n"
+"the sketchbook menu."
+msgstr ""
+"Izabrali ste skeć koji više ne postoji.\n"
+"Provajte ponovno startati Arduino da bi ste obnovili\n"
+"meni"
+
+#: Base.java:1122
+#, java-format
+msgid ""
+"The sketch \"{0}\" cannot be used.\n"
+"Sketch names must contain only basic letters and numbers\n"
+"(ASCII-only with no spaces, and it cannot start with a number).\n"
+"To get rid of this message, remove the sketch from\n"
+"{1}"
+msgstr ""
+"Skeć \"{0}\" se ne moze koristiti.\n"
+"Ime skeća se smi samo sastojati od obićnih slova i brojeva.\n"
+"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
+"Da bi ste zatvorili ovu poruku, izbrišite skeć iz\n"
+"{1}"
+
+#: Base.java:1129
+msgid "Ignoring sketch with bad name"
+msgstr "Skeć sa nevažecem imenom se ignorira"
+
+#: Base.java:1199
+#, java-format
+msgid ""
+"The library \"{0}\" cannot be used.\n"
+"Library names must contain only basic letters and numbers.\n"
+"(ASCII only and no spaces, and it cannot start with a number)"
+msgstr ""
+"Ime library-a se smi samo sastojati od obićnih slova i brojeva.\n"
+"(samo ASCII bez razmaknica, i ne smi poćeti sa brojem).\n"
+
+#: Base.java:1204
+msgid "Ignoring bad library name"
+msgstr "Library sa nevažecem imenom se ignorira"
+
+#: Base.java:1429
+msgid "Problem getting data folder"
+msgstr ""
+
+#: Base.java:1430
+msgid "Error getting the Arduino data folder."
+msgstr ""
+
+#: Base.java:1437
+msgid "Settings issues"
+msgstr ""
+
+#: Base.java:1438
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your settings."
+msgstr ""
+
+#: Base.java:1599
+msgid "You forgot your sketchbook"
+msgstr "Zaboravili ste skeć knižicu"
+
+#: Base.java:1600
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your sketchbook."
+msgstr ""
+
+#: Base.java:1620
+msgid "Select (or create new) folder for sketches..."
+msgstr "Izaberite ili napravite novi direktorij za skećove"
+
+#: Base.java:1644
+msgid "Problem Opening URL"
+msgstr "Problem u otvaranju URL-a"
+
+#: Base.java:1645
+#, java-format
+msgid ""
+"Could not open the URL\n"
+"{0}"
+msgstr ""
+"Dostup URL-u nije bio uspješan\n"
+"{0}"
+
+#: Base.java:1668
+msgid "Problem Opening Folder"
+msgstr "Problem u otvaranju direktorija"
+
+#: Base.java:1669
+#, java-format
+msgid ""
+"Could not open the folder\n"
+"{0}"
+msgstr ""
+"Dostup direktoriju nije bio uspješan\n"
+"{0}"
+
+#: Base.java:1782
+msgid "Guide_MacOSX.html"
+msgstr ""
+
+#: Base.java:1784
+msgid "Guide_Windows.html"
+msgstr ""
+
+#: Base.java:1786
+msgid "http://www.arduino.cc/playground/Learning/Linux"
+msgstr ""
+
+#: Base.java:1791
+msgid "index.html"
+msgstr ""
+
+#: Base.java:1796
+msgid "Guide_Environment.html"
+msgstr ""
+
+#: Base.java:1801
+msgid "environment"
+msgstr "okolina"
+
+#: Base.java:1801
+msgid "platforms.html"
+msgstr ""
+
+#: Base.java:1806
+msgid "Guide_Troubleshooting.html"
+msgstr ""
+
+#: Base.java:1811
+msgid "FAQ.html"
+msgstr ""
+
+#: Base.java:1823
+msgid "Message"
+msgstr "Poruka"
+
+#: Base.java:1839
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: Base.java:2193
+#, java-format
+msgid "Could not remove old version of {0}"
+msgstr ""
+
+#: Base.java:2203
+#, java-format
+msgid "Could not replace {0}"
+msgstr ""
+
+#: Base.java:2244 Base.java:2267
+#, java-format
+msgid "Could not delete {0}"
+msgstr ""
+
+#: EditorHeader.java:292
+msgid "New Tab"
+msgstr ""
+
+#: EditorHeader.java:300
+msgid "Rename"
+msgstr ""
+
+#: EditorHeader.java:326
+msgid "Previous Tab"
+msgstr ""
+
+#: EditorHeader.java:340
+msgid "Next Tab"
+msgstr ""
+
+#: EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Verify"
+msgstr ""
+
+#: EditorToolbar.java:41
+msgid "Open"
+msgstr ""
+
+#: EditorToolbar.java:46
+msgid "New Editor Window"
+msgstr ""
+
+#: EditorToolbar.java:46
+msgid "Open in Another Window"
+msgstr ""
+
+#: Platform.java:167
+msgid "No launcher available"
+msgstr ""
+
+#: Platform.java:168
+msgid ""
+"Unspecified platform, no launcher available.\n"
+"To enable opening URLs or folders, add a \n"
+"\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
 
 #: Theme.java:52
@@ -1330,90 +1335,85 @@ msgid ""
 "You'll need to reinstall Processing."
 msgstr ""
 
-#: tools/Archiver.java:48
-msgid "Archive Sketch"
+#: Preferences.java:80
+msgid "Browse"
 msgstr ""
 
-#: tools/Archiver.java:59
-msgid "yyMMdd"
-msgstr ""
-
-#: tools/Archiver.java:74
-msgid "Couldn't archive sketch"
-msgstr ""
-
-#: tools/Archiver.java:75
+#: Preferences.java:148
 msgid ""
-"Archiving the sketch has been canceled because\n"
-"the sketch couldn't save properly."
+"Could not read default settings.\n"
+"You'll need to reinstall Arduino."
 msgstr ""
 
-#: tools/Archiver.java:109
-msgid "Archive sketch as:"
+#: Preferences.java:180
+#, java-format
+msgid "Could not read preferences from {0}"
 msgstr ""
 
-#: tools/Archiver.java:139
-msgid "Archive sketch canceled."
+#: Preferences.java:199
+msgid "Error reading preferences"
 msgstr ""
 
-#: tools/AutoFormat.java:91
-msgid "Auto Format"
-msgstr ""
-
-#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
-msgid "No changes necessary for Auto Format."
-msgstr ""
-
-#: tools/AutoFormat.java:919
-msgid "Auto Format Canceled: Too many right parentheses."
-msgstr ""
-
-#: tools/AutoFormat.java:922
-msgid "Auto Format Canceled: Too many left parentheses."
-msgstr ""
-
-#: tools/AutoFormat.java:928
-msgid "Auto Format Canceled: Too many right curly braces."
-msgstr ""
-
-#: tools/AutoFormat.java:931
-msgid "Auto Format Canceled: Too many left curly braces."
-msgstr ""
-
-#: tools/AutoFormat.java:941
-msgid "Auto Format finished."
-msgstr ""
-
-#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
-#: tools/FixEncoding.java:79
-msgid "Fix Encoding & Reload"
-msgstr ""
-
-#: tools/FixEncoding.java:57
-msgid "Discard all changes and reload sketch?"
-msgstr ""
-
-#: tools/FixEncoding.java:77
+#: Preferences.java:201
+#, java-format
 msgid ""
-"An error occurred while trying to fix the file encoding.\n"
-"Do not attempt to save this sketch as it may overwrite\n"
-"the old version. Use Open to re-open the sketch and try again.\n"
+"Error reading the preferences file. Please delete (or move)\n"
+"{0} and restart Arduino."
 msgstr ""
 
-#: UpdateCheck.java:53
-msgid "http://www.arduino.cc/latest.txt"
+#: Preferences.java:237
+msgid "Sketchbook location:"
 msgstr ""
 
-#: UpdateCheck.java:103
-msgid ""
-"A new version of Arduino is available,\n"
-"would you like to visit the Arduino download page?"
+#: Preferences.java:252
+msgid "Select new sketchbook location"
 msgstr ""
 
-#: UpdateCheck.java:111
-msgid "Update"
+#: Preferences.java:276
+msgid "Editor font size: "
 msgstr ""
 
-#: UpdateCheck.java:118
-msgid "http://www.arduino.cc/en/Main/Software"
-msgstr "http://www.arduino.cc/en/Main/Software"
+#: Preferences.java:280
+msgid "  (requires restart of Arduino)"
+msgstr ""
+
+#: Preferences.java:293
+msgid "Show verbose output during: "
+msgstr ""
+
+#: Preferences.java:295
+msgid "compilation "
+msgstr ""
+
+#: Preferences.java:297
+msgid "upload"
+msgstr ""
+
+#: Preferences.java:315
+msgid "Use external editor"
+msgstr ""
+
+#: Preferences.java:325
+msgid "Check for updates on startup"
+msgstr ""
+
+#: Preferences.java:334
+msgid "Update sketch files to new extension on save (.pde -> .ino)"
+msgstr ""
+
+#: Preferences.java:345
+msgid "Automatically associate .ino files with Arduino"
+msgstr ""
+
+#: Preferences.java:356
+msgid "More preferences can be edited directly in the file"
+msgstr ""
+
+#: Preferences.java:385
+msgid "(edit only when Arduino is not running)"
+msgstr ""
+
+#: Preferences.java:532
+#, java-format
+msgid "ignoring invalid font size {0}"
+msgstr ""
