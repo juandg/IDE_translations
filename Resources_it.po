@@ -613,7 +613,7 @@ msgstr "Archivia Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "aaMMgg" 
+msgstr "yyMMdd" 
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
