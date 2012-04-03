@@ -920,7 +920,7 @@ msgstr "บ๖ยิด๓ะกะด"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr ""
+msgstr "ธ฿มม"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
