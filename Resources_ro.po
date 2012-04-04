@@ -1089,8 +1089,8 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-"Buferul readBytesUntil() byte este prea mic pentru {0} bytes "
-"incluzând caracterul {1}"
+"Buferul este prea mic pentru cei {0} bytes specificati ca parametru pentru functia readBytesUntil()  "
+"luand in considerare si caracterul mentionat la {1}"
 
 #: Serial.java:567
 #, java-format
@@ -1299,15 +1299,15 @@ msgstr ""
 
 #: Sketch.java:886
 msgid "How very Borges of you"
-msgstr "How very Borges of you"
+msgstr "Uau, i-ai tras un OZN aici"
 
 #: Sketch.java:887
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"You cannot save the sketch into a folder\n"
-"inside itself. This would go on forever."
+"Nu poți salva o schiă într-o altă schiţă.\n"
+"Acest lucru ar putea dura o veşnicie."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
