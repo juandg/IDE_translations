@@ -20,260 +20,260 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr ""
+msgstr "Walang naidagdag na file sa sketch."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr ""
+msgstr "Isang file ang naidagdag sa sketch."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr ""
+msgstr "{0} files and naidagdag sa sketch."
 
 #: Editor.java:484
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr ""
+msgstr "Bago"
 
 #: Editor.java:494 Base.java:900
 msgid "Open..."
-msgstr ""
+msgstr "Buksan..."
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr ""
+msgstr "Sketchbook"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr ""
+msgstr "Mga Halimbawa"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr ""
+msgstr "Isara"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr ""
+msgstr "I-save bilang"
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr ""
+msgstr "I-upload"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr ""
+msgstr "I-upload gamit ang Programmer"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr ""
+msgstr "Kompigurasyon ng Pahina"
 
 #: Editor.java:564
 msgid "Print"
-msgstr ""
+msgstr "I-print"
 
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
-msgstr ""
+msgstr "Mga Kagustuhan"
 
 #: Editor.java:586 Base.java:779
 msgid "Quit"
-msgstr ""
+msgstr "Tumigil"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr ""
+msgstr "Sketch"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr ""
+msgstr "Beripikahin / I-compile"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr ""
+msgstr "Humango ng Library..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr ""
+msgstr "Ipakita ang Sketch Folder"
 
 #: Editor.java:643
 msgid "Add File..."
-msgstr ""
+msgstr "Magdagdag ng File..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr ""
+msgstr "Mga Kasangkapan"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr ""
+msgstr "Serial Monitor"
 
 #: Editor.java:682
 msgid "Board"
-msgstr ""
+msgstr "Board"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr ""
+msgstr "Serial Port"
 
 #: Editor.java:695
 msgid "Programmer"
-msgstr ""
+msgstr "Programmer"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr ""
+msgstr "Ilagay ang Bootloader"
 
 #: Editor.java:923
 msgid "serialMenu is null"
-msgstr ""
+msgstr "serialMenu ay null"
 
 #: Editor.java:927 Editor.java:934
 msgid "name is null"
-msgstr ""
+msgstr "ang pangalan ay null"
 
 #: Editor.java:986
 msgid "error retrieving port list"
-msgstr ""
+msgstr "may mali sa pagkuha ng listahan ng port"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr ""
+msgstr "Tulong"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr ""
+msgstr "Mga Patnubay sa Pagsisimula"
 
 #: Editor.java:1049
 msgid "Environment"
-msgstr ""
+msgstr "Environment"
 
 #: Editor.java:1057
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Mga Sagot sa Problema"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr ""
+msgstr "Sanggunian"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr ""
+msgstr "Hanapin sa Sanggunian"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Mga Karaniwang Tanong"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr ""
+msgstr "Bisitahin ang Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
-msgstr ""
+msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
-msgstr ""
+msgstr "Tungkol sa Arduino"
 
 #: Editor.java:1116
 msgid "Edit"
-msgstr ""
+msgstr "Baguhin"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
-msgstr ""
+msgstr "Ipawalang Bisa"
 
 #: Editor.java:1124 Editor.java:1126 Editor.java:1376
 msgid "Redo"
-msgstr ""
+msgstr "Ulitin Muli"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
-msgstr ""
+msgstr "I-Cut"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
-msgstr ""
+msgstr "Kopyahin"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr ""
+msgstr "Kopyahin para sa Forum"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
-msgstr ""
+msgstr "Kopyahin bilang HTML"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
-msgstr ""
+msgstr "Ilagay"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
-msgstr ""
+msgstr "Piliin Lahat"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
-msgstr ""
+msgstr "I-Comment/I-Uncomment"
 
 #: Editor.java:1202 Editor.java:2710
 msgid "Increase Indent"
-msgstr ""
+msgstr "Dagdagan ang Indent"
 
 #: Editor.java:1210 Editor.java:2718
 msgid "Decrease Indent"
-msgstr ""
+msgstr "Bawasan ang Indent"
 
 #: Editor.java:1220
 msgid "Find..."
-msgstr ""
+msgstr "Hanapin..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr ""
+msgstr "Hanapin ang Susunod"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr ""
+msgstr "Hanapin ang Nauna"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
-msgstr ""
+msgstr "Gamitin ang Napili sa Paghahanap"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr ""
+msgstr "Pumili muna ng salita na hahanapin sa sanggunian."
 
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr ""
+msgstr "Walang sanggunian para sa \"{0}\""
 
 #: Editor.java:1826
 #, java-format
 msgid "{0}.html"
-msgstr ""
+msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr ""
+msgstr "Kinokompile ang Sketch..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
-msgstr ""
+msgstr "Tapos na ang pagkokompile."
 
 #: Editor.java:1973
 #, java-format
 msgid "Save changes to \"{0}\"?  "
-msgstr ""
+msgstr "I-Save ang mga pagbabago sa \"{0}\"?  "
 
 #: Editor.java:2006
 msgid ""
@@ -281,31 +281,33 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
-msgstr ""
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Nais mo bang I-save ang iyong mga nagawa<BR> bago isara?</b><p>Mawawala ang lahat ng ginawa kapag hindi mo I-sesave."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
-msgstr ""
+msgstr "Kanselahin"
 
 #: Editor.java:2017
 msgid "Don't Save"
-msgstr ""
+msgstr "Huwag I-Save"
 
 #: Editor.java:2089
 msgid "Bad file selected"
-msgstr ""
+msgstr "Mali ang File na napili"
 
 #: Editor.java:2090
 msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
+"Maari lamang buksan ng Processing ang sariling sketches\n"
+"at iba pang file na may extension na .ino o .pde"
 
 #: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
 #: Sketch.java:1046 Preferences.java:79
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: Editor.java:2100
 #, java-format
@@ -314,50 +316,53 @@ msgid ""
 "a sketch folder named \"{1}\".\n"
 "Create this folder, move the file, and continue?"
 msgstr ""
+"Ang file \"{0}\" ay nararapat na nasa loob\n"
+"ng sketch folder na \"{1}\".\n"
+"I-create ang folder, ilipat ang file at magpatuloy?"
 
 #: Editor.java:2109
 msgid "Moving"
-msgstr ""
+msgstr "Inililipat"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
 #: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
 msgid "Error"
-msgstr ""
+msgstr "Mali"
 
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr ""
+msgstr "Mayroon nang folder na \"{0}\". Hindi mabuksan ang sketch."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr ""
+msgstr "Hindi makalikha ng sketch folder."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
-msgstr ""
+msgstr "Hindi makopya sa tamang lokasyon"
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr ""
+msgstr "Hindi makalikha ng sketch."
 
 #: Editor.java:2166
 #, java-format
 msgid "{0} | Arduino {1}"
-msgstr ""
+msgstr "{0} | Arduino {1}"
 
 #: Editor.java:2223 Editor.java:2261
 msgid "Saving..."
-msgstr ""
+msgstr "Sine-save..."
 
 #: Editor.java:2228 Editor.java:2264
 msgid "Done Saving."
-msgstr ""
+msgstr "Tapos na sa pag save."
 
 #: Editor.java:2270
 msgid "Save Canceled."
-msgstr ""
+msgstr "Nakansela ang pag save."
 
 #: Editor.java:2296
 #, java-format
@@ -365,63 +370,65 @@ msgid ""
 "Serial port {0} not found.\n"
 "Retry the upload with another serial port?"
 msgstr ""
+"Hindi makita ang serial port na {0}.\n"
+"Subukan muli ang pagupload gamit ang ibang serial port?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr ""
+msgstr "Ina-upload sa I/O Board..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr ""
+msgstr "Tapos na ang pagupload."
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
-msgstr ""
+msgstr "Nakansela ang pag upload."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr ""
+msgstr "I-save ang mga nagawa bago i-export?"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr ""
+msgstr "Nakansela ang pag export, kailangan muna i-save ang mga nagawa."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
-msgstr ""
+msgstr "Inilalagay ang bootloader sa I/O Board (Maaring abutin ng isang minuto)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr ""
+msgstr "Tapos na ang paglagay ng bootloader."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr ""
+msgstr "May mali habang naglalagay ng bootloader."
 
 #: Editor.java:2500
 msgid "Printing..."
-msgstr ""
+msgstr "Nagpi-print..."
 
 #: Editor.java:2517
 msgid "Done printing."
-msgstr ""
+msgstr "Tapos na ang pag print."
 
 #: Editor.java:2520
 msgid "Error while printing."
-msgstr ""
+msgstr "May mali habang nagpi-print."
 
 #: Editor.java:2524
 msgid "Printing canceled."
-msgstr ""
+msgstr "Nakansela ang pagpi-print."
 
 #: Editor.java:2572
 #, java-format
 msgid "Bad error line: {0}"
-msgstr ""
+msgstr "May mali sa linya: {0}"
 
 #: Editor.java:2641
 msgid "Open URL"
-msgstr ""
+msgstr "Buksan ang URL"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
