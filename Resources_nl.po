@@ -1,17 +1,24 @@
-# Persian translations for the Arduino IDE.
-# Copyright (C) 2012
-# This file is distributed under the same license as the Arduino IDE package.
-# Ebrahim Byagowi <ebrahim@byagowi.com>, 2012.
+# Dutch translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# David A. Mellis <>, 2012.
+# Marcel Veldhuijzen <>, 2012.
+# JO3RI <>, 2012.
 #
+# Notes for the Dutch translators:
+# - Sketch en Sketchbook zijn niet vertaald. Ik zie dat dit in andere talen (bijv. Duits) ook niet is gedaan.
+# - Library is vertaald naar Bibliotheek
+# Menu Tools vertaald als Extra
+
 msgid ""
 msgstr ""
-"Project-Id-Version: Arduino 1.01\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-30 16:19+0330\n"
-"Last-Translator: \n"
-"Language-Team: Persian\n"
-"Language: fa\n"
+"PO-Revision-Date: 2012-03-29 10:24-0400\n"
+"Last-Translator: Marcel Veldhuijzen <>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,161 +26,161 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "پرونده‌ای به طرح افزوده نشد."
+msgstr "Er werden geen bestanden aan de sketch toegevoegd."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "یک پرونده به طرح افزوده شد."
+msgstr "Er werd één bestand aan de sketch toegevoegd."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr "{0} پرونده به طرح افزوده شد."
+msgstr "Er werden {0} bestanden aan de sketch toegevoegd."
 
 #: Editor.java:484
 msgid "File"
-msgstr "پرونده"
+msgstr "Bestand"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr "جدید"
+msgstr "Nieuw"
 
 #: Editor.java:494 Base.java:900
 msgid "Open..."
-msgstr "باز کردن...."
+msgstr "Openen..."
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr "کتاب طرح"
+msgstr "Sketchbook"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr "نمونه‌ها"
+msgstr "Voorbeelden"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr "یستن"
+msgstr "Sluiten"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr "ذخیره"
+msgstr "Opslaan"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr "ذخیره به عنوان...."
+msgstr "Opslaan als..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr "بارگذاری"
+msgstr "Uploaden"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "بارگذاری به کمک پروگرامر"
+msgstr "Uploaden met programmer"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr "تنظیم صفحه"
+msgstr "Pagina-instellingen"
 
 #: Editor.java:564
 msgid "Print"
-msgstr "چاپ"
+msgstr "Afdrukken"
 
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
-msgstr "ترجیحات"
+msgstr "Voorkeuren"
 
 #: Editor.java:586 Base.java:779
 msgid "Quit"
-msgstr "خروج"
+msgstr "Afsluiten"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr "طرح"
+msgstr "Sketch"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr "بازبینی / کامپایل"
+msgstr "Controleren/compileren"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr "واردسازی کتابخانه..."
+msgstr "Bibliotheek importeren..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "نمایش پوشهٔ طرح"
+msgstr "Sketch-map tonen"
 
 #: Editor.java:643
 msgid "Add File..."
-msgstr "افزودن پرونده..."
+msgstr "Bestand toevoegen..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr "ابزارها"
+msgstr "Extra"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr "نمایشگر سریال"
+msgstr "Seriële-monitor"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "برد"
+msgstr "Board"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr "پورت سریال"
+msgstr "Seriële poort"
 
 #: Editor.java:695
 msgid "Programmer"
-msgstr "پروگرامر"
+msgstr "Programmer"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "سوزاندن بوت‌لودر"
+msgstr "Bootloader branden"
 
 #: Editor.java:923
 msgid "serialMenu is null"
-msgstr "serialMenu تهی است"
+msgstr "serialMenu heeft de waarde null"
 
 #: Editor.java:927 Editor.java:934
 msgid "name is null"
-msgstr "name تهی است"
+msgstr "name heeft de waarde null"
 
 #: Editor.java:986
 msgid "error retrieving port list"
-msgstr "خطای بازیابی فهرست درگاه‌ها"
+msgstr "fout bij opvragen lijst van poorten"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr "کمک"
+msgstr "Help"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr "شروع کار"
+msgstr "Aan de slag"
 
 #: Editor.java:1049
 msgid "Environment"
-msgstr "محیط"
+msgstr "Omgeving"
 
 #: Editor.java:1057
 msgid "Troubleshooting"
-msgstr "خطایابی"
+msgstr "Problemen oplossen"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr "مرجع"
+msgstr "Referentie"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr "یافتن در مرجع"
+msgstr "Zoeken in referentie"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
-msgstr "سوال‌های متداول پرسیده‌شده"
+msgstr "Veel gestelde vragen"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr "بازدید Arduino.cc"
+msgstr "Bezoek Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
@@ -181,80 +188,80 @@ msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
-msgstr "درباره آردئینو"
+msgstr "Over Arduino"
 
 #: Editor.java:1116
 msgid "Edit"
-msgstr "ویرایش"
+msgstr "Bewerken"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
-msgstr "بازگردانی"
+msgstr "Ongedaan maken"
 
 #: Editor.java:1124 Editor.java:1126 Editor.java:1376
 msgid "Redo"
-msgstr "انجام دوباره"
+msgstr "Opnieuw"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
-msgstr "بریدن"
+msgstr "Knippen"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
-msgstr "رونوشت"
+msgstr "Kopiëren"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr "رونوشت برای تالار گفتگو"
+msgstr "Kopiëren voor forum"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
-msgstr "رونوشت به عنوان اچ‌تی‌ام‌ال"
+msgstr "Kopiëren als HTML"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
-msgstr "الساق"
+msgstr "Plakken"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
-msgstr "انتخاب همه"
+msgstr "Alles selecteren"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
-msgstr "توضیح‌کردن/از توضیح در آوردن"
+msgstr "Incommentariëren/Uitcommentariëren"
 
 #: Editor.java:1202 Editor.java:2710
 msgid "Increase Indent"
-msgstr "افزایش تورفتگی"
+msgstr "Inspringen"
 
 #: Editor.java:1210 Editor.java:2718
 msgid "Decrease Indent"
-msgstr "کاهش تورفتگی"
+msgstr "Inspringing verminderen"
 
 #: Editor.java:1220
 msgid "Find..."
-msgstr "یافتن..."
+msgstr "Zoeken..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr "یافتن بعدی"
+msgstr "Zoek volgende"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr "یافتن قبلی"
+msgstr "Zoek vorige"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
-msgstr "استفاده از گزینش برای یافتن"
+msgstr "Gebruik selectie om te zoeken"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr "ابتدا لغتی برای یافتن در مرجع انتخاب کنید."
+msgstr "Selecteer eerst een woord om te zoeken in de referentie."
 
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr "مرجعی برای \"{0}\" موجود نیست"
+msgstr "Geen verwijzing beschikbaar voor \"{0}\""
 
 #: Editor.java:1826
 #, java-format
@@ -263,16 +270,16 @@ msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "کامپایل‌کردن طرح..."
+msgstr "Bezig met compileren van de sketch..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
-msgstr "انجام کامپایل کردن."
+msgstr "Compileren voltooid"
 
 #: Editor.java:1973
 #, java-format
 msgid "Save changes to \"{0}\"?  "
-msgstr "ذخیرهٔ تغییرات در \"{0}\"?"
+msgstr "Wijzigingen in \"{0}\" opslaan?"
 
 #: Editor.java:2006
 msgid ""
@@ -280,33 +287,37 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
-msgstr "<html dir=\"RTL\"> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>آیا می‌خواهید تغییرات به این طرح<BR> پیش از بستن ذخیره کنید؟</b><p>اگر شما ذخیره کنید تغییراتتان گم خواهند شد."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Wilt u "
+"de wijzigingen in deze sketch opslaan?</b><p>Als u ze niet opslaat zullen"
+" de wijzigingen verloren gaan."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
-msgstr "فسخ‌کردن"
+msgstr "Annuleren"
 
 #: Editor.java:2017
 msgid "Don't Save"
-msgstr "ذخیره نکن"
+msgstr "Niet opslaan"
 
 #: Editor.java:2089
 msgid "Bad file selected"
-msgstr "پرونده انتخاب‌شدهٔ نامناسب"
+msgstr "Verkeerd bestand geselecteerd"
 
 #: Editor.java:2090
 msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
-"Processing فقط می‌تواند طرح‌های خودش را باز کند\n"
-"و سایر پرونده‌هایی که با .ino یا .pde پایان می‌پذیرند"
+"Processing kan alleen zijn eigen sketches openen\n"
+"alsmede andere bestanden die eindigen op .ino of .pde"
 
 #: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
 #: Sketch.java:1046 Preferences.java:79
 msgid "OK"
-msgstr "اوکی"
+msgstr "OK"
 
 #: Editor.java:2100
 #, java-format
@@ -315,53 +326,53 @@ msgid ""
 "a sketch folder named \"{1}\".\n"
 "Create this folder, move the file, and continue?"
 msgstr ""
-"پرونده \"{0}\" می‌بایست داخل یک\n"
-"پوشهٔ طرح به نام \"{1}\" ذخیره گردند.\n"
-"ساختن این پوشه، انتقال پرونده و ادامه؟"
+"Het bestand \"{0}\" moet zich binnen\n"
+"een sketch-map met de naam \"{1}\" bevinden.\n"
+"Deze map aanmaken, bestand verplaatsen en doorgaan?"
 
 #: Editor.java:2109
 msgid "Moving"
-msgstr "انتقال"
+msgstr "Bezig met verplaatsen"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
 #: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
 msgid "Error"
-msgstr "خطا"
+msgstr "Foutmelding"
 
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "یک پوشه به نام \"{0}\" در حال حاضر موجود است. نمی‌توان طرح را باز نمود."
+msgstr "Er bestaat al een map met de naam \"{0}\". Kan de sketch niet openen."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "نمی‌توان پوشهٔ طرح را ایجاد نمود."
+msgstr "Kan de sketch-map niet openen."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
-msgstr "نمی‌توان به یک مکان مناسب کپی نمود."
+msgstr "Kon niet kopiëren naar een juiste locatie."
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "نمی‌توان طرح را ایجاد نمود."
+msgstr "Kon de sketch niet aanmaken"
 
 #: Editor.java:2166
 #, java-format
 msgid "{0} | Arduino {1}"
-msgstr "{0} | آردئینو {1}"
+msgstr "{0} | Arduino {1}"
 
 #: Editor.java:2223 Editor.java:2261
 msgid "Saving..."
-msgstr "ذخیره‌سازی...."
+msgstr "Bezig met opslaan..."
 
 #: Editor.java:2228 Editor.java:2264
 msgid "Done Saving."
-msgstr "ذخیره‌سازی انجام‌شد."
+msgstr "Opslaan voltooid."
 
 #: Editor.java:2270
 msgid "Save Canceled."
-msgstr "ذخیره‌سازی فسخ گشت."
+msgstr "Opslaan geannuleerd."
 
 #: Editor.java:2296
 #, java-format
@@ -369,65 +380,65 @@ msgid ""
 "Serial port {0} not found.\n"
 "Retry the upload with another serial port?"
 msgstr ""
-"درگاه سریال {0} یافت نشد.\n"
-"انجام مجدد باگذاری با درگاه سریالی دیگر؟"
+"Seriële poort {0} niet gevonden.\n"
+"Upload opnieuw proberen met een andere seriële poort?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "بارگذاری به برد I/O..."
+msgstr "Bezig met upload naar I/O-board..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "بارگذاری انجام‌شد."
+msgstr "Upload voltooid."
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
-msgstr "بارگذاری ابطال گشت."
+msgstr "Upload geannuleerd."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr "ذخیرهٔ تغییرات پیش از خارج‌سازی؟"
+msgstr "Wijzigingen opslaan voorafgaand aan de export?"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr "خارج‌سازی فسخ‌گردید، تغییرات ابتدا می‌بایست ذخیره گردند."
+msgstr "Exportactie geannuleerd, wijzigingen moeten eerst worden opgeslagen."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
-msgstr "سوزاندن bootleader به برد I/O (این ممکن است یک دقیقه به طول بیانجامد)..."
+msgstr "Bezig met het branden van de bootloader naar het I/O-board (dit kan even duren)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr "سوزاندن بوت‌لودر انجام گردید."
+msgstr "Branden van de bootloader voltooid."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "خطای به هنگام سوزاندن بوت‌لودر."
+msgstr "Fout tijdens branden bootloader."
 
 #: Editor.java:2500
 msgid "Printing..."
-msgstr "چاپ‌کردن..."
+msgstr "Bezig met afdrukken..."
 
 #: Editor.java:2517
 msgid "Done printing."
-msgstr "چاپ‌کردن به انجام رسید."
+msgstr "Afdrukken voltooid."
 
 #: Editor.java:2520
 msgid "Error while printing."
-msgstr "خطا هنگام چاپ‌کردن."
+msgstr "Fout tijdens afdrukken."
 
 #: Editor.java:2524
 msgid "Printing canceled."
-msgstr "چاپ ابطال گشت."
+msgstr "Afdrukken geannuleerd."
 
 #: Editor.java:2572
 #, java-format
 msgid "Bad error line: {0}"
-msgstr "خطای نامناسب خط: {0}"
+msgstr "Slechte foutregel: {0}"
 
 #: Editor.java:2641
 msgid "Open URL"
-msgstr "بازکردن URL"
+msgstr "URL openen"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
@@ -438,20 +449,20 @@ msgid ""
 "A new version of Arduino is available,\n"
 "would you like to visit the Arduino download page?"
 msgstr ""
-"نسخهٔ جدید از آردئینو موجود است،\n"
-"مایل هستید که صفحهٔ بارگیری آردئینو را مشاهده کنید؟"
+"Er is een nieuwe versie van Arduino beschikbaar,\n"
+"wilt u de Arduino download pagina bezoeken?"
 
 #: UpdateCheck.java:108 Preferences.java:76
 msgid "Yes"
-msgstr "بله"
+msgstr "Ja"
 
 #: UpdateCheck.java:108 Preferences.java:77
 msgid "No"
-msgstr "خیر"
+msgstr "Nee"
 
 #: UpdateCheck.java:111
 msgid "Update"
-msgstr "به‌روزرسانی"
+msgstr "Update"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
@@ -459,135 +470,141 @@ msgstr "http://www.arduino.cc/en/Main/Software"
 
 #: FindReplace.java:80
 msgid "Find:"
-msgstr "یافتن:"
+msgstr "Zoek:"
 
 #: FindReplace.java:81
 msgid "Replace with:"
-msgstr "جایگزین کردن:"
+msgstr "Vervangen door:"
 
 #: FindReplace.java:96
 msgid "Ignore Case"
-msgstr "نادیده‌گرفتن بزرگی/کوچکی"
+msgstr "Hoofd-/kleine letters negeren"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "پوشاندن اطراف"
+msgstr "Regelafbreking inschakelen"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
-msgstr "جایگزینی همه"
+msgstr "Alles vervangen"
 
 #: FindReplace.java:121 FindReplace.java:130 Sketch.java:1050
 msgid "Replace"
-msgstr "جایگزینی"
+msgstr "Vervangen"
 
 #: FindReplace.java:122 FindReplace.java:129
 msgid "Replace & Find"
-msgstr "جایگزینی و یافتن"
+msgstr "Zoek en vervang"
 
 #: FindReplace.java:123 FindReplace.java:128
 msgid "Previous"
-msgstr "قبلی"
+msgstr "Vorige"
 
 #: FindReplace.java:124 FindReplace.java:127
 msgid "Find"
-msgstr "یافتن"
+msgstr "Zoeken"
 
 #: SerialMonitor.java:93
 msgid "Send"
-msgstr "ارسال"
+msgstr "Verzenden"
 
 #: SerialMonitor.java:110
 msgid "Autoscroll"
-msgstr "حرکت‌خودکار"
+msgstr "Automatisch scrollen"
 
 #: SerialMonitor.java:112
 msgid "No line ending"
-msgstr "بدون پایان خط"
+msgstr "Geen regeleinde"
 
 #: SerialMonitor.java:112
 msgid "Newline"
-msgstr "خط جدید"
+msgstr "Newline"
 
 #: SerialMonitor.java:112
 msgid "Carriage return"
-msgstr "بازگشت Carriage"
+msgstr "Carriage return"
 
 #: SerialMonitor.java:112
 msgid "Both NL & CR"
-msgstr "هر دوی NL و CR"
+msgstr "Zowel NL en CR"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr " پهنا"
+msgstr " baud"
 
 #: Serial.java:147
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
-msgstr "درگاه سریال ''{0}'' درحال حاضر در حال استفاده‌است. سعی‌کنید هر برنامه‌ای که از آن استفاده می‌کنید خارج کنید."
+msgstr ""
+"Seriële poort ''{0}'' is reeds in gebruik. Sluit de programma's die de poort "
+"gebruiken af."
 
 #: Serial.java:154
 #, java-format
 msgid "Error opening serial port ''{0}''."
-msgstr "خطا به هنگام بازنمودن ''{0}''."
+msgstr "Fout bij het openen van de seriële poort ''{0}''."
 
 #: Serial.java:167
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
-msgstr "درگاه سریال ''{0}'' یافت نشد. آیا شما درست آن را از منوی ابزارها > درگاه سریال انتخاب نموده‌اید؟"
+msgstr ""
+"Seriële poort ''{0}'' niet gevonden. Heeft u de juiste poort geselecteerd uit "
+"het menu Tools > Seriële poort?"
 
 #: Serial.java:424
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
-msgstr "بافر بایت readBytesUntil() برای بیش از {0} بایت و شامل نویسهٔ {1} بسیار کوچک است"
+msgstr ""
+"De readBytesUntil()-byte-buffer is te klein voor de bytes {0} tot en "
+"met karakter {1}"
 
 #: Serial.java:567
 #, java-format
 msgid "Error inside Serial.{0}()"
-msgstr "خطای درونی. {0}()"
+msgstr "Fout binnen Serial.{0}()"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr "قالب‌بندی خودکار"
+msgstr "Automatisch formatteren"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "تغییری برای قالب‌بندی خودکار نیاز نیست."
+msgstr "Geen wijzigingen nodig voor automatisch formatteren."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "قالب‌بندی خودکار لغو گشت: پارانتز راست بیش از حدی وجود دارد."
+msgstr "Automatisch formatteren geannuleerd: te veel rechter haken."
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "قالب‌بندی خودکار لغو گشت: پارانتز چپ بیش از حدی وجود دارد."
+msgstr "Automatisch formatteren geannuleerd: te veel linker haken."
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "قالب‌بندی خودکار لغو گشت: حلقهٔ راست بیش از حدی وجود دارد."
+msgstr "Automatisch formatteren geannuleerd: te veel rechter accolades."
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "قالب‌بندی خودکار لغو گشت: حلقهٔ چپ بیش از حدی وجود دارد."
+msgstr "Automatisch formatteren geannuleerd: te veel linker accolades."
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "قالب‌بندی خودکار به پایان رسید."
+msgstr "Automatisch formatteren voltooid."
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr "خطازدایی کدگذاری و بارگیری مجدد"
+msgstr "Fix Encoding & Reload"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "دورانداختن همهٔ تغییرات و بارگیری مجدد طرح؟"
+msgstr "Wijzigingen verloren laten gaan en sketch opnieuw inlezen?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -595,13 +612,14 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
-"خطایی به عنوان اصلاح کدگذاری پرونده رخ‌داد.\n"
-"سعی نکنید این طرح را بر روی نسخهٔ قبلی ذخیرهٔ کنید.\n"
-"از بازکردن را بازکردن مجدد طرح استفاده کنید و دوباره سعی نمایید.\n"
+"Er is een fout opgetreden bij het repareren van de encoding.\n"
+"Probeer deze sketch niet op te slaan want anders kan het\n"
+"de oude versie overschrijven. Gebruik Openen om de sketch\n"
+"opnieuw te openen en probeer het opnieuw."
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "بایگانی طرح"
+msgstr "Sketch archiveren"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -609,28 +627,28 @@ msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "نمی‌توان طرح را بایگانی نمود"
+msgstr "Kon de sketch niet archiveren"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
-"بایگانی‌کردن طرح فسخ‌گردید به این دلیل که\n"
-"نمی‌توان طرح را به درستی ذخیره نمود."
+"Het archiveren van de sketch is geannuleerd\n"
+"omdat de sketch niet kon worden bewaard."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "بایگانی‌کردن طرح به عنوان:"
+msgstr "Sketch archiveren als:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "بایگانی‌کردن طرح فسخ‌گردید."
+msgstr "Archiveren van sketch geannuleerd."
 
 #: SketchCode.java:83
 #, java-format
 msgid "Error while loading code {0}"
-msgstr "خطا به هنگام بارگیری کد {0}"
+msgstr "Fout bij het laden van code {0}"
 
 #: SketchCode.java:258
 #, java-format
@@ -639,11 +657,15 @@ msgid ""
 "older version of Processing,you may need to use Tools -> Fix Encoding & "
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
-msgstr "\"{0}\" شامل نویسه‌های ناشناخته‌است. اگر این کد با نسخه‌های قدیمی‌تر Processing درست‌شده‌است، شما احتمالاً نیازمند هستید که از Tools -> Fix Enconding & Reload برای به‌روزرسانی برای استفاده از کدگذاری UTF-8 استفاده کنید. وگرنه، شما ممکن‌است نیازمند حذف نویسه‌های نامناسب و برای رهایی از این اخطار شوید."
+msgstr ""
+"\"{0}\" bevat niet-herkende tekens. Als deze code werd gemaakt net een oudere versie "
+"van Processing, dient u Extra -> Fix Encoding & Reload toe te passen om de sketch "
+"te updaten en UTF-8-encodering te gebruiken. Zo niet, dient u de foutieve tekens "
+"handmatig te verwijderen."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "طرح فقط خواندنی است"
+msgstr "Sketch is schrijfbeveiligd"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
@@ -651,38 +673,37 @@ msgid ""
 "need to re-save the sketch in another location,\n"
 "and try again."
 msgstr ""
-"بعضی از پرونده‌ها به عنوان «فقط خواندنی» برچسپ‌گذاری\n"
-"شده‌اند، بنابراین شما نیازمند آن هستید که طرح دوباره در\n"
-"محل دیگری ذخیره کنید و مجدداً تلاش نمایید."
+"Sommige bestanden zijn schrijfbeveiligd dus u moet\n"
+"de sketch op een andere locatie opslaan en het opnieuw proberen."
 
 #: Sketch.java:286
 msgid "Name for new file:"
-msgstr "نام برای پروندهٔ جدید:"
+msgstr "Naam voor nieuw bestand:"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "طرح بی‌نام است"
+msgstr "Sketch heeft geen naam"
 
 #: Sketch.java:299
 msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"چطور است ابتدا طرح را بیش از تلاش برای نام‌گذاری\n"
-"مجدد آن ذخیره کنیم؟"
+"Wat denkt u ervan om de sketch eerst op te slaan\n"
+"voordat u het een andere naam geeft?"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
 msgid "Problem with rename"
-msgstr "مشکل با نام‌گذاری مجدد"
+msgstr "Probleem bij hernoemen"
 
 #: Sketch.java:360
 msgid "The name cannot start with a period."
-msgstr "نام نمی‌تواند با یک نقطه آغار گردد."
+msgstr "De naam mag niet met een punt beginnen."
 
 #: Sketch.java:368
 #, java-format
 msgid "\".{0}\" is not a valid extension."
-msgstr "\".{0}\" پسوند نامعتبری است."
+msgstr "\".{0}\" is geen geldige extensie."
 
 #: Sketch.java:378
 msgid ""
@@ -690,97 +711,97 @@ msgid ""
 "(It may be time for your to graduate to a\n"
 "\"real\" programming environment)"
 msgstr ""
-"پروندهٔ اصلی نمی‌تواند دارای یک افزونه باشد.\n"
-"(شاید زمان آن باشد که یک محیط «واقعی» برنامه‌نویسیرا مطالعه کنید)"
+"Het hoofdbestand mag geen extensie hebben.\n"
+"(Het is tijd om af te studeren op een \"echte\" ontwikkelomgeving)"
 
 #: Sketch.java:400 Sketch.java:414 Sketch.java:423 Sketch.java:863
 msgid "Nope"
-msgstr "نفی"
+msgstr "Neen"
 
 #: Sketch.java:402
 #, java-format
 msgid "A file named \"{0}\" already exists in \"{1}\""
-msgstr "یک پروندهٔ نام‌گذاری شده با \"{0}\" در \"{1}\" موجود است"
+msgstr "Een bestand met de naam \"{0}\" bestaat reeds in \"{1}\""
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "شما نمی‌توانید یک پروندهٔ .cpp با نام مشابه طرح داشته باشید."
+msgstr "U kunt geen .cpp-bestand hebben met dezelfde naam als de sketch."
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"شما نمی‌توانید طرح را به \"{0}\" تغییر نام دهید\n"
-"به این دلیل که طرح در حال حاضر دارای یک پروندهٔ .cpp با نام مشابه است."
+"U kunt de sketch niet hernoemen naar \"{0}\"\n"
+"omdat de sketch al een .cpp-bestand heeft met die naam."
 
 #: Sketch.java:459
 msgid "Cannot Rename"
-msgstr "نمی‌توان نام‌گذاری مجدد کرد"
+msgstr "Kan niet hernoemen"
 
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "شرمنده، یک طرح (یا پرونده) نام‌دهی شده با \"{0}\" در حال حاضر موجود است."
+msgstr "Sorry maar er bestaat al een sketch (of map) met de naam \"{0}\"."
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "نمی‌توان طرح را نام‌گذاری مجدد نمود. (۰)"
+msgstr "Kon de sketch niet hernoemen. (0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
 msgid "Could not rename \"{0}\" to \"{1}\""
-msgstr "نمی‌توان \"{0}\" را به \"{1}\" تغییر نام داد."
+msgstr "Kon niet \"{0}\" niet hernoemen naar \"{1}\""
 
 #: Sketch.java:500
 msgid "Could not rename the sketch. (1)"
-msgstr "نمی‌توان طرح را تغییر نام داد. (۱)"
+msgstr "Kon de sketch niet hernoemen. (1)"
 
 #: Sketch.java:507
 msgid "Could not rename the sketch. (2)"
-msgstr "نمی‌توان  طرح را تغییر نام داد. (۲)"
+msgstr "Kon de sketch niet hernoemen. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
-msgstr "createNewFile() مقدار فالس برگرداند"
+msgstr "createNewFile() kwam terug met false"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "آیا شما مطمئن هستید که می‌خواهید این طرح را پاک کنید؟"
+msgstr "Weet u zeker dat u deze sketch wilt verwijderen?"
 
 #: Sketch.java:592
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
-msgstr "آیا شما مطمئن هستید که می‌خواهید  \"{0}\" را پاک کنید؟"
+msgstr "Weet u zeker dat u \"{0}\" wilt verwijderen?"
 
 #: Sketch.java:595 EditorHeader.java:314
 msgid "Delete"
-msgstr "حذف"
+msgstr "Verwijderen"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
-msgstr "نمی‌توانید انجامش دهید"
+msgstr "Kon het niet doen"
 
 #: Sketch.java:621
 #, java-format
 msgid "Could not delete \"{0}\"."
-msgstr "نمی‌توانید \"{0}\" را پاک کرد."
+msgstr "Kon \"{0}\" niet verwijderen."
 
 #: Sketch.java:651
 msgid "removeCode: internal error.. could not find code"
-msgstr "removeCode: خطای درونی.. نمی‌توان کد را یافت"
+msgstr "removeCode: interne fout... kon de code niet vinden"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "طرح فقط خواندی است"
+msgstr "Sketch is schrijfbeveiligd"
 
 #: Sketch.java:725
 msgid ""
 "Some files are marked \"read-only\", so you'll\n"
 "need to re-save this sketch to another location."
 msgstr ""
-"بعضی از پرونده‌ها \"read-only\" برچسپ‌گذاری شده‌اند، بنابراین شما\n"
-"مجبور خواهید بود که این طرح را در مکانی دیگر مجدداً ذخیره‌کنید."
+"Sommige bestanden zijn schrijfbeveiligd dus u\n"
+"moet de sketch op een andere locatie opslaan."
 
 #: Sketch.java:743
 msgid ""
@@ -792,12 +813,12 @@ msgid ""
 "\n"
 "Save sketch and update its extension?"
 msgstr ""
-"در آردئینو ۱.۰، پشوند پیش‌فرض پرونده از .pde به .ino تغییر یافته.\n"
-"طرج‌های جدید (شامل آن‌هایی که توسط «دخیره به عنوان» درست‌شده‌اند)\n"
-"از پسوند جدید استفاده خواهند نمود. پسوند طرح‌های موجود در ذخیره\n"
-"به‌روزرسانی خواهند شد ولی شما می‌توانید این را در ترجیحات غیرفعال سازید.\n"
+"De standaard bestandsextensie is in Arduino 1.0\n"
+"gewijzigd van .pde naar .ino. Nieuwe sketches (inclusief sketches\n"
+"die door \"Opslaan als\" worden aangemaakt) zullen de nieuwe extensie\n"
+"gebruiken. U kunt dit uitschakelen in de instellingendialoog.\n"
 "\n"
-"ذخیره طرح و به‌روزرسانی پسوند؟"
+"Sketch bewaren en de extensie updaten?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -805,47 +826,49 @@ msgstr ".pde -> .ino"
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "ذخیرهٔ پوشه طرح به عنوان..."
+msgstr "Sketchmap opslaan als..."
 
 #: Sketch.java:865
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
-msgstr "شما نمی‌توانید طرح را به‌عنوان \"{0}\" ذخیره‌سازید به این دلیل که طرح در حال حاضردارای یک پروندهٔ .cpp با نام مشابه است."
+msgstr ""
+"U kunt sketch niet opslaan onder \"{0}\"\n"
+"omdat de sketch al een .cpp-bestand heeft met die naam."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
-msgstr "چه بورخسی هستید شما"
+msgstr "Hoe Borges-achtig van u"
 
 #: Sketch.java:887
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"شما نمی‌توانید طرح را در درون پوشهٔ خودش ذخیره‌سازید\n"
-"این شاید برای همیشه باشد."
+"U kunt de sketch niet opslaan in een map in zichzelf.\n"
+"Dit zou eeuwig doorgaan."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "انتخاب یک تصویر یا سایر پرونده‌های داده‌ها برای رونوشت به طرح‌تان"
+msgstr "Selecteer een afbeelding of ander bestand om te kopiëren naar uw sketch"
 
 #: Sketch.java:1047
 #, java-format
 msgid "Replace the existing version of {0}?"
-msgstr "جایگزینی نسخهٔ موجود از {0}؟"
+msgstr "De bestaande versie van {0} vervangen?"
 
 #: Sketch.java:1069 Sketch.java:1092
 msgid "Error adding file"
-msgstr "خطای افزودن پرونده"
+msgstr "Fout bij toevoegen bestand"
 
 #: Sketch.java:1070
 #, java-format
 msgid "Could not delete the existing ''{0}'' file."
-msgstr "نمی‌توان پرونده موجود ''{0}'' را پاک نمود."
+msgstr "Kon het bestaande ''{0}''-bestand niet verwijderen."
 
 #: Sketch.java:1078
 msgid "You can't fool me"
-msgstr "شما نمی‌توانید فریبم دهید"
+msgstr "Ik laat me niet voor de gek houden"
 
 #: Sketch.java:1079
 msgid ""
@@ -853,59 +876,60 @@ msgid ""
 "location from which where you're trying to add it.\n"
 "I ain't not doin nuthin'."
 msgstr ""
-"این پرونده در حال حاضر به موضعیتی که\n"
-"شما می‌خواهید بیافزایید کپی‌شده‌است.\n"
-"من کاری نمی‌کنم."
+"Dit bestand is reeds gekopieerd naar de locatie\n"
+"vanaf waar u het probeert toe te voegen. Ik doe niets."
 
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "نمی‌توان ''{0}'' را به طرح افزود."
+msgstr "Kon ''{0}'' niet aan de sketch toevoegen."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr "ساختن پوشه مخفی شده‌است یا نمی‌توان نوشته شود"
+msgstr "De build-map is verdwenen of kon niet worden geschreven."
 
 #: Sketch.java:1408
 msgid "Could not find main class"
-msgstr "نمی‌توان کلاس اصلی را یافت"
+msgstr "Kon de main-class niet vinden"
 
 #: Sketch.java:1433
 #, java-format
 msgid "Uncaught exception type: {0}"
-msgstr "خطای گرفته نشده از نوع: {0}"
+msgstr "Exceptie-type niet opgevangen: {0}"
 
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "اشکال به‌هنگام انتقال {0} به پوشهٔ ساخت"
+msgstr "Probleem bij het verplaatsen van {0} naar de build-folder"
 
 #: Sketch.java:1661
 msgid "Uploading..."
-msgstr "بارگذاری..."
+msgstr "Bezig met uploaden..."
 
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "اندازهٔ باینری طرح: {0} بایت (از یک بیشینهٔ {1} بایتی)"
+msgstr "Binaire sketch-grootte: {0} bytes (van een {1}-byte maximum)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
-msgstr "نمی‌توان اندازهٔ برنامه را تعیین نمود: {0}"
+msgstr "Kon de programmagroote niet bepalen: {0}"
 
 #: Sketch.java:1694
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
-msgstr "اندازهٔ طرح بسیار بزرگ است؛  http://www.arduino.cc/en/Guide/Troubleshooting#size را برای راهنمایی‌هایی در رابطه کاهش آن ببینید."
+msgstr ""
+"Sketch te groot; zie http://www.arduino.cc/en/Guide/Troubleshooting#size voor "
+"tips om het te verkleinen."
 
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
-msgstr "فقدان */ از انتهای یک /* توضیح */"
+msgstr "Mis de */ aan het einde van een /* commentaar */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "طرح ناپدید گشت"
+msgstr "Sketch is verdwenen"
 
 #: Sketch.java:1797
 msgid ""
@@ -913,21 +937,21 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-"پوشهٔ طرح ناپدید شده‌است.\n"
-" تلاش خواهید که آن را در محل مشابه ذخیره نمود\n"
-"ولی به‌علاوهٔ آن کد مفقود خواهد شد."
+"De sketch-map is verdwenen. Zal proberen\n"
+"om het nogmaals op te slaan in dezelfde locatie,\n"
+"maar alles behalve de code zal verloren gaan."
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "نمی‌تواند طرح را مجدداً ذخیره نمود"
+msgstr "Kon de sketch niet nogmaals opslaan"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"نمی‌تواند طرح را به درستی مجدداً ذخیره نمود. شما می‌بایست در مشکل باشید در نقطه،\n"
-"و شاید زمان آن باشد که کدتان را در ویرایشگر متنی دیگری رونوشت و پچسپانید. "
+"Kon de sketch niet nogmaals opslaan. U heeft een groot probleem,\n"
+"en het is misschien tijd om uw code naar een andere editor te kopiëren en plakken."
 
 #: Sketch.java:2060
 msgid ""
@@ -935,42 +959,49 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"نام طرح می‌بایست که تغییریابد. نام‌های طرح فقط می‌بایست شامل نویسه‌های\n"
-"ASCII و اعداد باشند (ولی با اعداد آغاز نگردند).\n"
-"این‌ها می‌بایست کمتر از ۶۴ نویسه طول داشته باشند."
+"De naam van de sketch moest worden gewijzigd. Sketch-namen mogen alleen\n"
+"bestaan uit ASCII-karakters en cijfers (en kunnen niet beginnen met\n"
+"een cijfer). De naam moet ook korter zijn dan 64 karakterposities."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr "https://developer.berlios.de/bugs/?group_id=3590"
+msgstr ""
 
 #: debug/Uploader.java:54 debug/Compiler.java:43
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr "خطای کامپایلر، لطفاً این کد را به {0} ارائه دهید"
+msgstr "Compileerfout, stuur deze code a.u.b. naar {0}"
 
 #: debug/Uploader.java:199
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
-msgstr "درگاه سریال انتخاب شده {0} موجود نیست یا برد شما متصل نشده‌است"
+msgstr ""
+"de geselecteerde seriële poort {0} is niet aanwezig of uw board is niet aangesloten"
 
 #: debug/Uploader.java:203
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
-msgstr "دستگاه پاسخ‌گو نیست، درگاه سریال انتخاب شده را بررسی کنید یا برد درست قبل از خارج‌سازی RESET کنید"
+msgstr ""
+"Het apparaat reageert niet, controleer of de correcte seriële poort is geselecteerd"
+" of RESET het board voor de exportactie"
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
-msgstr "اشکال در بارگذاری به برد. http://www.arduino.cc/en/Guide/Troubleshooting#upload را برای پیشنهادات ببینید."
+msgstr ""
+"Probleem bij upload naar het board. Zie http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload voor suggesties."
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
-msgstr "میکروکنترلر اشتباهی یافت شد. آیا شما برد مناسبی از منوی ابزارها > برد انتخاب کرده‌اید؟"
+msgstr ""
+"Verkeerde microcontroller gevonden. Heeft u het goede board gekozen uit het menu Extra "
+"> Board?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -978,20 +1009,20 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "بردی انتخاب شده‌است؛ لطفاً یک برد از منوی ابزارها > برد انتخاب کنید."
+msgstr "Geen board geselecteerd; kies een board uit het menu Extra > Board."
 
 #: debug/Compiler.java:422
 #, java-format
 msgid "{0} returned {1}"
-msgstr "{0}،{1}  را بازگرداند"
+msgstr "{0} kwam terug met {1}"
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr "خطای کامپایل"
+msgstr "Fout bij compileren."
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "لطفاً کتابخانه SPI را از منوی طرح > درون‌سازی کتابخانه درون‌سازی کنید."
+msgstr "Importeer de SPI-bibliotheek middels het menu Sketch -> Bibliotheek importeren."
 
 #: debug/Compiler.java:466
 msgid ""
@@ -1002,13 +1033,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۰۰۱۹، کتابخانهٔ Ethernet به کتابخانهٔ SPI وابسته شده‌است.\n"
-"شما ظاهراً از آن یا کتابخانهٔ دیگری که به کتابخانهٔ SPI وابسته‌است استفاده می‌کنید.\n"
+"De ethernetbibliotheek is sinds arduino 0019 afhankelijk van de SPI-bibliotheek. Het lijkt\n"
+"erop dat u een andere bibliotheek gebruikt die afhankelijk is van de SPI-bibliotheek.\n"
 "\n"
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr "کلیدواژهٔ 'BYTE' دیگر پشتیبانی نمی‌گردد."
+msgstr "Het sleutelwoord 'BYTE' wordt niet langer ondersteund."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -1018,13 +1049,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، کلیدواژه 'BYTE' دیگر پشتیبانی نمی‌گردد.\n"
-"لطفاً از Serial.write() به جای آن استفاده نمایید.\n"
+"Het sleutelwoord 'BYTE' wordt sinds Arduino 1.0 niet meer ondersteund.\n"
+"Gebruik in plaats daarvan Serial.write().\n"
 "\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr "کلاس Server به EthernetServer تغییر نام پیدا کرده‌است."
+msgstr "De class Server heet nu EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
@@ -1034,12 +1065,12 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، کلاس سرور در کتابخانهٔ Ethernet به EthernetServer تغییرنام پیدا کرده‌است.\n"
+"De class Server uit de ethernetbibliotheek heet sinds Arduino 1.0 EthernetServer.\n"
 "\n"
 
 #: debug/Compiler.java:483
 msgid "The Client class has been renamed EthernetClient."
-msgstr "کلاس Client به EthernetClient تغییر نام پیدا کرده‌است."
+msgstr "De class Client heet nu EthernetClient."
 
 #: debug/Compiler.java:484
 msgid ""
@@ -1049,12 +1080,12 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، کلاس Client در کتابخانهٔ Ethernet به EthernetClient تغییر نام پیداکرده‌است.\n"
+"De class Client uit de ethernetbibliotheek heet sinds Arduino 1.0 EthernetClient.\n"
 "\n"
 
 #: debug/Compiler.java:489
 msgid "The Udp class has been renamed EthernetUdp."
-msgstr "کلاس Udp به EthernetUdp تغییر نام پیدا کرده‌است."
+msgstr "De class Udp heet nu EthernetUdp."
 
 #: debug/Compiler.java:490
 msgid ""
@@ -1064,12 +1095,12 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، کلاس Udp در کتابخانهٔ Ethernet به EthernetClient تغییرنام پیداکرده‌است.\n"
+"De class Udp uit de ethernetbibliotheek heet sinds Arduino 1.0 EthernetClient.\n"
 "\n"
 
 #: debug/Compiler.java:495
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Wire.send() به Wire.write() تغییر نام پیداکرده‌است."
+msgstr "Wire.send() heet nu Wire.write()."
 
 #: debug/Compiler.java:496
 msgid ""
@@ -1079,12 +1110,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، تابع Wire.send() به Wire.write() برای سازگاری با سایر کتابخانه‌ها تغییر نام پیداکرده‌است.\n"
+"De Wire.send()-functie heet sinds Arduino 1.0 Wire.write() "
+"vanwege samenhang met andere bibliotheken.\n"
 "\n"
 
 #: debug/Compiler.java:501
 msgid "Wire.receive() has been renamed Wire.read()."
-msgstr "Wire.receive() به Wire.read() تغییرنام پیداکرده‌است."
+msgstr "Wire.receive() heet nu Wire.read()."
 
 #: debug/Compiler.java:502
 msgid ""
@@ -1094,44 +1126,45 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"از آردئینو ۱.۰، تابع Wire.receive() به Wire.read() برای سازگاری بیشتر با سایر کتابخانه‌ها تغییر نام پیداکرده‌است.\n"
+"De Wire.receive()-functie heet sinds Arduino 1.0 Wire.read() "
+"vanwege samenhang met andere bibliotheken.\n"
 "\n"
 
 #: EditorConsole.java:152
 msgid "Console Error"
-msgstr "خطای کنسول"
+msgstr "Console-fout"
 
 #: EditorConsole.java:153
 msgid ""
 "A problem occurred while trying to open the\n"
 "files used to store the console output."
 msgstr ""
-"یک اشکال به‌هنگام سعی برای بازکردن پرونده‌های\n"
-"استفاده شده برای ذخیره‌سازی خروجی کنسول رخ داد."
+"Er is een probleem opgetreden bij het openen\n"
+"van bestanden om de console-uitvoer in op te slaan."
 
 #: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "خطای غیر وخیمی هنگام تنظیم ظاهر."
+msgstr "Niet-fatale fout bij het instellen van de Look & Feel"
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
-msgstr "پیغام خطا در ذیل آمده، هرچند آردئینو باید به درستی کار کند."
+msgstr "De foutmelding volgt, maar Arduino zou normaal moeten functioneren."
 
 #: Base.java:217
 msgid "Problem Setting the Platform"
-msgstr "اشکال تنظیم سکو"
+msgstr "Probleem bij instellen van het platform"
 
 #: Base.java:218
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr ""
-"ایراد ناشناخته‌ای هنگام سعی در بارگیری رخ داد\n"
-"کد خاص سکو برای ماشین شما."
+"Er is een onbekende fout opgetreden bij het\n"
+"laden van platformspecifieke code voor uw systeem."
 
 #: Base.java:229
 msgid "Please install JDK 1.5 or later"
-msgstr "لطفاً JDK ۱.۵ یا بعدتر از آن را نصب کنید"
+msgstr "Installeer a.u.b. JDK 1.5 of nieuwer"
 
 #: Base.java:230
 msgid ""
@@ -1139,13 +1172,13 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
-"آردئینو نیازمند یک JDK کامل (نه فقط یک JRE(\n"
-"برای اجرا است. لطفاً JDK ۱.۵ یا بعد از آن را نصب کنید.\n"
-"اطلاعات بیشتر را می‌توان در مرجع یافت."
+"Arduino heeft een complete JDK nodig,\n"
+"(niet slechts een JRE). Installeer a.u.b. JDK versie 1.5 of nieuwer.\n"
+"Meer informatie vindt u in de referentie."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
-msgstr "پوشهٔ کتاب طرح‌ها ناپدید شد"
+msgstr "De sketchbook-map is verdwenen."
 
 #: Base.java:255
 msgid ""
@@ -1155,50 +1188,52 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"پوشهٔ کتاب طرح دیگر موجود نیست.\n"
-"آردئنو محل کتاب طرح پیش‌فرض را انتخاب خواهد کرد\n"
-"و پوشهٔ کتاب طرحی درست خواهد کرد اگر مورد نیاز\n"
-"باشد. آردئینو صحبت کردن در رابطه با خود را به عنوان\n"
-"سوم شخص را پایان می‌دهد."
+"De sketchbook-map bestaat niet meer.\n"
+"Arduino zal de standaard sketchbook-map\n"
+"gebruiken en desgewenst een nieuwe map aanmaken,\n"
+"Arduino zal nu stoppen met over zichzelf in derde\n"
+"persoon te spreken."
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr "وقت برای استراحت"
+msgstr "Tijd voor een kleine pauze"
 
 #: Base.java:530
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"شما به محدودهٔ نام‌گذاری خودکار برای طرح‌های برای امروز\n"
-"رسیده‌اید. چطور است به جای آن یک پیاده‌روی داشته باشید؟"
+"U heeft de dagelijkse limiet voor het automatisch benoemen\n"
+"van sketches bereikt. Ga anders even wandelen."
 
 #: Base.java:534
 msgid "Sunshine"
-msgstr "طلوع"
+msgstr "Zonneschijn"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr "نه جداً، وقت مقداری هوای تازه‌است."
+msgstr "Nee echt, het is tijd voor wat frisse lucht voor u."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "یک طرح آردئینو را باز کن..."
+msgstr "Een arduino-sketch openen..."
 
 #: Base.java:769
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
-msgstr "<html dir=\"RTL\"> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>آیا مطمئن هستید که می‌خواهید خارج شوید؟</b><p>بستن آخرین طرح باز شده منجر به خارج‌شدن آردئینو خواهد شد."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Weet u zeker dat u wilt stoppen?</b><p>Na het sluiten van de laatste sketch zal Arduino worden afgesloten."
 
 #: Base.java:967
 msgid "Contributed"
-msgstr "کمک‌شده"
+msgstr "Bijgedragen"
 
 #: Base.java:1092
 msgid "Sketch Does Not Exist"
-msgstr "طرح موجود نیست"
+msgstr "Sketch bestaat niet"
 
 #: Base.java:1093
 msgid ""
@@ -1206,9 +1241,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"طرح انتخاب شده دیگر موجود نیست.\n"
-"شما می‌بایست آردئینو را برای به‌روزرسانی منوی\n"
-"کتاب طرح بازگشایی مجدد کنید."
+"De geselecteerde sketch bestaat niet meer.\n"
+"Het kan nodig zijn om Arduino opnieuw op te starten\n"
+"om het sketchbook-menu bij te werken."
 
 #: Base.java:1122
 #, java-format
@@ -1219,14 +1254,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"طرح \"{0}\" نمی‌تواند استفاده گردد.\n"
-"نام طرح‌ها می‌بایست فقط شامل حروف ساده و عددها باشند\n"
-"(فقط ASCII بدون فاصله و نمی‌تواند با عدد شروع شود).\n"
-"برای خلاص‌شدن از این پیغام، طرح را از {1} حذف نمایید."
+"Sketch \"{0}\" kan niet worden gebruikt.\n"
+"De naam van een sketch mag alleen bestaan uit letters en cijfers\n"
+"(alleen ASCII zonder spaties, en mag niet beginnen met een cijfer).\n"
+"Om dit bericht niet meer te zien kunt u de sketch verwijderen van\n"
+"{1}"
 
 #: Base.java:1129
 msgid "Ignoring sketch with bad name"
-msgstr "نادیده گرفتن طرح با نام بد"
+msgstr "Sketch met verkeerde naam wordt genegeerd"
 
 #: Base.java:1199
 #, java-format
@@ -1235,53 +1271,53 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
-"کتابخانهٔ \"{0}\" نمی‌توان استفاده گردد.\n"
-"نام کتابخانه فقط می‌بایست شامل حروف ساده و عدد باشد.\n"
-"(فقط ASCII و بدون فاصله و نمی‌تواند با یک عدد شروع شود.)"
+"Bibliotheek \"{0}\" kan niet worden gebruikt.\n"
+"De naam van een bibliotheek mag alleen bestaan uit letters en cijfers\n"
+"(alleen ASCII zonder spaties, en mag niet beginnen met een cijfer)."
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr "در نظر نگرفتن نام نامناسب کتابخانه"
+msgstr "Foutieve bibliotheeknaam wordt genegeerd"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
-msgstr "اشکال گرفتن پوشهٔ داده‌ها"
+msgstr "Probleem bij verkrijgen data-map"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr "خطای گرفتن پوشه اطلاعات آردئینو"
+msgstr "Fout bij verkrijgen van de Arduino-data-map"
 
 #: Base.java:1437
 msgid "Settings issues"
-msgstr "مشکلات تنظیمات"
+msgstr "Instellingsproblemen"
 
 #: Base.java:1438
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
-"آردئینو نمی‌تواند اجرا شود به این دلیل که نمی‌تواند\n"
-"پوشه‌ای برای ذخیرهٔ تنظیمات شما بسازد."
+"Arduino kan niet uitgevoerd worden omdat het geen map\n"
+"kon aanmaken om uw instellingen in op te slaan."
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
-msgstr "شما کتاب طرح‌تان را فراموش کرده‌اید"
+msgstr "U bent uw sketchbook vergeten"
 
 #: Base.java:1600
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"آردئینو نمی‌تواند اجرا شود به این دلیل که نمی‌تواند\n"
-"پوشه‌ای برای ذخیرهٔ کتاب طرح‌تان بسازد."
+"Arduino kan niet uitgevoerd worden omdat het geen map\n"
+"kon aanmaken om uw sketchbook in op te slaan."
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
-msgstr "انتخاب (یا درست‌کردن جدید) پوشه برای طرح‌ها...."
+msgstr "Selecteer een map (of maak een nieuwe aan) voor uw sketches..."
 
 #: Base.java:1644
 msgid "Problem Opening URL"
-msgstr "اشکال بازکردن URL"
+msgstr "Probleem bij openen URL"
 
 #: Base.java:1645
 #, java-format
@@ -1289,12 +1325,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"نمی‌توان URL را گشود\n"
+"Kon deze URL niet openen:\n"
 "{0}"
 
 #: Base.java:1668
 msgid "Problem Opening Folder"
-msgstr "اشکال در بازکردن پوشه"
+msgstr "Probleem bij openen map"
 
 #: Base.java:1669
 #, java-format
@@ -1302,7 +1338,7 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-"نمی‌توان پوشه را گشود\n"
+"Kan deze folder niet openen:\n"
 "{0}"
 
 #: Base.java:1782
@@ -1327,7 +1363,7 @@ msgstr "Guide_Environment.html"
 
 #: Base.java:1801
 msgid "environment"
-msgstr "محیط"
+msgstr "environment"
 
 #: Base.java:1801
 msgid "platforms.html"
@@ -1343,62 +1379,62 @@ msgstr "FAQ.html"
 
 #: Base.java:1823
 msgid "Message"
-msgstr "پیغام"
+msgstr "Melding"
 
 #: Base.java:1839
 msgid "Warning"
-msgstr "اخطار"
+msgstr "Waarschuwing"
 
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "نمی‌توان نسخهٔ قدیمی {0} را حذف نمود"
+msgstr "Kon de oude versie van {0} niet verwijderen"
 
 #: Base.java:2203
 #, java-format
 msgid "Could not replace {0}"
-msgstr "نمی‌توان {0} را جایگزین نمود"
+msgstr "Kon {0} niet vervangen"
 
 #: Base.java:2244 Base.java:2267
 #, java-format
 msgid "Could not delete {0}"
-msgstr "نمی‌توان {0} را حذف نمود"
+msgstr "Kon {0} niet verwijderen"
 
 #: EditorHeader.java:292
 msgid "New Tab"
-msgstr "تب جدید"
+msgstr "Nieuw tabblad"
 
 #: EditorHeader.java:300
 msgid "Rename"
-msgstr "تغییرنام"
+msgstr "Hernoemen"
 
 #: EditorHeader.java:326
 msgid "Previous Tab"
-msgstr "تب قبل"
+msgstr "Vorig tabblad"
 
 #: EditorHeader.java:340
 msgid "Next Tab"
-msgstr "تب بعد"
+msgstr "Volgend tabblad"
 
 #: EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Verify"
-msgstr "بازبینی"
+msgstr "Controleren"
 
 #: EditorToolbar.java:41
 msgid "Open"
-msgstr "بازکردن"
+msgstr "Openen"
 
 #: EditorToolbar.java:46
 msgid "New Editor Window"
-msgstr "پنجرهٔ جدید ویرایشی"
+msgstr "Nieuw editor-venster"
 
 #: EditorToolbar.java:46
 msgid "Open in Another Window"
-msgstr "بازکردن در پنجره‌ای دیگر"
+msgstr "In nieuw venster openen"
 
 #: Platform.java:167
 msgid "No launcher available"
-msgstr "پرتاب‌کننده‌ای موجود نیست"
+msgstr "Geen launcher beschikbaar"
 
 #: Platform.java:168
 msgid ""
@@ -1406,37 +1442,38 @@ msgid ""
 "To enable opening URLs or folders, add a \n"
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
-"سکوی نامشخص، پرتاب‌کننده‌ای موجود نیست.\n"
-"برای فعال‌سازی بازکردن URLها یا پوشه‌ها، یک خط\"launcher=/path/to/app\" به preferences.txt بیافزایید."
+"Platform niet bekend, geen launcher beschikbaar.\n"
+"Om het openen van URL's of folders mogelijk te maken dient u een regel \n"
+"\"launcher=/path/to/app\" toe te voegen aan preferences.txt"
 
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
-"نمی‌توان تنظیمات رنگ را خواند.\n"
-"شما می‌بایست که Processing را مجدداً نصب نمایید."
+"Kon de kleurenthema-instellingen niet lezen.\n"
+"U dient Processing opnieuw te installeren."
 
 #: Preferences.java:80
 msgid "Browse"
-msgstr "یافتن"
+msgstr "Bladeren"
 
 #: Preferences.java:148
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
-"نمی‌توان تنظیمات پیش‌فرض را خواند.\n"
-"شما می‌بایست که آردئینو را مجدداً نصب کنید."
+"Kon de standaard-instellingen niet lezen.\n"
+"U dient Arduino opnieuw te installeren."
 
 #: Preferences.java:180
 #, java-format
 msgid "Could not read preferences from {0}"
-msgstr "نمی‌توان ترجیحات را از {0} خواند"
+msgstr "Kon de instellingen van {0} niet lezen"
 
 #: Preferences.java:199
 msgid "Error reading preferences"
-msgstr "خطای خواندن ترجیحات"
+msgstr "Fout bij lezen instellingen"
 
 #: Preferences.java:201
 #, java-format
@@ -1444,62 +1481,62 @@ msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
 msgstr ""
-"خطای به هنگام خواندن پروندهٔ ترجیحات. لطفاً {0} را حذف (یا انتفال)\n"
-"و آردئینو را بازگشایی مجدد کنید."
+"Fout bij lezen instellingenbestand. Verwijder (of verplaats)\n"
+"{0} en start Arduino opnieuw op."
 
 #: Preferences.java:237
 msgid "Sketchbook location:"
-msgstr "موقعیت کتاب طرح:"
+msgstr "Locatie van sketchbook:"
 
 #: Preferences.java:252
 msgid "Select new sketchbook location"
-msgstr "موقعیت جدید کتاب را انتخاب کنید"
+msgstr "Selecteer nieuwe sketchbook-locatie"
 
 #: Preferences.java:276
 msgid "Editor font size: "
-msgstr "اندازهٔ قلم ویرایشگر"
+msgstr "Lettertype voor editor: "
 
 #: Preferences.java:280
 msgid "  (requires restart of Arduino)"
-msgstr "  (نیازمند بازگشایی مجدد نمودن اردئینو)"
+msgstr "  (herstart van Arduino nodig)"
 
 #: Preferences.java:293
 msgid "Show verbose output during: "
-msgstr "نمایش خروجی پرگو به هنگام:"
+msgstr "Toon uitgebreide output tijdens: "
 
 #: Preferences.java:295
 msgid "compilation "
-msgstr "کامپایل‌نمودن"
+msgstr "compilatie"
 
 #: Preferences.java:297
 msgid "upload"
-msgstr "بارگذاری"
+msgstr "upload"
 
 #: Preferences.java:315
 msgid "Use external editor"
-msgstr "استفاده از ویرایش‌گر خارجی"
+msgstr "Gebruik externe editor"
 
 #: Preferences.java:325
 msgid "Check for updates on startup"
-msgstr "بررسی برای به‌روزرسانی‌ها در ابتدای بالا آمدن"
+msgstr "Bij opstarten op updates controleren"
 
 #: Preferences.java:334
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "به‌روزرسانی پرونده طرح به یک پسوند جدید به هنگام ذخیره‌سازی (.pde -> .ino)"
+msgstr "Bij opslaan de sketch-bestanden updaten naar de nieuwe extensie (.pde -> .ino)"
 
 #: Preferences.java:345
 msgid "Automatically associate .ino files with Arduino"
-msgstr "اختصاص خودکار پرونده‌های .ino با آردئینو"
+msgstr "Arduino koppelen aan .ino-bestanden"
 
 #: Preferences.java:356
 msgid "More preferences can be edited directly in the file"
-msgstr "ترجیحات بیشتر می‌توانند مستقیماً درون یک پروندهٔ ویرایش گردند"
+msgstr "Meer voorkeuren kunnen rechtstreeks in het bestand worden bewerkt"
 
 #: Preferences.java:385
 msgid "(edit only when Arduino is not running)"
-msgstr "(ویرایش فقط به هنگامی که آردئینو درحال اجرا نیست)"
+msgstr "(alleen bewerken als Arduino niet wordt uitgevoerd)"
 
 #: Preferences.java:532
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "درنظر نگرفتن اندازهٔ قلم نامناسب {0}"
+msgstr "verkeerde lettergroote {0} wordt genegeerd"
