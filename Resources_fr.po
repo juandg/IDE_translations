@@ -10,7 +10,7 @@
 #  - library : bibliothèque
 #  - sketch : croquis
 #  - sketchbook : carnet de croquis
-#  - upload : transfert/transférer
+#  - upload : téléverser/téléversement
 #
 msgid ""
 msgstr ""
@@ -74,11 +74,11 @@ msgstr "Enregistrer sous..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr "Transférer"
+msgstr "Téléverser"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Transférer avec un programmeur"
+msgstr "Téléverser avec un programmeur"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -383,19 +383,19 @@ msgid ""
 "Retry the upload with another serial port?"
 msgstr ""
 "Port série {0} introuvable.\n"
-"Réessayer le transfert à partir d'un autre port série ?"
+"Réessayer le téléversement à partir d'un autre port série ?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "Transfert vers les E/S de la carte..."
+msgstr "Téléversement vers les E/S de la carte..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "Transfert terminé"
+msgstr "Téléversement terminé"
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
-msgstr "Transfert annulé."
+msgstr "Téléversement annulé."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
@@ -910,7 +910,7 @@ msgstr "Problème de déplacement de {0} vers le dossier de construction"
 
 #: Sketch.java:1661
 msgid "Uploading..."
-msgstr "Transfert..."
+msgstr "Téléversement..."
 
 #: Sketch.java:1684
 #, java-format
@@ -998,7 +998,7 @@ msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
-"Problème de transfert vers la carte.  Voir http://www.arduino.cc/en/Guide/"
+"Problème de téléversement vers la carte.  Voir http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload pour suggestions."
 
 #: debug/Uploader.java:213
@@ -1521,7 +1521,7 @@ msgstr "compilation "
 
 #: Preferences.java:297
 msgid "upload"
-msgstr "transfert"
+msgstr "téléversement"
 
 #: Preferences.java:306
 msgid "Verify code after upload"
