@@ -593,7 +593,7 @@ msgstr ""
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr ""
+msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -1366,6 +1366,10 @@ msgstr ""
 
 #: Preferences.java:297
 msgid "upload"
+msgstr ""
+
+#: Preferences.java:306
+msgid "Verify code after upload"
 msgstr ""
 
 #: Preferences.java:315

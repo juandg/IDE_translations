@@ -621,7 +621,7 @@ msgstr "Archivar el Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr ""
+msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -1522,6 +1522,10 @@ msgstr "compilación "
 #: Preferences.java:297
 msgid "upload"
 msgstr "carga"
+
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr ""
 
 #: Preferences.java:315
 msgid "Use external editor"

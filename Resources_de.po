@@ -1368,6 +1368,10 @@ msgstr "Kompilierung "
 msgid "upload"
 msgstr "Upload"
 
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr "Code nach Upload überprüfen"
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "Externen Editor benutzen"
