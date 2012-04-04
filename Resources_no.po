@@ -48,7 +48,7 @@ msgid ""
 "More information can be found in the reference."
 msgstr ""
 "Arduino er avhengig av full JDK (ikke bare JRE)\n"
-"for Â kj¯re. Vennligst innstaller JDK 1.5 eller nyere.\"
+"for √• kj√∏re. Vennligst innstaller JDK 1.5 eller nyere.\"
 "Mer informasjon finnes i referansedokumentasjonen."
 
 #: Base.java:254
@@ -64,9 +64,9 @@ msgid ""
 "himself in the third person."
 msgstr ""
 "Mappen for skisser eksisterer ikke lenger.\n"
-"Arduino vil nÂ gÂ over til Â bruke standard mappe for\n"
-"skisser, og hvis n¯dvendig opprette en ny mappe\n."
-"EtterpÂ vil Arduino slutte Â omtale seg selv i\n"
+"Arduino vil n√• g√• over til √• bruke standard mappe for\n"
+"skisser, og hvis n√∏dvendig opprette en ny mappe\n."
+"Etterp√• vil Arduino slutte √• omtale seg selv i\n"
 "tredje person."
 
 #: Base.java:529
@@ -78,8 +78,8 @@ msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Du har nÂdd maksimalt antall skissenavn som kan genereres\n"
-"automatisk i l¯pet av en dag. Hva med Â gÂ seg en tur i stedet?"
+"Du har n√•dd maksimalt antall skissenavn som kan genereres\n"
+"automatisk i l√∏pet av en dag. Hva med √• ta seg en tur i stedet?"
 
 #: Base.java:534
 msgid "Sunshine"
@@ -87,11 +87,11 @@ msgstr "Solskinn"
 
 #: Base.java:535
 msgid "No really, time for some fresh air for you."
-msgstr "∆rlig talt, nÂ er det pÂ tide med litt frisk luft."
+msgstr "√Ürlig talt, n√• er det p√• tide med litt frisk luft."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "≈pne en Arduino skisse"
+msgstr "√Öpne en Arduino skisse"
 
 #: Base.java:769
 msgid ""
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Er du "
-"sikker pÂ at du vil avslutte?</b><p>Lukker du den siste skissen, avsluttes Arduino."
+"sikker p√• at du vil avslutte?</b><p>Lukker du den siste skissen, avsluttes Arduino."
 
 #: Base.java:779 Editor.java:586
 msgid "Quit"
@@ -109,7 +109,7 @@ msgstr "Avslutt"
 
 #: Base.java:900 Editor.java:494
 msgid "Open..."
-msgstr "≈pne..."
+msgstr "√Öpne..."
 
 #: Base.java:967
 msgid "Contributed"
@@ -126,7 +126,7 @@ msgid ""
 "the sketchbook menu."
 msgstr ""
 "Den valgte skissen eksisterer ikke lenger.\n"
-"DÂ mÂ kanskje starte om Arduino for Â oppdatere\n"
+"Du m√• kanskje starte om Arduino for √• oppdatere\n"
 "skissebokmenyen"
 
 #: Base.java:1122
@@ -141,7 +141,7 @@ msgstr ""
 "Skissen \"{0}\" kan ikke benyttes.\n"
 "Skissenavn kan kun inneholde bokstaver og tall\n"
 "(kun ASCII, ingen mellomrom, og kan ikke starte med et tall).\n"
-"For Â bli kvitt denne meldingen, fjern skissen fra\n"
+"For √• bli kvitt denne meldingen, fjern skissen fra\n"
 "{1}"
 
 #: Base.java:1129
@@ -180,8 +180,8 @@ msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
-"Arduino kan ikke kj¯re fordi det ikke var mulig\n"
-"Â opprette en mappe for dine innstillinger."
+"Arduino kan ikke kj√∏re fordi det ikke var mulig\n"
+"√• opprette en mappe for dine innstillinger."
 
 #: Base.java:1599
 msgid "You forgot your sketchbook"
@@ -192,8 +192,8 @@ msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"Arduino kan ikke kj¯re fordi det ikke var mulig\n"
-"Â opprette en mappe til Â lagre skisseboken din."
+"Arduino kan ikke kj√∏re fordi det ikke var mulig\n"
+"√• opprette en mappe til √• lagre skisseboken din."
 
 #: Base.java:1620
 msgid "Select (or create new) folder for sketches..."
@@ -201,7 +201,7 @@ msgstr "Velg (eller opprett ny) mappe for skisser..."
 
 #: Base.java:1644
 msgid "Problem Opening URL"
-msgstr "Problemer ved Âpning URL"
+msgstr "Problemer ved √•pning av URL"
 
 #: Base.java:1645
 #, java-format
@@ -209,12 +209,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"Kunne ikke Âpne URLen\n"
+"Kunne ikke √•pne URLen\n"
 "{0}"
 
 #: Base.java:1668
 msgid "Problem Opening Folder"
-msgstr "Problem ved Âpning av mappe"
+msgstr "Problem ved √•pning av mappe"
 
 #: Base.java:1669
 #, java-format
@@ -222,7 +222,7 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-"Kunne ikke Âpne mappen\n"
+"Kunne ikke √•pne mappen\n"
 "{0}"
 
 #: Base.java:1782
@@ -247,7 +247,7 @@ msgstr "Guide_Environment.html"
 
 #: Base.java:1801
 msgid "environment"
-msgstr "milj¯"
+msgstr "milj√∏"
 
 #: Base.java:1801
 msgid "platforms.html"
@@ -301,7 +301,7 @@ msgstr "Kompilator feil, vennligst send denne koden til {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Ingen kort valgt, vennligs velg et kort fra Verkt¯y > Kort menyen."
+msgstr "Ingen kort valgt, vennligs velg et kort fra Verkt√∏y > Kort menyen."
 
 #: debug/Compiler.java:422
 #, java-format
@@ -324,11 +324,16 @@ msgid ""
 "library.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 0019, er Ethernet bilioteket avhengig av SPI biblioteket.\n"
+"Det ser ut som du benytter et bibliotek som er avhangig av SPI "
+"biblioteket.\n"
+"\n"
 
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr ""
+msgstr "'BYTE' n√∏kkelordet er ikke st√∏ttet lenger."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -337,10 +342,14 @@ msgid ""
 "Please use Serial.write() instead.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 1.0, er ikke 'BYTE' n√∏kkelordet lenger st√∏ttet.\n"
+"Vennligst benytt Serial.write() i stedet.\n"
+"\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr ""
+msgstr "Server klassen har blitt omd√∏pt til EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
@@ -349,10 +358,14 @@ msgid ""
 "to EthernetServer.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 1.0 er Server klassen i Ethernet biblioteket blitt omd√∏pt "
+"til EthernetServer.\n"
+"\n"
 
 #: debug/Compiler.java:483
 msgid "The Client class has been renamed EthernetClient."
-msgstr ""
+msgstr "Client klassen har blitt omd√∏pt til EthernetClient."
 
 #: debug/Compiler.java:484
 msgid ""
@@ -361,10 +374,14 @@ msgid ""
 "to EthernetClient.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 1.0 er Client klassen i Ethernet biblioteket blitt omd√∏pt"
+"til EthernetClient.\n"
+"\n"
 
 #: debug/Compiler.java:489
 msgid "The Udp class has been renamed EthernetUdp."
-msgstr ""
+msgstr "Udp klassen har blitt omd√∏pt til EthernetUdp"
 
 #: debug/Compiler.java:490
 msgid ""
@@ -373,10 +390,14 @@ msgid ""
 "EthernetClient.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 1.0 er Udp klassen i Ethernet biblioteket blitt omd√∏pt til "
+"EthernetClient.\n"
+"\n"
 
 #: debug/Compiler.java:495
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr ""
+msgstr "Wire.send() har blitt omd√∏pt til Wire.write()."
 
 #: debug/Compiler.java:496
 msgid ""
@@ -385,10 +406,14 @@ msgid ""
 "consistency with other libraries.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduino 1.0 er Wire.send() funksjonen omd√∏pt til Wire.write() for "
+"konsistens med andre bibliotek.\n"
+"\n"
 
 #: debug/Compiler.java:501
 msgid "Wire.receive() has been renamed Wire.read()."
-msgstr ""
+msgstr "Wire.recive() har blitt omd√∏pt til Wire.read()"
 
 #: debug/Compiler.java:502
 msgid ""
@@ -397,265 +422,276 @@ msgid ""
 "for consistency with other libraries.\n"
 "\n"
 msgstr ""
+"\n"
+"Fra Arduion 1.0 er Wire.receive() funksjonen omd√∏pt til Wire.read() "
+"for konsistens med andre bibliotek.\n"
+"\n"
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
-msgstr ""
+msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 
 #: debug/Uploader.java:199
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
+"den valgte serieporten {0} eksisterer ikke, eller kortet ditt er ikke tilkoblet"
 
 #: debug/Uploader.java:203
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
+"Enheten svarer ikke, sjekk at riktig serieport er valgt eller RESET "
+"kortet like f√∏r eksportering"
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
+"Problemer ved opplasting til kortet. Se http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for forslag."
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
+"Feil mikrokontroller funnet. Valgte du riktig kort fra Verkt√∏y "
+"> Kort menyen?"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr ""
+msgstr "Ingen filer ble lagt til skissen"
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr ""
+msgstr "En fil ble lagt til skissen."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr ""
+msgstr "{0} filer ble lagt til skissen."
 
 #: Editor.java:484
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr ""
+msgstr "Ny"
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr ""
+msgstr "Skissebok"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr ""
+msgstr "Eksempler"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr ""
+msgstr "Lagre"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr ""
+msgstr "Lagre som..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr ""
+msgstr "Last opp"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr ""
+msgstr "Last opp med Programmerer"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr ""
+msgstr "Sideoppsett"
 
 #: Editor.java:564
 msgid "Print"
-msgstr ""
+msgstr "Skriv ut"
 
 #: Editor.java:576 Preferences.java:217
 msgid "Preferences"
-msgstr ""
+msgstr "Innstillinger"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr ""
+msgstr "Skisse"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr ""
+msgstr "Verifiser / Kompiler"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr ""
+msgstr "Importer bibliotek..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr ""
+msgstr "Vis skissemappe"
 
 #: Editor.java:643
 msgid "Add File..."
-msgstr ""
+msgstr "Legg til fil..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr ""
+msgstr "Verkt√∏y"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr ""
+msgstr "Seriell overv√•ker"
 
 #: Editor.java:682
 msgid "Board"
-msgstr ""
+msgstr "Kort"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr ""
+msgstr "Serieport"
 
 #: Editor.java:695
 msgid "Programmer"
-msgstr ""
+msgstr "Programmerer"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr ""
+msgstr "Brenne oppstartslaster"
 
 #: Editor.java:923
 msgid "serialMenu is null"
-msgstr ""
+msgstr "seriemeny er null"
 
 #: Editor.java:927 Editor.java:934
 msgid "name is null"
-msgstr ""
+msgstr "navn er null"
 
 #: Editor.java:986
 msgid "error retrieving port list"
-msgstr ""
+msgstr "feil ved henting av portliste"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr ""
+msgstr "Hjelp"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr ""
+msgstr "Kom i gang"
 
 #: Editor.java:1049
 msgid "Environment"
-msgstr ""
+msgstr "Milj√∏"
 
 #: Editor.java:1057
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Feils√∏king"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr ""
+msgstr "Referanse"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr ""
+msgstr "Finn i Referanse"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte spurte sp√∏rsm√•l"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr ""
+msgstr "Bes√∏k Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
-msgstr ""
+msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
-msgstr ""
+msgstr "Om Arduino"
 
 #: Editor.java:1116
 msgid "Edit"
-msgstr ""
+msgstr "Rediger"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
-msgstr ""
+msgstr "Angre"
 
 #: Editor.java:1124 Editor.java:1126 Editor.java:1376
 msgid "Redo"
-msgstr ""
+msgstr "Gj√∏r om"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
-msgstr ""
+msgstr "Klipp ut"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
-msgstr ""
+msgstr "Kopier"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr ""
+msgstr "Kopier for Forum"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
-msgstr ""
+msgstr "Kopier som HTML"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
-msgstr ""
+msgstr "Lim inn"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
-msgstr ""
+msgstr "Velg alt"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
-msgstr ""
+msgstr "Kommenter/Fjern kommentar"
 
 #: Editor.java:1202 Editor.java:2710
 msgid "Increase Indent"
-msgstr ""
+msgstr "√òk innrykk"
 
 #: Editor.java:1210 Editor.java:2718
 msgid "Decrease Indent"
-msgstr ""
+msgstr "Reduser innrykk"
 
 #: Editor.java:1220
 msgid "Find..."
-msgstr ""
+msgstr "Finn..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr ""
+msgstr "Finn neste"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr ""
+msgstr "Finn forrige"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
-msgstr ""
+msgstr "Finn i utvalg"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr ""
+msgstr "Velg f√∏rst et ord √• finne i referansen."
 
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr ""
+msgstr "Ingen referanse tilgjengelig for \"{0}\""
 
 #: Editor.java:1826
 #, java-format
