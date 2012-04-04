@@ -4,6 +4,14 @@
 # Alexis Morin <mail@alexismorin.com>, 2012.
 # Denis Barbier <bouzim@gmail.com>, 2012.
 #
+# Lexique des termes utilisés dans cette traduction :
+#  - board : carte
+#  - burn bootloader : graver la séquence d'initialisation
+#  - library : bibliothèque
+#  - sketch : croquis
+#  - sketchbook : carnet de croquis
+#  - upload : transfert/transférer
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: IDE_translations 1.0.1\n"
