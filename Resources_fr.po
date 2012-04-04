@@ -1525,7 +1525,7 @@ msgstr "téléversement"
 
 #: Preferences.java:306
 msgid "Verify code after upload"
-msgstr ""
+msgstr "Vérifier le code après téléversement"
 
 #: Preferences.java:315
 msgid "Use external editor"
