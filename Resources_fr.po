@@ -129,7 +129,7 @@ msgstr "Programmeur"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "Brûler séquence d'initialisation"
+msgstr "Brûler la séquence d'initialisation"
 
 #: Editor.java:923
 msgid "serialMenu is null"
@@ -546,7 +546,7 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Le port série ''{0}'' n'a pu être trouvé. Avez-vous sélectionnée le bon du menu Outils > "
+"Le port série ''{0}'' n'a pu être trouvé. Avez-vous sélectionné le bon du menu Outils > "
 "Port Série?"
 
 #: Serial.java:424
@@ -672,7 +672,7 @@ msgstr ""
 
 #: Sketch.java:286
 msgid "Name for new file:"
-msgstr "Nom pour le nouveau fichier:"
+msgstr "Nom du nouveau fichier:"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
@@ -683,7 +683,7 @@ msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"Et si vous enregistiez le croquis \n"
+"Et si vous enregistriez le croquis \n"
 "avant d'essayer de la renommer?"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
@@ -720,7 +720,7 @@ msgstr "Un fichier nommé \"{0}\" existe déjà dans \"{1}\""
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "Vous ne pouvez aver de fichier .cpp avec le même nom que le croquis."
+msgstr "Vous ne pouvez avoir de fichier .cpp avec le même nom que le croquis."
 
 #: Sketch.java:425
 msgid ""
@@ -762,7 +762,7 @@ msgstr "createNewFile() a retourné false"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "Êtes-vous certains de supprimer ce croquis?"
+msgstr "Êtes-vous certains de vouloir supprimer ce croquis?"
 
 #: Sketch.java:592
 #, java-format
@@ -796,7 +796,7 @@ msgid ""
 "need to re-save this sketch to another location."
 msgstr ""
 "Certain fichiers sont marqués \"lecture-seule\", vous devrez\n"
-"ré-enregistrer ce croquis à au autre emplacement."
+"ré-enregistrer ce croquis à un autre emplacement."
 
 #: Sketch.java:743
 msgid ""
@@ -982,7 +982,7 @@ msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
-"L'appareil ne répond pas, vérfiez que le bon port série est sélectionné ou "
+"L'appareil ne répond pas, vérifiez que le bon port série est sélectionné ou "
 "RÉINITIALISEZ la plaquette avant d'exporter"
 
 #: debug/Uploader.java:209
@@ -1162,7 +1162,7 @@ msgid ""
 "platform-specific code for your machine."
 msgstr ""
 "Une erreur inconnue est survenue en essayant de charger\n"
-"du code de plate-forme pour votre machine."
+"du code de spécifique à votre plate-forme."
 
 #: Base.java:229
 msgid "Please install JDK 1.5 or later"
@@ -1176,7 +1176,7 @@ msgid ""
 msgstr ""
 "Arduino requiert le JDK complet (pas seulement un JRE)\n"
 "à fin de s'exécuter. Veuillez installer JDK 1.5 ou ultérieur.\n"
-"Plus d'informations peuvent être trouvées dans la référence."
+"Plus d'informations peuvent être trouvées dans la documentation."
 
 #: Base.java:254
 msgid "Sketchbook folder disappeared"
@@ -1193,7 +1193,7 @@ msgstr ""
 "Le dossier des croquis n'existe plus.\n"
 "Arduino va changer à l'emplacement\n"
 "par défaut, et créer un nouveau dossier\n"
-"croquis si nécessaies. Arduino cessera ensuite\n"
+"croquis si nécessaires. Arduino cessera ensuite\n"
 "de parler de soi-même à la troisième personne."
 
 #: Base.java:529
@@ -1205,8 +1205,8 @@ msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Tu as atteint la limite des noms automatiques pour les croquis\n"
-"pour la journée. Et si tu allais te promener?"
+"Tu as atteint la limite quotidienne de noms générés.\n"
+"Et si tu allais te promener?"
 
 #: Base.java:534
 msgid "Sunshine"
@@ -1280,15 +1280,15 @@ msgstr ""
 
 #: Base.java:1204
 msgid "Ignoring bad library name"
-msgstr "Ignore librairie mal nommée"
+msgstr "Ignore la librairie mal nommée"
 
 #: Base.java:1429
 msgid "Problem getting data folder"
-msgstr "Problème d'obtention du dossier data"
+msgstr "Problème d'obtention du dossier de données"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr "Problème d'obtention du dossier data d'Arduino"
+msgstr "Problème d'obtention du dossier de données d'Arduino"
 
 #: Base.java:1437
 msgid "Settings issues"
@@ -1391,7 +1391,7 @@ msgstr "Avertissement"
 #: Base.java:2193
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "N'a pu retirer la vielle version de {0}"
+msgstr "N'a pu retirer la vieille version de {0}"
 
 #: Base.java:2203
 #, java-format
@@ -1445,7 +1445,7 @@ msgid ""
 "To enable opening URLs or folders, add a \n"
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
-"Plate-forme non spécifiée, aucune lanceur disponible.\n"
+"Plate-forme non spécifiée, aucun lanceur disponible.\n"
 "Pour permettre l'ouvertur d'URLs ou de dossiers, \n"
 "ajouter une ligne \"launcher=/path/to/app\" à preferences.txt"
 
@@ -1466,7 +1466,7 @@ msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
-"N'a pu lire les paramètre par défaut.\n"
+"N'a pu lire les paramètres par défaut.\n"
 "Vous devrez réinstaller Arduino."
 
 #: Preferences.java:180
