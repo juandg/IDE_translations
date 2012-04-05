@@ -1489,6 +1489,10 @@ msgstr "コンパイル "
 msgid "upload"
 msgstr "書き込み"
 
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr ""
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "外部のエディタを使用する。"

@@ -1504,6 +1504,10 @@ msgstr "編譯"
 msgid "upload"
 msgstr "上傳"
 
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr ""
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "使用外部編輯器"

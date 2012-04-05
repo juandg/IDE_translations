@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Versió 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-31 00:44+0100\n"
-"Last-Translator: Albert Segura <alb.segu[at]gmail[dot]com>\n"
+"PO-Revision-Date: 2012-04-04 15:17+0100\n"
+"Last-Translator: Albert Segura <alb.segu@gmail.com>\n"
 "Language-Team: Català <alb.segu[at]gmail[dot]com>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Fitxer"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr "Nova"
+msgstr "Nou"
 
 #: Editor.java:494 Base.java:900
 msgid "Open..."
@@ -71,7 +71,7 @@ msgstr "Puja"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Puja utilitzant el Programador"
+msgstr "Puja utilitzant un Programador"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -607,7 +607,7 @@ msgstr "Arxiva Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "aaMMdd"
+msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -1453,7 +1453,7 @@ msgid ""
 "{0} and restart Arduino."
 msgstr ""
 "Error al llegir el fitxer de preferències. Si us plau elimini (o mogui)\n"
-"{0} i reinstal·li Arduino."
+"{0} i reiniciï Arduino."
 
 #: Preferences.java:237
 msgid "Sketchbook location:"
@@ -1482,6 +1482,10 @@ msgstr "Compliació "
 #: Preferences.java:297
 msgid "upload"
 msgstr "penjar"
+
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr ""
 
 #: Preferences.java:315
 msgid "Use external editor"

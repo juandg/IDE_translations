@@ -1368,6 +1368,10 @@ msgstr "Kompilierung "
 msgid "upload"
 msgstr "Upload"
 
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr "Code nach Upload überprüfen"
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "Externen Editor benutzen"
@@ -1390,7 +1394,7 @@ msgstr "Mehr Einstellungen können direkt in der Datei geändert werden"
 
 #: Preferences.java:385
 msgid "(edit only when Arduino is not running)"
-msgstr "(nur Bearbeiten, wenn Arduino nicht gestartet ist)"
+msgstr "(nur bearbeiten, wenn Arduino nicht gestartet ist)"
 
 #: Preferences.java:532
 #, java-format
