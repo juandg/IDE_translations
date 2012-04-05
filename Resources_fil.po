@@ -893,7 +893,7 @@ msgstr "Hindi nahuling exception type: {0}"
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "May problema sa maglipat ng {0} sa build folder"
+msgstr "May problema sa paglipat ng {0} sa build folder"
 
 #: Sketch.java:1661
 msgid "Uploading..."
