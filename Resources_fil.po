@@ -1496,7 +1496,7 @@ msgstr "Pumili ng bagong lokasyon ng sketchbook"
 
 #: Preferences.java:276
 msgid "Editor font size: "
-msgstr "Laki ng font para sa Editor:"
+msgstr "Sukat ng font para sa Editor:"
 
 #: Preferences.java:280
 msgid "  (requires restart of Arduino)"
@@ -1504,7 +1504,7 @@ msgstr " (kinakailangang i-restart ang Arduino)"
 
 #: Preferences.java:293
 msgid "Show verbose output during: "
-msgstr "Ipakita ang maligoy na output: "
+msgstr "Ipakita ang verbose na output: "
 
 #: Preferences.java:295
 msgid "compilation "
@@ -1524,11 +1524,11 @@ msgstr "Gumamit ng ibang editor"
 
 #: Preferences.java:325
 msgid "Check for updates on startup"
-msgstr "Suriin ang updates tuwing magiistart"
+msgstr "Suriin ang updates tuwing magsisimula"
 
 #: Preferences.java:334
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "Baguhin ang sketch files sa bagong extension kapag nagsave (.pde -> .ino)"
+msgstr "Baguhin ang sketch files na gumamit ng bagong extension kapag nagsave (.pde -> .ino)"
 
 #: Preferences.java:345
 msgid "Automatically associate .ino files with Arduino"
