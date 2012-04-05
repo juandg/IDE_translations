@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
 "PO-Revision-Date: 2012-03-29 10:24-0400\n"
-"Last-Translator: David A. Mellis <>\n"
-"Language-Team: English\n"
-"Language: en\n"
+"Last-Translator: Marc Lester Tan <mharkus(at)gmail(dot)com>\n"
+"Language-Team: Filipino <mharkus[at]gmail[dot]com>\n\n"
+"Language: fil\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1514,6 +1514,10 @@ msgstr "compilation"
 msgid "upload"
 msgstr "upload"
 
+#: Preferences.java:306
+msgid "Verify code after upload"
+msgstr "I-verify ang code pagkatapos mai-upload"
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "Gumamit ng ibang editor"
@@ -1541,4 +1545,4 @@ msgstr "(baguhin lamang kung hindi tumatakbo ang Arduino)"
 #: Preferences.java:532
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "hindi papansinin ang maling font sizde {0}"
+msgstr "hindi papansinin ang maling font size {0}"
