@@ -1511,7 +1511,7 @@ msgstr "caricamento"
 
 #: Preferences.java:306
 msgid "Verify code after upload"
-msgstr ""
+msgstr "Verifica il codice dopo il caricamento"
 
 #: Preferences.java:315
 msgid "Use external editor"
