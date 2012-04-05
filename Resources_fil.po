@@ -86,7 +86,7 @@ msgstr "Mga Kagustuhan"
 
 #: Editor.java:586 Base.java:779
 msgid "Quit"
-msgstr "Tumigil"
+msgstr "Quit"
 
 #: Editor.java:600
 msgid "Sketch"
