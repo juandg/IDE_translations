@@ -1545,4 +1545,4 @@ msgstr "(baguhin lamang kung hindi tumatakbo ang Arduino)"
 #: Preferences.java:532
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "hindi papansinin ang maling font size {0}"
+msgstr "hindi papansinin ang maling sukat ng font {0}"
