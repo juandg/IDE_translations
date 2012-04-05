@@ -75,7 +75,7 @@ msgstr "Încarcă folosind programatorul"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr "Setare pagina"
+msgstr "Iniţializare pagină"
 
 #: Editor.java:564
 msgid "Print"
@@ -533,8 +533,8 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"Portul serial ''{0}'' este folosit deja. Încearcă să închizi programele care crezi "
-"că îl folosesc."
+"Portul serial ''{0}'' este deja în uz. Verifică ce programe îl folosesc \n"
+"şi încearcă să le închizi."
 
 #: Serial.java:154
 #, java-format
@@ -547,8 +547,8 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Portul serial ''{0}'' nu este găsit. Ai făcut corect selecția în meniul Instrumente > "
-"Port serial?"
+"Nu am găsit portul serial ''{0}''. Ai făcut corect selecția în meniul \n"
+"Instrumente > Port serial?"
 
 #: Serial.java:424
 #, java-format
@@ -570,7 +570,7 @@ msgstr "Auto formatare"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "Nu este necesara nici o modificare pentru auto formatare"
+msgstr "Nu a rezultat nici o modificare în urma auto formatării."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
@@ -907,7 +907,7 @@ msgstr "Încărcare..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Dimensiunea binara a schiței: {0} bytes (din maxim {1} byte)"
+msgstr "Dimensiunea schiței: {0} bytes (din maxim {1} bytes)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
