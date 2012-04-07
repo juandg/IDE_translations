@@ -1503,19 +1503,19 @@ msgstr "Actualitza fitxer dels sketch a la nova extensió al desar (.pde -> .ino
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Associa automàticament fitxers .ino amb l'Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Es poden editar més preferències directament en el fitxer"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(modifica només quan l'Arduino no estigui en funcionament)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "Ignorant mida de font invàlida {0}"

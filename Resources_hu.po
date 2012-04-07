@@ -1513,19 +1513,19 @@ msgstr "Sketch frissítése az új kiterjesztéssel (.pde -> .ino)"
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatikus kiterjesztés-hozzárendelés: .ino->Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "További számos beállítás elérhetõ a file közvetlen szerkesztésével"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(csak akkor szerkeszthetõ, ha az Arduino nem fut)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "hibás fontméret kihagyása: {0}"

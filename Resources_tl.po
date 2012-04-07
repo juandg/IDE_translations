@@ -1527,19 +1527,19 @@ msgstr "Baguhin ang sketch files na gumamit ng bagong extension kapag nagsave (.
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Kusang iassociate ang .ino files sa Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Madami pang preferences ang maaaring baguhin mula sa file"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(baguhin lamang kung hindi tumatakbo ang Arduino)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "hindi papansinin ang maling sukat ng font {0}"

@@ -1527,19 +1527,19 @@ msgstr "Opdater sketch filer til den nye udvidelse når der gemmes (.pde -> .ino
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Tilknyt automatisk .ino filer med Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Flere indstillinger kan redigeres direkte i denne fil"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(rediger kun når Arduino ikke kører)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignorerer ugyldig font størrelse {0}"

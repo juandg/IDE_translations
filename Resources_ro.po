@@ -1535,19 +1535,19 @@ msgstr "Se schimba extensia fișierelor schiță la salvare (.pde -> .ino)"
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Asociază fișierele .ino cu Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Alte preferințe pot fi editate direct în fișier"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(editează doar atunci când Arduino IDE nu funcționează)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignoră dimensiunea incorecta pentru fontul {0}"

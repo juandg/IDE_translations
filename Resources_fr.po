@@ -1543,19 +1543,19 @@ msgstr "Mettre à jour les fichiers de croquis vers la nouvelle extension lors d
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Associer automatiquement les fichiers .ino avec Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Davantage de préférences peuvent être éditées directement dans le fichier"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(éditer uniquement lorsque Arduino ne s'exécute pas)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignore la taille de police invalide {0}"

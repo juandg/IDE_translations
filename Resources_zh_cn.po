@@ -1528,19 +1528,19 @@ msgstr "保存时更新程序文件的扩展名（.pde ->.ino）"
 msgid "Automatically associate .ino files with Arduino"
 msgstr "自动关联.ino文件至Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "更多的参数设置可以直接在文件中编辑"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "（只在Arduino不能运行时编辑）"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "忽略无效的字符大小{0}"

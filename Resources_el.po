@@ -1389,19 +1389,19 @@ msgstr "Αναβάθμιση των αρχείων σχεδίων στην νέ�
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Αυτόματη σύνδεση των αρχείων .ino με το Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Περισσότερες προτιμήσεις μπορούν να επεξεργασθούν απεθείας στο αρχείο"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(επεξεργαστείτε το αρχείο μόνο ενώ το Arduino δεν τρέχει)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "Παράβλεψη λανθασμένου μεγέθος γραμματοσειράς {0}"

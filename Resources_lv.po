@@ -1539,19 +1539,19 @@ msgstr ""
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automātiski asociēt .ino failus ar Arduino"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "Vairāk iestatījumus var izmainīt tieši failā"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(rediģējiet tikai tad, kad Arduino nav palaists)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignorē nederīgu fontu izmēru {0}"

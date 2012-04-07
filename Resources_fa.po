@@ -1495,19 +1495,19 @@ msgstr "به‌روزرسانی پرونده طرح به یک پسوند جدی�
 msgid "Automatically associate .ino files with Arduino"
 msgstr "اختصاص خودکار پرونده‌های .ino با آردئینو"
 
-#: Preferences.java:361
+#: Preferences.java:373
 msgid "Preferred Language:"
 msgstr ""
 
-#: Preferences.java:382
+#: Preferences.java:394
 msgid "More preferences can be edited directly in the file"
 msgstr "ترجیحات بیشتر می‌توانند مستقیماً درون یک پروندهٔ ویرایش گردند"
 
-#: Preferences.java:411
+#: Preferences.java:423
 msgid "(edit only when Arduino is not running)"
 msgstr "(ویرایش فقط به هنگامی که آردئینو درحال اجرا نیست)"
 
-#: Preferences.java:558
+#: Preferences.java:570
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "درنظر نگرفتن اندازهٔ قلم نامناسب {0}"
