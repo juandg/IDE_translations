@@ -38,7 +38,7 @@ msgstr "File"
 msgid "New"
 msgstr "Új"
 
-#: Editor.java:494 Base.java:900
+#: Editor.java:494 Base.java:903
 msgid "Open..."
 msgstr "Megnyit..."
 
@@ -83,7 +83,7 @@ msgstr "Nyomtatás"
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: Editor.java:586 Base.java:779
+#: Editor.java:586 Base.java:782
 msgid "Quit"
 msgstr "Kilépés"
 
@@ -328,7 +328,7 @@ msgstr "Átmozgatás"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:178
 msgid "Error"
 msgstr "Hiba"
 
@@ -1127,30 +1127,30 @@ msgstr ""
 "Hiba lépett fel, miközben a megnyitott file\n"
 "a konzolt használta volna."
 
-#: Base.java:181
+#: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "Nem-végzetes hiba a kinézet beállítása során (a program férfi géneket hordoz)."
 
-#: Base.java:182
+#: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
 msgstr "A hibaüzenetet követõen az Arduino megfelelõen mûködik."
 
-#: Base.java:217
+#: Base.java:220
 msgid "Problem Setting the Platform"
 msgstr "A keretrendszer konfigurálása során hiba lépett fel"
 
-#: Base.java:218
+#: Base.java:221
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr "Rendszerfüggõ kód betöltése során\n "
 "hiba lépett fel (A hiba az Ön gépében van.)"
 
-#: Base.java:229
+#: Base.java:232
 msgid "Please install JDK 1.5 or later"
 msgstr "A futtatáshoz telepített Java 1.5 vagy újabb szoftverkörnyezet szükséges"
 
-#: Base.java:230
+#: Base.java:233
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -1160,11 +1160,11 @@ msgstr "Az Arduino futtatásához teljes telepítésû JDK (Java Fejlesztõi Kö
 "A JDK 1.5 vagy újabb szofver telepítése szükséges"
 "Bõvebb információ a Referenciák közt található."
 
-#: Base.java:254
+#: Base.java:257
 msgid "Sketchbook folder disappeared"
 msgstr "A Sketchbook mappa elérhetetlen"
 
-#: Base.java:255
+#: Base.java:258
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -1175,30 +1175,30 @@ msgstr "A sketckbook mappa nem érhetõ el.\n"
 "Az alapértelmezett hely lesz kiválasztva, és\n"
 "itt létrehozva a sketch mappa."
 
-#: Base.java:529
+#: Base.java:532
 msgid "Time for a Break"
 msgstr "Itt az idõ szünetet tartani"
 
-#: Base.java:530
+#: Base.java:533
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr "Meghaladtad az egy napra jutó új sketch-ek létrehozási\n "
 "számát. Nem kéne sétálni egyet - pihenésül?"
 
-#: Base.java:534
+#: Base.java:537
 msgid "Sunshine"
 msgstr "Napfény"
 
-#: Base.java:535
+#: Base.java:538
 msgid "No really, time for some fresh air for you."
 msgstr "Hoppá, itt az idõ levegõznöd egyet."
 
-#: Base.java:630
+#: Base.java:633
 msgid "Open an Arduino sketch..."
 msgstr "Arduino Sketch megnyitása..."
 
-#: Base.java:769
+#: Base.java:772
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
@@ -1207,15 +1207,15 @@ msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Biztosan ki akarsz lépni?</b><p>Az utolsó Sketch bezárásával az Arduino kilép."
 
-#: Base.java:967
+#: Base.java:970
 msgid "Contributed"
 msgstr "Hozzáadás"
 
-#: Base.java:1092
+#: Base.java:1095
 msgid "Sketch Does Not Exist"
 msgstr "Sketch nem megnyitható"
 
-#: Base.java:1093
+#: Base.java:1096
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -1225,7 +1225,7 @@ msgstr ""
 "A SketchBook menü frissítéséhez az Arduino\n"
 "újraindítása szükséges."
 
-#: Base.java:1122
+#: Base.java:1125
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -1240,11 +1240,11 @@ msgstr ""
 "A hibás Sketch-et távolítsd el a mappából:\n"
 "{1}"
 
-#: Base.java:1129
+#: Base.java:1132
 msgid "Ignoring sketch with bad name"
 msgstr "Hibás Sketch név kihagyása"
 
-#: Base.java:1199
+#: Base.java:1202
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -1255,23 +1255,23 @@ msgstr ""
 "A neve az angol abc betûit és számokat tartalmazhat\n"
 "(szóköz nem lehet benne és nem kezdõdhet számmal)."
 
-#: Base.java:1204
+#: Base.java:1207
 msgid "Ignoring bad library name"
 msgstr "Hibás könyvtárnév kihagyása"
 
-#: Base.java:1429
+#: Base.java:1432
 msgid "Problem getting data folder"
 msgstr "Probléma a könyvtár elérésekor"
 
-#: Base.java:1430
+#: Base.java:1433
 msgid "Error getting the Arduino data folder."
 msgstr "Hiba az Arduino data könyvtár elérésekor."
 
-#: Base.java:1437
+#: Base.java:1440
 msgid "Settings issues"
 msgstr "Kimenetek beállítása"
 
-#: Base.java:1438
+#: Base.java:1441
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
@@ -1279,11 +1279,11 @@ msgstr ""
 "Arduino nem futtatható, mert nem hozható létre\n"
 "a felhasználói beállítások mappája."
 
-#: Base.java:1599
+#: Base.java:1602
 msgid "You forgot your sketchbook"
 msgstr "Felejtsd el a SketchBook-ot"
 
-#: Base.java:1600
+#: Base.java:1603
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
@@ -1291,15 +1291,15 @@ msgstr ""
 "Arduino nem futtatható, mert nem hozható létre\n"
 "a felhasználói Sketch mentések mappája."
 
-#: Base.java:1620
+#: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
 msgstr "Válassz (vagy hozz létre) mappát a Sketch-eknek..."
 
-#: Base.java:1644
+#: Base.java:1647
 msgid "Problem Opening URL"
 msgstr "Hiba az URL megnyitásakor"
 
-#: Base.java:1645
+#: Base.java:1648
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -1308,11 +1308,11 @@ msgstr ""
 "Nem nyitható meg az URL:\n"
 "{0}"
 
-#: Base.java:1668
+#: Base.java:1671
 msgid "Problem Opening Folder"
 msgstr "Hiba a mappa megnyitásakor"
 
-#: Base.java:1669
+#: Base.java:1672
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -1321,61 +1321,61 @@ msgstr ""
 "Nem nyitható meg a mappa:\n"
 "{0}"
 
-#: Base.java:1782
+#: Base.java:1785
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1784
+#: Base.java:1787
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1786
+#: Base.java:1789
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1791
+#: Base.java:1794
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1796
+#: Base.java:1799
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "environment"
 msgstr "környezet"
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1806
+#: Base.java:1809
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1811
+#: Base.java:1814
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1823
+#: Base.java:1826
 msgid "Message"
 msgstr "Üzenet"
 
-#: Base.java:1839
+#: Base.java:1842
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: Base.java:2193
+#: Base.java:2196
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "Nem törölhetõ a {0} régi verziója"
 
-#: Base.java:2203
+#: Base.java:2206
 #, java-format
 msgid "Could not replace {0}"
 msgstr "Nem cserélhetõ: {0}"
 
-#: Base.java:2244 Base.java:2267
+#: Base.java:2247 Base.java:2270
 #, java-format
 msgid "Could not delete {0}"
 msgstr "Nem törölhetõ: {0}"
@@ -1513,15 +1513,19 @@ msgstr "Sketch frissítése az új kiterjesztéssel (.pde -> .ino)"
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatikus kiterjesztés-hozzárendelés: .ino->Arduino"
 
-#: Preferences.java:356
+#: Preferences.java:361
+msgid "Preferred Language:"
+msgstr ""
+
+#: Preferences.java:382
 msgid "More preferences can be edited directly in the file"
 msgstr "További számos beállítás elérhetõ a file közvetlen szerkesztésével"
 
-#: Preferences.java:385
+#: Preferences.java:411
 msgid "(edit only when Arduino is not running)"
 msgstr "(csak akkor szerkeszthetõ, ha az Arduino nem fut)"
 
-#: Preferences.java:532
+#: Preferences.java:558
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "hibás fontméret kihagyása: {0}"

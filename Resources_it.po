@@ -38,7 +38,7 @@ msgstr "File"
 msgid "New"
 msgstr "Nuovo"
 
-#: Editor.java:494 Base.java:900
+#: Editor.java:494 Base.java:903
 msgid "Open..."
 msgstr "Apri..."
 
@@ -83,7 +83,7 @@ msgstr "Stampa"
 msgid "Preferences"
 msgstr "Preferenze"
 
-#: Editor.java:586 Base.java:779
+#: Editor.java:586 Base.java:782
 msgid "Quit"
 msgstr "Esci"
 
@@ -328,7 +328,7 @@ msgstr "Sto Spostando"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:178
 msgid "Error"
 msgstr "Errore"
 
@@ -1137,19 +1137,19 @@ msgstr ""
 "E' stato rilevato un problema durante l'apertura del file\n"
 "usato per memorizzare l'output della console."
 
-#: Base.java:181
+#: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
 msgstr "Errore non fatale durante la configurazione del Look & Feel"
 
-#: Base.java:182
+#: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
 msgstr "Segue il messaggio di errore, anche se Arduino dovrebbe funzionare senza problemi."
 
-#: Base.java:217
+#: Base.java:220
 msgid "Problem Setting the Platform"
 msgstr "Problemi durante la configurazione della piattaforma"
 
-#: Base.java:218
+#: Base.java:221
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
@@ -1157,11 +1157,11 @@ msgstr ""
 "Errore sconosciuto durante il caricamento\n"
 "di codice specifico per la vostra macchina."
 
-#: Base.java:229
+#: Base.java:232
 msgid "Please install JDK 1.5 or later"
 msgstr "Per favore installate JDK 1.5 o successivo."
 
-#: Base.java:230
+#: Base.java:233
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -1171,11 +1171,11 @@ msgstr ""
 "per funzionare. Per favore installate JDK 1.5 o successivo.\n"
 "Ulteriori informazioni sono disponibili nella guida."
 
-#: Base.java:254
+#: Base.java:257
 msgid "Sketchbook folder disappeared"
 msgstr "La cartella Sketch è scomparsa"
 
-#: Base.java:255
+#: Base.java:258
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -1189,11 +1189,11 @@ msgstr ""
 "A quel punto Arduino smetterà di parlare di sé stesso\n"
 "in terza persona"
 
-#: Base.java:529
+#: Base.java:532
 msgid "Time for a Break"
 msgstr "E' ora di fare una pausa"
 
-#: Base.java:530
+#: Base.java:533
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
@@ -1202,19 +1202,19 @@ msgstr ""
 "dei nomi degli Sketch.\n"
 "Cosa ne direste invece di andare a fare una passeggiata?"
 
-#: Base.java:534
+#: Base.java:537
 msgid "Sunshine"
 msgstr "Sole splendente"
 
-#: Base.java:535
+#: Base.java:538
 msgid "No really, time for some fresh air for you."
 msgstr "No davvero, è ora di prendere un po' di aria fresca"
 
-#: Base.java:630
+#: Base.java:633
 msgid "Open an Arduino sketch..."
 msgstr "Apri uno Sketch di Arduino"
 
-#: Base.java:769
+#: Base.java:772
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
@@ -1224,15 +1224,15 @@ msgstr ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Siete "
 "sicuri di voler Uscire?</b><p>Chiudere l'ultimo Sketch aperto uscirà da Arduino."
 
-#: Base.java:967
+#: Base.java:970
 msgid "Contributed"
 msgstr "Contribuito"
 
-#: Base.java:1092
+#: Base.java:1095
 msgid "Sketch Does Not Exist"
 msgstr "Lo Sketch non esiste"
 
-#: Base.java:1093
+#: Base.java:1096
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
@@ -1242,7 +1242,7 @@ msgstr ""
 "Potresti aver bisogno di riavviare Arduino\n"
 "per aggiornare il menù degli Sketch."
 
-#: Base.java:1122
+#: Base.java:1125
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -1257,11 +1257,11 @@ msgstr ""
 "Per sbarazzarsi di questo messagggio, eliminare lo Sketch da \n"
 "{1}"
 
-#: Base.java:1129
+#: Base.java:1132
 msgid "Ignoring sketch with bad name"
 msgstr "Ignoro lo Sketch con nome malformato"
 
-#: Base.java:1199
+#: Base.java:1202
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
@@ -1272,23 +1272,23 @@ msgstr ""
 "I nomi delle librerie possono contenere solo lettere e numeri\n"
 "(ASCII senza spazi e non possono iniziare con un numero).\n"
 
-#: Base.java:1204
+#: Base.java:1207
 msgid "Ignoring bad library name"
 msgstr "Ignoro la libreria con nome malformato"
 
-#: Base.java:1429
+#: Base.java:1432
 msgid "Problem getting data folder"
 msgstr "Problema con la cartella dati"
 
-#: Base.java:1430
+#: Base.java:1433
 msgid "Error getting the Arduino data folder."
 msgstr "Errore con la cartella dati di Arduino"
 
-#: Base.java:1437
+#: Base.java:1440
 msgid "Settings issues"
 msgstr "Problemi di configurazione"
 
-#: Base.java:1438
+#: Base.java:1441
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
@@ -1296,11 +1296,11 @@ msgstr ""
 "Arduino non può essere eseguito perché non può\n"
 "creare la cartella per memorizzare le tue impostazioni."
 
-#: Base.java:1599
+#: Base.java:1602
 msgid "You forgot your sketchbook"
 msgstr "Hai dimenticato la tua cartella degli Sketch"
 
-#: Base.java:1600
+#: Base.java:1603
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
@@ -1308,15 +1308,15 @@ msgstr ""
 "Arduino non pu˜ essere eseguito perché non può\n"
 "creare la cartella dove memorizzare gli Sketch."
 
-#: Base.java:1620
+#: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
 msgstr "Seleziona (o crea) la cartella per gli SKetch..."
 
-#: Base.java:1644
+#: Base.java:1647
 msgid "Problem Opening URL"
 msgstr "Problema aprendo l'URL"
 
-#: Base.java:1645
+#: Base.java:1648
 #, java-format
 msgid ""
 "Could not open the URL\n"
@@ -1325,11 +1325,11 @@ msgstr ""
 "Impossibile aprire l'URL\n"
 "{0}"
 
-#: Base.java:1668
+#: Base.java:1671
 msgid "Problem Opening Folder"
 msgstr "Problema nell'apertura della cartella"
 
-#: Base.java:1669
+#: Base.java:1672
 #, java-format
 msgid ""
 "Could not open the folder\n"
@@ -1338,61 +1338,61 @@ msgstr ""
 "Impossibile aprire la cartella\n"
 "{0}"
 
-#: Base.java:1782
+#: Base.java:1785
 msgid "Guide_MacOSX.html"
 msgstr "Guide_MacOSX.html"
 
-#: Base.java:1784
+#: Base.java:1787
 msgid "Guide_Windows.html"
 msgstr "Guide_Windows.html"
 
-#: Base.java:1786
+#: Base.java:1789
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr "http://www.arduino.cc/playground/Learning/Linux"
 
-#: Base.java:1791
+#: Base.java:1794
 msgid "index.html"
 msgstr "index.html"
 
-#: Base.java:1796
+#: Base.java:1799
 msgid "Guide_Environment.html"
 msgstr "Guide_Environment.html"
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "environment"
 msgstr "ambiente"
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "platforms.html"
 msgstr "platforms.html"
 
-#: Base.java:1806
+#: Base.java:1809
 msgid "Guide_Troubleshooting.html"
 msgstr "Guide_Troubleshooting.html"
 
-#: Base.java:1811
+#: Base.java:1814
 msgid "FAQ.html"
 msgstr "FAQ.html"
 
-#: Base.java:1823
+#: Base.java:1826
 msgid "Message"
 msgstr "Messaggio"
 
-#: Base.java:1839
+#: Base.java:1842
 msgid "Warning"
 msgstr "Attenzione"
 
-#: Base.java:2193
+#: Base.java:2196
 #, java-format
 msgid "Could not remove old version of {0}"
 msgstr "Impossibile eliminare la vecchia versione di {0}"
 
-#: Base.java:2203
+#: Base.java:2206
 #, java-format
 msgid "Could not replace {0}"
 msgstr "Impossibile sostituire {0}"
 
-#: Base.java:2244 Base.java:2267
+#: Base.java:2247 Base.java:2270
 #, java-format
 msgid "Could not delete {0}"
 msgstr "Impossibile eliminare {0}"
@@ -1529,15 +1529,19 @@ msgstr "Aggiorna gli Sketch alla nuova estensione durante il salvataggio (.pde -
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Associa automaticamente i file .ino con Arduino"
 
-#: Preferences.java:356
+#: Preferences.java:361
+msgid "Preferred Language:"
+msgstr ""
+
+#: Preferences.java:382
 msgid "More preferences can be edited directly in the file"
 msgstr "Ulteriori preferenze possono essere modificate direttamente nel file"
 
-#: Preferences.java:385
+#: Preferences.java:411
 msgid "(edit only when Arduino is not running)"
 msgstr "(modifica solo quando Arduino non è in esecuzione)"
 
-#: Preferences.java:532
+#: Preferences.java:558
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "sto ignorando la dimensione del font non valida {0}"
