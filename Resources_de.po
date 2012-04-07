@@ -280,7 +280,7 @@ msgid ""
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
-msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Möchten Sie Ihre Änderungen an diesem Sketch speichern,<BR> bevor Arduino geschlossen wird?</b><p>Wenn Sie die Datei nicht speichern, sind alle Änderungen verloren."
+msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Möchten Sie Ihre Änderungen an diesem Sketch speichern, bevor Arduino geschlossen wird?</b><p>Wenn Sie die Datei nicht speichern, sind alle Änderungen verloren."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
