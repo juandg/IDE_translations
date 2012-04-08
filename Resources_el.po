@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Arduino - Greek\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-03-30 02:33+0000\n"
+"PO-Revision-Date: 2012-04-08 20:30+0000\n"
 "Last-Translator: tzikis <billgeo13@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.net/projects/p/arduino_greek/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -277,8 +277,8 @@ msgstr "Αποθήκευση αλλαγών στο \"{0}\";"
 
 #: Editor.java:2006
 msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p {"
+" font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
 msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Θέλετε να αποθηκεύσετε αυτό το σχέδιο<BR> πρίν εξέλθετε;</b><p>Αν δεν το αποθηκεύσετε, όλες οι αλλαγές σας θα χαθούν."
@@ -528,8 +528,8 @@ msgstr "Σφάλμα ανοίγματος της σειριακής θύρας \
 #: Serial.java:167
 #, java-format
 msgid ""
-"Serial port ''{0}'' not found. Did you select the right one from the Tools > "
-"Serial Port menu?"
+"Serial port ''{0}'' not found. Did you select the right one from the Tools >"
+" Serial Port menu?"
 msgstr "Η σειριακή θύρα \"{0}\" δεν βρέθηκε. Επιλέξατε την σωστή από το μενού Εργαλεία > Σειριακή Θύρα;"
 
 #: Serial.java:424
@@ -594,7 +594,7 @@ msgstr "Αρχειοθέτηση Σχεδίου"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "yyΜΜdd"
+msgstr "χχΜΜμμ"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -919,8 +919,8 @@ msgstr "Η συσκευή δεν ανταποκρίνεται, ελέξτε ότ
 
 #: debug/Uploader.java:209
 msgid ""
-"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload for suggestions."
+"Problem uploading to board.  See "
+"http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions."
 msgstr "Πρόβλημα φόρτωσης στην πλακέτα.  Δείτε το http://www.arduino.cc/en/Guide/Troubleshooting#upload για οδηγίες."
 
 #: debug/Uploader.java:213
@@ -954,8 +954,7 @@ msgstr "Παρακαλούμε εισάγετε την βιβλιοθήκη SPI 
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
-"You appear to be using it or another library that depends on the SPI "
-"library.\n"
+"You appear to be using it or another library that depends on the SPI library.\n"
 "\n"
 msgstr "\nΑπό το Arduino 0019, η βιβλιοθήκη Ethernet βασίζεται στην βιβλιοθήκη SPI.\nΦαίνεται πως την χρησιμοποιείτε, ή κάποια άλλη βιβλιοθήκη που βασίζεται στην βιβλιοθήκη SPI.\n\n"
 
@@ -978,8 +977,7 @@ msgstr "Η κλάση Server έχει μετονομαστεί σε EthernetServ
 #: debug/Compiler.java:478
 msgid ""
 "\n"
-"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
-"to EthernetServer.\n"
+"As of Arduino 1.0, the Server class in the Ethernet library has been renamed to EthernetServer.\n"
 "\n"
 msgstr "\nΑπό το Arduino 1.0, η κλάση Server στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetServer.\n\n"
 
@@ -990,8 +988,7 @@ msgstr "Η κλάση Client έχει μετονομαστεί σε EthernetClie
 #: debug/Compiler.java:484
 msgid ""
 "\n"
-"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
-"to EthernetClient.\n"
+"As of Arduino 1.0, the Client class in the Ethernet library has been renamed to EthernetClient.\n"
 "\n"
 msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Ethernet έχει μετονομαστεί σε EthernetClient.\n\n"
 
@@ -1002,8 +999,7 @@ msgstr "Η κλάση Udp έχει μετονομαστεί σε EthernetUdp."
 #: debug/Compiler.java:490
 msgid ""
 "\n"
-"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to EthernetClient.\n"
 "\n"
 msgstr "\nΑπό το Arduino 1.0, η κλάση Client στην βιβλιοθήκη Udp έχει μετονομαστεί σε EthernetUdp.\n\n"
 
@@ -1014,8 +1010,7 @@ msgstr "Η Wire.send() έχει μετονομαστεί σε Wire.write()."
 #: debug/Compiler.java:496
 msgid ""
 "\n"
-"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
-"consistency with other libraries.\n"
+"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for consistency with other libraries.\n"
 "\n"
 msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.send() μετονομάστηκε σε Wire.write() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
 
@@ -1026,8 +1021,7 @@ msgstr "Η Wire.receive() μετονομάστηκε σε Wire.read()."
 #: debug/Compiler.java:502
 msgid ""
 "\n"
-"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
-"for consistency with other libraries.\n"
+"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() for consistency with other libraries.\n"
 "\n"
 msgstr "\nΑπό το Arduino 1.0, η συνάρτηση Wire.receive() μετονομάστηκε σε Wire.read() για συνοχή με τις υπόλοιπες βιβλιοθήκες.\n\n"
 
@@ -1107,8 +1101,8 @@ msgstr "Άνοιγμα σχεδίου Arduino..."
 
 #: Base.java:772
 msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p {"
+" font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Είστε σίγουροι πως θέλετε να εξέλθετε;</b><p>Το κλείσιμο του τελευταίου σχεδίου θα κλείσει το Arduino."
 
@@ -1321,79 +1315,79 @@ msgstr "Περιήγηση"
 
 #: Preferences.java:115
 msgid "Catalan"
-msgstr ""
+msgstr "Καταλανικά"
 
 #: Preferences.java:116
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Απλοποιημένα Κινέζικα"
 
 #: Preferences.java:117
 msgid "Chinese Taiwan"
-msgstr ""
+msgstr "Ταϊβανέζικα Κινέζικα"
 
 #: Preferences.java:118
 msgid "Danish"
-msgstr ""
+msgstr "Δανέζικα"
 
 #: Preferences.java:119
 msgid "Dutch"
-msgstr ""
+msgstr "Ολλανδικά"
 
 #: Preferences.java:120
 msgid "English"
-msgstr ""
+msgstr "Αγγλικά"
 
 #: Preferences.java:121
 msgid "French"
-msgstr ""
+msgstr "Γαλλικά"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr ""
+msgstr "Φιλιπινέζικα"
 
 #: Preferences.java:123
 msgid "Galician"
-msgstr ""
+msgstr "Γαλικιανά"
 
 #: Preferences.java:124
 msgid "German"
-msgstr ""
+msgstr "Γερμανικά"
 
 #: Preferences.java:125
 msgid "Greek"
-msgstr ""
+msgstr "Ελληνικά"
 
 #: Preferences.java:126
 msgid "Hungarian"
-msgstr ""
+msgstr "Ουγγρικά"
 
 #: Preferences.java:127
 msgid "Italian"
-msgstr ""
+msgstr "Ιταλικά"
 
 #: Preferences.java:128
 msgid "Japanese"
-msgstr ""
+msgstr "Ιαπωνικά"
 
 #: Preferences.java:129
 msgid "Latvian"
-msgstr ""
+msgstr "Λετονικά"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr ""
+msgstr "Πέρσικα"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Πορτογαλλικά (Βραζιλίας)"
 
 #: Preferences.java:132
 msgid "Romanian"
-msgstr ""
+msgstr "Ρουμανικά"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr ""
+msgstr "Ισπανικά"
 
 #: Preferences.java:222
 msgid ""
@@ -1447,7 +1441,7 @@ msgstr "φόρτωση"
 
 #: Preferences.java:380
 msgid "Verify code after upload"
-msgstr ""
+msgstr "Επαλήθευση κώδικα μετά την φόρτωση"
 
 #: Preferences.java:389
 msgid "Use external editor"
@@ -1467,7 +1461,7 @@ msgstr "Αυτόματη σύνδεση των αρχείων .ino με το Ard
 
 #: Preferences.java:429
 msgid "Preferred Language: "
-msgstr ""
+msgstr "Προτεινόμενη Γλώσσα:"
 
 #: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
