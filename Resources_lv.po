@@ -80,7 +80,7 @@ msgstr "Lapas iestatījumi"
 msgid "Print"
 msgstr "Drukāt"
 
-#: Editor.java:576 Preferences.java:217
+#: Editor.java:576 Preferences.java:291
 msgid "Preferences"
 msgstr "Iestatījumi"
 
@@ -330,7 +330,7 @@ msgstr "Pārvieto"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:178
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:252
 msgid "Error"
 msgstr "Kļūda"
 
@@ -1463,7 +1463,83 @@ msgstr ""
 msgid "Browse"
 msgstr "Pārlūkot"
 
-#: Preferences.java:148
+#: Preferences.java:115
+msgid "Catalan"
+msgstr ""
+
+#: Preferences.java:116
+msgid "Chinese Simplified"
+msgstr ""
+
+#: Preferences.java:117
+msgid "Chinese Taiwan"
+msgstr ""
+
+#: Preferences.java:118
+msgid "Danish"
+msgstr ""
+
+#: Preferences.java:119
+msgid "Dutch"
+msgstr ""
+
+#: Preferences.java:120
+msgid "English"
+msgstr ""
+
+#: Preferences.java:121
+msgid "French"
+msgstr ""
+
+#: Preferences.java:122
+msgid "Filipino"
+msgstr ""
+
+#: Preferences.java:123
+msgid "Galician"
+msgstr ""
+
+#: Preferences.java:124
+msgid "German"
+msgstr ""
+
+#: Preferences.java:125
+msgid "Greek"
+msgstr ""
+
+#: Preferences.java:126
+msgid "Hungarian"
+msgstr ""
+
+#: Preferences.java:127
+msgid "Italian"
+msgstr ""
+
+#: Preferences.java:128
+msgid "Japanese"
+msgstr ""
+
+#: Preferences.java:129
+msgid "Latvian"
+msgstr ""
+
+#: Preferences.java:130
+msgid "Persian"
+msgstr ""
+
+#: Preferences.java:131
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: Preferences.java:132
+msgid "Romanian"
+msgstr ""
+
+#: Preferences.java:133
+msgid "Spanish"
+msgstr ""
+
+#: Preferences.java:222
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1471,16 +1547,16 @@ msgstr ""
 "Nevar nolasīt noklusējuma iestatījumus.\n"
 "Jums vajadzēs pārinstalēt Arduino."
 
-#: Preferences.java:180
+#: Preferences.java:254
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Neizdevās nolasīt iestatījumus no {0}"
 
-#: Preferences.java:199
+#: Preferences.java:273
 msgid "Error reading preferences"
 msgstr "Kļūda, nolasot iestatījumus"
 
-#: Preferences.java:201
+#: Preferences.java:275
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1489,69 +1565,69 @@ msgstr ""
 "Kļūda, nolasot iestatījumu failu. Lūdzu, izdzēsiet (vai pārvietojiet)\n"
 "{0} un pārstartējiet Arduino."
 
-#: Preferences.java:237
+#: Preferences.java:311
 msgid "Sketchbook location:"
 msgstr "Skiču burtnīcas atrašanās vieta:"
 
-#: Preferences.java:252
+#: Preferences.java:326
 msgid "Select new sketchbook location"
 msgstr "Izvēlieties jaunu skiču burtnīcas atrašanās vietu"
 
-#: Preferences.java:276
+#: Preferences.java:350
 msgid "Editor font size: "
 msgstr "Redaktora fonta izmērs:"
 
-#: Preferences.java:280
+#: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
 msgstr "  (būs nepieciešams pārstartēt Arduino)"
 
-#: Preferences.java:293
+#: Preferences.java:367
 msgid "Show verbose output during: "
 msgstr "Rādīt detalizētāku izvadi, kad:"
 
-#: Preferences.java:295
+#: Preferences.java:369
 msgid "compilation "
 msgstr "kompilē"
 
-#: Preferences.java:297
+#: Preferences.java:371
 msgid "upload"
 msgstr "augšupielādē"
 
-#: Preferences.java:306
+#: Preferences.java:380
 msgid "Verify code after upload"
 msgstr "Pārbaudīt kodu pēc augšupielādes"
 
-#: Preferences.java:315
+#: Preferences.java:389
 msgid "Use external editor"
 msgstr "Izmantot ārējo redaktoru"
 
-#: Preferences.java:325
+#: Preferences.java:399
 msgid "Check for updates on startup"
 msgstr "Pārbaudīt atjauninājumus palaišanas laikā"
 
-#: Preferences.java:334
+#: Preferences.java:408
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr ""
 "Veicot saglabāšanu, atjaunināt skiču failus uz jauno paplašinājumu (.pde -> "
 ".ino)"
 
-#: Preferences.java:345
+#: Preferences.java:419
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automātiski asociēt .ino failus ar Arduino"
 
-#: Preferences.java:373
-msgid "Preferred Language:"
+#: Preferences.java:429
+msgid "Preferred Language: "
 msgstr ""
 
-#: Preferences.java:394
+#: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
 msgstr "Vairāk iestatījumus var izmainīt tieši failā"
 
-#: Preferences.java:423
+#: Preferences.java:483
 msgid "(edit only when Arduino is not running)"
 msgstr "(rediģējiet tikai tad, kad Arduino nav palaists)"
 
-#: Preferences.java:570
+#: Preferences.java:630
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ignorē nederīgu fontu izmēru {0}"

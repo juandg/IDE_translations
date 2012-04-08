@@ -78,7 +78,7 @@ msgstr "頁面設定"
 msgid "Print"
 msgstr "列印"
 
-#: Editor.java:576 Preferences.java:217
+#: Editor.java:576 Preferences.java:291
 msgid "Preferences"
 msgstr "偏好設定"
 
@@ -328,7 +328,7 @@ msgstr "移動中"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:178
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:252
 msgid "Error"
 msgstr "錯誤"
 
@@ -1450,7 +1450,83 @@ msgstr ""
 msgid "Browse"
 msgstr "瀏覽"
 
-#: Preferences.java:148
+#: Preferences.java:115
+msgid "Catalan"
+msgstr ""
+
+#: Preferences.java:116
+msgid "Chinese Simplified"
+msgstr ""
+
+#: Preferences.java:117
+msgid "Chinese Taiwan"
+msgstr ""
+
+#: Preferences.java:118
+msgid "Danish"
+msgstr ""
+
+#: Preferences.java:119
+msgid "Dutch"
+msgstr ""
+
+#: Preferences.java:120
+msgid "English"
+msgstr ""
+
+#: Preferences.java:121
+msgid "French"
+msgstr ""
+
+#: Preferences.java:122
+msgid "Filipino"
+msgstr ""
+
+#: Preferences.java:123
+msgid "Galician"
+msgstr ""
+
+#: Preferences.java:124
+msgid "German"
+msgstr ""
+
+#: Preferences.java:125
+msgid "Greek"
+msgstr ""
+
+#: Preferences.java:126
+msgid "Hungarian"
+msgstr ""
+
+#: Preferences.java:127
+msgid "Italian"
+msgstr ""
+
+#: Preferences.java:128
+msgid "Japanese"
+msgstr ""
+
+#: Preferences.java:129
+msgid "Latvian"
+msgstr ""
+
+#: Preferences.java:130
+msgid "Persian"
+msgstr ""
+
+#: Preferences.java:131
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: Preferences.java:132
+msgid "Romanian"
+msgstr ""
+
+#: Preferences.java:133
+msgid "Spanish"
+msgstr ""
+
+#: Preferences.java:222
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1458,16 +1534,16 @@ msgstr ""
 "無法讀取預設設定，\n"
 "你需要重新安裝Arduino"
 
-#: Preferences.java:180
+#: Preferences.java:254
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "無法從{0}讀取偏好設定"
 
-#: Preferences.java:199
+#: Preferences.java:273
 msgid "Error reading preferences"
 msgstr "讀取偏好設定時發生錯誤"
 
-#: Preferences.java:201
+#: Preferences.java:275
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1476,67 +1552,67 @@ msgstr ""
 "讀取偏好設定檔時發生錯誤，請刪除（或移動）\n"
 "{0}並且重新啟動Arduino"
 
-#: Preferences.java:237
+#: Preferences.java:311
 msgid "Sketchbook location:"
 msgstr "草稿碼簿的位置："
 
-#: Preferences.java:252
+#: Preferences.java:326
 msgid "Select new sketchbook location"
 msgstr "選擇新的草稿碼簿位置"
 
-#: Preferences.java:276
+#: Preferences.java:350
 msgid "Editor font size: "
 msgstr "編輯器字型大小："
 
-#: Preferences.java:280
+#: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
 msgstr "  （需要重新啟動Arduino）"
 
-#: Preferences.java:293
+#: Preferences.java:367
 msgid "Show verbose output during: "
 msgstr "顯示詳細輸出："
 
-#: Preferences.java:295
+#: Preferences.java:369
 msgid "compilation "
 msgstr "編譯"
 
-#: Preferences.java:297
+#: Preferences.java:371
 msgid "upload"
 msgstr "上傳"
 
-#: Preferences.java:306
+#: Preferences.java:380
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:315
+#: Preferences.java:389
 msgid "Use external editor"
 msgstr "使用外部編輯器"
 
-#: Preferences.java:325
+#: Preferences.java:399
 msgid "Check for updates on startup"
 msgstr "在啟動時檢查更新"
 
-#: Preferences.java:334
+#: Preferences.java:408
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "儲存時更新草稿碼檔案的附檔名（.pde -> .ino）"
 
-#: Preferences.java:345
+#: Preferences.java:419
 msgid "Automatically associate .ino files with Arduino"
 msgstr "自動將.ino檔案與Arduino關聯起來"
 
-#: Preferences.java:373
-msgid "Preferred Language:"
+#: Preferences.java:429
+msgid "Preferred Language: "
 msgstr ""
 
-#: Preferences.java:394
+#: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
 msgstr "在偏好設定檔案裡還有更多的設定值，可以直接編輯"
 
-#: Preferences.java:423
+#: Preferences.java:483
 msgid "(edit only when Arduino is not running)"
 msgstr "（只能在不執行Arduino時進行編輯）"
 
-#: Preferences.java:570
+#: Preferences.java:630
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "忽略無效的字型大小{0}"
