@@ -1483,7 +1483,7 @@ msgstr "French"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr "Tagalog"
+msgstr "Filipino"
 
 #: Preferences.java:123
 msgid "Galician"
@@ -1605,7 +1605,7 @@ msgstr "Kusang iassociate ang .ino files sa Arduino"
 
 #: Preferences.java:429
 msgid "Preferred Language: "
-msgstr "Nais na Wika"
+msgstr "Nais na Wika: "
 
 #: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
