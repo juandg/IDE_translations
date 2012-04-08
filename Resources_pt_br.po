@@ -1326,79 +1326,79 @@ msgstr "Navegar"
 
 #: Preferences.java:115
 msgid "Catalan"
-msgstr ""
+msgstr "Catalão"
 
 #: Preferences.java:116
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Chinês Simplificado "
 
 #: Preferences.java:117
 msgid "Chinese Taiwan"
-msgstr ""
+msgstr "Chinês Taiwan"
 
 #: Preferences.java:118
 msgid "Danish"
-msgstr ""
+msgstr "Dinamarquês"
 
 #: Preferences.java:119
 msgid "Dutch"
-msgstr ""
+msgstr "Holandês"
 
 #: Preferences.java:120
 msgid "English"
-msgstr ""
+msgstr "Inglês"
 
 #: Preferences.java:121
 msgid "French"
-msgstr ""
+msgstr "Francês"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr ""
+msgstr "Filipino"
 
 #: Preferences.java:123
 msgid "Galician"
-msgstr ""
+msgstr "Galego"
 
 #: Preferences.java:124
 msgid "German"
-msgstr ""
+msgstr "Alemão"
 
 #: Preferences.java:125
 msgid "Greek"
-msgstr ""
+msgstr "Grego"
 
 #: Preferences.java:126
 msgid "Hungarian"
-msgstr ""
+msgstr "Húngaro"
 
 #: Preferences.java:127
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #: Preferences.java:128
 msgid "Japanese"
-msgstr ""
+msgstr "Japonês"
 
 #: Preferences.java:129
 msgid "Latvian"
-msgstr ""
+msgstr "Letão"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr ""
+msgstr "Persa"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Português (Brasil)"
 
 #: Preferences.java:132
 msgid "Romanian"
-msgstr ""
+msgstr "Romeno"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr ""
+msgstr "Espanhol"
 
 #: Preferences.java:222
 msgid ""
@@ -1452,7 +1452,7 @@ msgstr "carregar"
 
 #: Preferences.java:380
 msgid "Verify code after upload"
-msgstr ""
+msgstr "Verifique o cógido depois de carregar"
 
 #: Preferences.java:389
 msgid "Use external editor"
@@ -1472,7 +1472,7 @@ msgstr "Associar automaticamente arquivos .ino com o Arduino"
 
 #: Preferences.java:429
 msgid "Preferred Language: "
-msgstr ""
+msgstr "Idioma Preferido: "
 
 #: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
