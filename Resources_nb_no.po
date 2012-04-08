@@ -1028,6 +1028,10 @@ msgstr "kompilering "
 msgid "upload"
 msgstr "last opp"
 
+#: Preferences.java:380
+msgid "Verify code after upload"
+msgstr "Sjekk kode etter opplasting"
+
 #: Preferences.java:315
 msgid "Use external editor"
 msgstr "Bruk eksternt redigeringsprogram"
