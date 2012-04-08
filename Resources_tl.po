@@ -1455,79 +1455,79 @@ msgstr "Browse"
 
 #: Preferences.java:115
 msgid "Catalan"
-msgstr ""
+msgstr "Catalan"
 
 #: Preferences.java:116
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Chinese Simplified"
 
 #: Preferences.java:117
 msgid "Chinese Taiwan"
-msgstr ""
+msgstr "Chinese Taiwan"
 
 #: Preferences.java:118
 msgid "Danish"
-msgstr ""
+msgstr "Danish"
 
 #: Preferences.java:119
 msgid "Dutch"
-msgstr ""
+msgstr "Dutch"
 
 #: Preferences.java:120
 msgid "English"
-msgstr ""
+msgstr "Ingles"
 
 #: Preferences.java:121
 msgid "French"
-msgstr ""
+msgstr "French"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr ""
+msgstr "Filipino"
 
 #: Preferences.java:123
 msgid "Galician"
-msgstr ""
+msgstr "Galician"
 
 #: Preferences.java:124
 msgid "German"
-msgstr ""
+msgstr "German"
 
 #: Preferences.java:125
 msgid "Greek"
-msgstr ""
+msgstr "Greek"
 
 #: Preferences.java:126
 msgid "Hungarian"
-msgstr ""
+msgstr "Hungarian"
 
 #: Preferences.java:127
 msgid "Italian"
-msgstr ""
+msgstr "Italian"
 
 #: Preferences.java:128
 msgid "Japanese"
-msgstr ""
+msgstr "Japanese"
 
 #: Preferences.java:129
 msgid "Latvian"
-msgstr ""
+msgstr "Latvian"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr ""
+msgstr "Persian"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portuguese (Brazil)"
 
 #: Preferences.java:132
 msgid "Romanian"
-msgstr ""
+msgstr "Romanian"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr ""
+msgstr "Spanish"
 
 #: Preferences.java:222
 msgid ""
@@ -1605,7 +1605,7 @@ msgstr "Kusang iassociate ang .ino files sa Arduino"
 
 #: Preferences.java:429
 msgid "Preferred Language: "
-msgstr ""
+msgstr "Nais na Wika: "
 
 #: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
