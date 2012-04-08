@@ -277,8 +277,8 @@ msgstr "Αποθήκευση αλλαγών στο \"{0}\";"
 
 #: Editor.java:2006
 msgid ""
-"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p {"
-" font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
 "want to save changes to this sketch<BR> before closing?</b><p>If you don't "
 "save, your changes will be lost."
 msgstr "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Θέλετε να αποθηκεύσετε αυτό το σχέδιο<BR> πρίν εξέλθετε;</b><p>Αν δεν το αποθηκεύσετε, όλες οι αλλαγές σας θα χαθούν."
@@ -528,8 +528,8 @@ msgstr "Σφάλμα ανοίγματος της σειριακής θύρας \
 #: Serial.java:167
 #, java-format
 msgid ""
-"Serial port ''{0}'' not found. Did you select the right one from the Tools >"
-" Serial Port menu?"
+"Serial port ''{0}'' not found. Did you select the right one from the Tools > "
+"Serial Port menu?"
 msgstr "Η σειριακή θύρα \"{0}\" δεν βρέθηκε. Επιλέξατε την σωστή από το μενού Εργαλεία > Σειριακή Θύρα;"
 
 #: Serial.java:424
@@ -594,7 +594,7 @@ msgstr "Αρχειοθέτηση Σχεδίου"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "χχΜΜμμ"
+msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -919,8 +919,8 @@ msgstr "Η συσκευή δεν ανταποκρίνεται, ελέξτε ότ
 
 #: debug/Uploader.java:209
 msgid ""
-"Problem uploading to board.  See "
-"http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions."
+"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for suggestions."
 msgstr "Πρόβλημα φόρτωσης στην πλακέτα.  Δείτε το http://www.arduino.cc/en/Guide/Troubleshooting#upload για οδηγίες."
 
 #: debug/Uploader.java:213
