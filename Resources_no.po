@@ -9,25 +9,25 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
 "PO-Revision-Date: 2012-03-29 10:24-0400\n"
-"Last-Translator: David A. Mellis <>\n"
+"Last-Translator: Rune Fauske <>\n"
 "Language-Team: Norwegian\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr ""
+msgstr "Ikke-fatal feil under tilordning av Look & Feel."
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
-msgstr ""
+msgstr "Feilmeldingen følger. Arduino vil imidlertid kjøre fint."
 
 #: Base.java:217
 msgid "Problem Setting the Platform"
-msgstr ""
+msgstr "Problemer under setting av platform"
 
 #: Base.java:218
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: Base.java:529
 msgid "Time for a Break"
-msgstr "Tid for Pause"
+msgstr "Tid for pause"
 
 #: Base.java:530
 msgid ""
