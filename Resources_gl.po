@@ -1,15 +1,15 @@
 # Galician translations for the Arduino IDE.
 # Copyright (C) 2012
 # This file is distributed under the same license as the Arduino IDE package.
-# Diego Prado <>, 2012.
+# Diego Prado Gesto <>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-30 10:40 +0600\n"
-"PO-Revision-Date: 2012-03-30 10:40 +0600\n"
-"Last-Translator: Diego Prado <>\n"
+"POT-Creation-Date: 2012-03-30 10:40+0100\n"
+"PO-Revision-Date: 2012-04-03 15:00+0100\n"
+"Last-Translator: Diego Prado Gesto <>\n"
 "Language-Team: Galician\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -19,26 +19,26 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "Ningún archivo fue agregado al sketch."
+msgstr "Non se agregou ningún arquivo ao sketch."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "Un archivo agregado al sketch."
+msgstr "Un arquivo agregado ao sketch."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr "{0} archivos agregados al sketch."
+msgstr "{0} arquivos agregados ao sketch."
 
 #: Editor.java:484
 msgid "File"
-msgstr "Archivo"
+msgstr "Arquivo"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr "Nuevo"
+msgstr "Novo"
 
-#: Editor.java:494 Base.java:900
+#: Editor.java:494 Base.java:903
 msgid "Open..."
 msgstr "Abrir..."
 
@@ -48,20 +48,20 @@ msgstr ""
 
 #: Editor.java:509
 msgid "Examples"
-msgstr "Ejemplos"
+msgstr "Exemplos"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr "Cerrar"
+msgstr "Pechar"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr "Guardar"
+msgstr "Gardar"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr "Guardar como..."
+msgstr "Gardar como..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
@@ -73,17 +73,17 @@ msgstr "Cargar usando Programador"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr "Configuración de Pagina"
+msgstr "Configuración de Páxina"
 
 #: Editor.java:564
 msgid "Print"
 msgstr "Imprimir"
 
-#: Editor.java:576 Preferences.java:217
+#: Editor.java:576 Preferences.java:291
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: Editor.java:586 Base.java:779
+#: Editor.java:586 Base.java:782
 msgid "Quit"
 msgstr "Saír"
 
@@ -97,7 +97,7 @@ msgstr "Verificar / Compilar"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr "Importar Librearía..."
+msgstr "Importar Libraría..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
@@ -105,23 +105,23 @@ msgstr "Mostrar Carpeta de Sketch"
 
 #: Editor.java:643
 msgid "Add File..."
-msgstr "Agregar Archivo..."
+msgstr "Agregar Arquivo..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr "Herramientas"
+msgstr "Ferramentas"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr "Monitor Serial"
+msgstr "Monitor Serie"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Tarjeta"
+msgstr "Tarxeta"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr "Puerto Serial"
+msgstr "Porto Serie"
 
 #: Editor.java:695
 msgid "Programmer"
@@ -129,27 +129,27 @@ msgstr "Programador"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "Quemar Secuencia de Inicio"
+msgstr "Grabar Cargador de Inicio"
 
 #: Editor.java:923
 msgid "serialMenu is null"
-msgstr "serialMenu es nulo"
+msgstr "serialMenu é nulo"
 
 #: Editor.java:927 Editor.java:934
 msgid "name is null"
-msgstr "nombre es nulo"
+msgstr "nome é nulo"
 
 #: Editor.java:986
 msgid "error retrieving port list"
-msgstr "error leyendo lista de puertos"
+msgstr "erro recuperando a lista de portos"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr "Ayuda"
+msgstr "Axuda"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr "Empezando"
+msgstr "Comezando"
 
 #: Editor.java:1049
 msgid "Environment"
@@ -161,11 +161,11 @@ msgstr "Solución de problemas"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr "Referencia"
+msgstr "Documentación"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr "Buscar en la Referencia"
+msgstr "Buscar na Documentación"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
@@ -189,11 +189,11 @@ msgstr "Editar"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
-msgstr "Deshacer"
+msgstr "Desfacer"
 
 #: Editor.java:1124 Editor.java:1126 Editor.java:1376
 msgid "Redo"
-msgstr "Rehacer"
+msgstr "Refacer"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
@@ -205,7 +205,7 @@ msgstr "Copiar"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr "Copiar para el Foro"
+msgstr "Copiar para o Foro"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
@@ -221,15 +221,15 @@ msgstr "Seleccionar Todo"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
-msgstr "Comentar/Des-comentar "
+msgstr "Comentar/Descomentar"
 
 #: Editor.java:1202 Editor.java:2710
 msgid "Increase Indent"
-msgstr "Incrementar margen"
+msgstr "Incrementar Indentación"
 
 #: Editor.java:1210 Editor.java:2718
 msgid "Decrease Indent"
-msgstr "Reducir margen"
+msgstr "Reducir Indentación"
 
 #: Editor.java:1220
 msgid "Find..."
@@ -237,7 +237,7 @@ msgstr "Buscar..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr "Buscar Siguiente"
+msgstr "Buscar Seguinte"
 
 #: Editor.java:1245
 msgid "Find Previous"
@@ -245,16 +245,16 @@ msgstr "Buscar Anterior"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
-msgstr "Utilizar selección para buscar"
+msgstr "Utilizar Selección para buscar"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr "Primero selecciona una plagara para buscar en la referencia."
+msgstr "Primeiro selecciona unha palabra para buscar na documentación."
 
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr "No hay referencias disponibles para \"{0}\""
+msgstr "Non hai referencias dispoñibles para \"{0}\""
 
 #: Editor.java:1826
 #, java-format
@@ -263,16 +263,16 @@ msgstr ""
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "Compilando Sketch…"
+msgstr "Compilando Sketch..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
-msgstr "Compilación terminada"
+msgstr "Compilación rematada"
 
 #: Editor.java:1973
 #, java-format
 msgid "Save changes to \"{0}\"?  "
-msgstr "Guardar cambios a \"{0}\"?  "
+msgstr "Gardar cambios a \"{0}\"?  "
 
 #: Editor.java:2006
 msgid ""
@@ -282,9 +282,9 @@ msgid ""
 "save, your changes will be lost."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Desea "
-"guardar los cambios a este sketch<BR> antes de cerrar?</b><p>Si no los "
-"guarda, los cambios se perderán."
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Desexas "
+"garda-los cambios a este sketch<BR> antes de pechar?</b><p>Se non os "
+"gardas, perderanse os cambios."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
@@ -293,19 +293,19 @@ msgstr "Cancelar"
 
 #: Editor.java:2017
 msgid "Don't Save"
-msgstr "No Guarde"
+msgstr "Non Gardar"
 
 #: Editor.java:2089
 msgid "Bad file selected"
-msgstr "Archivo incorrecto seleccionado"
+msgstr "Seleccionado arquivo incorrecto"
 
 #: Editor.java:2090
 msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
-"Processing solo puede abrir sus propios sketches\n"
-"y otros archivos terminados en .ino o .pde"
+"Processing só pode abrir os seus propios sketches\n"
+"e outros arquivos rematados en .ino ou .pde"
 
 #: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
 #: Sketch.java:1046 Preferences.java:79
@@ -319,36 +319,36 @@ msgid ""
 "a sketch folder named \"{1}\".\n"
 "Create this folder, move the file, and continue?"
 msgstr ""
-"El archivo \"{0}\" necesita estar dentro\n"
-"de la carpeta de un sketch llamada \"{1}\".\n"
-"Crear esta carpeta, mover este archivo, y continuar?"
+"O arquivo \"{0}\" necesita estar dentro\n"
+"dunha carpeta de sketch chamada \"{1}\".\n"
+"Crear esta carpeta, mover este arquivo e continuar?"
 
 #: Editor.java:2109
 msgid "Moving"
-msgstr "Moviendo"
+msgstr "Movendo"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1858 Preferences.java:178
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:252
 msgid "Error"
-msgstr "Error"
+msgstr "Erro"
 
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Ya existe una carpeta llamada \"{0}\". No se pudo abrir el Sketch."
+msgstr "Xa existe unha carpeta chamada \"{0}\". Non se puido abri-lo sketch."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "No se ha podido crear la carpeta del sketch."
+msgstr "Non se puido crea-la carpeta do sketch."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
-msgstr "No se ha podido copiar a una ubicación apropiada."
+msgstr "Non se puido copiar a unha ubicación axeitada."
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "No se ha podido crear el sketch."
+msgstr "Non se puido crea-lo sketch."
 
 #: Editor.java:2166
 #, java-format
@@ -357,15 +357,15 @@ msgstr ""
 
 #: Editor.java:2223 Editor.java:2261
 msgid "Saving..."
-msgstr "Guardando..."
+msgstr "Gardando..."
 
 #: Editor.java:2228 Editor.java:2264
 msgid "Done Saving."
-msgstr "Guardado Terminado."
+msgstr "Gardado rematado."
 
 #: Editor.java:2270
 msgid "Save Canceled."
-msgstr "Guardado Cancelado."
+msgstr "Gardado cancelado."
 
 #: Editor.java:2296
 #, java-format
@@ -373,16 +373,16 @@ msgid ""
 "Serial port {0} not found.\n"
 "Retry the upload with another serial port?"
 msgstr ""
-"El puerto serial {0} no fue encontrado\n"
-"Volver a intentar la carga con otro puerto serial?"
+"O porto serie {0} non foi atopado\n"
+"Volver a tenta-la carga con outro porto serie?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "Cargando a la Tarjeta I/O..."
+msgstr "Cargando á Tarxeta de E/S..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "Carga terminada."
+msgstr "Carga rematada."
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
@@ -390,36 +390,36 @@ msgstr "Carga cancelada."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr "Guardar cambios antes de exportar?"
+msgstr "Gardar cambios antes de exportar?"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr "Exportación cancelada, primero se deben guardados los cambios."
+msgstr "Exportación cancelada, primeiro débense garda-los cambios."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
-msgstr "Quemando secuencia de inicio a la Tarjeta I/O (Esto puede tomar un \n"
-"minuto)..."
+msgstr "Grabando o cargador de inicio á Tarxeta E/S (Esto pode tardar "
+"uns minutos)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr "Finalizada la quema de secuencia de inicio."
+msgstr "Rematado o grabado do cargador de inicio."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "Error al quemar la secuencia de inicio."
+msgstr "Erro ao grabar o cargador de inicio."
 
 #: Editor.java:2500
 msgid "Printing..."
-msgstr "Imprimiendo..."
+msgstr "Imprimindo..."
 
 #: Editor.java:2517
 msgid "Done printing."
-msgstr "Impresión terminada."
+msgstr "Impresión rematada."
 
 #: Editor.java:2520
 msgid "Error while printing."
-msgstr "Error al imprimir."
+msgstr "Erro na impresión."
 
 #: Editor.java:2524
 msgid "Printing canceled."
@@ -428,7 +428,7 @@ msgstr "Impresión cancelada."
 #: Editor.java:2572
 #, java-format
 msgid "Bad error line: {0}"
-msgstr "Línea de error incorrecta: {0}"
+msgstr "Liña de erro incorrecta: {0}"
 
 #: Editor.java:2641
 msgid "Open URL"
@@ -443,16 +443,16 @@ msgid ""
 "A new version of Arduino is available,\n"
 "would you like to visit the Arduino download page?"
 msgstr ""
-"Una nueva versión de Arduino esta disponible,\n"
-"Desea visitar la pagina de descargas de Arduino?"
+"Está dispoñible unha nova versión de Arduino,\n"
+"desexa visitar a páxina de descargas de Arduino?"
 
 #: UpdateCheck.java:108 Preferences.java:76
 msgid "Yes"
-msgstr "Si"
+msgstr "Sí"
 
 #: UpdateCheck.java:108 Preferences.java:77
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: UpdateCheck.java:111
 msgid "Update"
@@ -472,15 +472,15 @@ msgstr "Reemplazar con:"
 
 #: FindReplace.java:96
 msgid "Ignore Case"
-msgstr "Ignorar mayúsculas y minúsculas"
+msgstr "Ignorar maiúsculas e minúsculas"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "Envolver"
+msgstr "Búsqueda cíclica"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
-msgstr "Reemplazar todo"
+msgstr "Reemplazar Todo"
 
 #: FindReplace.java:121 FindReplace.java:130 Sketch.java:1050
 msgid "Replace"
@@ -488,7 +488,7 @@ msgstr "Reemplazar"
 
 #: FindReplace.java:122 FindReplace.java:129
 msgid "Replace & Find"
-msgstr "Reemplazar y Buscar"
+msgstr "Reemplazar e Buscar"
 
 #: FindReplace.java:123 FindReplace.java:128
 msgid "Previous"
@@ -504,15 +504,15 @@ msgstr "Enviar"
 
 #: SerialMonitor.java:110
 msgid "Autoscroll"
-msgstr "Desplazamiento automático"
+msgstr "Desprazamento automático"
 
 #: SerialMonitor.java:112
 msgid "No line ending"
-msgstr "No hay fin de línea"
+msgstr "Non hai fin de liña"
 
 #: SerialMonitor.java:112
 msgid "Newline"
-msgstr "Nueva línea"
+msgstr "Nova liña"
 
 #: SerialMonitor.java:112
 msgid "Carriage return"
@@ -532,13 +532,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"El puerto serial ''{0}'' ya esta en uso. Intente cerrar cualquier otro "
-"programa que pueda estar usándolo."
+"El porto serie ''{0}'' xa está en uso. Intenta pechar calquer outro programa "
+"que o poida estar usando."
 
 #: Serial.java:154
 #, java-format
 msgid "Error opening serial port ''{0}''."
-msgstr "Error abriendo puerto serial ''{0}''."
+msgstr "Erro abrindo o porto serie ''{0}''."
 
 #: Serial.java:167
 #, java-format
@@ -546,8 +546,8 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Puerto serial ''{0}'' no encontrado. Esta seguro que selecciono el correcto "
-"del menú Herramientas > Puerto Serial"
+"Porto serie ''{0}'' non atopado. Estás seguro de que seleccionaches o porto correcto "
+"do menú Ferramentas > Porto Serie?"
 
 #: Serial.java:424
 #, java-format
@@ -555,50 +555,50 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-"El buffer de bytes readBytesUntil() es demasiado pequeño para los {0} bytes "
-"hasta e incluyendo el char {1}"
+"O buffer de bytes de readBytesUntil() é demasiado pequeno para os {0} bytes "
+"anteriores incluíndo o caracter {1}"
 
 #: Serial.java:567
 #, java-format
 msgid "Error inside Serial.{0}()"
-msgstr "Error dentro de Serial.{0}()"
+msgstr "Erro dentro de Serial.{0}()"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr "Formato Automático"
+msgstr "Formateado Automático"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "No hay cambios necesarios para el Formato Automático"
+msgstr "Non se necesitan cambios para o Formateado Automático"
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "Formato automático cancelado: demasiados paréntesis derechos"
+msgstr "Formateado Automático Cancelado: demasiados paréntesis dereitos"
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "Formato automático cancelado: demasiados paréntesis izquierdos"
+msgstr "Formateado Automático Cancelado: demasiados paréntesis esquerdos"
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "Formato automático cancelado: demasiados corchetes derechos"
+msgstr "Formateado Automático Cancelado: demasiadas chaves dereitas"
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "Formato automático cancelado: demasiados corchetes izquierdos"
+msgstr "Formateado Automático Cancelado: demasiadas chaves esquerdas"
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "Formato automático terminado"
+msgstr "Formateado Automático rematado"
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr "Arreglar Codificación y recargar"
+msgstr "Amañar Codificación e Recargar"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "Descartar todos los cambios y recargar sketch?"
+msgstr "Descartar tódolos cambios e recargar sketch?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -606,40 +606,42 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
-"Ha ocurrido un error mientras se intentaba arreglar la codificación del\n"
-"archivo. No intente guardar este sketch porque puede sobreescribir la\n"
-"versión anterior. Utilice Abrir para re-abrir el sketch e intentar de nuevo\n"
+"Ocorreu un erro mentres se intentaba amaña-la codificación do\n"
+"arquivo. Non intentes gardar este sketch porque pode sobreescribir a\n"
+"versión anterior. Utiliza Abrir para volver a abrir o sketch e intentalo de novo.\n"
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "Archivar Sketch"
+msgstr "Arquivar Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "yyMMdd"
+msgstr ""
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "No se ha podido archivar el Sketch"
+msgstr "Non se pode arquivar o sketch"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
-msgstr "El Sketch no se pudo guardar debidamente"
+msgstr ""
+"O arquivado do sketch foi cancelado porque\n"
+"non foi posible garda-lo sketch correctamente."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "Archivar Sketch como:"
+msgstr "Arquivar sketch como:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "Archivado de Sketch cancelado"
+msgstr "Archivado de sketch cancelado"
 
 #: SketchCode.java:83
 #, java-format
 msgid "Error while loading code {0}"
-msgstr "Error mientras se cargaba el código {0}"
+msgstr "Erro mentres se cargaba o código {0}"
 
 #: SketchCode.java:258
 #, java-format
@@ -649,10 +651,15 @@ msgid ""
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
 msgstr ""
+"\"{0}\" contén caracteres irrecoñecibles. Se este código foi creado cunha "
+"versión antiga de Processing, pode que necesites usar Ferramentas -> "
+"Amañar Codificación e Recargar para actualizar o sketch para usar a codificación "
+"UTF-8. Senón, pode que necesites borrar os caracteres erróneos para desfacerte "
+"de este aviso."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "Skecth es de solo lectura"
+msgstr "O sketch é de só lectura"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
@@ -660,38 +667,38 @@ msgid ""
 "need to re-save the sketch in another location,\n"
 "and try again."
 msgstr ""
-"Algunos archivos están marcados como \"solo lectura\",\n"
-"así que necesitara volver a guardar este skecth en otra ubicación, e \n"
-"intentar de nuevo."
+"Algúns arquivos están marcados como de \"só lectura\",\n"
+"así que necesitarás gardar de novo este sketch noutra ubicación,\n"
+"e tentalo de novo."
 
 #: Sketch.java:286
 msgid "Name for new file:"
-msgstr "Nombre para nuevo archivo"
+msgstr "Nome para o novo arquivo:"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "El sketch no tiene nombre"
+msgstr "O sketch non ten nome"
 
 #: Sketch.java:299
 msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"Que tal si guardas el sketch primero \n"
-"antes de intentar renombrarlo?"
+"Qué tal se gardas o sketch primeiro \n"
+"antes de tentar renomealo?"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
 msgid "Problem with rename"
-msgstr "Problema al renombrar"
+msgstr "Problema ao renomear"
 
 #: Sketch.java:360
 msgid "The name cannot start with a period."
-msgstr "El nombre no puede empezar con un punto"
+msgstr "O nome non pode comezar con un punto."
 
 #: Sketch.java:368
 #, java-format
 msgid "\".{0}\" is not a valid extension."
-msgstr "\".{0}\" no es una extensión valida."
+msgstr "\".{0}\" non é unha extensión válida."
 
 #: Sketch.java:378
 msgid ""
@@ -699,9 +706,9 @@ msgid ""
 "(It may be time for your to graduate to a\n"
 "\"real\" programming environment)"
 msgstr ""
-"El archivo principal no puede usar una extensión.\n"
-"(Puede que ya sea hora de que te gradúes a un\n"
-"entorno de desarrollo \"real\")"
+"O arquivo principal non pode usar unha extensión.\n"
+"(Pode que sexa hora de que cambies pouco a pouco a un\n"
+"entorno de desenrolo \"real\")"
 
 #: Sketch.java:400 Sketch.java:414 Sketch.java:423 Sketch.java:863
 msgid "Nope"
@@ -710,58 +717,58 @@ msgstr "Negativo"
 #: Sketch.java:402
 #, java-format
 msgid "A file named \"{0}\" already exists in \"{1}\""
-msgstr "Un archivo llamado \"{0}\" ya existe en \"{1}\""
+msgstr "Un arquivo chamado \"{0}\" xa existe en \"{1}\""
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "No puede tener un archivo .cpp con el mismo nombre que el sketch."
+msgstr "Non podes ter un arquivo .cpp co mesmo nome que o sketch."
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"No puedes renombrar el sketch a \"{0}\"\n"
-"porque el sketch ya tiene un archivo .cpp con ese nombre"
+"Non podes renomear o sketch a \"{0}\"\n"
+"porque o sketch xa ten un arquivo .cpp con ese nome."
 
 #: Sketch.java:459
 msgid "Cannot Rename"
-msgstr "No se puede renombrar"
+msgstr "Non se pode renomear"
 
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "Lo siento, un sketch (o carpeta) llamado \"{0}\" ya existe."
+msgstr "Síntoo, xa existe un sketch (ou carpeta) chamado \"{0}\"."
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "No se puedo renombrar el skecth. (0)"
+msgstr "Non se pode renomea-lo sketch. (0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
 msgid "Could not rename \"{0}\" to \"{1}\""
-msgstr "No se pudo renombrar \"{0}\" a \"{1}\""
+msgstr "Non se pode renomear \"{0}\" a \"{1}\""
 
 #: Sketch.java:500
 msgid "Could not rename the sketch. (1)"
-msgstr "No se puedo renombrar el skecth. (1)"
+msgstr "Non se pode renomea-lo sketch. (1)"
 
 #: Sketch.java:507
 msgid "Could not rename the sketch. (2)"
-msgstr "No se puedo renombrar el skecth. (2)"
+msgstr "Non se pode renomea-lo sketch. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
-msgstr "createNewFile() retorno falso"
+msgstr "createNewFile() devolveu valor falso"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "Esta seguro que desea borrar este sketch?"
+msgstr "Estás seguro de que desexas borrar este sketch?"
 
 #: Sketch.java:592
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
-msgstr "Esta seguro que desea borrar \"{0}\"?"
+msgstr "Estás seguro de que desexas borrar \"{0}\"?"
 
 #: Sketch.java:595 EditorHeader.java:314
 msgid "Delete"
@@ -769,28 +776,28 @@ msgstr "Borrar"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
-msgstr "No puede hacerlo"
+msgstr "Non foi posible facelo"
 
 #: Sketch.java:621
 #, java-format
 msgid "Could not delete \"{0}\"."
-msgstr "No pudo borrar \"{0}\"."
+msgstr "Non se pode borrar \"{0}\"."
 
 #: Sketch.java:651
 msgid "removeCode: internal error.. could not find code"
-msgstr "removeCode: error interno... no pudo encontrar código"
+msgstr "removeCode: erro interno... non foi posible atopar o código"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "Skecth es de solo lectura"
+msgstr "O sketch é de só lectura"
 
 #: Sketch.java:725
 msgid ""
 "Some files are marked \"read-only\", so you'll\n"
 "need to re-save this sketch to another location."
 msgstr ""
-"Algunos archivos están marcados como \"solo lectura\",\n"
-"así que necesitara volver a guardar este skecth en otra ubicación."
+"Algúns arquivos están marcados como de \"só lectura\",\n"
+"así que necesitarás gardar de novo este sketch noutra ubicación."
 
 #: Sketch.java:743
 msgid ""
@@ -802,6 +809,13 @@ msgid ""
 "\n"
 "Save sketch and update its extension?"
 msgstr ""
+"En Arduino 1.0, a extensión por defecto dos arquivos cambiou\n"
+"de .pde a .ino. Os novos sketches (incluídos os creados\n"
+"a partir de \"Gardar-como\") usarán a nova extensión. A extensión\n"
+"dos sketches existentes actualizarase ao gardar, pero podes\n"
+"deshabilitar esta opción no cadro de Preferencias.\n"
+"\n"
+"Gardar o sketch e actualizar a súa extensión?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -809,46 +823,50 @@ msgstr ""
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "Guardar carpeta de skecth como..."
+msgstr "Gardar a carpeta do sketch como..."
 
 #: Sketch.java:865
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
+"Non podes gardar o sketch como \"{0}\"\n"
+"porque o sketch xa ten un arquivo .cpp con ese nome."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
-msgstr "Que tan Borges de tu parte"
+msgstr "Parece que esto o fixo Borges"
 
 #: Sketch.java:887
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
+"Non podes gardar o sketch nunha carpeta\n"
+"dentro de si mesma. Esto podería acabar nun bucle infinito."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "Seleccione una imagen o algún otro archivo de datos para copiar a su "
-"sketch"
+msgstr "Selecciona unha imaxe ou outro arquivo de datos para copiar "
+"ao teu sketch"
 
 #: Sketch.java:1047
 #, java-format
 msgid "Replace the existing version of {0}?"
-msgstr "Reemplazar la versión existente de {0}?"
+msgstr "Reemplazar a versión existente de {0}?"
 
 #: Sketch.java:1069 Sketch.java:1092
 msgid "Error adding file"
-msgstr "Error agregando archivo"
+msgstr "Erro engadindo o arquivo"
 
 #: Sketch.java:1070
 #, java-format
 msgid "Could not delete the existing ''{0}'' file."
-msgstr "No se pudo borrar el archivo existente ''{0}''."
+msgstr "Non se pode borrar o arquivo existente ''{0}''."
 
 #: Sketch.java:1078
 msgid "You can't fool me"
-msgstr "No me puedes engañar"
+msgstr "Non me podes enganar"
 
 #: Sketch.java:1079
 msgid ""
@@ -856,29 +874,32 @@ msgid ""
 "location from which where you're trying to add it.\n"
 "I ain't not doin nuthin'."
 msgstr ""
+"Este arquivo xa foi copiado na ubicación\n"
+"dende a cal estás tentando engadilo.\n"
+"Non vou faser nada."
 
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "No se pudo agregar ''{0}'' al sketch."
+msgstr "Non se pode engadir ''{0}'' ao sketch."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr ""
+msgstr "A carpeta de desplegue desapareceu ou non se pode escribir nela"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
-msgstr "No se pudo encontrar la clase main"
+msgstr "Non se pode atopar a clase principal"
 
 #: Sketch.java:1433
 #, java-format
 msgid "Uncaught exception type: {0}"
-msgstr "Excepción no atrapada de tipo: {0}"
+msgstr "Excepción non atrapada de tipo: {0}"
 
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr ""
+msgstr "Problema movendo {0} á carpeta de desplegue"
 
 #: Sketch.java:1661
 msgid "Uploading..."
@@ -887,11 +908,11 @@ msgstr "Cargando..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Tamaño binario del sketch: {0} bytes (de un máximo de {1} bytes)"
+msgstr "Tamaño binario do sketch: {0} bytes (dun máximo de {1} bytes)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
-msgstr "No se ha podido determinar el tamaño del programa: {0}"
+msgstr "Non se pode determinar o tamaño do programa: {0}"
 
 #: Sketch.java:1694
 msgid ""
@@ -899,15 +920,15 @@ msgid ""
 "tips on reducing it."
 msgstr ""
 "Sketch demasiado grande; ver http://www.arduino.cc/en/Guide/"
-"Troubleshooting#size para consejos de como reducirlo."
+"Troubleshooting#size para obter consellos de cómo reducilo."
 
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
-msgstr "Falta el */ al final de un /* comentario */"
+msgstr "Falta o */ ao final dun comentario de tipo /* */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "El Sketch ha desaparecido"
+msgstr "O sketch desapareceu"
 
 #: Sketch.java:1797
 msgid ""
@@ -915,16 +936,21 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
+"A carpeta do sketch desapareceu.\n"
+"Tentarase gardar de novo na mesma ubicación,\n"
+"pero calquera cousa aparte do código vaise perder."
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "No se puedo re-guardar el Sketch"
+msgstr "Non se pode gardar de novo o sketch"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
+"Non se pode gardar correctamente o sketch. Pode haber problemas neste punto,\n"
+"e é aconsellable que copies e pegues o teu código noutro editor de textos."
 
 #: Sketch.java:2060
 msgid ""
@@ -932,6 +958,9 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
+"Débese cambiar o nome do sketch. Os nomes de sketch só poden conter\n"
+"caracteres ASCII e números (pero non pode comezar con un número).\n"
+"Tamén deben conter menos de 64 caracteres."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -940,38 +969,38 @@ msgstr ""
 #: debug/Uploader.java:54 debug/Compiler.java:43
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr "Error de compilación, por favor envíe este código a {0}"
+msgstr "Erro de compilación, por favor envía este código a {0}"
 
 #: debug/Uploader.java:199
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
-"El puerto serial seleccionado {0} no existe o su tarjeta no esta conectada"
+"O porto serie seleccionado {0} non existe ou a tarxeta non está conectada"
 
 #: debug/Uploader.java:203
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
-"El dispositivo no responde, revise que el puerto serial correcto este "
-"seleccionado o REINICIE la tarjeta antes de exportar"
+"O dispositivo non responde, revisa que esté seleccionado o porto serie "
+"correcto ou REINICIA a tarxeta xusto antes de exportar"
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
-"Problema cargando a la tarjeta. Vea http://www.arduino.cc/en/Guide/"
-"Troubleshooting#upload para sugerencias."
+"Problema cargando á tarjeta. Vea http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload para suxerencias."
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
-"Microcontrolador equivocado encontrado. Seleccionó la tarjeta correcta del "
-"menú Herramientas > Tarjeta"
+"Atopouse un microcontrolador equivocado. Seleccionaches a tarxeta correcta do "
+"menú Ferramentas > Tarxeta?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -979,22 +1008,22 @@ msgstr ""
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "No hay tarjeta seleccionada; Por favor escoja una tarjeta del menú\n"
-"Herramientas > Tarjeta"
+msgstr "Non hai tarxeta seleccionada; por favor escolle unha tarxeta do menú\n"
+"Ferramentas > Tarxeta"
 
 #: debug/Compiler.java:422
 #, java-format
 msgid "{0} returned {1}"
-msgstr "{0} retornó {1}"
+msgstr "{0} devolveu {1}"
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr "Error compilando"
+msgstr "Erro compilando"
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
-msgstr "Por favor importe la liberaría SPI utilizando el menú\n"
-"Sketch > Importar Librería."
+msgstr "Por favor importa a libraría SPI utilizando o menú\n"
+"Sketch > Importar Libraría."
 
 #: debug/Compiler.java:466
 msgid ""
@@ -1004,13 +1033,15 @@ msgid ""
 "library.\n"
 "\n"
 msgstr ""
-"Desde Arduino 0019, la librería de Ethernet depende de la librería SPI.\n"
-"Usted parece estar usándola o alguna otra librería que depende de la librería"
-"SPI"
+"\n"
+"Desde Arduino 0019, a libraría de Ethernet depende da libraría SPI.\n"
+"Parece que estás a usar esa libraría ou algunha outra libraría que "
+"depende da libraría SPI.\n"
+"\n"
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr "La palabra clave 'BYTE' ya no es soportada."
+msgstr "A palabra chave 'BYTE' xa non está soportada."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -1020,13 +1051,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la palabra clave 'BYTE' ya no es soportada.\n"
-"Por favor utilice Serial.write() en su lugar.\n"
+"Desde Arduino 1.0, a palabra chave 'BYTE' xa non está soportada.\n"
+"Por favor utilice Serial.write() no seu lugar.\n"
 "\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr "La clase Server ha sido renombrada EthernetServer."
+msgstr "A clase Server foi renomeada a EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
@@ -1036,13 +1067,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la clase Server en la librería Ethernet ha sido\n"
-"renombrada como EthernetServer.\n"
+"Desde Arduino 1.0, a clase Server na libraría Ethernet foi renomeada "
+"a EthernetServer.\n"
 "\n"
 
 #: debug/Compiler.java:483
 msgid "The Client class has been renamed EthernetClient."
-msgstr "La clase Client ha sido renombrada EthernetClient."
+msgstr "A clase Client foi renomeada a EthernetClient."
 
 #: debug/Compiler.java:484
 msgid ""
@@ -1052,13 +1083,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la clase Client en la librería Ethernet ha sido\n"
-"renombrada como EthernetClient.\n"
+"Desde Arduino 1.0, a clase Client na libraría Ethernet foi renomeada "
+"a EthernetClient.\n"
 "\n"
 
 #: debug/Compiler.java:489
 msgid "The Udp class has been renamed EthernetUdp."
-msgstr "La clase Udp ha sido renombrada EthernetUdp."
+msgstr "A clase Udp foi renomeada a EthernetUdp."
 
 #: debug/Compiler.java:490
 msgid ""
@@ -1068,13 +1099,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la clase Udp en la librería Ethernet ha sido\n"
-"renombrada como EthernetUdp.\n"
+"Desde Arduino 1.0, a clase Udp na libraría Ethernet foi renomeada "
+"a EthernetUdp.\n"
 "\n"
 
 #: debug/Compiler.java:495
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Wire.send() ha sido renombrado Wire.write()."
+msgstr "Wire.send() foi renomeado a Wire.write()."
 
 #: debug/Compiler.java:496
 msgid ""
@@ -1084,13 +1115,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la función Wire.send() ha sido renombrada Wire.write() "
-"para mantener la consistencia con otras librerías.\n"
+"Desde Arduino 1.0, a función Wire.send() foi renomeada Wire.write() para "
+"manter a consistencia con outras librarías.\n"
 "\n"
 
 #: debug/Compiler.java:501
 msgid "Wire.receive() has been renamed Wire.read()."
-msgstr "Wire.receive() ha sido renombrado Wire.read()."
+msgstr "Wire.receive() foi renomeada a Wire.read()."
 
 #: debug/Compiler.java:502
 msgid ""
@@ -1100,47 +1131,47 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Desde Arduino 1.0, la función  Wire.receive() ha sido renombrada Wire.read() "
-"para mantener la consistencia con otras librerías.\n"
+"Desde Arduino 1.0, a función Wire.receive() foi renomeada a Wire.read() "
+"para manter a consistencia con outras librarías.\n"
 "\n"
 
 #: EditorConsole.java:152
 msgid "Console Error"
-msgstr "Error de consola"
+msgstr "Erro de Consola"
 
 #: EditorConsole.java:153
 msgid ""
 "A problem occurred while trying to open the\n"
 "files used to store the console output."
 msgstr ""
-"Ha ocurrido un problema mientras se trataba de abrir el\n"
-"archivo utilizado para guardar el resultado de la consola."
+"Ocorreu un problema mentres se tentaba abri-los\n"
+"arquivos utilizados para gardar a saída da consola."
 
-#: Base.java:181
+#: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "Erro non grave mentres se configuraba a aparencia"
+msgstr "Erro non grave mentres se configuraba a aparencia."
 
-#: Base.java:182
+#: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
 msgstr "A continuación móstrase a mensaxe de erro, pero Arduino debe continuar\n" 
-"funcionando ben"
+"funcionando ben."
 
-#: Base.java:217
+#: Base.java:220
 msgid "Problem Setting the Platform"
-msgstr "Problema configurando a plataforma"
+msgstr "Problema Configurando a Plataforma"
 
-#: Base.java:218
+#: Base.java:221
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr "Ocorreu un erro descoñecido mentres\n"
-"se cargaba o código especifico para a súa plataforma"
+"se cargaba o código especifico para a súa plataforma."
 
-#: Base.java:229
+#: Base.java:232
 msgid "Please install JDK 1.5 or later"
 msgstr "Por favor instale o JDK 1.5 ou posterior"
 
-#: Base.java:230
+#: Base.java:233
 msgid ""
 "Arduino requires a full JDK (not just a JRE)\n"
 "to run. Please install JDK 1.5 or later.\n"
@@ -1150,11 +1181,11 @@ msgstr ""
 "para funcionar. Por favor instale o JDK 1.5 ou superior.\n"
 "Poderá atopar máis información na documentación."
 
-#: Base.java:254
+#: Base.java:257
 msgid "Sketchbook folder disappeared"
 msgstr "A carpeta Sketchbook desapareceu"
 
-#: Base.java:255
+#: Base.java:258
 msgid ""
 "The sketchbook folder no longer exists.\n"
 "Arduino will switch to the default sketchbook\n"
@@ -1168,11 +1199,11 @@ msgstr ""
 "se fose necesario. Arduino despois deixará de falar de si mesmo\n"
 "en terceira persoa."
 
-#: Base.java:529
+#: Base.java:532
 msgid "Time for a Break"
 msgstr "Hora de descansar"
 
-#: Base.java:530
+#: Base.java:533
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
@@ -1180,48 +1211,48 @@ msgstr ""
 "Alcanzaches o límite para o auto nomeamento de novos sketches\n"
 "por hoxe. Qué tal se vas dar un paseo?"
 
-#: Base.java:534
+#: Base.java:537
 msgid "Sunshine"
-msgstr "O Sol brilla"
+msgstr "O sol brilla"
 
-#: Base.java:535
+#: Base.java:538
 msgid "No really, time for some fresh air for you."
 msgstr "En serio, é hora de que tomes un pouco de aire fresco."
 
-#: Base.java:630
+#: Base.java:633
 msgid "Open an Arduino sketch..."
-msgstr "Abrir un Sketch de Arduino..."
+msgstr "Abrir un sketch de Arduino..."
 
-#: Base.java:769
+#: Base.java:772
 msgid ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Está \n"
-"seguro de que desexa Saír?</b><p>Cerrar o último sketch aberto fará que \n"
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Estás\n"
+"seguro de que desexas Saír?</b><p>Cerrar o último sketch aberto fará que \n"
 "Arduino se peche."
 
-#: Base.java:967
+#: Base.java:970
 msgid "Contributed"
 msgstr "Contribución"
 
-#: Base.java:1092
+#: Base.java:1095
 msgid "Sketch Does Not Exist"
-msgstr "O Sketch non existe"
+msgstr "O sketch non existe"
 
-#: Base.java:1093
+#: Base.java:1096
 msgid ""
 "The selected sketch no longer exists.\n"
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
 "O sketch seleccionado non existe.\n"
-"É posible que necesite reiniciar Arduino\n"
+"É posible que necesites reiniciar Arduino\n"
 "para actualizar o menú Sketchbook."
 
-#: Base.java:1122
+#: Base.java:1125
 #, java-format
 msgid ""
 "The sketch \"{0}\" cannot be used.\n"
@@ -1233,164 +1264,164 @@ msgstr ""
 "O sketch \"{0}\" non se pode usar.\n"
 "Os nomes de sketch deben conter soamente letras básicas e números\n"
 "(Só ASCII sen espazos, e non pode comezar con un número).\n"
-"Para desfacerse de esta mensaxe, elimine o sketch de\n"
+"Para desfacerte de esta mensaxe, elimina o sketch de\n"
 "{1}"
 
-#: Base.java:1129
+#: Base.java:1132
 msgid "Ignoring sketch with bad name"
 msgstr "Ignorando sketch con nome incorrecto"
 
-#: Base.java:1199
+#: Base.java:1202
 #, java-format
 msgid ""
 "The library \"{0}\" cannot be used.\n"
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
-"A librería \"{0}\" non se pode usar.\n"
-"Os nomes de librería deben conter soamente letras básicas e números\n"
+"A libraría \"{0}\" non se pode usar.\n"
+"Os nomes de libraría deben conter soamente letras básicas e números\n"
 "(Só ASCII sen espazos, e non pode comezar con un número).\n"
 
-#: Base.java:1204
+#: Base.java:1207
 msgid "Ignoring bad library name"
-msgstr "Ignorando nome incorrecto de librería"
+msgstr "Ignorando nome incorrecto de libraría"
 
-#: Base.java:1429
+#: Base.java:1432
 msgid "Problem getting data folder"
 msgstr "Problema obtendo carpeta de datos"
 
-#: Base.java:1430
+#: Base.java:1433
 msgid "Error getting the Arduino data folder."
 msgstr "Error obtendo a carpeta de datos de Arduino"
 
-#: Base.java:1437
+#: Base.java:1440
 msgid "Settings issues"
 msgstr "Problemas de configuración"
 
-#: Base.java:1438
+#: Base.java:1441
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
-"Arduino no puede correr porque no pudo\n"
-"crear una carpeta para guardar su configuración."
+"Arduino non se pode executar porque non puido\n"
+"crear unha carpeta para gardar a túa configuración."
 
-#: Base.java:1599
+#: Base.java:1602
 msgid "You forgot your sketchbook"
-msgstr "Olvido su sketchbook"
+msgstr "Olvidaches o teu Sketchbook"
 
-#: Base.java:1600
+#: Base.java:1603
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"Arduino no puede correr porque no pudo\n"
-"crear una carpeta para guardar su sketchbook."
+"Arduino non se pode executar porque no puido\n"
+"crear unha carpeta para gardar o teu Sketchbook."
 
-#: Base.java:1620
+#: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
-msgstr "Seleccione (o cree una nueva) Carpeta para sketches..."
+msgstr "Selecciona (ou crea unha nova) carpeta para os sketches..."
 
-#: Base.java:1644
+#: Base.java:1647
 msgid "Problem Opening URL"
-msgstr "Problema abriendo la URL"
+msgstr "Problema abrindo a URL"
 
-#: Base.java:1645
+#: Base.java:1648
 #, java-format
 msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"No se pudo abrir la URL\n"
+"Non se pode abrir a URL\n"
 "{0}"
 
-#: Base.java:1668
+#: Base.java:1671
 msgid "Problem Opening Folder"
-msgstr "Problema abriendo carpeta"
+msgstr "Problema abrindo a carpeta"
 
-#: Base.java:1669
+#: Base.java:1672
 #, java-format
 msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-"No se pudo abrir la carpeta\n"
+"Non se pode abrir a carpeta\n"
 "{0}"
 
-#: Base.java:1782
+#: Base.java:1785
 msgid "Guide_MacOSX.html"
 msgstr ""
 
-#: Base.java:1784
+#: Base.java:1787
 msgid "Guide_Windows.html"
 msgstr ""
 
-#: Base.java:1786
+#: Base.java:1789
 msgid "http://www.arduino.cc/playground/Learning/Linux"
 msgstr ""
 
-#: Base.java:1791
+#: Base.java:1794
 msgid "index.html"
 msgstr ""
 
-#: Base.java:1796
+#: Base.java:1799
 msgid "Guide_Environment.html"
 msgstr ""
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "environment"
 msgstr "entorno"
 
-#: Base.java:1801
+#: Base.java:1804
 msgid "platforms.html"
 msgstr ""
 
-#: Base.java:1806
+#: Base.java:1809
 msgid "Guide_Troubleshooting.html"
 msgstr ""
 
-#: Base.java:1811
+#: Base.java:1814
 msgid "FAQ.html"
 msgstr ""
 
-#: Base.java:1823
+#: Base.java:1826
 msgid "Message"
-msgstr "Mensaje"
+msgstr "Mensaxe"
 
-#: Base.java:1839
+#: Base.java:1842
 msgid "Warning"
 msgstr "Alerta"
 
-#: Base.java:2193
+#: Base.java:2196
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "No se pudo remover la versión anterior de {0}"
+msgstr "Non se pode eliminar a versión anterior de {0}"
 
-#: Base.java:2203
+#: Base.java:2206
 #, java-format
 msgid "Could not replace {0}"
-msgstr "No se pudo reemplazar {0}"
+msgstr "Non se pode reemplazar {0}"
 
-#: Base.java:2244 Base.java:2267
+#: Base.java:2247 Base.java:2270
 #, java-format
 msgid "Could not delete {0}"
-msgstr "No se pudo borrar {0}"
+msgstr "Non se pode borrar {0}"
 
 #: EditorHeader.java:292
 msgid "New Tab"
-msgstr "Nueva pestaña"
+msgstr "Nova pestana"
 
 #: EditorHeader.java:300
 msgid "Rename"
-msgstr "Renombrar"
+msgstr "Renomear"
 
 #: EditorHeader.java:326
 msgid "Previous Tab"
-msgstr "Pestaña anterior"
+msgstr "Pestana anterior"
 
 #: EditorHeader.java:340
 msgid "Next Tab"
-msgstr "Siguiente pestaña"
+msgstr "Pestana seguinte"
 
 #: EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Verify"
@@ -1402,15 +1433,15 @@ msgstr "Abrir"
 
 #: EditorToolbar.java:46
 msgid "New Editor Window"
-msgstr "Nueva ventana de editor"
+msgstr "Nova Ventá de Edición"
 
 #: EditorToolbar.java:46
 msgid "Open in Another Window"
-msgstr "Abrir en otra ventana"
+msgstr "Abrir noutra Ventá"
 
 #: Platform.java:167
 msgid "No launcher available"
-msgstr "No hay lanzador disponible"
+msgstr "No hai un lanzador dispoñible"
 
 #: Platform.java:168
 msgid ""
@@ -1418,106 +1449,186 @@ msgid ""
 "To enable opening URLs or folders, add a \n"
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
-"Plataforma no especificada, no hay lanzador disponible.\n"
-"para habilitar la apertura de URLs o carpetas, agregue una línea como \n"
-"\"launcher=/ruta/de/app\" al archivo preferences.txt"
+"Plataforma non especificada, non hai un lanzador dispoñible.\n"
+"Para habilita-la apertura de URLs ou carpetas, engada unha liña como \n"
+"\"launcher=/ruta/de/app\" ao arquivo preferences.txt"
 
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
-"No se pudo leer la configuración de esquema de color."
-"Necesitas re-instalar Processing."
+"Non se pode ler a configuración do esquema de cor.\n"
+"Necesitarás volver a instalar Processing."
 
 #: Preferences.java:80
 msgid "Browse"
 msgstr "Navegar"
 
-#: Preferences.java:148
+#: Preferences.java:115
+msgid "Catalan"
+msgstr ""
+
+#: Preferences.java:116
+msgid "Chinese Simplified"
+msgstr ""
+
+#: Preferences.java:117
+msgid "Chinese Taiwan"
+msgstr ""
+
+#: Preferences.java:118
+msgid "Danish"
+msgstr ""
+
+#: Preferences.java:119
+msgid "Dutch"
+msgstr ""
+
+#: Preferences.java:120
+msgid "English"
+msgstr ""
+
+#: Preferences.java:121
+msgid "French"
+msgstr ""
+
+#: Preferences.java:122
+msgid "Filipino"
+msgstr ""
+
+#: Preferences.java:123
+msgid "Galician"
+msgstr ""
+
+#: Preferences.java:124
+msgid "German"
+msgstr ""
+
+#: Preferences.java:125
+msgid "Greek"
+msgstr ""
+
+#: Preferences.java:126
+msgid "Hungarian"
+msgstr ""
+
+#: Preferences.java:127
+msgid "Italian"
+msgstr ""
+
+#: Preferences.java:128
+msgid "Japanese"
+msgstr ""
+
+#: Preferences.java:129
+msgid "Latvian"
+msgstr ""
+
+#: Preferences.java:130
+msgid "Persian"
+msgstr ""
+
+#: Preferences.java:131
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: Preferences.java:132
+msgid "Romanian"
+msgstr ""
+
+#: Preferences.java:133
+msgid "Spanish"
+msgstr ""
+
+#: Preferences.java:222
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
-"No se pudo leer la configuración predeterminada.\n"
-"Deberá volver a instalar Arduino."
+"Non se poden ler as configuracións predeterminadas.\n"
+"Necesitarás reinstalar Arduino."
 
-#: Preferences.java:180
+#: Preferences.java:254
 #, java-format
 msgid "Could not read preferences from {0}"
-msgstr "No se pudo leer las preferencias de {0}"
+msgstr "No se poden ler as preferencias de {0}"
 
-#: Preferences.java:199
+#: Preferences.java:273
 msgid "Error reading preferences"
-msgstr "Error leyendo preferencias"
+msgstr "Erro lendo as preferencias"
 
-#: Preferences.java:201
+#: Preferences.java:275
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
 msgstr ""
-"Error leyendo el archivo de preferencias. Por favor borre (o mueva)\n"
-"{0} y reinicie Arduino."
+"Erro lendo o arquivo de preferencias. Por favor borra (ou move)\n"
+"{0} e reinicie Arduino."
 
-#: Preferences.java:237
+#: Preferences.java:311
 msgid "Sketchbook location:"
-msgstr "Ubicación del Sketchbook:"
+msgstr "Ubicación do Sketchbook:"
 
-#: Preferences.java:252
+#: Preferences.java:326
 msgid "Select new sketchbook location"
-msgstr "Seleccione la nueva ubicación del sketchbook"
+msgstr "Selecciona a nova ubicación do Sketchbook"
 
-#: Preferences.java:276
+#: Preferences.java:350
 msgid "Editor font size: "
-msgstr "Tamaño de tipo de letra para el editor: "
+msgstr "Tamaño do tipo de letra para o editor: "
 
-#: Preferences.java:280
+#: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
-msgstr " (requiere reiniciar Arduino)"
+msgstr "  (require reiniciar Arduino)"
 
-#: Preferences.java:293
+#: Preferences.java:367
 msgid "Show verbose output during: "
 msgstr "Mostrar resultado detallado durante: "
 
-#: Preferences.java:295
+#: Preferences.java:369
 msgid "compilation "
 msgstr "compilación "
 
-#: Preferences.java:297
+#: Preferences.java:371
 msgid "upload"
 msgstr "carga"
 
-#: Preferences.java:306
+#: Preferences.java:380
 msgid "Verify code after upload"
-msgstr ""
+msgstr "Verificar o código despois de cargar"
 
-#: Preferences.java:315
+#: Preferences.java:389
 msgid "Use external editor"
 msgstr "Usar editor externo"
 
-#: Preferences.java:325
+#: Preferences.java:399
 msgid "Check for updates on startup"
-msgstr "Verificar actualizaciones al iniciar"
+msgstr "Buscar actualizacións ao iniciar"
 
-#: Preferences.java:334
+#: Preferences.java:408
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "Actualizar archivos de sketch a nueva extensión al guardar \n"
+msgstr "Actualiza-los arquivos do sketch con unha nova extensión ao gardar "
 "(.pde -> .ino)"
 
-#: Preferences.java:345
+#: Preferences.java:419
 msgid "Automatically associate .ino files with Arduino"
-msgstr "Asociar automáticamente archivos .ino con Arduino"
+msgstr "Asociar automáticamente arquivos .ino con Arduino"
 
-#: Preferences.java:356
+#: Preferences.java:429
+msgid "Preferred Language: "
+msgstr ""
+
+#: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
-msgstr "Más preferencias pueden ser editadas directamente en el archivo"
+msgstr "Pódense editar directamente máis preferencias no arquivo"
 
-#: Preferences.java:385
+#: Preferences.java:483
 msgid "(edit only when Arduino is not running)"
-msgstr "(editar solo cuando Arduino no este corriendo)"
+msgstr "(editar só cando Arduino non se esté a executar)"
 
-#: Preferences.java:532
+#: Preferences.java:630
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "ignorando tamaño invalido de tipo de letra {0}"
+msgstr "ignorando tamaño inválido de tipo de letra {0}"
