@@ -1320,39 +1320,39 @@ msgstr "Durchsuchen"
 
 #: Preferences.java:115
 msgid "Catalan"
-msgstr "Katalanisch"
+msgstr "Català"
 
 #: Preferences.java:116
 msgid "Chinese Simplified"
-msgstr "Vereinfachtes Chinesisch"
+msgstr "大陆简体"
 
 #: Preferences.java:117
 msgid "Chinese Taiwan"
-msgstr "Traditionelles Chinesich (Taiwan)"
+msgstr "台灣正體"
 
 #: Preferences.java:118
 msgid "Danish"
-msgstr "Dänisch"
+msgstr "Dansk"
 
 #: Preferences.java:119
 msgid "Dutch"
-msgstr "Niederländisch"
+msgstr "Nederlands"
 
 #: Preferences.java:120
 msgid "English"
-msgstr "Englisch"
+msgstr "English"
 
 #: Preferences.java:121
 msgid "French"
-msgstr "Französisch"
+msgstr "Français"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr "Philippinisch"
+msgstr "Pilipino"
 
 #: Preferences.java:123
 msgid "Galician"
-msgstr "Galizisch"
+msgstr "Galego"
 
 #: Preferences.java:124
 msgid "German"
@@ -1360,39 +1360,39 @@ msgstr "Deutsch"
 
 #: Preferences.java:125
 msgid "Greek"
-msgstr "Griechisch"
+msgstr "ελληνικά"
 
 #: Preferences.java:126
 msgid "Hungarian"
-msgstr "Ungarisch"
+msgstr "Magyar"
 
 #: Preferences.java:127
 msgid "Italian"
-msgstr "Italiensich"
+msgstr "Italiano"
 
 #: Preferences.java:128
 msgid "Japanese"
-msgstr "Japanisch"
+msgstr "日本語"
 
 #: Preferences.java:129
 msgid "Latvian"
-msgstr "Lettisch"
+msgstr "Latviešu Valoda"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr "Persisch"
+msgstr "فارسی"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
-msgstr "Portugiesisch (Brasilien)"
+msgstr "Português"
 
 #: Preferences.java:132
 msgid "Romanian"
-msgstr "Rumänisch"
+msgstr "Limba Română"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr "Spanisch"
+msgstr "Español"
 
 #: Preferences.java:222
 msgid ""
@@ -1466,7 +1466,7 @@ msgstr ".ino-Dateien automatisch mit Arduino verknüpfen"
 
 #: Preferences.java:429
 msgid "Preferred Language: "
-msgstr "Bevorzugte Sprache: "
+msgstr "Bevorzugte Sprache:\n(Preferred Language)"
 
 #: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
