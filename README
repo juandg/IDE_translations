@@ -102,18 +102,29 @@ http://arduino.cc/playground/Main/LanguagesIDE
 Credits
 -------
 
-This is a list of contributors that have released full *.po files ordered by language:
+This is a list of contributors that have released *.po files ordered by language:
 
+Arabic: Belal M.R. Affouri, Ameen Sarsour
 Catalan: Albert Segura <alb.segu(at)gmail(dot)com>
+Chinese (Simplified): ledong
+Chinese (Taiwan): yehnan
 Croatian: Marko Baricevic, Mark Bilandzic
+Danish: Anders Bech Mellson
 Dutch: Marcel Veldhuijzen, JO3RI <info@jo3ri.be>
+Filipino: Marc Lester Tan <mharkus(at)gmail(dot)com>
 French: Denis Barbier <bouzim@gmail.com>, Thierry Accart <thierry@accart.name>, Alexis Morin <mail@alexismorin.com>
 Galician: Diego Prado Gesto <diginho(at)gmail(dot)com>
 German: Lukas Bestle (http://www.lu-x-it.de), Benjamin Hogl
 Greek: Vasilis Georgitzikis (http://tzikis.com)
+Hungarian: Robert Cseh <tavir@tavir.hu>
 Italian: Sara Gallo, Simone Majocchi
 Japanese: Shigeru Kanemoto
+Korean: Jinbuhm Kim 
+Latvian: Kristofers <kristozz@gmail.com>
+Marathi: Sarvesh S. Karkhanis
+Persian: Ebrahim Byagowi <ebrahim@byagowi.com>
+Polish: Maciej Wojnicki, Maciej Wójciga
 Portuguese: Hugo Lavalle <hugo.lavalle@gmail.com>, Radamés Ajna <me@radames.in>, Armando Neto <neto.armando@gmail.com>, Andre Aureliano <andre@fiozera.com.br>
-Romanian:
-Russian:
+Romanian: Pop Gheorghe <office@roroid.ro>
+Russian: Stanislav I. Ashmanov, Evgeniy Maskalev
 Spanish: Merche Blasco, Jose Manuel Escuder, Juan Gomez, Eduardo Sacristan, Jesús Sánchez
