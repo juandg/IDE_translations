@@ -2,7 +2,7 @@
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pop Gheorghe <office@roroid.ro>, 2012.
-#
+# Razvan Daniel Ionescu <iardsoft@gmail.com>, 2012.
 #
 #
 msgid ""
@@ -95,7 +95,7 @@ msgstr "Schiţă"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr "Verifica / Compilează"
+msgstr "Verifică / Compilează"
 
 #: Editor.java:629
 msgid "Import Library..."
@@ -103,7 +103,7 @@ msgstr "Importă bibliotecă"
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "Arata directorul schiţei"
+msgstr "Arată directorul schiţei"
 
 #: Editor.java:643
 msgid "Add File..."
@@ -119,7 +119,7 @@ msgstr "Monitorizare serială"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Placa de dezvoltare"
+msgstr "Placă de dezvoltare"
 
 #: Editor.java:690
 msgid "Serial Port"
@@ -151,7 +151,7 @@ msgstr "Ajutor"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr "Primi paşi"
+msgstr "Primii paşi"
 
 #: Editor.java:1049
 msgid "Environment"
@@ -269,7 +269,7 @@ msgstr "Compilez schiţa..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
-msgstr "Compilare terminata."
+msgstr "Compilare terminată."
 
 #: Editor.java:1973
 #, java-format
@@ -338,7 +338,7 @@ msgstr "Eroare"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Un director cu numele \"{0}\" exista deja. Nu pot deschide schiţa."
+msgstr "Un director cu numele \"{0}\" există deja. Nu pot deschide schiţa."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
@@ -376,7 +376,7 @@ msgid ""
 "Retry the upload with another serial port?"
 msgstr ""
 "Portul serial {0} nu a fost găsit.\n"
-"Doreşti sa utilizezi un alt port serial?"
+"Doreşti să utilizezi un alt port serial?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
@@ -384,7 +384,7 @@ msgstr "Se încarcă în placa de dezvoltare..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "Încărcare finalizata."
+msgstr "Încărcare finalizată."
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
@@ -412,11 +412,11 @@ msgstr "Eroare în timpul încărcării bootloader-ului."
 
 #: Editor.java:2500
 msgid "Printing..."
-msgstr "Tiparesc..."
+msgstr "Tipăresc..."
 
 #: Editor.java:2517
 msgid "Done printing."
-msgstr "Tiparire finalizată."
+msgstr "Tipărire finalizată."
 
 #: Editor.java:2520
 msgid "Error while printing."
@@ -424,12 +424,12 @@ msgstr "Eroare în timpul tipăririi."
 
 #: Editor.java:2524
 msgid "Printing canceled."
-msgstr "Tiparire anulată."
+msgstr "Tipărire anulată."
 
 #: Editor.java:2572
 #, java-format
 msgid "Bad error line: {0}"
-msgstr "Linie eronata: {0}"
+msgstr "Linie eronată: {0}"
 
 #: Editor.java:2641
 msgid "Open URL"
@@ -477,7 +477,7 @@ msgstr "Ignoră majuscule"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "Marchează"
+msgstr "Contiunuă de la început"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
@@ -505,11 +505,11 @@ msgstr "Trimite"
 
 #: SerialMonitor.java:110
 msgid "Autoscroll"
-msgstr "Parcurgere automată"
+msgstr "Derulare automată"
 
 #: SerialMonitor.java:112
 msgid "No line ending"
-msgstr "Fără editarea liniei"
+msgstr "Fără sfârşit de linie"
 
 #: SerialMonitor.java:112
 msgid "Newline"
@@ -525,7 +525,7 @@ msgstr "NL & CR (linie noua şi enter)"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr " viteză de transmisie"
+msgstr " baud"
 
 #: Serial.java:147
 #, java-format
@@ -556,8 +556,8 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-"Buferul este prea mic pentru cei {0} bytes specificati ca parametru pentru functia readBytesUntil()  "
-"luand in considerare si caracterul mentionat la {1}"
+"Buffer prea mic pentru cei {0} bytes specificaţi ca parametru pentru funcţia readBytesUntil()  "
+"luând în considerare şi caracterul menţionat la {1}"
 
 #: Serial.java:567
 #, java-format
@@ -772,7 +772,7 @@ msgstr "Eşti sigur ca vrei să ştergi \"{0}\"?"
 
 #: Sketch.java:595 EditorHeader.java:314
 msgid "Delete"
-msgstr "ştergere"
+msgstr "Ştergere"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
@@ -812,8 +812,8 @@ msgstr ""
 "În Arduino 1.0, extensia implicita pentru fişiere a fost schimbata\n"
 "din .pde în .ino.  Noile schiţe (incluzând cele create\n"
 "cu  \"Salvează ca\") vor utiliza noua extensie.  Extensia\n"
-"schiţelor existente va fi modificata odată cu salvarea acestor fişiere, dar puteţi\n"
-"dezactiva aceasta opţiune în fila cu preferinţe.\n"
+"schiţelor existente va fi modificată odată cu salvarea acestor fişiere, dar puteţi\n"
+"dezactiva aceasta opţiune din dialogul cu preferinţe.\n"
 "\n"
 "Salvează schiţa şi modifică extensia?"
 
@@ -842,12 +842,12 @@ msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"Nu poţi salva o schiă într-o altă schiţă.\n"
+"Nu poţi salva o schiţă într-o altă schiţă.\n"
 "Acest lucru ar putea dura o veşnicie."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "Selectează o imagine sau un alt fişier pentru a-l copia în schiţa"
+msgstr "Selectează o imagine sau un alt fişier pentru a-l copia în schiţă"
 
 #: Sketch.java:1047
 #, java-format
@@ -1007,7 +1007,7 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Nu este selectată nici o placă de dezvoltare; te rog alege una din meniul  Instrumente>Placă de dezvoltare"
+msgstr "Nu este selectată nici o placă de dezvoltare; te rog alege una din meniul Instrumente > Placă de dezvoltare"
 
 #: debug/Compiler.java:422
 #, java-format
@@ -1150,7 +1150,7 @@ msgstr "Eroare non-fatala în timpul iniţializării interfeţei cu utilizatorul
 
 #: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
-msgstr "Mesajul de eroare ar trebui să apară, totuşi Arduino ar trebuii să funcţioneze fără probleme"
+msgstr "Mesajul de eroare ar trebui să apară, totuşi Arduino ar trebui să funcţioneze fără probleme"
 
 #: Base.java:220
 msgid "Problem Setting the Platform"
@@ -1161,8 +1161,8 @@ msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr ""
-"O eroare necunoscuta în timp ce se încarca\n"
-"codul specific pentru sistemul dumneavoastră de operare."
+"O eroare necunoscută în timp ce se încarca\n"
+"codul specific pentru sistemul tău de operare."
 
 #: Base.java:232
 msgid "Please install JDK 1.5 or later"
@@ -1190,8 +1190,8 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"Dosarul cu schiţe nu mai exista.\n"
-"Arduino va comuta pe locaţia implicita a directorului\n"
+"Dosarul cu schiţe nu mai există.\n"
+"Arduino va comuta pe locaţia implicită a directorului\n"
 "de schiţe, şi dacă e necesar va crea un nou dosar cu schiţe.\n"
 " Arduino nu va mai vorbi despre el\n"
 "la persoana a treia."
@@ -1346,11 +1346,11 @@ msgstr ""
 
 #: Base.java:1785
 msgid "Guide_MacOSX.html"
-msgstr "Ghid_MacOSX.html"
+msgstr "Guide_MacOSX.html"
 
 #: Base.java:1787
 msgid "Guide_Windows.html"
-msgstr "Ghid_Windows.html"
+msgstr "Guide_Windows.html"
 
 #: Base.java:1789
 msgid "http://www.arduino.cc/playground/Learning/Linux"
@@ -1362,7 +1362,7 @@ msgstr "index.html"
 
 #: Base.java:1799
 msgid "Guide_Environment.html"
-msgstr "Ghid_mediu_de_programare.html"
+msgstr "Guide_Environment.html"
 
 #: Base.java:1804
 msgid "environment"
@@ -1370,11 +1370,11 @@ msgstr "mediu de programare"
 
 #: Base.java:1804
 msgid "platforms.html"
-msgstr "platforme.html"
+msgstr "platforms.html"
 
 #: Base.java:1809
 msgid "Guide_Troubleshooting.html"
-msgstr "Ghid_depanare.html"
+msgstr "Guide_Troubleshooting.html"
 
 #: Base.java:1814
 msgid "FAQ.html"
@@ -1447,7 +1447,7 @@ msgid ""
 msgstr ""
 "Platformă nespecificată, lansator indisponibil.\n"
 "Pentru a permite deschiderea URL-urilor sau a directoarelor, adaugaţi următoarea linie \n"
-"\"launcher=/path/to/app\" în fişierul preferences.txt"
+"\"launcher=/calea/către/aplicaţie\" în fişierul preferences.txt"
 
 #: Theme.java:52
 msgid ""
@@ -1455,7 +1455,7 @@ msgid ""
 "You'll need to reinstall Processing."
 msgstr ""
 "Nu pot citi setările culorilor pentru tema.\n"
-"Este necesara reinstalarea aplicaţiei."
+"Este necesară reinstalarea aplicaţiei."
 
 #: Preferences.java:80
 msgid "Browse"
@@ -1577,19 +1577,19 @@ msgstr "Mărimea caracterelor pentru editor:"
 
 #: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
-msgstr "  (este necesară repornirea editorului Arduino)"
+msgstr "  (este necesară repornirea editorului)"
 
 #: Preferences.java:367
 msgid "Show verbose output during: "
-msgstr "Detaliază informaţiile de ieşire a compilatorului:: "
+msgstr "Detaliază informaţiile de ieşire în timpul: "
 
 #: Preferences.java:369
 msgid "compilation "
-msgstr "compilare"
+msgstr "compilării"
 
 #: Preferences.java:371
 msgid "upload"
-msgstr "încarcă"
+msgstr "încărcării"
 
 #: Preferences.java:380
 msgid "Verify code after upload"
