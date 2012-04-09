@@ -1,14 +1,14 @@
 # Russian translations for PACKAGE package.
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Stanislav I. Ashmanov and Evgeniy Maskalev <>, 2012.
+# David A. Mellis <>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-02 09:00+0800\n"
-"PO-Revision-Date: 2012-04-03 22:48+0800\n"
+"PO-Revision-Date: 2012-04-09 18:26+0800\n"
 "Last-Translator: Stanislav I. Ashmanov and Evgeniy Maskalev <>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -36,7 +36,7 @@ msgstr "Файл"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr "Новый"
+msgstr "Создать"
 
 #: Editor.java:494 Base.java:903
 msgid "Open..."
@@ -73,13 +73,13 @@ msgstr "Загрузить с помощью программатора"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr "Настройки страницы"
+msgstr "Настройки печати"
 
 #: Editor.java:564
 msgid "Print"
 msgstr "Печать"
 
-#: Editor.java:576 Preferences.java:291
+#: Editor.java:576 Preferences.java:293
 msgid "Preferences"
 msgstr "Настройки"
 
@@ -109,7 +109,7 @@ msgstr "Добавить файл..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr "Инструменты"
+msgstr "Сервис"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
@@ -145,7 +145,7 @@ msgstr "ошибка получения списка портов"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr "Помощь"
+msgstr "Справка"
 
 #: Editor.java:1041
 msgid "Getting Started"
@@ -161,7 +161,7 @@ msgstr "Поиск неполадок"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr "Справка"
+msgstr "Содержание"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
@@ -173,7 +173,7 @@ msgstr "Часто задаваемые вопросы"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr "Посетить Arduino.cc"
+msgstr "Перейти на Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
@@ -181,11 +181,11 @@ msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
-msgstr "Об Arduino"
+msgstr "О программе"
 
 #: Editor.java:1116
 msgid "Edit"
-msgstr "Редактировать"
+msgstr "Правка"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
@@ -217,7 +217,7 @@ msgstr "Вставить"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
-msgstr "Выбрать всё"
+msgstr "Выделить всё"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
@@ -329,7 +329,7 @@ msgstr "Перемещение"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:252
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:254
 msgid "Error"
 msgstr "Ошибка"
 
@@ -523,7 +523,7 @@ msgstr "NL и CR вместе"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr " скорость"
+msgstr " бод"
 
 #: Serial.java:147
 #, java-format
@@ -546,7 +546,7 @@ msgid ""
 "Serial Port menu?"
 msgstr ""
 "Последовательный порт ''{0}'' не найден. Вы выбрали нужный из меню "
-"Инструменты > Последовательный порт?"
+"Сервис > Последовательный порт?"
 
 #: Serial.java:424
 #, java-format
@@ -568,7 +568,7 @@ msgstr "Автоформатирование"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "Нечего автоформатировать."
+msgstr "Нечего форматировать."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
@@ -652,7 +652,7 @@ msgid ""
 "todelete the bad characters to get rid of this warning."
 msgstr ""
 "\"{0}\" содержит нераспознанные символы. Если этот код был создан в "
-"старой версии Processing, то вам понадобится использовать Инструменты -> "
+"старой версии Processing, то вам понадобится использовать Сервис -> "
 "Исправить кодировку, чтобы изменить кодировку скетча на UTF-8. Если нет, то "
 "вам понадобится удалить плохие символы, чтобы избежать этого предупреждения."
 
@@ -905,7 +905,7 @@ msgstr "Загружаем..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Размер скетча в двоичном виде: {0} байт (из {1} байт максимально)"
+msgstr "Размер скетча в двоичном коде: {0} байт (из {1} байт максимум)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -997,7 +997,7 @@ msgid ""
 "> Board menu?"
 msgstr ""
 "Тип микроконтроллера неверный.  Вы правильно выбрали плату из меню "
-"Инструменты > Платы?"
+"Сервис > Платы?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1005,7 +1005,7 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Не выбрана модель платы, пожалуйста, выберите её в меню Инструменты > Платы."
+msgstr "Не выбрана модель платы, пожалуйста, выберите её в меню Сервис > Платы."
 
 #: debug/Compiler.java:422
 #, java-format
@@ -1529,10 +1529,14 @@ msgid "Romanian"
 msgstr ""
 
 #: Preferences.java:133
+msgid "Russian"
+msgstr ""
+
+#: Preferences.java:134
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:222
+#: Preferences.java:224
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1540,16 +1544,16 @@ msgstr ""
 "Настройки по умолчанию не читаются.\n"
 "Вам нужно переустановить Arduino."
 
-#: Preferences.java:254
+#: Preferences.java:256
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Невозможно прочитать настройки из {0}"
 
-#: Preferences.java:273
+#: Preferences.java:275
 msgid "Error reading preferences"
 msgstr "Ошибка чтения настроек"
 
-#: Preferences.java:275
+#: Preferences.java:277
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1558,67 +1562,67 @@ msgstr ""
 "Ошибка чтения файла настроек. Пожалуйста удалите (или переместите)\n"
 "{0} и перезагрузите Arduino."
 
-#: Preferences.java:311
+#: Preferences.java:313
 msgid "Sketchbook location:"
 msgstr "Расположение папки со скетчами:"
 
-#: Preferences.java:326
+#: Preferences.java:328
 msgid "Select new sketchbook location"
 msgstr "Выберите новое расположение папки со скетчами"
 
-#: Preferences.java:350
+#: Preferences.java:352
 msgid "Editor font size: "
 msgstr "Размер шрифта редактора: "
 
-#: Preferences.java:354 Preferences.java:442
+#: Preferences.java:356 Preferences.java:444
 msgid "  (requires restart of Arduino)"
 msgstr "  (требует перезагрузки Arduino)"
 
-#: Preferences.java:367
+#: Preferences.java:369
 msgid "Show verbose output during: "
 msgstr "Показывать подробный вывод при: "
 
-#: Preferences.java:369
+#: Preferences.java:371
 msgid "compilation "
 msgstr "компиляции"
 
-#: Preferences.java:371
+#: Preferences.java:373
 msgid "upload"
 msgstr "загрузке"
 
-#: Preferences.java:380
+#: Preferences.java:382
 msgid "Verify code after upload"
 msgstr "Проверка кода после загрузки"
 
-#: Preferences.java:389
+#: Preferences.java:391
 msgid "Use external editor"
 msgstr "Использовать внешний редактор"
 
-#: Preferences.java:399
+#: Preferences.java:401
 msgid "Check for updates on startup"
 msgstr "Проверять обновления при запуске"
 
-#: Preferences.java:408
+#: Preferences.java:410
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Обновлять расширение скетчей на новое при сохранении (.pde -> .ino)"
 
-#: Preferences.java:419
+#: Preferences.java:421
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Автоматически ассоциировать .ino файлы с Arduino"
 
-#: Preferences.java:429
+#: Preferences.java:431
 msgid "Preferred Language: "
 msgstr ""
 
-#: Preferences.java:454
+#: Preferences.java:456
 msgid "More preferences can be edited directly in the file"
 msgstr "Больше свойств может быть отредактировано прямо в файле"
 
-#: Preferences.java:483
+#: Preferences.java:485
 msgid "(edit only when Arduino is not running)"
 msgstr "(редактируйте только если Arduino не запущено)"
 
-#: Preferences.java:630
+#: Preferences.java:632
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "игнорирование некорректного размера шрифта {0}"
