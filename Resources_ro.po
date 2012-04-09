@@ -167,7 +167,7 @@ msgstr "Instrucţiuni"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr "Cauta în instrucţiuni"
+msgstr "Caută în instrucţiuni"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
@@ -235,15 +235,15 @@ msgstr "Redu spaţiere"
 
 #: Editor.java:1220
 msgid "Find..."
-msgstr "Căutare..."
+msgstr "Caută..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr "Următorul găsit"
+msgstr "Caută urmatorul..."
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr "Precedentul găsit"
+msgstr "Caută precedentul..."
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
@@ -1191,10 +1191,10 @@ msgid ""
 "himself in the third person."
 msgstr ""
 "Dosarul cu schiţe nu mai exista.\n"
-"Arduino v-a comuta pe locaţia implicita a directorului\n"
-"de schiţe, şi dacă e necesar v-a crea un nou dosar cu schiţe.\n"
+"Arduino va comuta pe locaţia implicita a directorului\n"
+"de schiţe, şi dacă e necesar va crea un nou dosar cu schiţe.\n"
 " Arduino nu va mai vorbi despre el\n"
-"la persoana a trei-a."
+"la persoana a treia."
 
 #: Base.java:532
 msgid "Time for a Break"
@@ -1601,7 +1601,7 @@ msgstr "Foloseşte un editor extern"
 
 #: Preferences.java:399
 msgid "Check for updates on startup"
-msgstr "Cauta actualizări la pornirea programului"
+msgstr "Caută actualizări la pornirea programului"
 
 #: Preferences.java:408
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
