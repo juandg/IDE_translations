@@ -1,0 +1,119 @@
+Arduino.cc
+----------
+
+GitHub Repository for Translations of the Arduino IDE. 
+
+For more information visit: http://arduino.cc/playground/Main/LanguagesIDE
+
+History
+-------
+
+Version 1.0.1 of the Arduino IDE and newer, include the possibility of browsing the menus in multiple languages.
+
+The first contribution in this line was made by Shigeru Kanemoto, who set up the basic way how strings should be translated to multiple languages using a series of *.po files.
+
+Shigeru created the Resources_ja.po (for Japanese) and, based on that, during the week before Easter 2012, a group of volunteers went into translating the 303 strings within the Arduino menus, warning/error messages, and dialog windows.
+
+In little more than a week, 19 languages were included as part of the IDE and yet another 15 were in the making.
+
+What is a translation, what does it cover?
+------------------------------------------
+
+Translation files for the Arduino IDE are *.po files containing a list of strings to be translated from English into a different language. English is the language of choice when developing the Arduino IDE. Therefore all the code, menus, etc, are written and commented in English.
+
+The *.po files include:
+
+- a copyright notice: where the translators should take credit for their work and leave an address where to contact them for more information
+- a machine-readable area: with information about the version of the file, the last time it was modified, etc.
+- the translation area
+
+The copyright notice could look like:
+
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# D. Cuartielles <d.cuartielles@arduino.cc>, 2012.
+
+There is not much to be said about that. However, the machine-readable block contains much more information:
+
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-30 11:00+0100\n"
+"PO-Revision-Date: 2012-04-01 09:25+0100\n"
+"Last-Translator: D. Cuartielles <d.cuartielles@arduino.cc>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+It is important to note that, within the Arduino IDE, we work using UTF-8 encoded strings.
+
+The translation area is divided into blocks. Each block has three parts:
+
+- a line starting with a hashtag '#': indicating the files where those strings were taken from
+- a line starting with 'msgid': this is the original sentence in English
+- a line starting with 'msgstr': this is the translation
+
+An example of one of those blocks would be:
+
+#: Editor.java:2017
+msgid "Don't Save"
+msgstr "لا تحفظ"
+
+There you see the file Editor.java within the Arduino's IDE source code includes the sentence "Don't Save", that translates to the expression after 'msgstr' in Arabic.
+
+How the PO files are generated
+------------------------------
+
+The initial *.po files are created by a script created by Shigeru Kanemoto that will parse all the *.java source files within the Arduino IDE looking for strings. The strings have to be marked with _( STRING ).
+
+This means, whenever there is a new string added to e.g. one dialog window of the IDE, the person coding that needs to make sure he/she is marking the string so that it can be translated properly.
+
+After that, he/she will have to call: 'sh i18n_update.sh'. This script generates a revision of all the existing PO files to include the new strings.
+
+Those files are the ones that are then published in this repository for people to contribute with their translations.
+
+How can I contribute?
+---------------------
+
+The translations are a community contribution. They allow using Arduino's IDE based on your language preferences, however it might be the case there is no translation to your language. It is always possible to contribute by either generating a new language file or improving an existing one.
+
+If you want to contribute this is the way to do it:
+
+1) you should subscribe to the translations@arduino.cc email list. Just follow this URL and fill in your details:
+
+http://arduino.cc/mailman/listinfo/translations_arduino.cc
+
+2) in that list you should check whether there is people working with that translation. Usually we make a note about this at:
+
+http://arduino.cc/playground/Main/LanguagesIDE
+
+3) if nobody is working with that translation, you should take one of the existing *.po files, like e.g. the Spanish one, and start translating the strings.
+
+4) it is a tedious process, there are over 300 strings to be translated. You are welcome to use github as a way to push your contributions into the system via 'pull requests'. But don't worry, if you don't know how to do that, just email your files to the translation email list.
+
+5) once you are done with the translation, you have to inform via email that you are done. If you didn't do so, the rest of the translators wouldn't know your file is ready to be part of the next Arduino release
+
+Credits
+-------
+
+This is a list of contributors that have released full *.po files ordered by language:
+
+Catalan: Albert Segura <alb.segu(at)gmail(dot)com>
+Croatian: Marko Baricevic, Mark Bilandzic
+Dutch: Marcel Veldhuijzen, JO3RI <info@jo3ri.be>
+French: Denis Barbier <bouzim@gmail.com>, Thierry Accart <thierry@accart.name>, Alexis Morin <mail@alexismorin.com>
+Galician: Diego Prado Gesto <diginho(at)gmail(dot)com>
+German: Lukas Bestle (http://www.lu-x-it.de), Benjamin Hogl
+Greek: Vasilis Georgitzikis (http://tzikis.com)
+Italian: Sara Gallo, Simone Majocchi
+Japanese: Shigeru Kanemoto
+Portuguese: Hugo Lavalle <hugo.lavalle@gmail.com>, Radamés Ajna <me@radames.in>, Armando Neto <neto.armando@gmail.com>, Andre Aureliano <andre@fiozera.com.br>
+Romanian:
+Russian:
+Spanish: Merche Blasco, Jose Manuel Escuder, Juan Gomez, Eduardo Sacristan, Jesús Sánchez
