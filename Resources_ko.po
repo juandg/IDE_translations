@@ -1,5 +1,5 @@
 # Korean translations for PACKAGE package.
-# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2012 www.wiznet.co.kr
 # This file is distributed under the same license as the PACKAGE package.
 # Jinbuhm Kim <jinbuhm@gmail.com>, 2012.
 #
@@ -101,7 +101,7 @@ msgstr "라이브러리 가져오기..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "스케치 폴더 보이"
+msgstr "스케치 폴더 보이기"
 
 #: Editor.java:643
 msgid "Add File..."
@@ -173,7 +173,7 @@ msgstr "자주 묻는 질문"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr "Arduino.cc 방문"
+msgstr "Arduino.cc를 방문"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
@@ -610,7 +610,7 @@ msgstr ""
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "스케치 보관(아카이브)"
+msgstr "스케치 보관하기"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -618,23 +618,23 @@ msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "스케치를 아카이브 할 수 없습니다"
+msgstr "스케치를 보관 할 수 없습니다"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
-"스케치가 제대로 저장되지 않아서 스케치를 아카이브하하는 것이\n"
+"스케치가 제대로 저장되지 않아서 스케치를 보관하는 것이\n"
 "취소되었습니다."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "아카이브 스케치:"
+msgstr "스케치를 보관:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "아카이브 스케치 취소"
+msgstr "스케치 보관 취소"
 
 #: SketchCode.java:83
 #, java-format
