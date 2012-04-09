@@ -1,10 +1,10 @@
 # Spanish translations for the Arduino IDE.
 # Copyright (C) 2012
 # This file is distributed under the same license as the Arduino IDE package.
-# Juan Gomez <16652b12e6f13f1c6f12fa12898a21e50f973323>, 2012.
+# Juan Gomez <3f615b5b28bd435629faa36ded272d837cda2805>, 2012.
 # David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
 # Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
-# Eduardo Sacristan <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
+# Eduardo Sacristan <3f615b5b28bd435629faa36ded272d837cda2805>, 2012.
 # Jose Manuel Escuder <dbda52959cefcb044bda126ee4b0dddb92fb2f0d, 2012
 # Merche Blasco <5066f2c416c20aa131abd52f58bba0aed8c9d5b6>, 2012
 #
@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 18:10 +0600\n"
-"PO-Revision-Date: 2012-04-04 21:00 +0600\n"
-"Last-Translator: Juan Gomez <16652b12e6f13f1c6f12fa12898a21e50f973323>\n"
+"PO-Revision-Date: 2012-04-08 23:20 +0600\n"
+"Last-Translator: Juan Gomez <3f615b5b28bd435629faa36ded272d837cda2805>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
