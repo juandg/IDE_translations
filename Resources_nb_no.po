@@ -974,6 +974,82 @@ msgstr "Nei"
 msgid "Browse"
 msgstr "Bla i gjennom"
 
+#: Preferences.java:115
+msgid "Catalan"
+msgstr "Katalansk"	
+
+#: Preferences.java:116
+msgid "Chinese Simplified"
+msgstr "Kinesisk forenklet"	
+
+#: Preferences.java:117
+msgid "Chinese Taiwan"
+msgstr "Kinesik Taiwan"
+
+#: Preferences.java:118
+msgid "Danish"
+msgstr "Dansk"
+	
+#: Preferences.java:119
+msgid "Dutch"
+msgstr "Nederlandsk"
+
+#: Preferences.java:120
+msgid "English"
+msgstr "Engelsk"
+
+#: Preferences.java:121
+msgid "French"
+msgstr "Fransk"
+
+#: Preferences.java:122
+msgid "Filipino"
+msgstr "Filippinsk"
+
+#: Preferences.java:123
+msgid "Galician"
+msgstr "Galisisk"
+
+#: Preferences.java:124
+msgid "German"
+msgstr "Tysk"
+
+#: Preferences.java:125
+msgid "Greek"
+msgstr "Gresk"
+
+#: Preferences.java:126
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+#: Preferences.java:127
+msgid "Italian"
+msgstr "Italiensk"
+
+#: Preferences.java:128
+msgid "Japanese"
+msgstr "Japansk"
+
+#: Preferences.java:129
+msgid "Latvian"
+msgstr "Latvisk"
+
+#: Preferences.java:130
+msgid "Persian"
+msgstr "Persisk"
+
+#: Preferences.java:131
+msgid "Portuguese (Brazil)"
+msgstr "Portugisisk (Brasil)"
+
+#: Preferences.java:132
+msgid "Romanian"
+msgstr "Rumensk"
+
+#: Preferences.java:133
+msgid "Spanish"
+msgstr "Spansk"
+
 #: Preferences.java:148
 msgid ""
 "Could not read default settings.\n"
@@ -982,12 +1058,12 @@ msgstr ""
 "Kunne ikke lese standard innstillinger.\n"
 "Du må installere Arduino på nytt."
 
-#: Preferences.java:180
+#: Preferences.java:254
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Klarte ikke å lese innstillinger fra {0}"
 
-#: Preferences.java:199
+#: Preferences.java:201
 msgid "Error reading preferences"
 msgstr "Feil under lesing av innstillinger"
 
@@ -1000,31 +1076,31 @@ msgstr ""
 "Feil ved lesing av filen med innstillinger. Vennligst slett (eller flytt)\n"
 "{0} og start Arduino på nytt."
 
-#: Preferences.java:237
+#: Preferences.java:311
 msgid "Sketchbook location:"
 msgstr "Skissebok plassering:"
 
-#: Preferences.java:252
+#: Preferences.java:326
 msgid "Select new sketchbook location"
 msgstr "Velg en ny plassering for skisseboken"
 
-#: Preferences.java:276
+#: Preferences.java:350
 msgid "Editor font size: "
 msgstr "Skriftstørrelse for redigeringsprogrammet: "
 
-#: Preferences.java:280
+#: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
 msgstr "  (krever omstart av Arduino)"
 
-#: Preferences.java:293
+#: Preferences.java:367
 msgid "Show verbose output during: "
 msgstr "Vis detaljert informasjon under: "
 
-#: Preferences.java:295
+#: Preferences.java:369
 msgid "compilation "
 msgstr "kompilering "
 
-#: Preferences.java:297
+#: Preferences.java:371
 msgid "upload"
 msgstr "last opp"
 
@@ -1032,31 +1108,35 @@ msgstr "last opp"
 msgid "Verify code after upload"
 msgstr "Sjekk kode etter opplasting"
 
-#: Preferences.java:315
+#: Preferences.java:389
 msgid "Use external editor"
 msgstr "Bruk eksternt redigeringsprogram"
 
-#: Preferences.java:325
+#: Preferences.java:399
 msgid "Check for updates on startup"
 msgstr "Se etter oppdateringer ved oppstart"
 
-#: Preferences.java:334
+#: Preferences.java:408
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Oppdater skissefilene til ny filtype under lagring (.pde -> .ino)"
 
-#: Preferences.java:345
+#: Preferences.java:419
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatisk assosier .ino filer med Arduino"
 
-#: Preferences.java:356
+#: Preferences.java:429
+msgid "Preferred Language: "
+msgstr "Forretrukket språk: "
+
+#: Preferences.java:454
 msgid "More preferences can be edited directly in the file"
 msgstr "Flere instillinger kan redigeres direkte i filen"
 
-#: Preferences.java:385
+#: Preferences.java:484
 msgid "(edit only when Arduino is not running)"
 msgstr "(redigeres kun når Arduino ikke kjører)"
 
-#: Preferences.java:532
+#: Preferences.java:630
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "ser bort fra ugyldig skriftstørrelse {0}"
