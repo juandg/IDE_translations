@@ -1,7 +1,7 @@
-# Norwegian translations for PACKAGE package.
+# Norwegian bokmål translations for PACKAGE package.
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# David A. Mellis <>, 2012.
+# Rune Fauske <rune.fauske@gmail.com>, 2012
 #
 msgid ""
 msgstr ""
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
 "PO-Revision-Date: 2012-03-29 10:24-0400\n"
 "Last-Translator: Rune Fauske <>\n"
-"Language-Team: Norwegian\n"
-"Language: no\n"
+"Language-Team: Norwegian bokmål\n"
+"Language: nb_no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: Base.java:181
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "Ikke-fatal feil under tilordning av Look & Feel."
+msgstr "Ikkefatal feil under tilordning av Look & Feel."
 
 #: Base.java:182
 msgid "The error message follows, however Arduino should run fine."
@@ -47,7 +47,7 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
-"Arduino er avhengig av full JDK (ikke bare JRE)\n"
+"Arduino er avhengig av JDK (ikke bare JRE)\n"
 "for å kjøre. Vennligst innstaller JDK 1.5 eller nyere.\"
 "Mer informasjon finnes i referansedokumentasjonen."
 
@@ -91,7 +91,7 @@ msgstr "Ærlig talt, nå er det på tide med litt frisk luft."
 
 #: Base.java:630
 msgid "Open an Arduino sketch..."
-msgstr "Åpne en Arduino skisse"
+msgstr "Åpne en Arduino skisse..."
 
 #: Base.java:769
 msgid ""
@@ -156,7 +156,7 @@ msgid ""
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
 "Biblioteket \"{0}\" kan ikke benyttes.\n"
-"Biblioteknavn kan kun inneholde bokstaver og tall.\n"
+"Biblioteksnavn kan kun inneholde bokstaver og tall.\n"
 "(kun ASCII, ingen mellomrom, og kan ikke starte med et tall)"
 
 #: Base.java:1204
@@ -169,7 +169,7 @@ msgstr "Problem ved henting av datamappe"
 
 #: Base.java:1430
 msgid "Error getting the Arduino data folder."
-msgstr "Feil oppstod ved henting av Arduino datamappe"
+msgstr "Feil oppstod ved henting av datamappe for Arduino"
 
 #: Base.java:1437
 msgid "Settings issues"
@@ -297,7 +297,7 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 #: debug/Compiler.java:43 debug/Uploader.java:54
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr "Kompilator feil, vennligst send denne koden til {0}"
+msgstr "Kompilatorfeil, vennligst send denne koden til {0}"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
@@ -464,7 +464,7 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "Ingen filer ble lagt til skissen"
+msgstr "Ingen filer ble lagt til skissen."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
@@ -510,7 +510,7 @@ msgstr "Last opp"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Last opp med Programmerer"
+msgstr "Last opp med en Programmerer"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -700,7 +700,7 @@ msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "Kompiler skisse..."
+msgstr "Kompilerer skisse..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
@@ -758,7 +758,7 @@ msgid ""
 msgstr ""
 "Filen \"{0}\" må ligge i en skissemappe\n"
 "med følgende navn \"{1}\".\n"
-"Opprett mappen, flytt filen og fortsett?"
+"Opprett denne mappen, flytt filen og fortsett?"
 
 #: Editor.java:2109
 msgid "Moving"
@@ -853,7 +853,7 @@ msgstr "Feil under utskrift."
 
 #: Editor.java:2524
 msgid "Printing canceled."
-msgstr "Utskrift avbrutt"
+msgstr "Utskrift avbrutt."
 
 #: Editor.java:2572
 #, java-format
@@ -1006,7 +1006,7 @@ msgstr "Skissebok plassering:"
 
 #: Preferences.java:252
 msgid "Select new sketchbook location"
-msgstr "Velg et ny plassering for skisseboken"
+msgstr "Velg en ny plassering for skisseboken"
 
 #: Preferences.java:276
 msgid "Editor font size: "
@@ -1202,7 +1202,7 @@ msgstr ""
 
 #: Sketch.java:459
 msgid "Cannot Rename"
-msgstr "Kan ikke omdøpe"
+msgstr "Kan ikke døpe om"
 
 #: Sketch.java:461
 #, java-format
@@ -1330,7 +1330,7 @@ msgstr "Kunne ikke slette den eksisterende ''{0}'' filen."
 
 #: Sketch.java:1078
 msgid "You can't fool me"
-msgstr "Du kan ikke lure meg"
+msgstr "Du lurer ikke meg"
 
 #: Sketch.java:1079
 msgid ""
@@ -1482,11 +1482,11 @@ msgstr "Arkivering av skissen avbrutt."
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr "Auto formater"
+msgstr "Autoformater"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "Ingen endringer nødvendig for Autoformatering."
+msgstr "Ingen endringer nødvendig for autoformatering."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
@@ -1506,7 +1506,7 @@ msgstr "Autoformatering avbrutt: For mange venstre klammeparantes."
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "Autoformat ferdig."
+msgstr "Autoformatering ferdig."
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
