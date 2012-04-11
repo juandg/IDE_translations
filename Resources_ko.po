@@ -254,7 +254,7 @@ msgstr "참조에서 찾기위해 단어를 선택"
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr "\"{0}\" 가 잠조에 존재하지 않습니다."
+msgstr "\"{0}\" 가 참조에존재하지 않습니다."
 
 #: Editor.java:1826
 #, java-format
@@ -418,7 +418,7 @@ msgstr "인쇄 완료"
 
 #: Editor.java:2520
 msgid "Error while printing."
-msgstr "인홰하는 중에 오류 발생했습니다."
+msgstr "인쇄하는 중에 오류 발생했습니다."
 
 #: Editor.java:2524
 msgid "Printing canceled."
@@ -604,7 +604,7 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
-"파일 인코딩 문제를 해결하는 도안 오류가 발생했습니다.\n"
+"파일 인코딩 문제를 해결하는 동안 오류가 발생했습니다.\n"
 "이전 버젼을 덮어쓸 수 있으므로 이 스케치 저장하지 마십시요.\n"
 "열기 메뉴를 사용하여 스케치를 다시 열고 다시 시도하십시요.\n"
 
