@@ -1,180 +1,180 @@
-# Latvian translations for the Arduino IDE.
-# Copyright (C) 2012
+# Aragonese translations for Arduino IDE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Arduino IDE package.
-# Kristofers Celms<kristozz@gmail.com>, 2012
-#
+# Juan Pablo Martinez <juanpabl@gmail.com>, 2012.
+# Juan Pablo Martínez Cortés <juanpabl@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-29 18:10 +0600\n"
-"PO-Revision-Date: 2012-04-15 00:34+0200\n"
-"Last-Translator: Kristofers Celms<kristozz@gmail.com>\n"
-"Language-Team: Latvian\n"
-"Language: lv\n"
+"POT-Creation-Date: 2012-04-03 07:48+0200\n"
+"PO-Revision-Date: 2012-04-14 15:25+0200\n"
+"Last-Translator: Juan Pablo Martínez Cortés <juanpabl@gmail.com>\n"
+"Language-Team: Softaragonés\n"
+"Language: an\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.0\n"
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "Neviens fails netika pievienots skicei."
+msgstr "No s'ha adhibiu garra fichero en o sketch."
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "Viens fails tika pievienots skicei."
+msgstr "S'ha adhibiu un fichero en o sketch."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr "{0} faili tika pievienoti skicei."
+msgstr "S'ha adhibiu {0} fichers en o sketch."
 
 #: Editor.java:484
 msgid "File"
-msgstr "Fails"
+msgstr "Fichero"
 
 #: Editor.java:486 EditorToolbar.java:41
 msgid "New"
-msgstr "Jauns"
+msgstr "Nuevo"
 
 #: Editor.java:494 Base.java:903
 msgid "Open..."
-msgstr "Atvērt..."
+msgstr "Ubrir..."
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr "Skiču burtnīca"
+msgstr "Sketchbook"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr "Piemēri"
+msgstr "Eixemplos"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr "Aizvērt"
+msgstr "Zarrar"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
 msgid "Save"
-msgstr "Saglabāt"
+msgstr "Alzar"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr "Saglabāt kā..."
+msgstr "Alzar como..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr "Augšupielādēt"
+msgstr "Cargar"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Augšupielādēt, izmantojot programmatoru"
+msgstr "Cargar fendo servir o Programador"
 
 #: Editor.java:556
 msgid "Page Setup"
-msgstr "Lapas iestatījumi"
+msgstr "Configuración d'a Pachina"
 
 #: Editor.java:564
 msgid "Print"
-msgstr "Drukāt"
+msgstr "Imprentar"
 
 #: Editor.java:576 Preferences.java:263
 msgid "Preferences"
-msgstr "Iestatījumi"
+msgstr "Preferencias"
 
 #: Editor.java:586 Base.java:782
 msgid "Quit"
-msgstr "Iziet"
+msgstr "Salir"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr "Skice"
+msgstr "Sketch"
 
 #: Editor.java:602
 msgid "Verify / Compile"
-msgstr "Pārbaudīt un kompilēt"
+msgstr "Verificar / Compilar"
 
 #: Editor.java:629
 msgid "Import Library..."
-msgstr "Importēt bibliotēku..."
+msgstr "Importar Biblioteca..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "Parādīt skiču mapi"
+msgstr "Amostrar a Carpeta de Sketch"
 
 #: Editor.java:643
 msgid "Add File..."
-msgstr "Pievienot failu..."
+msgstr "Adhibir un Fichero..."
 
 #: Editor.java:656
 msgid "Tools"
-msgstr "Rīki"
+msgstr "Ferramientas"
 
 #: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Serial Monitor"
-msgstr "Seriālā porta monitors"
+msgstr "Monitor Serial"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Plate"
+msgstr "Tarcheta"
 
 #: Editor.java:690
 msgid "Serial Port"
-msgstr "Seriālais ports"
+msgstr "Puerto Serial"
 
 #: Editor.java:695
 msgid "Programmer"
-msgstr "Programmators"
+msgstr "Programador"
 
 #: Editor.java:699
 msgid "Burn Bootloader"
-msgstr "Iededzināt sāknēšanas ielādētāju"
+msgstr "Gravar Seqüencia d'inicio"
 
 #: Editor.java:923
 msgid "serialMenu is null"
-msgstr "serialMenu ir tukšs"
+msgstr "serialMenu ye null"
 
 #: Editor.java:927 Editor.java:934
 msgid "name is null"
-msgstr "vārds ir tukšs"
+msgstr "o nombre ye null"
 
 #: Editor.java:986
 msgid "error retrieving port list"
-msgstr "kļūda, iegūstot portu sarakstu"
+msgstr "error tot leyendo a lista de puertos"
 
 #: Editor.java:1002
 msgid "Help"
-msgstr "Palīdzība"
+msgstr "Aduya"
 
 #: Editor.java:1041
 msgid "Getting Started"
-msgstr "Pirmie soļi"
+msgstr "Primers trangos"
 
 #: Editor.java:1049
 msgid "Environment"
-msgstr "Vide"
+msgstr "Entorno"
 
 #: Editor.java:1057
 msgid "Troubleshooting"
-msgstr "Traucējummeklēšana"
+msgstr "Solución de problemas"
 
 #: Editor.java:1065
 msgid "Reference"
-msgstr "Atsauce"
+msgstr "Referencia"
 
 #: Editor.java:1073 Editor.java:2728
 msgid "Find in Reference"
-msgstr "Meklēt atsaucē"
+msgstr "Trobar en a Referencia"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
-msgstr "Bieži uzdotie jautājumi"
+msgstr "Preguntas freqüents"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
-msgstr "Apmeklēt Arduino.cc"
+msgstr "Visitar Arduino.cc"
 
 #: Editor.java:1094
 msgid "http://arduino.cc/"
@@ -182,80 +182,80 @@ msgstr "http://arduino.cc/"
 
 #: Editor.java:1102
 msgid "About Arduino"
-msgstr "Par Arduino"
+msgstr "Arredol d'Arduino"
 
 #: Editor.java:1116
 msgid "Edit"
-msgstr "Rediģēt"
+msgstr "Editar"
 
 #: Editor.java:1119 Editor.java:1341
 msgid "Undo"
-msgstr "Atsaukt"
+msgstr "Desfer"
 
 #: Editor.java:1124 Editor.java:1126 Editor.java:1376
 msgid "Redo"
-msgstr "Atkārtot"
+msgstr "Refer"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
-msgstr "Izgriezt"
+msgstr "Retallar"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
-msgstr "Kopēt"
+msgstr "Copiar"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr "Kopēt priekš foruma"
+msgstr "Copiar ta'l Foro"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
-msgstr "Kopēt kā HTML"
+msgstr "Copiar como HTML"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
-msgstr "Ielīmēt"
+msgstr "Apegar"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
-msgstr "Iezīmēt visu"
+msgstr "Seleccionar-lo Tot"
 
 #: Editor.java:1194 Editor.java:2702
 msgid "Comment/Uncomment"
-msgstr "Komentēt/atkomentēt"
+msgstr "Comentar/Descomentar "
 
 #: Editor.java:1202 Editor.java:2710
 msgid "Increase Indent"
-msgstr "Palielināt atkāpi"
+msgstr "Incrementar o sangrau"
 
 #: Editor.java:1210 Editor.java:2718
 msgid "Decrease Indent"
-msgstr "Samazināt atkāpi"
+msgstr "Reducir o sangrau"
 
 #: Editor.java:1220
 msgid "Find..."
-msgstr "Meklēt..."
+msgstr "Buscar..."
 
 #: Editor.java:1235
 msgid "Find Next"
-msgstr "Meklēt nākamo"
+msgstr "Buscar o siguient"
 
 #: Editor.java:1245
 msgid "Find Previous"
-msgstr "Meklēt iepriekšējo"
+msgstr "Buscar l'anterior"
 
 #: Editor.java:1255
 msgid "Use Selection For Find"
-msgstr "Izmantot iezīmēto vietu meklēšanai"
+msgstr "Fer servir a selección ta buscar-la"
 
 #: Editor.java:1816
 msgid "First select a word to find in the reference."
-msgstr "Vispirms izvēlieties vārdu, ko meklēt atsaucē."
+msgstr "En primeras seleccione una parola ta buscar en a referencia."
 
 #: Editor.java:1823
 #, java-format
 msgid "No reference available for \"{0}\""
-msgstr "Nevar atrast atsauci priekš \"{0}\""
+msgstr "No i hai garra referencia disponible ta \"{0}\""
 
 #: Editor.java:1826
 #, java-format
@@ -264,16 +264,16 @@ msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "Kompilē skici..."
+msgstr "Compilando o sketch..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
-msgstr "Kompilēšana pabeigta."
+msgstr "S'ha rematau a compilación."
 
 #: Editor.java:1973
 #, java-format
 msgid "Save changes to \"{0}\"?  "
-msgstr "Vai saglabāt izmaiņas failā \"{0}\"?"
+msgstr "Alzar os cambeos en \"{0}\"?  "
 
 #: Editor.java:2006
 msgid ""
@@ -283,35 +283,35 @@ msgid ""
 "save, your changes will be lost."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { "
-"font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Vai vēlaties "
-"saglabāt izmaiņas šajā skicē<BR> pirms aizvēršanas?</b><p>Ja nesaglabāsiet, "
-"visas jūsu veiktās izmaiņas pazudīs."
+"font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Quiers alzar "
+"os cambeos feitos a iste sketch<BR> antes de zarrar?</b><p>Si no los alzas, "
+"os cambeos se perderán."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
 msgid "Cancel"
-msgstr "Atcelt"
+msgstr "Cancelar"
 
 #: Editor.java:2017
 msgid "Don't Save"
-msgstr "Nesaglabāt"
+msgstr "No l'alces"
 
 #: Editor.java:2089
 msgid "Bad file selected"
-msgstr "Izvēlētais fails nav derīgs"
+msgstr "O fichero seleccionau ye incorrecto"
 
 #: Editor.java:2090
 msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
-"\"Processing\" var atvērt tikai paša skices\n"
-"un citus failus, kas beidzas ar .ino vai .pde"
+"Processing no puede ubrir que os suyos propios sketches\n"
+"y atros fichers remataus en .ino u .pde"
 
 #: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
 #: Sketch.java:1046 Preferences.java:79
 msgid "OK"
-msgstr "Labi"
+msgstr "Acceptar"
 
 #: Editor.java:2100
 #, java-format
@@ -320,36 +320,36 @@ msgid ""
 "a sketch folder named \"{1}\".\n"
 "Create this folder, move the file, and continue?"
 msgstr ""
-"Failam \"{0}\" jābūt iekš\n"
-"skiču mapes ar nosaukumu \"{1}\".\n"
-"Izveidot šo mapi, pārvietot failu un turpināt?"
+"Ye menester que o fichero \"{0}\" se trobe endentro d'a \n"
+"carpeta d'un sketch clamada \"{1}\".\n"
+"Quiers creyar ista carpeta, mover iste fichero y continar?"
 
 #: Editor.java:2109
 msgid "Moving"
-msgstr "Pārvieto"
+msgstr "Movendo"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
 #: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:224
 msgid "Error"
-msgstr "Kļūda"
+msgstr "Error"
 
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Mape ar nosaukumu \"{0}\" jau eksistē. Nevar atvērt skici."
+msgstr "Ya existe una carpeta clamada \"{0}\". No s'ha puesto ubrir o sketch."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "Nevar izveidot skices mapi."
+msgstr "No s'ha puesto creyar a carpeta d'o sketch."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
-msgstr "Neizdevās pārkopēt uz pareizo atrašanās vietu."
+msgstr "No s'ha puesto copiar a una ubicación apropiada."
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "Neizdevās izveidot skici."
+msgstr "No s'ha puesto creyar o sketch."
 
 #: Editor.java:2166
 #, java-format
@@ -358,15 +358,15 @@ msgstr "{0} | Arduino {1}"
 
 #: Editor.java:2223 Editor.java:2261
 msgid "Saving..."
-msgstr "Saglabā..."
+msgstr "Se ye alzando..."
 
 #: Editor.java:2228 Editor.java:2264
 msgid "Done Saving."
-msgstr "Saglabāšana pabeigta."
+msgstr "S'ha rematau l'alzau."
 
 #: Editor.java:2270
 msgid "Save Canceled."
-msgstr "Saglabāšana atcelta."
+msgstr "S'ha cancelau l'alzau."
 
 #: Editor.java:2296
 #, java-format
@@ -374,66 +374,67 @@ msgid ""
 "Serial port {0} not found.\n"
 "Retry the upload with another serial port?"
 msgstr ""
-"Seriālais ports {0} netika atrasts.\n"
-"Atkārtot augšupielādi ar citu seriālo portu?"
+"No s'ha trobau o pueto serial {0}.\n"
+"Quiers tornar a intentar a carga con belatro puerto serial?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "Augšupielādē I/O platē..."
+msgstr "Cargando ta la Tarcheta I/O..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "Augšupielādēšana pabeigta."
+msgstr "S'ha rematau a carga."
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
-msgstr "Augšupielādēšana atcelta."
+msgstr "S'ha cancelau a carga."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr "Vai saglabāt izmaiņas pirms eksportēšanas?"
+msgstr "Alzar os cambeos antes d'exportar?"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr "Eksportēšana atcelta, vispirms jāsaglabā izmaiņas."
+msgstr "S'ha cancelau a exportación: en primeras has d'alzaus os cambeos."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
 msgstr ""
-"Iededzina sāknēšanas ielādētāju I/O platē (tas var aizņemt kādu laiku)..."
+"Se ye gravando a seqüencia d'inicio en a Tarcheta I/O (podría tardar un "
+"minuto)..."
 
 #: Editor.java:2463
 msgid "Done burning bootloader."
-msgstr "Sāknēšanas ielādētājs iededzināts."
+msgstr "S'ha rematau a gravación d'a seqüencia d'inicio."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "Neizdevāš iededzināt sāknēšanas ielādētāju."
+msgstr "S'ha trobau una error en gravar a seqüencia d'inicio."
 
 #: Editor.java:2500
 msgid "Printing..."
-msgstr "Drukā..."
+msgstr "Se ye imprentando..."
 
 #: Editor.java:2517
 msgid "Done printing."
-msgstr "Drukāšana pabeigta."
+msgstr "S'ha rematau a impresión."
 
 #: Editor.java:2520
 msgid "Error while printing."
-msgstr "Drukājot radās kļūda."
+msgstr "S'ha trobau una error en imprentar."
 
 #: Editor.java:2524
 msgid "Printing canceled."
-msgstr "Drukāšana atcelta."
+msgstr "S'ha cancelau a impresión."
 
 #: Editor.java:2572
 #, java-format
 msgid "Bad error line: {0}"
-msgstr "Kļūdas rinda: {0}"
+msgstr "Linia d'error incorrecta: {0}"
 
 #: Editor.java:2641
 msgid "Open URL"
-msgstr "Atvērt URL"
+msgstr "Ubrir una URL"
 
 #: UpdateCheck.java:53
 msgid "http://www.arduino.cc/latest.txt"
@@ -444,20 +445,20 @@ msgid ""
 "A new version of Arduino is available,\n"
 "would you like to visit the Arduino download page?"
 msgstr ""
-"Ir pieejama jauna Arduino versija\n"
-"vai vēlaties apmeklēt Arduino lejupielādes lapu?"
+"Una nueva versión d'Arduino ye disponible,\n"
+"Te fería goyo de visitar agora a pachina de descargas d'Arduino?"
 
 #: UpdateCheck.java:108 Preferences.java:76
 msgid "Yes"
-msgstr "Jā"
+msgstr "Sí"
 
 #: UpdateCheck.java:108 Preferences.java:77
 msgid "No"
-msgstr "Nē"
+msgstr "No"
 
 #: UpdateCheck.java:111
 msgid "Update"
-msgstr "Atjaunināt"
+msgstr "Esviellar"
 
 #: UpdateCheck.java:118
 msgid "http://www.arduino.cc/en/Main/Software"
@@ -465,67 +466,67 @@ msgstr "http://www.arduino.cc/en/Main/Software"
 
 #: FindReplace.java:80
 msgid "Find:"
-msgstr "Meklēt:"
+msgstr "Buscar:"
 
 #: FindReplace.java:81
 msgid "Replace with:"
-msgstr "Aizvietot ar:"
+msgstr "Reemplazar con:"
 
 #: FindReplace.java:96
 msgid "Ignore Case"
-msgstr "Ignorēt reģistrjūtību"
+msgstr "Ignorar mayusclas y minusclas"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "Apliekt"
+msgstr "Embolicar"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
-msgstr "Aizvietot visus"
+msgstr "Reemplazar-lo tot"
 
 #: FindReplace.java:121 FindReplace.java:130 Sketch.java:1050
 msgid "Replace"
-msgstr "Aizvietot"
+msgstr "Reemplazar"
 
 #: FindReplace.java:122 FindReplace.java:129
 msgid "Replace & Find"
-msgstr "Aizvietot un atrast"
+msgstr "Reemplazar y Buscar"
 
 #: FindReplace.java:123 FindReplace.java:128
 msgid "Previous"
-msgstr "Iepriekšējais"
+msgstr "Anterior"
 
 #: FindReplace.java:124 FindReplace.java:127
 msgid "Find"
-msgstr "Meklēt"
+msgstr "Buscar"
 
 #: SerialMonitor.java:93
 msgid "Send"
-msgstr "Sūtīt"
+msgstr "Ninviar"
 
 #: SerialMonitor.java:110
 msgid "Autoscroll"
-msgstr "Automātiski ritināt"
+msgstr "Desplazamiento automatico"
 
 #: SerialMonitor.java:112
 msgid "No line ending"
-msgstr "Bez rindu beigām"
+msgstr "No i ha garra fin de linia"
 
 #: SerialMonitor.java:112
 msgid "Newline"
-msgstr "Jauna rinda"
+msgstr "Linia nueva (NL)"
 
 #: SerialMonitor.java:112
 msgid "Carriage return"
-msgstr "Kursora atgriešanās"
+msgstr "Retorno de Carro (CR)"
 
 #: SerialMonitor.java:112
 msgid "Both NL & CR"
-msgstr "Abi - jauna rinda un kursora atgriešanās"
+msgstr "Totz dos NL & CR"
 
 #: SerialMonitor.java:130 SerialMonitor.java:133
 msgid " baud"
-msgstr " bodu"
+msgstr " baud"
 
 #: Serial.java:147
 #, java-format
@@ -533,13 +534,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"Seriālais ports \"{0}\" jau tiek izmantots. Pamēģiniet iziet no programmām, "
-"kas to varētu izmantot."
+"O puerto serial ''{0}'' ya ye en uso. Intenta-lo zarrando qualsiquier atro "
+"programa que lo podese estar usando."
 
 #: Serial.java:154
 #, java-format
 msgid "Error opening serial port ''{0}''."
-msgstr "Kļūda, atverot seriālo portu \"{0}\"."
+msgstr "S'ha trobau una error en ubrir o puerto serial ''{0}''."
 
 #: Serial.java:167
 #, java-format
@@ -547,8 +548,8 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Seriālais ports \"{0}\" netika atrasts. Vai jūs izvēlējāties pareizo no Rīki > "
-"Seriālais ports izvēlnes?"
+"No s'ha trobau o puerto serial ''{0}''. Yes seguro que trigués o correcto en "
+"o menú Ferramientas > Puerto Serial?"
 
 #: Serial.java:424
 #, java-format
@@ -556,50 +557,50 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-"readBytesUntil() baitu buferis ir pārāk mazs priekš {0} baitiem līdz un "
-"ieskaitot rakstzīmi {1}"
+"O buffer de bytes readBytesUntil() ye masiau chicot ta os {0} bytes dica y "
+"incluindo-ie o char {1}"
 
 #: Serial.java:567
 #, java-format
 msgid "Error inside Serial.{0}()"
-msgstr "Kļūda iekš Serial.{0}()"
+msgstr "S'ha trobau una error en Serial.{0}()"
 
 #: tools/AutoFormat.java:91
 msgid "Auto Format"
-msgstr "Automātiskā formatēšana"
+msgstr "Formato Automatico"
 
 #: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
 msgid "No changes necessary for Auto Format."
-msgstr "Izmaiņas nav nepieciešamas priekš automātiskās formatēšanas."
+msgstr "No s'amenista garra cambeo ta o Formato Automatico."
 
 #: tools/AutoFormat.java:919
 msgid "Auto Format Canceled: Too many right parentheses."
-msgstr "Automātiskā formatēšana atcelta: Pārāk daudz labās iekavas."
+msgstr "S'ha cancelau o formato automatico: masiaus parentesis dreitos."
 
 #: tools/AutoFormat.java:922
 msgid "Auto Format Canceled: Too many left parentheses."
-msgstr "Automātiskā formatēšana atcelta: Pārāk daudz kreisās iekavas."
+msgstr "S'ha cancelau o formato automatico: masiaus parentesis cuchos."
 
 #: tools/AutoFormat.java:928
 msgid "Auto Format Canceled: Too many right curly braces."
-msgstr "Automātiskā formatēšana atcelta: Pārāk daudz viļņotās iekavas."
+msgstr "S'ha cancelau o formato automatico: masiaus gafetz dreitos."
 
 #: tools/AutoFormat.java:931
 msgid "Auto Format Canceled: Too many left curly braces."
-msgstr "Automātiskā formatēšana atcelta: Pārāk daudz kreisās viļņotās iekavas."
+msgstr "S'ha cancelau o formato automatico: masiaus gafetz cuchos."
 
 #: tools/AutoFormat.java:941
 msgid "Auto Format finished."
-msgstr "Automātiskā formatēšana pabeigta."
+msgstr "S'ha rematau o formato automatico."
 
 #: tools/FixEncoding.java:41 tools/FixEncoding.java:58
 #: tools/FixEncoding.java:79
 msgid "Fix Encoding & Reload"
-msgstr "Salabot kodējumu un pārlādēt"
+msgstr "Reparar a Codificación y Recargar"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "Atcelt visas izmaiņas un pārlādēt skici?"
+msgstr "Descartar totz os cambeos y recargar o sketch?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -607,13 +608,13 @@ msgid ""
 "Do not attempt to save this sketch as it may overwrite\n"
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
-"Radās kļūda, labojot faila kodējumu.\n"
-"Nemēģiniet saglabāt šo skici, jo var tikt pārrakstīta vecā versija.\n"
-"Izmantojiet Atvērt, lai atvērtu pa jaunu skici un mēģinātu vēlreiz.\n"
+"Ha ocurriu una error entre que se miraba d'apanyar a codificación d'o\n"
+"fichero. No intentes alzar iste sketch porque puede sobrescribir a versión\n"
+"anterior. Utiliza Ubrir ta reabrir o sketch y intenta de nuevo.\n"
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "Arhivēt skici"
+msgstr "Archivar o Sketch"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -621,28 +622,28 @@ msgstr "yyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "Neizdevās arhivēt skici"
+msgstr "No s'ha puesto archivar o sketch"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
-"Skices arhivēšana neizdevās, jo\n"
-"skici nevarēja korekti saglabāt."
+"S'ha cancelau l'archivo d'o sketch porque\n"
+"o sketch no s'ha puesto alzar correctament."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "Arhivēt skici kā:"
+msgstr "Archivar o sketch como:"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "Skices arhivēšana atcelta."
+msgstr "S'ha cancelau l'archivo d'o sketch."
 
 #: SketchCode.java:83
 #, java-format
 msgid "Error while loading code {0}"
-msgstr "Radās kļūda, ielādējot kodu {0}"
+msgstr "Error entre que se cargaba o codigo {0}"
 
 #: SketchCode.java:258
 #, java-format
@@ -652,15 +653,15 @@ msgid ""
 "Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
 "todelete the bad characters to get rid of this warning."
 msgstr ""
-"\"{0}\" satur nezināmas rakstzīmes. Ja šis kods tika izveidots ar vecāku "
-"Processing versiju, jums var vajadzēt izmantot Rīki > Salabot kodējumu un "
-"pārlādēt funkciju, lai atjauninātu skici, lai izmantotu UTF-8 kodējumu. Ja "
-"ne, jums var vajadzēt izdzēst nekorektās rakstzīmes, lai atbrīvotos no šī "
-"ziņojuma."
+"\"{0}\" contiene caracters incorrectos. Si iste codigo se creyó con una "
+"versión anterior de Processing, talment te calga usar Ferramientas -> "
+"Correchir Codificación y Recargar ta esviellar o sketch a codificación "
+"UTF-8. Si no, talment te calga borrar os caracters incorrectos ta desfer-te "
+"d'ista alvertencia."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "Skice ir tikai-lasāma"
+msgstr "O sketch ye nomás de lectura"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
@@ -668,38 +669,38 @@ msgid ""
 "need to re-save the sketch in another location,\n"
 "and try again."
 msgstr ""
-"Daži faili ir atzīmēi kā \"tikai-lasīt\", tādēļ jums\n"
-"var vajadzēt saglabāt skici jaunā vietā un \n"
-"mēģināt vēlreiz."
+"Qualques fichers son marcaus como \"nomás de lectura\",\n"
+"asinas que amenesterás tornar a alzar iste sketch en unatra ubicación, y \n"
+"intentar-lo de nuevas."
 
 #: Sketch.java:286
 msgid "Name for new file:"
-msgstr "Jaunā faila nosaukums:"
+msgstr "Nombre d'o nuevo fichero:"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "Skice ir nenosaukta"
+msgstr "O sketch no tiene nombre"
 
 #: Sketch.java:299
 msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"Kā būtu ar skices saglabāšanu\n"
-"pirms tās pārsaukšanas?"
+"Qué te pareixe d'alzar en primeras o sketch \n"
+"antes de mirar de renombrar-lo?"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
 msgid "Problem with rename"
-msgstr "Problēma ar pārsaukšanu"
+msgstr "S'ha trobau un problema en renombrar"
 
 #: Sketch.java:360
 msgid "The name cannot start with a period."
-msgstr "Nosaukums nedrīkst sākties ar punktu."
+msgstr "O nombre no puede empecipiar con un punto."
 
 #: Sketch.java:368
 #, java-format
 msgid "\".{0}\" is not a valid extension."
-msgstr "\".{0}\" nav derīgs paplašinājums."
+msgstr "\".{0}\" no ye una extensión valida."
 
 #: Sketch.java:378
 msgid ""
@@ -707,97 +708,98 @@ msgid ""
 "(It may be time for your to graduate to a\n"
 "\"real\" programming environment)"
 msgstr ""
-"Galvenais fails nedrīkst izmantot paplašinājumu.\n"
-"(Varbūt ir laiks izmantot \"īstu\" programmēšanas vidi)"
+"O fichero prencipal no puede fer servir una extensión.\n"
+"(Talment siga ya hora de que pases ta un\n"
+"entorno de desembolique \"real\")"
 
 #: Sketch.java:400 Sketch.java:414 Sketch.java:423 Sketch.java:863
 msgid "Nope"
-msgstr "Vēl ne"
+msgstr "Nop"
 
 #: Sketch.java:402
 #, java-format
 msgid "A file named \"{0}\" already exists in \"{1}\""
-msgstr "Fails ar nosaukumu \"{0}\" jau eksistē iekš \"{1}\""
+msgstr "Ya existe un fichero clamau \"{0}\" en \"{1}\""
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "Jūs nedrīkstat uzturēt .cpp failu ar tādu pašu nosaukumu kā skice."
+msgstr "No puetz tener un fichero .cpp con o mesmo nombre que o sketch."
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"Jūs nevarat pārsaukt skici uz \"{0}\"\n"
-"jo skicei jau ir .cpp fails ar tādu nosaukumu."
+"No puetz renombrar o sketch como \"{0}\"\n"
+"porque o sketch ya tiene un fichero .cpp con ixe nombre"
 
 #: Sketch.java:459
 msgid "Cannot Rename"
-msgstr "Nevar pārsaukt"
+msgstr "No se puede renombrar"
 
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "Atvainojiet, skice (vai mape) ar nosaukumu \"{0}\" jau eksistē."
+msgstr "Ya existe un sketch (u carpeta) clamau \"{0}\"."
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "Neizdevās pārsaukt skici. (0)"
+msgstr "No s'ha puesto renombrar o sketch. (0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
 msgid "Could not rename \"{0}\" to \"{1}\""
-msgstr "Neizdevās pārsaukt \"{0}\" uz \"{1}\""
+msgstr "No s'ha puesto renombrar \"{0}\" como \"{1}\""
 
 #: Sketch.java:500
 msgid "Could not rename the sketch. (1)"
-msgstr "Neizdevās pārsaukt skici. (1)"
+msgstr "No s'ha puesto renombrar o sketch. (1)"
 
 #: Sketch.java:507
 msgid "Could not rename the sketch. (2)"
-msgstr "Neizdevās pārsaukt skici. (2)"
+msgstr "No s'ha puesto renombrar o sketch. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
-msgstr "createNewFile() atgrieza kļūdu"
+msgstr "createNewFile() ha retornau a valura \"false\""
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "Vai tiešām vēlaties izdzēst šo skici?"
+msgstr "Yes seguro que quiers borrar iste sketch?"
 
 #: Sketch.java:592
 #, java-format
 msgid "Are you sure you want to delete \"{0}\"?"
-msgstr "Vai tiešām vēlaties izdzēst \"{0}\"?"
+msgstr "Yes seguro que quiers borrar \"{0}\"?"
 
 #: Sketch.java:595 EditorHeader.java:314
 msgid "Delete"
-msgstr "Dzēst"
+msgstr "Borrar"
 
 #: Sketch.java:620
 msgid "Couldn't do it"
-msgstr "Neizdevās to izdarīt"
+msgstr "No s'ha puesto fer"
 
 #: Sketch.java:621
 #, java-format
 msgid "Could not delete \"{0}\"."
-msgstr "Neidevās izdzēst \"{0}\"."
+msgstr "No s'ha puesto borrar \"{0}\"."
 
 #: Sketch.java:651
 msgid "removeCode: internal error.. could not find code"
-msgstr "removeCode: iekšēja kļūda... nevar atrast kodu"
+msgstr "removeCode: error interna... no s'ha puesto trobar o codigo"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "Skice ir tikai-lasāma"
+msgstr "O sketch ye nomás de lectura"
 
 #: Sketch.java:725
 msgid ""
 "Some files are marked \"read-only\", so you'll\n"
 "need to re-save this sketch to another location."
 msgstr ""
-"Daži faili ir atzīmēti kā \"tikai-lasāmi\", tādēļ jums\n"
-"vajadzēs saglabāt šo skici citā vietā."
+"Qualques fichers son marcaus como \"nomás de lectura\",\n"
+"asinas que te caldrá tornar a alzar iste sketch en belatro puesto."
 
 #: Sketch.java:743
 msgid ""
@@ -809,14 +811,13 @@ msgid ""
 "\n"
 "Save sketch and update its extension?"
 msgstr ""
-"Arduino 1.0 ierastais failu paplašinājums ir ticis nomainīts no .pde uz "
-".ino.\n"
-"Jaunas skices, (ieskaitot tās, kas izveidotas ar \"Saglabāt kā\"),\n"
-"izmantos jauno paplašinājumu. Esošo skiču\n"
-"paplašinājumi tiks atjaunināti, tas saglabājot, bet jūs varat\n"
-"to atslēgt Iestatījumos.\n"
+"En Arduino 1.0, a extensión por defecto ha cambiau\n"
+"de .pde ta .ino. Os nuevos sketches (incluindo-ie os creyaus con\n"
+"\"Alzar como\" ferán servir a nueva extensión. A extensión\n"
+"d'os sketches ya existents s'esviellará en alzar, pero isto\n"
+"puede deshabilitar-se en o dialogo de Preferencias\n"
 "\n"
-"Vai saglabāt skici un atjaunināt tās paplašinājumu?"
+"Alzar o sketch y esviellar a extensión?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -824,49 +825,49 @@ msgstr ".pde -> .ino"
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "Saglabāt skices mapi kā..."
+msgstr "Alzar a carpeta de sketch como..."
 
 #: Sketch.java:865
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"Jūs nevarat saglabāt skici kā \"{0}\",\n"
-"jo skicei jau ir .cpp fails ar tādu nosaukumu."
+"No puetz alzar o sketch como \"{0}\"\n"
+"porque o sketch ya tiene un fichero .cpp con ixe nombre."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
-msgstr "Cik ļoti Borhess no jums"
+msgstr "Que en yes de Borges tu!"
 
 #: Sketch.java:887
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"Jūs nevarat saglabāt skici pašas\n"
-"mapē. Tas turpinātos bezgalīgi."
+"No puetz alzar o sketch en una carpeta\n"
+"adentro d'ell mesmo. Isto podría seguir ta cutio."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
-msgstr "Izvēlieties attēlu vai citu datu failu, ko kopēt jūsu skicē"
+msgstr "Selecciona una imachen u belatro fichero de datos ta copiar en o sketch"
 
 #: Sketch.java:1047
 #, java-format
 msgid "Replace the existing version of {0}?"
-msgstr "Aizstāt esošo {0} versiju?"
+msgstr "Reemplazar a versión existent de {0}?"
 
 #: Sketch.java:1069 Sketch.java:1092
 msgid "Error adding file"
-msgstr "Kļūda pievienojot failu"
+msgstr "S'ha trobau una error en adhibir o fichero"
 
 #: Sketch.java:1070
 #, java-format
 msgid "Could not delete the existing ''{0}'' file."
-msgstr "Neizdevās izdzēst esošo \"{0}\" failu."
+msgstr "No s'ha puesto borrar o fichero existent ''{0}''."
 
 #: Sketch.java:1078
 msgid "You can't fool me"
-msgstr "Tu nevari mani piemuļķot"
+msgstr "No me puetz enganyuflar"
 
 #: Sketch.java:1079
 msgid ""
@@ -874,62 +875,62 @@ msgid ""
 "location from which where you're trying to add it.\n"
 "I ain't not doin nuthin'."
 msgstr ""
-"Fails jau ir ticis iekopēts vietā,\n"
-"no kurienes jūs to centāties pievienot.\n"
-"Es neko nedarīšu."
+"Iste fichero ya s'ha copiau en o puesto\n"
+"dende o qual ye mirando d'adhibir-lo.\n"
+"No'n feré cosa."
 
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "Neizdevās pievienot \"{0}\" skicei."
+msgstr "No s'ha puesto adhibir ''{0}'' a lo sketch."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr "Būvējamā mape pazuda, vai nevarēja tajā ierakstīt"
+msgstr "A carpeta de construcción ha despareixiu u no s'ha puesto escribir"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
-msgstr "Nevar atrast galveno klasi"
+msgstr "No s'ha puesto trobar a clase main"
 
 #: Sketch.java:1433
 #, java-format
 msgid "Uncaught exception type: {0}"
-msgstr "Nenoķerts izņēmuma veids: {0}"
+msgstr "S'ha trobau una excepción no apercazada de tipo: {0}"
 
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "Kļūda pārvietojot {0} būvējamajā mapē"
+msgstr "S'ha trobau un problema movendo {0} ta la carpeta de construcción"
 
 #: Sketch.java:1661
 msgid "Uploading..."
-msgstr "Augšupielādē..."
+msgstr "Cargando..."
 
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Binārās skices izmērs: {0} baiti (no maksimālajiem {1})"
+msgstr "Grandaria binaria d'o sketch: {0} bytes (d'un maximo de {1} bytes)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
-msgstr "Neizdevās noteikt programmas izmēru: {0}"
+msgstr "No s'ha puesto determinar a grandaria d'o programa: {0}"
 
 #: Sketch.java:1694
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr ""
-"Skice ir pārāk liela; apmeklējiet "
-"http://www.arduino.cc/en/Guide/Troubleshooting#size padomiem, kā to "
-"samazināt."
+"O sketch ye masiau gran; leye-te "
+"http://www.arduino.cc/en/Guide/Troubleshooting#size ta trobar consellos de "
+"cómo reducir-lo."
 
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
-msgstr "Trūkst */ no /* komentārs */ beigām"
+msgstr "Falta o */ a la fin d'un /* comentario */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "Skice pazuda"
+msgstr "O sketch ha desapareixiu"
 
 #: Sketch.java:1797
 msgid ""
@@ -937,21 +938,22 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-"Skices mape ir pazudusi.\n"
-"Tiks mēģināts saglabāt tajā pašā vietā,\n"
-"bet viss, izņemot kodu, zudīs."
+"A carpeta sketch ha desapareixiu.\n"
+" Se mirará de tornar a alzar-la en o mesmo puesto,\n"
+"pero tot, fueras d'o codigo, se perderá."
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "Neizdevās pa jaunam saglabāt skici."
+msgstr "No s'ha puesto tornar a alzar o sketch"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"Neizdevās korekti saglabāt skici. Jūs varat būt problēmās šobrīd,\n"
-"tādēļ būtu laiks pārkopēt kodu citā teksta redaktorā."
+"No s'ha puesto tornar a alzar o sketch adequadament. Talment tiengas \n"
+"problemas en iste punto, y siga hora de copiar y apegar o tuyo codigo en \n"
+"belatro editor."
 
 #: Sketch.java:2060
 msgid ""
@@ -959,9 +961,9 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"Skices nosaukums bija jāizmaina. Skiču nosaukumi var saturēt tikai\n"
-"ASCII rakstzīmes un numurus (bet nevar sākties ar ciparu).\n"
-"Tām vajadētu būt arī mazāk par 64 rakstzīmēm."
+"O nombre d'o sketch s'ha habiu de modificar. Os nombres de sketch\n"
+"no pueden tener que caracters ASCII y numeros (pero no pueden\n"
+"empecipiar con un numero). A suya largaria ha d'estar menor a 64 caracters."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -970,38 +972,39 @@ msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 #: debug/Uploader.java:54 debug/Compiler.java:43
 #, java-format
 msgid "Compiler error, please submit this code to {0}"
-msgstr "Kompilatora kļūda, lūdzu, nosūtiet šo kodu uz {0}"
+msgstr "Error de compilación, por favor ninvia iste codigo a {0}"
 
 #: debug/Uploader.java:199
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
-"izvēlētais seriālais ports {0} neeksistē, vai arī jūsu plate nav pievienota"
+"o puerto serial seleccionau {0} no existe u a tuya tarcheta ye sin connectar"
 
 #: debug/Uploader.java:203
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
-"Ierīce nereaģē, pārbaudiet vai pareizais seriālais ports ir izvēlēts vai "
-"atiestatiet plati tieši pirms eksportēšanas"
+"O dispositivo no responde, revisa que siga seleccionau o puerto serial u "
+"REINICIA a tarcheta antes d'exportar"
 
 #: debug/Uploader.java:209
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
-"Neizdevās augšupielādēt platē. Apmeklējiet "
-"http://www.arduino.cc/en/Guide/Troubleshooting#upload ieteikumiem."
+"Problema en puyar codigo ta la tarcheta.   Mira-te "
+"http://www.arduino.cc/en/Guide/Troubleshooting#upload ta trobar "
+"sucherencias."
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
-"Atrasts cits mikrokontrolieris. Vai izvēlējāties pareizo plati no Rīki > "
-"Plate izvēlnes?"
+"S'ha trobau un Microcontrolador entivocau.  Has trigau a tarcheta \n"
+"correcta d'o menú Ferramientas > Tarcheta?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1009,21 +1012,24 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
-msgstr "Lūdzu, vispirms izvēlieties platie no Rīki > Plate izvēlnes."
+msgstr ""
+"No i ha garra tarcheta seleccionada; por favor, triga una tarcheta d'o menú\n"
+"Ferramientas > Tarcheta."
 
 #: debug/Compiler.java:422
 #, java-format
 msgid "{0} returned {1}"
-msgstr "{0} atgrieza {1}"
+msgstr "{0} ha retornau {1}"
 
 #: debug/Compiler.java:426
 msgid "Error compiling."
-msgstr "Neizdevās nokompilēt."
+msgstr "Error en compilar."
 
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr ""
-"Lūdzu, importējiet SPI bibliotēku no Skice > Importēt bibliotēku izvēlnes."
+"Por favor importa la biblioteca SPI fendo servir o menú\n"
+"Sketch > Importar Biblioteca."
 
 #: debug/Compiler.java:466
 msgid ""
@@ -1034,14 +1040,14 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 0019 Ethernet bibliotēka ir atkarīga no SPI bibliotēkas.\n"
-"Izskatās, ka jūs izmantojat to vai citu bibliotēku, kas ir atkarīga no SPI "
-"bibliotēkas.\n"
+"Dende Arduino 0019, a biblioteca d'Ethernet pende en a biblioteca SPI.\n"
+"Pareixe que la yes fendo servir u belatra biblioteca que tamién pende en a "
+"biblioteca SPI.\n"
 "\n"
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr "'BYTE' atslēgasvārds vairs netiek atbalstīts."
+msgstr "A parola clau 'BYTE' ya no ye suportada."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -1051,13 +1057,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 'BYTE' atslēgasvārds vairs nav atbalstīts.\n"
-"Lūdzu, izmantojiet Serial.write() tā vietā.\n"
+"Dende Arduino 1.0, a parola clau 'BYTE' ya no ye suportada.\n"
+"Por favor fe servir Serial.write() en cuenta.\n"
 "\n"
 
 #: debug/Compiler.java:477
 msgid "The Server class has been renamed EthernetServer."
-msgstr "Servera klase ir pārsaukta par EthernetServer."
+msgstr "A clase Server s'ha renombrau como EthernetServer."
 
 #: debug/Compiler.java:478
 msgid ""
@@ -1067,13 +1073,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 Servera klase Ethernet bibliotēkā ir tikusi pārsaukta par "
-"EthernetServer.\n"
+"Dende Arduino 1.0, a clase Server en a biblioteca Ethernet s'ha \n"
+"renombrau como EthernetServer.\n"
 "\n"
 
 #: debug/Compiler.java:483
 msgid "The Client class has been renamed EthernetClient."
-msgstr "Klienta klase ir pārsaukta par EthernetClient."
+msgstr "A clase Client s'ha renombrau como EthernetClient."
 
 #: debug/Compiler.java:484
 msgid ""
@@ -1083,12 +1089,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 Klienta klase ir pārsaukta par EthernetClient.\n"
+"Dende Arduino 1.0, a clase Server en a biblioteca Ethernet s'ha renombrau\n"
+"como EthernetServer.\n"
 "\n"
 
 #: debug/Compiler.java:489
 msgid "The Udp class has been renamed EthernetUdp."
-msgstr "Udp klase ir pārsaukta par EthernetUdp."
+msgstr "A clase Udp s'ha renombrau como EthernetUdp."
 
 #: debug/Compiler.java:490
 msgid ""
@@ -1098,13 +1105,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 Udp klase Ethernet bibliotēkā ir tikusi pārsaukta par "
-"EthernetClient.\n"
+"Dende Arduino 1.0, a clase Udp en a biblioteca Ethernet s'ha renombrau\n"
+"como EthernetUdp.\n"
 "\n"
 
 #: debug/Compiler.java:495
 msgid "Wire.send() has been renamed Wire.write()."
-msgstr "Wire.send() ir ticis pārsaukts par Wire.write()."
+msgstr "Wire.send() s'ha renombrau como Wire.write()."
 
 #: debug/Compiler.java:496
 msgid ""
@@ -1114,13 +1121,13 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 Wire.send() funkcija ir tikusi pārsaukta par Wire.write(), "
-"lai saglabātu saskaņu ar pārējām bibliotēkām.\n"
+"Dende Arduino 1.0, a función Wire.send() s'ha renombrau como Wire.write() ta "
+"mantener a consistencia con atras bibliotecas.\n"
 "\n"
 
 #: debug/Compiler.java:501
 msgid "Wire.receive() has been renamed Wire.read()."
-msgstr "Wire.receive() ir ticis pārsaukts par Wire.read()."
+msgstr "Wire.receive() s'ha renombrau como Wire.read()."
 
 #: debug/Compiler.java:502
 msgid ""
@@ -1130,45 +1137,47 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Kopš Arduino 1.0 Wire.receive() funkcija ir tikusi pārsaukta par "
-"Wire.read(), lai saglabātu saskaņu ar pārējām bibliotēkām.\n"
+"Dende Arduino 1.0, a función Wire.receive() s'ha renombrau como Wire.read() "
+"ta mantener a consistencia con atras bibliotecas.\n"
 "\n"
 
 #: EditorConsole.java:152
 msgid "Console Error"
-msgstr "Konsoles kļūda"
+msgstr "S'ha trobau una error de consola"
 
 #: EditorConsole.java:153
 msgid ""
 "A problem occurred while trying to open the\n"
 "files used to store the console output."
 msgstr ""
-"Radās kļūda, mēģinot atvērt failus, ko\n"
-"izmanto, lai uzglabātu konsoles izvaddatus."
+"S'ha trobau un problema entre que se miraba d'ubrir o\n"
+"fichero utilizau ta alzar o resultau d'a consola."
 
 #: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
-msgstr "Radās nefatāla kļūda, mēģinot iestatīt Skatu un sajūtu."
+msgstr "S'ha trobau una error no fatal entre que se configuraba l'Apariencia."
 
 #: Base.java:185
 msgid "The error message follows, however Arduino should run fine."
-msgstr "Kļūdas ziņojums ir sekojošs, bet Arduino vajadzētu darboties labi."
+msgstr ""
+"O que sigue ye o mensache d'error, pero Arduino habría de continar\n"
+"funcionando bien."
 
 #: Base.java:220
 msgid "Problem Setting the Platform"
-msgstr "Radās kļūda iestatot platformu."
+msgstr "Problema en configurar a Plataforma"
 
 #: Base.java:221
 msgid ""
 "An unknown error occurred while trying to load\n"
 "platform-specific code for your machine."
 msgstr ""
-"Radās nezināma kļūda, mēģinot ielādēt\n"
-"platformai pielāgotu kodu jūsu datorā."
+"S'ha trobau una error desconoixida entre que\n"
+"se cargaba o codigo especifico ta la tuya plataforma."
 
 #: Base.java:232
 msgid "Please install JDK 1.5 or later"
-msgstr "Lūdzu, instalējiet JDK 1.5 vai jaunāku"
+msgstr "Por favor instala o JDK 1.5 u posterior"
 
 #: Base.java:233
 msgid ""
@@ -1176,13 +1185,13 @@ msgid ""
 "to run. Please install JDK 1.5 or later.\n"
 "More information can be found in the reference."
 msgstr ""
-"Arduino nepieciešams pilns JDK (ne tikai JRE),\n"
-"lai darbotos. Lūdzu, instalējiet JDK 1.5 vai jaunāku.\n"
-"Vairāk informāciju varat atrast atsaucē."
+"Arduino requiere o JDK completo (no nomás o JRE)\n"
+"ta funcionar. Por favor instala o JDK 1.5 u superior.\n"
+"Podrás trobar mas información en a referencia."
 
 #: Base.java:257
 msgid "Sketchbook folder disappeared"
-msgstr "Skiču burtnīcas mape ir pazudusi"
+msgstr "A carpeta sketchbook ha desapareixiu"
 
 #: Base.java:258
 msgid ""
@@ -1192,35 +1201,35 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"Skiču burtnīcas mape vairs neeksistē.\n"
-"Arduino pārslēgsies uz noklusējuma skiču burtnīcas\n"
-"atrašanās vietu un izveidos jaunu skiču burtnīcas mapi,\n"
-"ja nepieciešams. Tad Arduino pārstās runāt par sevi\n"
-"trešajā personā."
+"A carpeta sketchbook ya no existe.\n"
+"Arduino cambiará ta o puesto predeterminau\n"
+"d'o sketchbook y creyará una nueva carpeta sketchbook\n"
+"si ye menister. Dimpués, Arduino deixará de charrar d'ell mesmo\n"
+"en tercera persona."
 
 #: Base.java:532
 msgid "Time for a Break"
-msgstr "Laiks atpūtai"
+msgstr "Hora de fer un descanso"
 
 #: Base.java:533
 msgid ""
 "You've reached the limit for auto naming of new sketches\n"
 "for the day. How about going for a walk instead?"
 msgstr ""
-"Jūs sasniedzāt šodienas limitu jaunu skiču automātiskajai\n"
-"nosaukšanai. Kā būtu ar kādu pastaigu tā vietā?"
+"Por hue has plegau en o limite d'auto nombramiento de sketches nuevos\n"
+"Qué tal si te fas una gambadeta?"
 
 #: Base.java:537
 msgid "Sunshine"
-msgstr "Saules gaisma"
+msgstr "Luz d'o sol"
 
 #: Base.java:538
 msgid "No really, time for some fresh air for you."
-msgstr "Nē, patiešām, laiks ieelpot svaigu gaisu!"
+msgstr "De verdat, ye hora que prengas un poquet d'aire fresco."
 
 #: Base.java:633
 msgid "Open an Arduino sketch..."
-msgstr "Atvērt Arduino skici..."
+msgstr "Ubrir un sketch d'Arduino..."
 
 #: Base.java:772
 msgid ""
@@ -1229,16 +1238,18 @@ msgid ""
 "sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p { "
-"font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Vai tiešām "
-"vēlaties iziet?</b><p>Aizverot pēdējo atvērto skici, tiks iziets no Arduino."
+"font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Yes \n"
+"seguro que quiers salir-ne?</b><p>Si zarras o zaguer sketch ubierto se "
+"zarrará\n"
+"Arduino."
 
 #: Base.java:970
 msgid "Contributed"
-msgstr "Piedalījās"
+msgstr "Contribuiu"
 
 #: Base.java:1095
 msgid "Sketch Does Not Exist"
-msgstr "Skice nepastāv"
+msgstr "Ixe sketch no existe"
 
 #: Base.java:1096
 msgid ""
@@ -1246,9 +1257,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"Izvēlētā skice vairs nepastāv.\n"
-"Jums var būt nepieciešams pārstartēt Arduino,\n"
-"lai atjauninātu skiču burtnīcas izvēlni."
+"O sketch seleccionau ya no existe.\n"
+"Ye posible que te calga reiniciar Arduino\n"
+"ta esviellar o menú sketchbook."
 
 #: Base.java:1125
 #, java-format
@@ -1259,15 +1270,14 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"Skice \"{0}\" nevar tikt izmantota.\n"
-"Skiču nosaukumiem jāsatur tikai parastos burtus un ciparus.\n"
-"(Tikai ASCII, bez atstarpēm, un tas nedrīkst sākties ar ciparu).\n"
-"Lai atbrīvotos no šī ziņojuma, aizvāciet skici no\n"
-"{1}"
+"O sketch \"{0}\" no se puede fer servir.\n"
+"Os nombres de sketch han de contener nomás letras basicas y numers\n"
+"(Nomás ASCII sin espacios, y no puede empecipiar con un numero).\n"
+"Ta desfer-te d'iste mensache, elimina o sketch de {1}.\n"
 
 #: Base.java:1132
 msgid "Ignoring sketch with bad name"
-msgstr "Ignorē skici ar nekorektu nosaukumu"
+msgstr "Ignorando sketch con nombre incorrecto"
 
 #: Base.java:1202
 #, java-format
@@ -1276,53 +1286,53 @@ msgid ""
 "Library names must contain only basic letters and numbers.\n"
 "(ASCII only and no spaces, and it cannot start with a number)"
 msgstr ""
-"\"{0}\" bibliotēka nevar tikt izmantota.\n"
-"Bibliotēku nosaukumiem jāsatur tikai parastos burtus un ciparus.\n"
-"(Tikai ASCII, bez atstarpēm, un tas nedrīkst sākties ar ciparu)"
+"A biblioteca \"{0}\" no se puede fer servir.\n"
+"Os nombres de biblioteca han de contener nomás letras basicas y numers\n"
+"(Nomás ASCII sin espacios y no puede empecipiar con un numero)."
 
 #: Base.java:1207
 msgid "Ignoring bad library name"
-msgstr "Ignorē nekorektu bibliotēkas nosaukumu"
+msgstr "Ignorando o nombre incorrecto d'a biblioteca"
 
 #: Base.java:1432
 msgid "Problem getting data folder"
-msgstr "Radās problēma, iegūstot datu mapi"
+msgstr "S'ha trobau un problema en obtener a carpeta de datos"
 
 #: Base.java:1433
 msgid "Error getting the Arduino data folder."
-msgstr "Radās kļūda, iegūstot Arduino datu mapi."
+msgstr "S'ha trobau una error en obtener a carpeta de datos d'Arduino."
 
 #: Base.java:1440
 msgid "Settings issues"
-msgstr "Iestatījumu problēmas"
+msgstr "Problemas de configuración"
 
 #: Base.java:1441
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your settings."
 msgstr ""
-"Arduino nevar tikt palaists, jo tas nevar \n"
-"izveidot mapi, kur saglabāt jūsu iestatījumus."
+"Arduino no puede executar porque no ha puesto\n"
+"creyar una carpeta ta alzar a tuya configuración."
 
 #: Base.java:1602
 msgid "You forgot your sketchbook"
-msgstr "Jūs aizmirsāt skiču burtnīcu"
+msgstr "Has ixuplidau o tuyo sketchbook"
 
 #: Base.java:1603
 msgid ""
 "Arduino cannot run because it could not\n"
 "create a folder to store your sketchbook."
 msgstr ""
-"Arduino nevar tikt palaists, jo tas nevar \n"
-"izveidot mapi, kur saglabāt jūsu skiču mapi."
+"Arduino no se puede executar porque no ha puesto\n"
+"creyar una carpeta ta alzar o tuyo sketchbook."
 
 #: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
-msgstr "Izvēlieties (vai izveidojiet jaunu) mapi skicēm..."
+msgstr "Selecciona (u creya una nueva) carpeta ta sketches..."
 
 #: Base.java:1647
 msgid "Problem Opening URL"
-msgstr "Problēma, atverot URL"
+msgstr "S'ha trobau un problema en ubrir a URL"
 
 #: Base.java:1648
 #, java-format
@@ -1330,12 +1340,12 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"Neizdevās atvērt URL\n"
+"No s'ha puesto ubrir a URL\n"
 "{0}"
 
 #: Base.java:1671
 msgid "Problem Opening Folder"
-msgstr "Problēma, atverot mapi"
+msgstr "Problema en ubrir a carpeta"
 
 #: Base.java:1672
 #, java-format
@@ -1343,7 +1353,7 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-"Neizdevās atvērt mapi\n"
+"No s'ha puesto ubrir a carpeta\n"
 "{0}"
 
 #: Base.java:1785
@@ -1368,7 +1378,7 @@ msgstr "Guide_Environment.html"
 
 #: Base.java:1804
 msgid "environment"
-msgstr "vide"
+msgstr "entorno"
 
 #: Base.java:1804
 msgid "platforms.html"
@@ -1384,62 +1394,62 @@ msgstr "FAQ.html"
 
 #: Base.java:1826
 msgid "Message"
-msgstr "Ziņojums"
+msgstr "Mensache"
 
 #: Base.java:1842
 msgid "Warning"
-msgstr "Brīdinājums"
+msgstr "Alvertencia"
 
 #: Base.java:2196
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "Neizdevās aizvākt {0} veco versiju"
+msgstr "No s'ha puesto eliminar a versión anterior de {0}"
 
 #: Base.java:2206
 #, java-format
 msgid "Could not replace {0}"
-msgstr "Neizdevās aizvietot {0}"
+msgstr "No s'ha puesto reemplazar {0}"
 
 #: Base.java:2247 Base.java:2270
 #, java-format
 msgid "Could not delete {0}"
-msgstr "Neidevās izdzēst {0}"
+msgstr "No s'ha puesto borrar {0}"
 
 #: EditorHeader.java:292
 msgid "New Tab"
-msgstr "Jauna cilne"
+msgstr "Nueva pestanya"
 
 #: EditorHeader.java:300
 msgid "Rename"
-msgstr "Pārsaukt"
+msgstr "Renombrar"
 
 #: EditorHeader.java:326
 msgid "Previous Tab"
-msgstr "Iepriekšējā cilne"
+msgstr "Pestanya anterior"
 
 #: EditorHeader.java:340
 msgid "Next Tab"
-msgstr "Nākamā cilne"
+msgstr "Siguient pestanya"
 
 #: EditorToolbar.java:41 EditorToolbar.java:46
 msgid "Verify"
-msgstr "Pārbaudīt"
+msgstr "Verificar"
 
 #: EditorToolbar.java:41
 msgid "Open"
-msgstr "Atvērt"
+msgstr "Ubrir"
 
 #: EditorToolbar.java:46
 msgid "New Editor Window"
-msgstr "Jauns redaktora logs"
+msgstr "Nueva finestra d'editor"
 
 #: EditorToolbar.java:46
 msgid "Open in Another Window"
-msgstr "Atvērt citā logā"
+msgstr "Ubrir en unatra finestra"
 
 #: Platform.java:167
 msgid "No launcher available"
-msgstr "Neviens palaidējs nav pieejams"
+msgstr "No i ha garra lanzador disponible"
 
 #: Platform.java:168
 msgid ""
@@ -1447,21 +1457,21 @@ msgid ""
 "To enable opening URLs or folders, add a \n"
 "\"launcher=/path/to/app\" line to preferences.txt"
 msgstr ""
-"Nekonkrēta platforma, palaidējs nav pieejams.\n"
-"Lai ieslēgtu URL vai mapju atvēršanu, pievienojiet\n"
-"\"launcher=/ceļš/līdz/programmai\" rindu failā preferences.txt"
+"No s'ha especificau a plataforma, u no i ha garra lanzador disponible.\n"
+"Ta habilitar a obridura d'URLs u carpetas, adhibe una linia como \n"
+"\"launcher=/rota/ta/app\" a o fichero preferences.txt"
 
 #: Theme.java:52
 msgid ""
 "Could not read color theme settings.\n"
 "You'll need to reinstall Processing."
 msgstr ""
-"Nevar nolasīt krāsu tēmas iestatījumus.\n"
-"Jums vajadzēs pārinstalēt Processing."
+"No s'ha puesto leyer a configuración d'esquema de color. \n"
+"Te caldrá tornar a instalar Processing."
 
 #: Preferences.java:80
 msgid "Browse"
-msgstr "Pārlūkot"
+msgstr "Navegar"
 
 #: Preferences.java:83
 msgid "System Default"
@@ -1469,11 +1479,11 @@ msgstr ""
 
 #: Preferences.java:84
 msgid "Catalan"
-msgstr ""
+msgstr "Catalán"
 
 #: Preferences.java:85
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Chinés Simplificau"
 
 #: Preferences.java:86
 msgid "Chinese Traditional"
@@ -1481,55 +1491,55 @@ msgstr ""
 
 #: Preferences.java:87
 msgid "Danish"
-msgstr ""
+msgstr "Danés"
 
 #: Preferences.java:88
 msgid "Dutch"
-msgstr ""
+msgstr "Neerlandés"
 
 #: Preferences.java:89
 msgid "English"
-msgstr ""
+msgstr "Anglés"
 
 #: Preferences.java:90
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #: Preferences.java:91
 msgid "Filipino"
-msgstr ""
+msgstr "Filipino"
 
 #: Preferences.java:92
 msgid "Galician"
-msgstr ""
+msgstr "Gallego"
 
 #: Preferences.java:93
 msgid "German"
-msgstr ""
+msgstr "Alemán"
 
 #: Preferences.java:94
 msgid "Greek"
-msgstr ""
+msgstr "Griego"
 
 #: Preferences.java:95
 msgid "Hungarian"
-msgstr ""
+msgstr "Hongaro"
 
 #: Preferences.java:96
 msgid "Italian"
-msgstr ""
+msgstr "Italián"
 
 #: Preferences.java:97
 msgid "Japanese"
-msgstr ""
+msgstr "Chaponés"
 
 #: Preferences.java:98
 msgid "Latvian"
-msgstr "Latviešu"
+msgstr "Letón"
 
 #: Preferences.java:99
 msgid "Persian"
-msgstr ""
+msgstr "Persa"
 
 #: Preferences.java:100
 msgid "Portuguese"
@@ -1537,7 +1547,7 @@ msgstr ""
 
 #: Preferences.java:101
 msgid "Romanian"
-msgstr ""
+msgstr "Rumán"
 
 #: Preferences.java:102
 msgid "Russian"
@@ -1545,24 +1555,24 @@ msgstr ""
 
 #: Preferences.java:103
 msgid "Spanish"
-msgstr ""
+msgstr "Espanyol"
 
 #: Preferences.java:194
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
-"Nevar nolasīt noklusējuma iestatījumus.\n"
-"Jums vajadzēs pārinstalēt Arduino."
+"No s'ha puesto leyer a configuración predeterminada.\n"
+"Te caldrá tornar a instalar Arduino."
 
 #: Preferences.java:226
 #, java-format
 msgid "Could not read preferences from {0}"
-msgstr "Neizdevās nolasīt iestatījumus no {0}"
+msgstr "No s'ha puesto leyer as preferencias de {0}"
 
 #: Preferences.java:245
 msgid "Error reading preferences"
-msgstr "Kļūda, nolasot iestatījumus"
+msgstr "Error en leyer as preferencias"
 
 #: Preferences.java:247
 #, java-format
@@ -1570,16 +1580,16 @@ msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
 msgstr ""
-"Kļūda, nolasot iestatījumu failu. Lūdzu, izdzēsiet (vai pārvietojiet)\n"
-"{0} un pārstartējiet Arduino."
+"Error en leyer o fichero de preferencias. Por favor borra (u mueve)\n"
+"{0} y reinicia Arduino."
 
 #: Preferences.java:283
 msgid "Sketchbook location:"
-msgstr "Skiču burtnīcas atrašanās vieta:"
+msgstr "Ubicación d'o sketchbook:"
 
 #: Preferences.java:298
 msgid "Select new sketchbook location"
-msgstr "Izvēlieties jaunu skiču burtnīcas atrašanās vietu"
+msgstr "Selecciona a nueva ubicación d'o sketchbook"
 
 #: Preferences.java:321
 msgid "Editor language: "
@@ -1587,55 +1597,55 @@ msgstr ""
 
 #: Preferences.java:326 Preferences.java:342
 msgid "  (requires restart of Arduino)"
-msgstr "  (būs nepieciešams pārstartēt Arduino)"
+msgstr "  (cal reiniciar Arduino)"
 
 #: Preferences.java:338
 msgid "Editor font size: "
-msgstr "Redaktora fonta izmērs:"
+msgstr "Grandaria de tipo de letra ta l'editor: "
 
 #: Preferences.java:355
 msgid "Show verbose output during: "
-msgstr "Rādīt detalizētāku izvadi, kad:"
+msgstr "Amostrar resultau detallau entre: "
 
 #: Preferences.java:357
 msgid "compilation "
-msgstr "kompilē"
+msgstr "compilación "
 
 #: Preferences.java:359
 msgid "upload"
-msgstr "augšupielādē"
+msgstr "carga"
 
 #: Preferences.java:368
 msgid "Verify code after upload"
-msgstr "Pārbaudīt kodu pēc augšupielādes"
+msgstr "Verificar o codigo dimpués de cargar"
 
 #: Preferences.java:377
 msgid "Use external editor"
-msgstr "Izmantot ārējo redaktoru"
+msgstr "Fer servir un editor externo"
 
 #: Preferences.java:387
 msgid "Check for updates on startup"
-msgstr "Pārbaudīt atjauninājumus palaišanas laikā"
+msgstr "Verificar actualizacions en empecipiar"
 
 #: Preferences.java:396
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr ""
-"Veicot saglabāšanu, atjaunināt skiču failus uz jauno paplašinājumu (.pde -> "
-".ino)"
+"Actualizar fichers de sketch a nueva extensión en alzar \n"
+"(.pde -> .ino)"
 
 #: Preferences.java:407
 msgid "Automatically associate .ino files with Arduino"
-msgstr "Automātiski asociēt .ino failus ar Arduino"
+msgstr "Asociar automaticament fichers .ino con Arduino"
 
 #: Preferences.java:417
 msgid "More preferences can be edited directly in the file"
-msgstr "Vairāk iestatījumus var izmainīt tieši failā"
+msgstr "Mas preferencias se pueden editar dreitament en o fichero"
 
 #: Preferences.java:446
 msgid "(edit only when Arduino is not running)"
-msgstr "(rediģējiet tikai tad, kad Arduino nav palaists)"
+msgstr "(editar nomaś quan Arduino no se siga executando)"
 
 #: Preferences.java:593
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "ignorē nederīgu fontu izmēru {0}"
+msgstr "ignorando a grandaria invalida d'o tipo de letra {0}"
