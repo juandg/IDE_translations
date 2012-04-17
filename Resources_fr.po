@@ -1667,7 +1667,7 @@ msgstr "Utiliser un éditeur externe"
 
 #: Preferences.java:403
 msgid "Check for updates on startup"
-msgstr "Vérifier les mises à jour au démmarrage."
+msgstr "Vérifier les mises à jour au démarrage"
 
 #: Preferences.java:412
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
