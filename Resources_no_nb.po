@@ -169,7 +169,7 @@ msgstr "Finn i Referanse"
 
 #: Editor.java:1083
 msgid "Frequently Asked Questions"
-msgstr "Ofte spurte spørsmål"
+msgstr "Ofte stilte spørsmål"
 
 #: Editor.java:1091
 msgid "Visit Arduino.cc"
