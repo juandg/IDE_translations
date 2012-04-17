@@ -351,7 +351,7 @@ msgstr "Erreur"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Un dossier nommé « {0} » existe déjà. Impossible d'ouvrir le croquis."
+msgstr "Un dossier nommé « {0} » existe déjà. Impossible d''ouvrir le croquis."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
@@ -389,7 +389,7 @@ msgid ""
 "Retry the upload with another serial port?"
 msgstr ""
 "Port série {0} introuvable.\n"
-"Réessayer le téléversement à partir d'un autre port série ?"
+"Réessayer le téléversement à partir d''un autre port série ?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
@@ -549,7 +549,7 @@ msgid ""
 "using it."
 msgstr ""
 "Port série « {0} » déjà utilisé. Essayez de quitter tout logiciel qui "
-"pourrait s'en servir."
+"pourrait s''en servir."
 
 #: Serial.java:154
 #, java-format
@@ -562,7 +562,7 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Port série « {0} » non trouvé. L'avez-vous bien sélectionné dans le menu "
+"Port série « {0} » non trouvé. L''avez-vous bien sélectionné dans le menu "
 "Outils > Port série ?"
 
 #: Serial.java:424
@@ -713,7 +713,7 @@ msgstr "Le nom ne peut commencer par un point."
 #: Sketch.java:368
 #, java-format
 msgid "\".{0}\" is not a valid extension."
-msgstr "« .{0} » n'est pas une extension valide."
+msgstr "« .{0} » n''est pas une extension valide."
 
 #: Sketch.java:378
 msgid ""
@@ -993,7 +993,7 @@ msgstr "Erreur de compilation, veuillez soumettre ce code à {0}"
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
-"le port série sélectionné {0} n'existe pas ou votre Arduino n'est pas connectée"
+"le port série sélectionné {0} n''existe pas ou votre Arduino n''est pas connectée"
 
 #: debug/Uploader.java:203
 msgid ""
@@ -1353,7 +1353,7 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"Impossible d'ouvrir l'URL\n"
+"Impossible d''ouvrir l''URL\n"
 "{0}"
 
 #: Base.java:1671
