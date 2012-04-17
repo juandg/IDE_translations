@@ -1643,7 +1643,7 @@ msgstr " (nécessite un redémarrage d'Arduino)"
 
 #: Preferences.java:354
 msgid "Editor font size: "
-msgstr "Taille de police de l'éditeur"
+msgstr "Taille de police de l'éditeur : "
 
 #: Preferences.java:371
 msgid "Show verbose output during: "
