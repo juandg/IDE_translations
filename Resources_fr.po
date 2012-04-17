@@ -1596,7 +1596,7 @@ msgstr "russe"
 
 #: Preferences.java:111
 msgid "Spanish"
-msgstr "espagnol - castillan"
+msgstr "espagnol"
 
 #: Preferences.java:210
 msgid ""
