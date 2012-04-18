@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-04-11 13:41+0900\n"
+"PO-Revision-Date: 2012-04-19 00:50+0900\n"
 "Last-Translator: Shigeru KANEMOTO <c2drQHN3aXRjaC1zY2llbmNlLmNvbQ==>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "スケッチブック"
 
 #: Editor.java:509
 msgid "Examples"
-msgstr "スケッチ例"
+msgstr "スケッチの例"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "スケッチをアーカイブする。"
+msgstr "スケッチをアーカイブする"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -1566,7 +1566,7 @@ msgstr ""
 
 #: Preferences.java:326 Preferences.java:342
 msgid "  (requires restart of Arduino)"
-msgstr "  変更の反映にはArduino IDEの再起動が必要。"
+msgstr "  変更の反映にはArduino IDEの再起動が必要"
 
 #: Preferences.java:338
 msgid "Editor font size: "
@@ -1590,19 +1590,19 @@ msgstr "書き込みを検証する"
 
 #: Preferences.java:377
 msgid "Use external editor"
-msgstr "外部のエディタを使用する。"
+msgstr "外部のエディタを使用する"
 
 #: Preferences.java:387
 msgid "Check for updates on startup"
-msgstr "起動時に最新バージョンの有無をチェックする。"
+msgstr "起動時に最新バージョンの有無をチェックする"
 
 #: Preferences.java:396
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
-msgstr "スケッチを保存する際に、拡張子を.pdeから.inoに変更する。"
+msgstr "スケッチを保存する際に、拡張子を.pdeから.inoに変更する"
 
 #: Preferences.java:407
 msgid "Automatically associate .ino files with Arduino"
-msgstr ".inoファイルをArduino IDEに関連づける。"
+msgstr ".inoファイルをArduino IDEに関連づける"
 
 #: Preferences.java:417
 msgid "More preferences can be edited directly in the file"
