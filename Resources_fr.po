@@ -6,7 +6,7 @@
 # Philippe Rivet <philipe.rivet at gmail.com>, 2012
 #
 # Lexique des termes utilisés dans cette traduction :
-#  - board : carte
+#  - board : type de carte/carte
 #  - burn bootloader : graver la séquence d'initialisation
 #  - library : bibliothèque
 #  - look & feel : apparence
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: IDE_translations 1.01\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 07:48+0200\n"
-"PO-Revision-Date: 2012-04-17 09:07+0200\n"
+"PO-Revision-Date: 2012-04-17 15:31+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -132,7 +132,7 @@ msgstr "Moniteur série"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Carte"
+msgstr "Type de carte"
 
 #: Editor.java:690
 msgid "Serial Port"
@@ -351,7 +351,7 @@ msgstr "Erreur"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Un dossier nommé « {0} » existe déjà. Impossible d'ouvrir le croquis."
+msgstr "Un dossier nommé « {0} » existe déjà. Impossible d''ouvrir le croquis."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
@@ -389,7 +389,7 @@ msgid ""
 "Retry the upload with another serial port?"
 msgstr ""
 "Port série {0} introuvable.\n"
-"Réessayer le téléversement à partir d'un autre port série ?"
+"Réessayer le téléversement à partir d''un autre port série ?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
@@ -549,7 +549,7 @@ msgid ""
 "using it."
 msgstr ""
 "Port série « {0} » déjà utilisé. Essayez de quitter tout logiciel qui "
-"pourrait s'en servir."
+"pourrait s''en servir."
 
 #: Serial.java:154
 #, java-format
@@ -562,7 +562,7 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Port série « {0} » non trouvé. L'avez-vous bien sélectionné dans le menu "
+"Port série « {0} » non trouvé. L''avez-vous bien sélectionné dans le menu "
 "Outils > Port série ?"
 
 #: Serial.java:424
@@ -713,7 +713,7 @@ msgstr "Le nom ne peut commencer par un point."
 #: Sketch.java:368
 #, java-format
 msgid "\".{0}\" is not a valid extension."
-msgstr "« .{0} » n'est pas une extension valide."
+msgstr "« .{0} » n''est pas une extension valide."
 
 #: Sketch.java:378
 msgid ""
@@ -826,7 +826,7 @@ msgid ""
 msgstr ""
 "Dans Arduino 1.0, l'extension par défaut a changé\n"
 "de .pde à .ino. Les nouveaux croquis (incluant ceux créés\n"
-"par « Enregistrer Sous » utiliseront la nouvelle extension. L'extension\n"
+"par « Enregistrer sous » utiliseront la nouvelle extension. L'extension\n"
 "des croquis existants sera mise à jour à la sauvegarde, mais vous pouvez\n"
 "désactiver ceci dans les Préférences.\n"
 "\n"
@@ -901,7 +901,7 @@ msgstr "Impossible d''ajouter « {0} » au croquis."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr "Dossier de construction disparu ou n'a pas pu être créé"
+msgstr "Dossier de compilation disparu ou n'a pas pu être créé"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
@@ -915,7 +915,7 @@ msgstr "Exception non capturée de type : {0}"
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "Problème de déplacement de {0} vers le dossier de construction"
+msgstr "Problème de déplacement de {0} vers le dossier de compilation"
 
 #: Sketch.java:1661
 msgid "Uploading..."
@@ -953,7 +953,7 @@ msgid ""
 "but anything besides the code will be lost."
 msgstr ""
 "Le dossier croquis a disparu.\n"
-" Nous allons essayer de réenregistrer au même emplacement,\n"
+"Nous allons essayer de réenregistrer au même emplacement,\n"
 "mais seul le code sera conservé."
 
 #: Sketch.java:1810
@@ -993,7 +993,7 @@ msgstr "Erreur de compilation, veuillez soumettre ce code à {0}"
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
-"le port série sélectionné {0} n'existe pas ou votre Arduino n'est pas connectée"
+"le port série sélectionné {0} n''existe pas ou votre Arduino n''est pas connectée"
 
 #: debug/Uploader.java:203
 msgid ""
@@ -1017,7 +1017,7 @@ msgid ""
 "> Board menu?"
 msgstr ""
 "Mauvais microcontrôleur trouvé. Avez-vous sélectionné la bonne carte dans "
-"le menu Outils > Carte ?"
+"le menu Outils > Type de carte ?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1027,7 +1027,7 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr ""
 "Aucune carte sélectionnée, veuillez choisir une carte dans le menu Outil > "
-"Carte"
+"Type de carte."
 
 #: debug/Compiler.java:422
 #, java-format
@@ -1353,7 +1353,7 @@ msgid ""
 "Could not open the URL\n"
 "{0}"
 msgstr ""
-"Impossible d'ouvrir l'URL\n"
+"Impossible d''ouvrir l''URL\n"
 "{0}"
 
 #: Base.java:1671
@@ -1488,15 +1488,15 @@ msgstr "Parcourir"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Langue du système"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "arabe"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "aragonais"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1504,11 +1504,11 @@ msgstr "catalan"
 
 #: Preferences.java:87
 msgid "Chinese Simplified"
-msgstr "chinois (simplifié)"
+msgstr "chinois - simplifié"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "chinois - traditionnel"
 
 #: Preferences.java:89
 msgid "Danish"
@@ -1524,7 +1524,7 @@ msgstr "anglais"
 
 #: Preferences.java:92
 msgid "Estonian"
-msgstr ""
+msgstr "estonien"
 
 #: Preferences.java:93
 msgid "French"
@@ -1552,7 +1552,7 @@ msgstr "hongrois"
 
 #: Preferences.java:99
 msgid "Indonesian"
-msgstr ""
+msgstr "indonésien"
 
 #: Preferences.java:100
 msgid "Italian"
@@ -1564,7 +1564,7 @@ msgstr "japonais"
 
 #: Preferences.java:102
 msgid "Korean"
-msgstr ""
+msgstr "coréen"
 
 #: Preferences.java:103
 msgid "Latvian"
@@ -1572,7 +1572,7 @@ msgstr "letton"
 
 #: Preferences.java:104
 msgid "Lithuaninan"
-msgstr ""
+msgstr "lituanien"
 
 #: Preferences.java:105
 msgid "Persian"
@@ -1580,11 +1580,11 @@ msgstr "persan"
 
 #: Preferences.java:106
 msgid "Polish"
-msgstr ""
+msgstr "polonais"
 
 #: Preferences.java:107 Preferences.java:108
 msgid "Portuguese"
-msgstr ""
+msgstr "portugais"
 
 #: Preferences.java:109
 msgid "Romanian"
@@ -1592,11 +1592,11 @@ msgstr "roumain"
 
 #: Preferences.java:110
 msgid "Russian"
-msgstr ""
+msgstr "russe"
 
 #: Preferences.java:111
 msgid "Spanish"
-msgstr "castillan"
+msgstr "espagnol"
 
 #: Preferences.java:210
 msgid ""
@@ -1635,7 +1635,7 @@ msgstr "Sélectionner un nouvel emplacement pour le carnet de croquis"
 
 #: Preferences.java:337
 msgid "Editor language: "
-msgstr ""
+msgstr "Choix de la langue : "
 
 #: Preferences.java:342 Preferences.java:358
 msgid "  (requires restart of Arduino)"
@@ -1643,7 +1643,7 @@ msgstr " (nécessite un redémarrage d'Arduino)"
 
 #: Preferences.java:354
 msgid "Editor font size: "
-msgstr "Taille de police de l'éditeur"
+msgstr "Taille de police de l'éditeur : "
 
 #: Preferences.java:371
 msgid "Show verbose output during: "
@@ -1667,7 +1667,7 @@ msgstr "Utiliser un éditeur externe"
 
 #: Preferences.java:403
 msgid "Check for updates on startup"
-msgstr "Vérifier les mises à jour au démmarrage."
+msgstr "Vérifier les mises à jour au démarrage"
 
 #: Preferences.java:412
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
