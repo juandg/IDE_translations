@@ -67,9 +67,6 @@ msgstr "لا تحفظ"
 
 There you see the file Editor.java within the Arduino's IDE source code includes the sentence "Don't Save", that translates to the expression after 'msgstr' in Arabic.
 
-Credits
--------
-
 How the PO files are generated
 ------------------------------
 
@@ -102,6 +99,9 @@ http://arduino.cc/playground/Main/LanguagesIDE
 
 5) once you are done with the translation, you have to inform via email that you are done. If you didn't do so, the rest of the translators wouldn't know your file is ready to be part of the next Arduino release
 
+
+Credits
+-------
 
 This is a list of contributors that have released *.po files ordered by language:
 
