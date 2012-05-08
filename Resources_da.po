@@ -205,7 +205,7 @@ msgstr "Kopier"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
-msgstr "Kopier for Forum"do
+msgstr "Kopier for Forum"
 
 #: Editor.java:1163 Editor.java:2676
 msgid "Copy as HTML"
