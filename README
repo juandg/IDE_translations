@@ -65,23 +65,7 @@ An example of one of those blocks would be:
 msgid "Don't Save"
 msgstr "لا تحفظ"
 
-There you see the file Editor.java within the Arduino's IDE sourc
-1) you should subscribe to the translations@arduino.cc email list. Just follow this URL and fill in your details:
-
-http://arduino.cc/mailman/listinfo/translations_arduino.cc
-
-2) in that list you should check whether there is people working with that translation. Usually we make a note about this at:
-
-http://arduino.cc/playground/Main/LanguagesIDE
-
-3) if nobody is working with that translation, you should take one of the existing *.po files, like e.g. the Spanish one, and start translating the strings.
-
-4) it is a tedious process, there are over 300 strings to be translated. You are welcome to use github as a way to push your contributions into the system via 'pull requests'. But don't worry, if you don't know how to do that, just email your files to the translation email list.
-
-5) once you are done with the translation, you have to inform via email that you are done. If you didn't do so, the rest of the translators wouldn't know your file is ready to be part of the next Arduino release
-
-Credits
--------e code includes the sentence "Don't Save", that translates to the expression after 'msgstr' in Arabic.
+There you see the file Editor.java within the Arduino's IDE source code includes the sentence "Don't Save", that translates to the expression after 'msgstr' in Arabic.
 
 How the PO files are generated
 ------------------------------
@@ -101,6 +85,23 @@ The translations are a community contribution. They allow using Arduino's IDE ba
 
 If you want to contribute this is the way to do it:
 
+1) you should subscribe to the translations@arduino.cc email list. Just follow this URL and fill in your details:
+
+http://arduino.cc/mailman/listinfo/translations_arduino.cc
+
+2) in that list you should check whether there is people working with that translation. Usually we make a note about this at:
+
+http://arduino.cc/playground/Main/LanguagesIDE
+
+3) if nobody is working with that translation, you should take one of the existing *.po files, like e.g. the Spanish one, and start translating the strings.
+
+4) it is a tedious process, there are over 300 strings to be translated. You are welcome to use github as a way to push your contributions into the system via 'pull requests'. But don't worry, if you don't know how to do that, just email your files to the translation email list.
+
+5) once you are done with the translation, you have to inform via email that you are done. If you didn't do so, the rest of the translators wouldn't know your file is ready to be part of the next Arduino release
+
+
+Credits
+-------
 
 This is a list of contributors that have released *.po files ordered by language:
 
