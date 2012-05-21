@@ -1488,7 +1488,7 @@ msgstr "Selecteer nieuwe sketchbook-locatie"
 
 #: Preferences.java:276
 msgid "Editor font size: "
-msgstr "Lettertype voor editor: "
+msgstr "Lettertype grootte voor de editor: "
 
 #: Preferences.java:280
 msgid "  (requires restart of Arduino)"
@@ -1537,4 +1537,4 @@ msgstr "(alleen bewerken als Arduino niet wordt uitgevoerd)"
 #: Preferences.java:532
 #, java-format
 msgid "ignoring invalid font size {0}"
-msgstr "verkeerde lettergroote {0} wordt genegeerd"
+msgstr "foutieve lettergrootte {0} wordt genegeerd"
