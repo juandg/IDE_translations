@@ -40,7 +40,7 @@ msgstr "جدید"
 
 #: Editor.java:494 Base.java:903
 msgid "Open..."
-msgstr "باز کردن...."
+msgstr "بازکردن...."
 
 #: Editor.java:503
 msgid "Sketchbook"
@@ -52,7 +52,7 @@ msgstr "نمونه‌ها"
 
 #: Editor.java:514 Editor.java:1977
 msgid "Close"
-msgstr "یستن"
+msgstr "بستن"
 
 #: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
 #: EditorToolbar.java:46
@@ -61,7 +61,7 @@ msgstr "ذخیره"
 
 #: Editor.java:530
 msgid "Save As..."
-msgstr "ذخیره به عنوان...."
+msgstr "ذخیره به‌عنوان...."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
@@ -197,7 +197,7 @@ msgstr "انجام دوباره"
 
 #: Editor.java:1135 Editor.java:2652
 msgid "Cut"
-msgstr "بریدن"
+msgstr "برش"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
@@ -213,7 +213,7 @@ msgstr "رونوشت به عنوان اچ‌تی‌ام‌ال"
 
 #: Editor.java:1175 Editor.java:2684
 msgid "Paste"
-msgstr "الساق"
+msgstr "چسپاندن"
 
 #: Editor.java:1184 Editor.java:2692
 msgid "Select All"
@@ -386,11 +386,11 @@ msgstr "بارگذاری ابطال گشت."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
-msgstr "ذخیرهٔ تغییرات پیش از خارج‌سازی؟"
+msgstr "ذخیرهٔ تغییرات پیش از برون‌ریزی؟"
 
 #: Editor.java:2435
 msgid "Export canceled, changes must first be saved."
-msgstr "خارج‌سازی فسخ‌گردید، تغییرات ابتدا می‌بایست ذخیره گردند."
+msgstr "برون‌بری فسخ‌گردید، تغییرات ابتدا می‌بایست ذخیره گردند."
 
 #: Editor.java:2457
 msgid "Burning bootloader to I/O Board (this may take a minute)..."
@@ -483,7 +483,7 @@ msgstr "جایگزینی"
 
 #: FindReplace.java:122 FindReplace.java:129
 msgid "Replace & Find"
-msgstr "جایگزینی و یافتن"
+msgstr "جایگزینی و جستجو"
 
 #: FindReplace.java:123 FindReplace.java:128
 msgid "Previous"
@@ -491,7 +491,7 @@ msgstr "قبلی"
 
 #: FindReplace.java:124 FindReplace.java:127
 msgid "Find"
-msgstr "یافتن"
+msgstr "جستجو"
 
 #: SerialMonitor.java:93
 msgid "Send"
@@ -1537,7 +1537,7 @@ msgstr "اندازهٔ قلم ویرایشگر"
 
 #: Preferences.java:354 Preferences.java:442
 msgid "  (requires restart of Arduino)"
-msgstr "  (نیازمند بازگشایی مجدد نمودن اردئینو)"
+msgstr "  (نیازمند بازگشایی مجدد آردئینو است)"
 
 #: Preferences.java:367
 msgid "Show verbose output during: "
