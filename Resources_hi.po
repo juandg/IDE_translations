@@ -80,7 +80,7 @@ msgstr "पृष्ठ सेटअप"
 msgid "Print"
 msgstr "प्रिंट"
 
-#: Editor.java:576 Preferences.java:279
+#: Editor.java:576 Preferences.java:287
 msgid "Preferences"
 msgstr "प्राथमिकताएं"
 
@@ -262,7 +262,7 @@ msgstr "\"{0}\" के लिये कोई सन्दर्भ उपलब
 msgid "{0}.html"
 msgstr "{0}.html"
 
-#: Editor.java:1843 Sketch.java:1647
+#: Editor.java:1843 Sketch.java:1612
 msgid "Compiling sketch..."
 msgstr "स्केच को कम्पाइल किया जा रहा है ...."
 
@@ -330,7 +330,7 @@ msgstr "गतिशील"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:240
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
 msgid "Error"
 msgstr "त्रुटि"
 
@@ -526,7 +526,19 @@ msgstr "दोनों  NL और CR"
 msgid " baud"
 msgstr "बौड"
 
-#: Serial.java:147
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr ""
+
+#: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
@@ -535,12 +547,12 @@ msgstr ""
 "सीरियल पोर्ट  ''{0}'' पहले ही इस्तेमाल में .कोशिश कीजिये उन सॉफ्टवेर को बंद करने \n "
 "की जो इस सीरियल पोर्ट को इस्तेमाल कर रहे हों"
 
-#: Serial.java:154
+#: Serial.java:180
 #, java-format
 msgid "Error opening serial port ''{0}''."
 msgstr "सीरियल पोर्ट खुल नहीं प् रहा ''{0}''."
 
-#: Serial.java:167
+#: Serial.java:193
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
@@ -549,7 +561,7 @@ msgstr ""
 "सीरियल पोर्ट  ''{0}'' नहीं मिला. क्या अपने सही सीरियल पोर्ट चुना है टूल्स > "
 "सीरियल पोर्ट मेनू में से ?"
 
-#: Serial.java:424
+#: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
@@ -558,7 +570,7 @@ msgstr ""
 "readBytesUntil() byte बुफ्फेर काफी छोटा है की यह  {0} bytes आ जायें  और  "
 "including char {1}"
 
-#: Serial.java:567
+#: Serial.java:592
 #, java-format
 msgid "Error inside Serial.{0}()"
 msgstr "सीरियल  के अन्दर त्रुटी {0}()"
@@ -875,52 +887,52 @@ msgstr ""
 msgid "Could not add ''{0}'' to the sketch."
 msgstr "यह  ''{0}'' स्केत्च में जोड़ा नहीं जा सका "
 
-#: Sketch.java:1393 Sketch.java:1424
+#: Sketch.java:1396 Sketch.java:1427
 msgid "Build folder disappeared or could not be written"
 msgstr "बिल्ड पुस्तिका गायब हो गयी या उसमे प्रवेश निषेधात्मक है "
 
-#: Sketch.java:1408
+#: Sketch.java:1411
 msgid "Could not find main class"
 msgstr "मेन क्लास को खोज नहीं पाये "
 
-#: Sketch.java:1433
+#: Sketch.java:1436
 #, java-format
 msgid "Uncaught exception type: {0}"
 msgstr "नहीं पकड़ा जा सकने वाला अपवाद: {0}"
 
-#: Sketch.java:1465
+#: Sketch.java:1468
 #, java-format
 msgid "Problem moving {0} to the build folder"
 msgstr "{०} को बिल्ड पुस्तिका में डालने में समस्या "
 
-#: Sketch.java:1661
+#: Sketch.java:1626
 msgid "Uploading..."
 msgstr "अपलोड हो रहा है ....."
 
-#: Sketch.java:1684
+#: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
 msgstr "बाईनरी  स्केत्च आकार: {0} बाईटस (जिसमे {1} अधिकतम )"
 
-#: Sketch.java:1689
+#: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
 msgstr "कार्य क्रम का आकार नहीं जान पाया गया {}0"
 
-#: Sketch.java:1694
+#: Sketch.java:1659
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr "स्केत्च बहुत बड़ी है -> http://www.arduino.cc/en/Guide/Troubleshooting#size देखिये इसे छोटा करने के उपाए के लिए "
 
-#: Sketch.java:1754
+#: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
 msgstr "*/ खो गया /* के अंत तक "
 
-#: Sketch.java:1796
+#: Sketch.java:1761
 msgid "Sketch Disappeared"
 msgstr "स्केत्च खो गयी "
 
-#: Sketch.java:1797
+#: Sketch.java:1762
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
@@ -930,11 +942,11 @@ msgstr ""
 "पर फिर भी उसी जगह पे सेव करने की कोशिश होगी "
 "अन्यथा कोड खो जायगा "
 
-#: Sketch.java:1810
+#: Sketch.java:1775
 msgid "Could not re-save sketch"
 msgstr "आपकी स्केत्च री-सेव नहीं हो पाई है "
 
-#: Sketch.java:1811
+#: Sketch.java:1776
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
@@ -942,7 +954,7 @@ msgstr ""
 "आपकी स्केत्च री-सेव नहीं हो पाई है, हो सकता है आप परेशानी में पढ़ जायें "
 "इस्सलिये अपना कोड कॉपी और पेस्ट कीजिये किसी और जगह "
 
-#: Sketch.java:2060
+#: Sketch.java:2025
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
@@ -951,6 +963,17 @@ msgstr ""
 "स्केत्च का नाम बदलना होगा ,स्केत्च के नाम में \n"
 "सिर्फ अक्षर और अंकों का इस्तेमाल कीजिये \n"
 "और यह भी ध्यान रखें की 64 अक्षर से ज्यादा ना हो "
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr ""
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
+msgstr ""
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -961,26 +984,26 @@ msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 msgid "Compiler error, please submit this code to {0}"
 msgstr "संकलक त्रुटि {0} इस कोड को भेजें"
 
-#: debug/Uploader.java:199
+#: debug/Uploader.java:209
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr "चुना गया सीरियल पोर्ट {0} मौजूद नहीं है या बोर्ड नहीं जुड़ा हुआ है"
 
-#: debug/Uploader.java:203
+#: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr "डिवाइस जवाब नही दे रहा है, जांच लीजिये कि सही सीरियल पोर्ट का चयन किया है या बोर्ड को एक्सपोर्ट करने से पहले रीसेट कीजिये"
 
-#: debug/Uploader.java:209
+#: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr "बोर्ड मे अपलोड करने मे समस्या, सुझाव के लिये http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload देखेँ"
 
-#: debug/Uploader.java:213
+#: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
@@ -990,24 +1013,24 @@ msgstr "गलत माइक्रोकंट्रोलर मिला| �
 msgid "http://code.google.com/p/arduino/issues/list"
 msgstr "http://code.google.com/p/arduino/issues/list"
 
-#: debug/Compiler.java:79
+#: debug/Compiler.java:81
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr "कोई बोर्ड चयनित नही, उपकरण से एक बोर्ड का चयन करें> बोर्ड मेनू"
 
-#: debug/Compiler.java:422
+#: debug/Compiler.java:425
 #, java-format
 msgid "{0} returned {1}"
 msgstr "{0} लौटाया {1} "
 
-#: debug/Compiler.java:426
+#: debug/Compiler.java:429
 msgid "Error compiling."
 msgstr "संकलन त्रुटि"
 
-#: debug/Compiler.java:465
+#: debug/Compiler.java:468
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr "स्केच से एस पी आई लायब्रेरी का आयात करें"
 
-#: debug/Compiler.java:466
+#: debug/Compiler.java:469
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
@@ -1020,11 +1043,11 @@ msgstr ""
 "आप यह अथवा दूसरी लायब्रेरी  उपयोग करते हुए दिखाई दे रहे हैं जो एस पी आई पर निर्भर करती है "
 "\n"
 
-#: debug/Compiler.java:471
+#: debug/Compiler.java:474
 msgid "The 'BYTE' keyword is no longer supported."
 msgstr "'बाइट' कीवर्ड अब समर्थित नहीं है"
 
-#: debug/Compiler.java:472
+#: debug/Compiler.java:475
 msgid ""
 "\n"
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
@@ -1032,11 +1055,11 @@ msgid ""
 "\n"
 msgstr "कृपया  Serial.write() का उपयोग करें"
 
-#: debug/Compiler.java:477
+#: debug/Compiler.java:480
 msgid "The Server class has been renamed EthernetServer."
 msgstr "सर्वर वर्ग का पुनः नामकरण ईथरनेटसर्वर किया गया है"
 
-#: debug/Compiler.java:478
+#: debug/Compiler.java:481
 msgid ""
 "\n"
 "As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
@@ -1044,11 +1067,11 @@ msgid ""
 "\n"
 msgstr "आर्दुइनो एक तक, ईथरनेट  लायब्रेरी मे सर्वर वर्ग का पुनः नामकरण ईथरनेटसर्वर किया गया है"
 
-#: debug/Compiler.java:483
+#: debug/Compiler.java:486
 msgid "The Client class has been renamed EthernetClient."
 msgstr "क्लाइंट क्लास का नामकरण ईथरनेट क्लाइंट हो गया है"
 
-#: debug/Compiler.java:484
+#: debug/Compiler.java:487
 msgid ""
 "\n"
 "As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
@@ -1056,11 +1079,11 @@ msgid ""
 "\n"
 msgstr "आर्दुइनो 1.0 से, ईथरनेट  लायब्रेरी की क्लाइंट क्लास का नामकरण ईथरनेट क्लाइंट हो गया है"
 
-#: debug/Compiler.java:489
+#: debug/Compiler.java:492
 msgid "The Udp class has been renamed EthernetUdp."
 msgstr "यूडीपी क्लास का नामकरण ईथरनेट यूडीपी हो गया है"
 
-#: debug/Compiler.java:490
+#: debug/Compiler.java:493
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
@@ -1068,11 +1091,11 @@ msgid ""
 "\n"
 msgstr "आर्दुइनो 1.0 से, ईथरनेट  लायब्रेरी की यूडीपी क्लास का नामकरण ईथरनेट यूडीपी हो गया है"
 
-#: debug/Compiler.java:495
+#: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
 msgstr "Wire.send() का नामकरण Wire.write() हो गया है"
 
-#: debug/Compiler.java:496
+#: debug/Compiler.java:499
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
@@ -1080,17 +1103,25 @@ msgid ""
 "\n"
 msgstr "आर्दुइनो 1.0 से, Wire.send() फ़ंक्शन का नामकरण Wire.write() दूसरी लायब्रेरीज़ के साथ स्थिरता के लिये किया गया था"
 
-#: debug/Compiler.java:501
+#: debug/Compiler.java:504
 msgid "Wire.receive() has been renamed Wire.read()."
 msgstr "Wire.receive() का नामकरण Wire.read() हो गया है"
 
-#: debug/Compiler.java:502
+#: debug/Compiler.java:505
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
 "for consistency with other libraries.\n"
 "\n"
 msgstr "आर्दुइनो 1.0 से, Wire.receive() फ़ंक्शन का नामकरण Wire.read() दूसरी लायब्रेरीज़ के साथ स्थिरता के लिये किया गया था"
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr ""
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
+msgstr ""
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1441,11 +1472,11 @@ msgid "Estonian"
 msgstr ""
 
 #: Preferences.java:93
-msgid "French"
+msgid "Filipino"
 msgstr ""
 
 #: Preferences.java:94
-msgid "Filipino"
+msgid "French"
 msgstr ""
 
 #: Preferences.java:95
@@ -1461,58 +1492,74 @@ msgid "Greek"
 msgstr ""
 
 #: Preferences.java:98
-msgid "Hungarian"
+msgid "Hindi"
 msgstr ""
 
 #: Preferences.java:99
-msgid "Indonesian"
+msgid "Hungarian"
 msgstr ""
 
 #: Preferences.java:100
-msgid "Italian"
+msgid "Indonesian"
 msgstr ""
 
 #: Preferences.java:101
-msgid "Japanese"
+msgid "Italian"
 msgstr ""
 
 #: Preferences.java:102
-msgid "Korean"
+msgid "Japanese"
 msgstr ""
 
 #: Preferences.java:103
-msgid "Latvian"
+msgid "Korean"
 msgstr ""
 
 #: Preferences.java:104
-msgid "Lithuaninan"
+msgid "Latvian"
 msgstr ""
 
 #: Preferences.java:105
-msgid "Persian"
+msgid "Lithuaninan"
 msgstr ""
 
 #: Preferences.java:106
-msgid "Polish"
+msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:107 Preferences.java:108
-msgid "Portuguese"
+#: Preferences.java:107
+msgid "Norwegian"
+msgstr ""
+
+#: Preferences.java:108
+msgid "Persian"
 msgstr ""
 
 #: Preferences.java:109
+msgid "Polish"
+msgstr ""
+
+#: Preferences.java:110 Preferences.java:111
+msgid "Portuguese"
+msgstr ""
+
+#: Preferences.java:112
 msgid "Romanian"
 msgstr ""
 
-#: Preferences.java:110
+#: Preferences.java:113
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:111
+#: Preferences.java:114
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:210
+#: Preferences.java:115
+msgid "Tamil"
+msgstr ""
+
+#: Preferences.java:218
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1520,16 +1567,16 @@ msgstr ""
 "डिफौल्ट सेत्तिंग्स स्तापित  नहीं हो सकी \n"
 "अर्दुइनो फिर से इन्स्टाल कीजिये"
 
-#: Preferences.java:242
+#: Preferences.java:250
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "{०} से प्रेफेरेंसस पढ़ी नहीं जा सकी "
 
-#: Preferences.java:261
+#: Preferences.java:269
 msgid "Error reading preferences"
 msgstr "प्रेफेरेंसस पढने में त्रुटी "
 
-#: Preferences.java:263
+#: Preferences.java:271
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1538,67 +1585,67 @@ msgstr ""
 "प्रेफेरेंसस पढने में त्रुटी ,कृप्या \n"
 "{0} को मिटायें या हटायें और अर्दुइनो पुन्हें चालू करें "
 
-#: Preferences.java:299
+#: Preferences.java:307
 msgid "Sketchbook location:"
 msgstr "स्केत्च  किताब का स्थान "
 
-#: Preferences.java:314
+#: Preferences.java:322
 msgid "Select new sketchbook location"
 msgstr "स्केत्च किताब की नयी जगह चुनिए "
 
-#: Preferences.java:337
+#: Preferences.java:345
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:342 Preferences.java:358
+#: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
 msgstr "अर्दुइनो को फिर से चालू करें "
 
-#: Preferences.java:354
+#: Preferences.java:362
 msgid "Editor font size: "
 msgstr "एडिटर फॉण्ट साइज़:"
 
-#: Preferences.java:371
+#: Preferences.java:379
 msgid "Show verbose output during: "
 msgstr "वाचाल आउट पुट दिखाएं:"
 
-#: Preferences.java:373
+#: Preferences.java:381
 msgid "compilation "
 msgstr "संकलन "
 
-#: Preferences.java:375
+#: Preferences.java:383
 msgid "upload"
 msgstr "उपलोड "
 
-#: Preferences.java:384
+#: Preferences.java:392
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:393
+#: Preferences.java:401
 msgid "Use external editor"
 msgstr "बाहरी एडिटर इस्तेमाल करें "
 
-#: Preferences.java:403
+#: Preferences.java:411
 msgid "Check for updates on startup"
 msgstr "शुरुआत  में अद्यतन के लिए जांचें "
 
-#: Preferences.java:412
+#: Preferences.java:420
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "स्केत्च फिल्स को पुराने एक्ष्तेन्सिओन  से नए में  अपडेट कीजिये(.pde -> .ino)"
 
-#: Preferences.java:423
+#: Preferences.java:431
 msgid "Automatically associate .ino files with Arduino"
 msgstr "स्वत: .INO फाइल का सहयोगी अर्दुइनो को बनाये "
 
-#: Preferences.java:433
+#: Preferences.java:441
 msgid "More preferences can be edited directly in the file"
 msgstr "और बोहोत सी प्रेफेरेंसस सीधा फाइल में सम्पादित  की जा सकती हैं "
 
-#: Preferences.java:462
+#: Preferences.java:470
 msgid "(edit only when Arduino is not running)"
 msgstr "(तभी सम्पादित करें जब अर्दुइनो चल न रहा हो)"
 
-#: Preferences.java:609
+#: Preferences.java:617
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "अवैध फॉण्ट आकार को नज़रंदाज़ करें "

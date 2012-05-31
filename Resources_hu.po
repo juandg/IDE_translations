@@ -79,7 +79,7 @@ msgstr "Oldalbeállítás"
 msgid "Print"
 msgstr "Nyomtatás"
 
-#: Editor.java:576 Preferences.java:263
+#: Editor.java:576 Preferences.java:287
 msgid "Preferences"
 msgstr "Beállítások"
 
@@ -261,7 +261,7 @@ msgstr "Referencia nem található a {0} bejegyzéshez"
 msgid "{0}.html"
 msgstr "{0}.html"
 
-#: Editor.java:1843 Sketch.java:1647
+#: Editor.java:1843 Sketch.java:1612
 msgid "Compiling sketch..."
 msgstr "Sketch fordítása..."
 
@@ -328,7 +328,7 @@ msgstr "Átmozgatás"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:224
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
 msgid "Error"
 msgstr "Hiba"
 
@@ -524,7 +524,19 @@ msgstr "Soremelés és Kocsi-vissza"
 msgid " baud"
 msgstr " baud"
 
-#: Serial.java:147
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr ""
+
+#: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
@@ -533,12 +545,12 @@ msgstr ""
 "A {0} soros port használatban van. A programból való"
 "kilépés után próbálja újra."
 
-#: Serial.java:154
+#: Serial.java:180
 #, java-format
 msgid "Error opening serial port ''{0}''."
 msgstr "Hiba a {0} soros port megnyitása során."
 
-#: Serial.java:167
+#: Serial.java:193
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
@@ -547,7 +559,7 @@ msgstr ""
 "A {0} soros port nem található. Választani az Eszközök > "
 "Soros port alatt lehetséges."
 
-#: Serial.java:424
+#: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
@@ -556,7 +568,7 @@ msgstr ""
 "readBytesUntil() byte buffer túl kicsi {0} byte befogadására "
 "és ideértve a {1} karaktert"
 
-#: Serial.java:567
+#: Serial.java:592
 #, java-format
 msgid "Error inside Serial.{0}()"
 msgstr "Hiba a Serial.{0}()-ban"
@@ -878,52 +890,52 @@ msgstr ""
 msgid "Could not add ''{0}'' to the sketch."
 msgstr "A {0} nem adható hozzá a Sketch-hez."
 
-#: Sketch.java:1393 Sketch.java:1424
+#: Sketch.java:1396 Sketch.java:1427
 msgid "Build folder disappeared or could not be written"
 msgstr "A fordítási mappa elérhetetlen vagy írásvédett."
 
-#: Sketch.java:1408
+#: Sketch.java:1411
 msgid "Could not find main class"
 msgstr "A fő programosztály (main class) nem található"
 
-#: Sketch.java:1433
+#: Sketch.java:1436
 #, java-format
 msgid "Uncaught exception type: {0}"
 msgstr "Hibás kivétel típus: {0}"
 
-#: Sketch.java:1465
+#: Sketch.java:1468
 #, java-format
 msgid "Problem moving {0} to the build folder"
 msgstr "Hiba a {0} fordítási mappába mozgatása során"
 
-#: Sketch.java:1661
+#: Sketch.java:1626
 msgid "Uploading..."
 msgstr "Feltöltés..."
 
-#: Sketch.java:1684
+#: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
 msgstr "Sketch mérete: {0} byte (maximálisan lehetséges: {1} byte)"
 
-#: Sketch.java:1689
+#: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
 msgstr "Nem meghatározható a {0} program mérete"
 
-#: Sketch.java:1694
+#: Sketch.java:1659
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr "Túl nagy a Sketch: méret csökkentéséhez a http://www.arduino.cc/en/Guide/Troubleshooting#size oldalon találhatóak tippek."
 
-#: Sketch.java:1754
+#: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
 msgstr "Hiányzik a megjegyzést záró */ jel"
 
-#: Sketch.java:1796
+#: Sketch.java:1761
 msgid "Sketch Disappeared"
 msgstr "A Sketch elveszett"
 
-#: Sketch.java:1797
+#: Sketch.java:1762
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
@@ -933,11 +945,11 @@ msgstr ""
 "A Sketch újramentésre kerül,\n"
 "a kód egyes részei megsemmisülhettek."
 
-#: Sketch.java:1810
+#: Sketch.java:1775
 msgid "Could not re-save sketch"
 msgstr "Nem lehetséges a Sketch újramentése"
 
-#: Sketch.java:1811
+#: Sketch.java:1776
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
@@ -945,7 +957,7 @@ msgstr ""
 "Tökéletesen nem lehetséges a Sketch újramentése. A megoldás jelen helyzetben, hogy\n"
 "a szerkesztőből a kódot kimásolja egy másik szerkesztőprogramba."
 
-#: Sketch.java:2060
+#: Sketch.java:2025
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
@@ -954,6 +966,17 @@ msgstr ""
 "A Sketch neve módosításra került. Az elnevezése csak\n"
 "ASCII betűket, számokat tartalmazhat (de nem kezdődhet számmal).\n"
 "Valamint a név hossza nem haladhatja meg a 64 karaktert."
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr ""
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
+msgstr ""
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -964,13 +987,13 @@ msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 msgid "Compiler error, please submit this code to {0}"
 msgstr "Fordítási hiba, ezt a kódot kérem küldje el a {0} címre"
 
-#: debug/Uploader.java:199
+#: debug/Uploader.java:209
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr "kiválasztott {0} port nem elérhető vagy az alappanel nincs csatlakoztatva"
 
-#: debug/Uploader.java:203
+#: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
@@ -978,7 +1001,7 @@ msgstr ""
 "Eszköz nem válaszol: talán hibás port lett kiválasztva, vagy a panel"
 "újraindítása szükséges exportálás előtt"
 
-#: debug/Uploader.java:209
+#: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
@@ -986,7 +1009,7 @@ msgstr ""
 "Hiba a feltöltés során. A hiba elhárítása a "
 "http://www.arduino.cc/en/Guide/ oldalon a Troubleshooting#upload alatt került leírásra."
 
-#: debug/Uploader.java:213
+#: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
@@ -998,24 +1021,24 @@ msgstr ""
 msgid "http://code.google.com/p/arduino/issues/list"
 msgstr "http://code.google.com/p/arduino/issues/list"
 
-#: debug/Compiler.java:79
+#: debug/Compiler.java:81
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr "Nincs alappanel kiválasztva. Választani az Eszközök > Alappanel menüből lehet."
 
-#: debug/Compiler.java:422
+#: debug/Compiler.java:425
 #, java-format
 msgid "{0} returned {1}"
 msgstr "{0} eredménye {1}"
 
-#: debug/Compiler.java:426
+#: debug/Compiler.java:429
 msgid "Error compiling."
 msgstr "Hiba a fordítás során."
 
-#: debug/Compiler.java:465
+#: debug/Compiler.java:468
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr "Az SPI függvények használatához a Sketch > Függvény import alatt az SPI-re van szüksége."
 
-#: debug/Compiler.java:466
+#: debug/Compiler.java:469
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
@@ -1028,11 +1051,11 @@ msgstr ""
 "Ez így használható, vagy másik függvény alkalmazható az SPI kezelésére.\n"
 "\n"
 
-#: debug/Compiler.java:471
+#: debug/Compiler.java:474
 msgid "The 'BYTE' keyword is no longer supported."
 msgstr "A 'BYTE' kulcsszó nem támogatott."
 
-#: debug/Compiler.java:472
+#: debug/Compiler.java:475
 msgid ""
 "\n"
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
@@ -1044,11 +1067,11 @@ msgstr ""
 "Helyette a Serial.write() használható.\n"
 "\n"
 
-#: debug/Compiler.java:477
+#: debug/Compiler.java:480
 msgid "The Server class has been renamed EthernetServer."
 msgstr "A Server függvényosztály EthernetServer névre hallgat."
 
-#: debug/Compiler.java:478
+#: debug/Compiler.java:481
 msgid ""
 "\n"
 "As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
@@ -1059,11 +1082,11 @@ msgstr ""
 "Az Arduino 1.0-ban, az Ethernet függvény Server osztálya EthernetServer-re változott.\n"
 "\n"
 
-#: debug/Compiler.java:483
+#: debug/Compiler.java:486
 msgid "The Client class has been renamed EthernetClient."
 msgstr "A Client osztály új neve: EthernetClient"
 
-#: debug/Compiler.java:484
+#: debug/Compiler.java:487
 msgid ""
 "\n"
 "As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
@@ -1074,11 +1097,11 @@ msgstr ""
 "Az Arduino 1.0-ban az Ethernet függvény Client osztály új neve: EthernetClient.\n"
 "\n"
 
-#: debug/Compiler.java:489
+#: debug/Compiler.java:492
 msgid "The Udp class has been renamed EthernetUdp."
 msgstr "Az Udp osztály új neve: EthernetUdp."
 
-#: debug/Compiler.java:490
+#: debug/Compiler.java:493
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
@@ -1089,11 +1112,11 @@ msgstr ""
 "Az Arduino 1.0-ban az Ethernet függvény Udp osztály új neve: EthernetUdp.\n"
 "\n"
 
-#: debug/Compiler.java:495
+#: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
 msgstr "A Wire.send() új neve: Wire.write()."
 
-#: debug/Compiler.java:496
+#: debug/Compiler.java:499
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
@@ -1104,11 +1127,11 @@ msgstr ""
 "Az Arduino 1.0-ban a Wire.send() funkció ún neve: Wire.write(), az egyéb függvényekkel analóg módon.\n"
 "\n"
 
-#: debug/Compiler.java:501
+#: debug/Compiler.java:504
 msgid "Wire.receive() has been renamed Wire.read()."
 msgstr "A Wire.receive() új neve: Wire.read()."
 
-#: debug/Compiler.java:502
+#: debug/Compiler.java:505
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
@@ -1118,6 +1141,14 @@ msgstr ""
 "\n"
 "Az Arduino 1.0-ban a Wire.receive() funkció ún neve: Wire.read(), az egyéb függvényekkel analóg módon.\n"
 "\n"
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr ""
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
+msgstr ""
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1447,86 +1478,130 @@ msgid "System Default"
 msgstr ""
 
 #: Preferences.java:84
+msgid "Arabic"
+msgstr ""
+
+#: Preferences.java:85
+msgid "Aragonese"
+msgstr ""
+
+#: Preferences.java:86
 msgid "Catalan"
 msgstr "Katalán"
 
-#: Preferences.java:85
+#: Preferences.java:87
 msgid "Chinese Simplified"
 msgstr "Egyszerüsített kínai"
 
-#: Preferences.java:86
+#: Preferences.java:88
 msgid "Chinese Traditional"
 msgstr ""
 
-#: Preferences.java:87
+#: Preferences.java:89
 msgid "Danish"
 msgstr "Dán"
 
-#: Preferences.java:88
+#: Preferences.java:90
 msgid "Dutch"
 msgstr "Holland"
 
-#: Preferences.java:89
+#: Preferences.java:91
 msgid "English"
 msgstr "Angol"
 
-#: Preferences.java:90
-msgid "French"
-msgstr "Francia"
+#: Preferences.java:92
+msgid "Estonian"
+msgstr ""
 
-#: Preferences.java:91
+#: Preferences.java:93
 msgid "Filipino"
 msgstr "Fülöp-szigetek"
 
-#: Preferences.java:92
+#: Preferences.java:94
+msgid "French"
+msgstr "Francia"
+
+#: Preferences.java:95
 msgid "Galician"
 msgstr "Gall"
 
-#: Preferences.java:93
+#: Preferences.java:96
 msgid "German"
 msgstr "Német"
 
-#: Preferences.java:94
+#: Preferences.java:97
 msgid "Greek"
 msgstr "Görög"
 
-#: Preferences.java:95
+#: Preferences.java:98
+msgid "Hindi"
+msgstr ""
+
+#: Preferences.java:99
 msgid "Hungarian"
 msgstr "Magyar"
 
-#: Preferences.java:96
-msgid "Italian"
-msgstr "Olasz"
-
-#: Preferences.java:97
-msgid "Japanese"
-msgstr "Japán"
-
-#: Preferences.java:98
-msgid "Latvian"
-msgstr "Lett"
-
-#: Preferences.java:99
-msgid "Persian"
-msgstr "Perzsa"
-
 #: Preferences.java:100
-msgid "Portuguese"
+msgid "Indonesian"
 msgstr ""
 
 #: Preferences.java:101
+msgid "Italian"
+msgstr "Olasz"
+
+#: Preferences.java:102
+msgid "Japanese"
+msgstr "Japán"
+
+#: Preferences.java:103
+msgid "Korean"
+msgstr ""
+
+#: Preferences.java:104
+msgid "Latvian"
+msgstr "Lett"
+
+#: Preferences.java:105
+msgid "Lithuaninan"
+msgstr ""
+
+#: Preferences.java:106
+msgid "Marathi"
+msgstr ""
+
+#: Preferences.java:107
+msgid "Norwegian"
+msgstr ""
+
+#: Preferences.java:108
+msgid "Persian"
+msgstr "Perzsa"
+
+#: Preferences.java:109
+msgid "Polish"
+msgstr ""
+
+#: Preferences.java:110 Preferences.java:111
+msgid "Portuguese"
+msgstr ""
+
+#: Preferences.java:112
 msgid "Romanian"
 msgstr "Román"
 
-#: Preferences.java:102
+#: Preferences.java:113
 msgid "Russian"
 msgstr "Orosz"
 
-#: Preferences.java:103
+#: Preferences.java:114
 msgid "Spanish"
 msgstr "Spanyol"
 
-#: Preferences.java:194
+#: Preferences.java:115
+msgid "Tamil"
+msgstr ""
+
+#: Preferences.java:218
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1534,16 +1609,16 @@ msgstr ""
 "Az alapértelezett beállítások nem olvashatóak\n"
 "Az Arduino újratelepítése szükséges."
 
-#: Preferences.java:226
+#: Preferences.java:250
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "A beállítások nem olvashatóak: {0}"
 
-#: Preferences.java:245
+#: Preferences.java:269
 msgid "Error reading preferences"
 msgstr "Alapbeállítások olvasása közben hiba lépett fel"
 
-#: Preferences.java:247
+#: Preferences.java:271
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1552,67 +1627,67 @@ msgstr ""
 "Hiba a beállítások olvasása során. Kérem törölje (vagy mozgassa el) a\n"
 "{0} file-t és indítsa újra az Arduino-t!"
 
-#: Preferences.java:283
+#: Preferences.java:307
 msgid "Sketchbook location:"
 msgstr "SketchBook helye:"
 
-#: Preferences.java:298
+#: Preferences.java:322
 msgid "Select new sketchbook location"
 msgstr "Válasszon új SketchBook mappát"
 
-#: Preferences.java:321
+#: Preferences.java:345
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:326 Preferences.java:342
+#: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
 msgstr "  (Arduino újraindítása szükséges)"
 
-#: Preferences.java:338
+#: Preferences.java:362
 msgid "Editor font size: "
 msgstr "Szerkesztő betűméret:"
 
-#: Preferences.java:355
+#: Preferences.java:379
 msgid "Show verbose output during: "
 msgstr "Log mutatása:"
 
-#: Preferences.java:357
+#: Preferences.java:381
 msgid "compilation "
 msgstr "fordításkor "
 
-#: Preferences.java:359
+#: Preferences.java:383
 msgid "upload"
 msgstr "feltöltéskor"
 
-#: Preferences.java:368
+#: Preferences.java:392
 msgid "Verify code after upload"
 msgstr "Kód ellenőrzés feltöltés után"
 
-#: Preferences.java:377
+#: Preferences.java:401
 msgid "Use external editor"
 msgstr "Külső szerkesztő használata"
 
-#: Preferences.java:387
+#: Preferences.java:411
 msgid "Check for updates on startup"
 msgstr "Újabb verzió ellenőrzése indításkor"
 
-#: Preferences.java:396
+#: Preferences.java:420
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Sketch frissítése az új kiterjesztéssel (.pde -> .ino)"
 
-#: Preferences.java:407
+#: Preferences.java:431
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Automatikus kiterjesztés-hozzárendelés: .ino->Arduino"
 
-#: Preferences.java:417
+#: Preferences.java:441
 msgid "More preferences can be edited directly in the file"
 msgstr "További számos beállítás elérhető a file közvetlen szerkesztésével"
 
-#: Preferences.java:446
+#: Preferences.java:470
 msgid "(edit only when Arduino is not running)"
 msgstr "(csak akkor szerkeszthető, ha az Arduino nem fut)"
 
-#: Preferences.java:593
+#: Preferences.java:617
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "hibás fontméret kihagyása: {0}"

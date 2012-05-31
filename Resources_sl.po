@@ -79,7 +79,7 @@ msgstr "Nastavitve strani"
 msgid "Print"
 msgstr "Tiskaj"
 
-#: Editor.java:576 Preferences.java:263
+#: Editor.java:576 Preferences.java:287
 msgid "Preferences"
 msgstr "Nastavitve"
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "{0}.html"
 msgstr ""
 
-#: Editor.java:1843 Sketch.java:1647
+#: Editor.java:1843 Sketch.java:1612
 msgid "Compiling sketch..."
 msgstr "Prevajam skico..."
 
@@ -320,7 +320,7 @@ msgstr ""
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:224
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
 msgid "Error"
 msgstr "Napaka"
 
@@ -513,33 +513,45 @@ msgstr ""
 msgid " baud"
 msgstr ""
 
-#: Serial.java:147
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr ""
+
+#: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
 
-#: Serial.java:154
+#: Serial.java:180
 #, java-format
 msgid "Error opening serial port ''{0}''."
 msgstr ""
 
-#: Serial.java:167
+#: Serial.java:193
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
 
-#: Serial.java:424
+#: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
 
-#: Serial.java:567
+#: Serial.java:592
 #, java-format
 msgid "Error inside Serial.{0}()"
 msgstr ""
@@ -832,38 +844,38 @@ msgstr ""
 msgid "Could not add ''{0}'' to the sketch."
 msgstr "Ne morem dodati ''{0}'' k skici."
 
-#: Sketch.java:1393 Sketch.java:1424
+#: Sketch.java:1396 Sketch.java:1427
 msgid "Build folder disappeared or could not be written"
 msgstr ""
 
-#: Sketch.java:1408
+#: Sketch.java:1411
 msgid "Could not find main class"
 msgstr ""
 
-#: Sketch.java:1433
+#: Sketch.java:1436
 #, java-format
 msgid "Uncaught exception type: {0}"
 msgstr "Neujeta izjema tipa: {0}"
 
-#: Sketch.java:1465
+#: Sketch.java:1468
 #, java-format
 msgid "Problem moving {0} to the build folder"
 msgstr "Problem pri premikanju {0} v mapo 'build'"
 
-#: Sketch.java:1661
+#: Sketch.java:1626
 msgid "Uploading..."
 msgstr "Nalagam..."
 
-#: Sketch.java:1684
+#: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
 msgstr "Velikost binarne skice: {0} bajtov (od {1} možnih bajtov)"
 
-#: Sketch.java:1689
+#: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
 msgstr "Velikosti programa ni bilo možno določiti: {0}"
 
-#: Sketch.java:1694
+#: Sketch.java:1659
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
@@ -871,15 +883,15 @@ msgstr ""
 "Prevelika slica; glej http://www.arduino.cc/en/Guide/Troubleshooting#size za "
 "nasvet glede zmanjšanja"
 
-#: Sketch.java:1754
+#: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
 msgstr "Manjka */ na koncu /* komentarja */"
 
-#: Sketch.java:1796
+#: Sketch.java:1761
 msgid "Sketch Disappeared"
 msgstr "Skica je izginila"
 
-#: Sketch.java:1797
+#: Sketch.java:1762
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
@@ -889,11 +901,11 @@ msgstr ""
 " Skico po ponovno shranjena na isto lokacijo,\n"
 "vendar vse razen programske kode bo izgubljeno."
 
-#: Sketch.java:1810
+#: Sketch.java:1775
 msgid "Could not re-save sketch"
 msgstr "Skice ni bilo možno ponovno shraniti"
 
-#: Sketch.java:1811
+#: Sketch.java:1776
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
@@ -902,7 +914,7 @@ msgstr ""
 "verjetno zdaj ravno pravi čas za kopiranje in lepljenje vaše kode v drug\n"
 "urejevalnik."
 
-#: Sketch.java:2060
+#: Sketch.java:2025
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
@@ -911,6 +923,17 @@ msgstr ""
 "Ime skice je bilo spremenjeno. Ime skice je lahko sestavljeno le\n"
 "iz znakov ASCII ter številk (vendar se ne sme začeti s številko).\n"
 "Ime mora tudi biti krajše od 64 znakov."
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr ""
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
+msgstr ""
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -921,25 +944,25 @@ msgstr ""
 msgid "Compiler error, please submit this code to {0}"
 msgstr "Napaka prevajalnika, prosim posreduj kodo {0}"
 
-#: debug/Uploader.java:199
+#: debug/Uploader.java:209
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
 
-#: debug/Uploader.java:203
+#: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
 
-#: debug/Uploader.java:209
+#: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
 
-#: debug/Uploader.java:213
+#: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
@@ -949,24 +972,24 @@ msgstr ""
 msgid "http://code.google.com/p/arduino/issues/list"
 msgstr ""
 
-#: debug/Compiler.java:79
+#: debug/Compiler.java:81
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr "Plošča ni izbrana: prosim izberite ploščo v meniju Orodja > Plošča"
 
-#: debug/Compiler.java:422
+#: debug/Compiler.java:425
 #, java-format
 msgid "{0} returned {1}"
 msgstr "{0} je vrnil {1}"
 
-#: debug/Compiler.java:426
+#: debug/Compiler.java:429
 msgid "Error compiling."
 msgstr "Napaka pri prevajanju."
 
-#: debug/Compiler.java:465
+#: debug/Compiler.java:468
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr "Prosim uvozite knjižnico SPI v Skica > Uvoz knjižnice"
 
-#: debug/Compiler.java:466
+#: debug/Compiler.java:469
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
@@ -979,11 +1002,11 @@ msgstr ""
 "Izgleda, da tudi vi oz. neka druga knjižnica hkrati uporablja knjižnico SPI.\n"
 "\n"
 
-#: debug/Compiler.java:471
+#: debug/Compiler.java:474
 msgid "The 'BYTE' keyword is no longer supported."
 msgstr "Beseda 'BYTE' ni več podprta."
 
-#: debug/Compiler.java:472
+#: debug/Compiler.java:475
 msgid ""
 "\n"
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
@@ -995,11 +1018,11 @@ msgstr ""
 "Namesto nje prosim uporabite Serial.write().\n"
 "\n"
 
-#: debug/Compiler.java:477
+#: debug/Compiler.java:480
 msgid "The Server class has been renamed EthernetServer."
 msgstr "Razred Server je bil preimenovan v EthernetServer."
 
-#: debug/Compiler.java:478
+#: debug/Compiler.java:481
 msgid ""
 "\n"
 "As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
@@ -1007,11 +1030,11 @@ msgid ""
 "\n"
 msgstr ""
 
-#: debug/Compiler.java:483
+#: debug/Compiler.java:486
 msgid "The Client class has been renamed EthernetClient."
 msgstr "Razred Client je bil preimenovan v EthernetClient."
 
-#: debug/Compiler.java:484
+#: debug/Compiler.java:487
 msgid ""
 "\n"
 "As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
@@ -1023,11 +1046,11 @@ msgstr ""
 "EthernetClient.\n"
 "\n"
 
-#: debug/Compiler.java:489
+#: debug/Compiler.java:492
 msgid "The Udp class has been renamed EthernetUdp."
 msgstr "Razred Udp je bil preimenovan v EthernetUdp."
 
-#: debug/Compiler.java:490
+#: debug/Compiler.java:493
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
@@ -1035,11 +1058,11 @@ msgid ""
 "\n"
 msgstr ""
 
-#: debug/Compiler.java:495
+#: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
 msgstr "Wire.send() je bil preimenovan v Wire.write()."
 
-#: debug/Compiler.java:496
+#: debug/Compiler.java:499
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
@@ -1047,16 +1070,24 @@ msgid ""
 "\n"
 msgstr ""
 
-#: debug/Compiler.java:501
+#: debug/Compiler.java:504
 msgid "Wire.receive() has been renamed Wire.read()."
 msgstr ""
 
-#: debug/Compiler.java:502
+#: debug/Compiler.java:505
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
 "for consistency with other libraries.\n"
 "\n"
+msgstr ""
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr ""
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
 msgstr ""
 
 #: EditorConsole.java:152
@@ -1373,168 +1404,212 @@ msgid "System Default"
 msgstr ""
 
 #: Preferences.java:84
-msgid "Catalan"
+msgid "Arabic"
 msgstr ""
 
 #: Preferences.java:85
-msgid "Chinese Simplified"
+msgid "Aragonese"
 msgstr ""
 
 #: Preferences.java:86
-msgid "Chinese Traditional"
+msgid "Catalan"
 msgstr ""
 
 #: Preferences.java:87
-msgid "Danish"
+msgid "Chinese Simplified"
 msgstr ""
 
 #: Preferences.java:88
-msgid "Dutch"
+msgid "Chinese Traditional"
 msgstr ""
 
 #: Preferences.java:89
-msgid "English"
+msgid "Danish"
 msgstr ""
 
 #: Preferences.java:90
-msgid "French"
+msgid "Dutch"
 msgstr ""
 
 #: Preferences.java:91
-msgid "Filipino"
+msgid "English"
 msgstr ""
 
 #: Preferences.java:92
-msgid "Galician"
+msgid "Estonian"
 msgstr ""
 
 #: Preferences.java:93
-msgid "German"
+msgid "Filipino"
 msgstr ""
 
 #: Preferences.java:94
-msgid "Greek"
+msgid "French"
 msgstr ""
 
 #: Preferences.java:95
-msgid "Hungarian"
+msgid "Galician"
 msgstr ""
 
 #: Preferences.java:96
-msgid "Italian"
+msgid "German"
 msgstr ""
 
 #: Preferences.java:97
-msgid "Japanese"
+msgid "Greek"
 msgstr ""
 
 #: Preferences.java:98
-msgid "Latvian"
+msgid "Hindi"
 msgstr ""
 
 #: Preferences.java:99
-msgid "Persian"
+msgid "Hungarian"
 msgstr ""
 
 #: Preferences.java:100
-msgid "Portuguese"
+msgid "Indonesian"
 msgstr ""
 
 #: Preferences.java:101
-msgid "Romanian"
+msgid "Italian"
 msgstr ""
 
 #: Preferences.java:102
-msgid "Russian"
+msgid "Japanese"
 msgstr ""
 
 #: Preferences.java:103
+msgid "Korean"
+msgstr ""
+
+#: Preferences.java:104
+msgid "Latvian"
+msgstr ""
+
+#: Preferences.java:105
+msgid "Lithuaninan"
+msgstr ""
+
+#: Preferences.java:106
+msgid "Marathi"
+msgstr ""
+
+#: Preferences.java:107
+msgid "Norwegian"
+msgstr ""
+
+#: Preferences.java:108
+msgid "Persian"
+msgstr ""
+
+#: Preferences.java:109
+msgid "Polish"
+msgstr ""
+
+#: Preferences.java:110 Preferences.java:111
+msgid "Portuguese"
+msgstr ""
+
+#: Preferences.java:112
+msgid "Romanian"
+msgstr ""
+
+#: Preferences.java:113
+msgid "Russian"
+msgstr ""
+
+#: Preferences.java:114
 msgid "Spanish"
 msgstr ""
 
-#: Preferences.java:194
+#: Preferences.java:115
+msgid "Tamil"
+msgstr ""
+
+#: Preferences.java:218
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
 msgstr ""
 
-#: Preferences.java:226
+#: Preferences.java:250
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr ""
 
-#: Preferences.java:245
+#: Preferences.java:269
 msgid "Error reading preferences"
 msgstr ""
 
-#: Preferences.java:247
+#: Preferences.java:271
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
 "{0} and restart Arduino."
 msgstr ""
 
-#: Preferences.java:283
+#: Preferences.java:307
 msgid "Sketchbook location:"
 msgstr "Lokacija skice:"
 
-#: Preferences.java:298
+#: Preferences.java:322
 msgid "Select new sketchbook location"
 msgstr "Izberi novo lokacijo skice"
 
-#: Preferences.java:321
+#: Preferences.java:345
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:326 Preferences.java:342
+#: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
 msgstr " (potreben je ponovni zagon Arduino)"
 
-#: Preferences.java:338
+#: Preferences.java:362
 msgid "Editor font size: "
 msgstr "Velikost črk urejevalnika:"
 
-#: Preferences.java:355
+#: Preferences.java:379
 msgid "Show verbose output during: "
 msgstr ""
 
-#: Preferences.java:357
+#: Preferences.java:381
 msgid "compilation "
 msgstr "prevajanje "
 
-#: Preferences.java:359
+#: Preferences.java:383
 msgid "upload"
 msgstr "naloži"
 
-#: Preferences.java:368
+#: Preferences.java:392
 msgid "Verify code after upload"
 msgstr ""
 
-#: Preferences.java:377
+#: Preferences.java:401
 msgid "Use external editor"
 msgstr "Uporabi zunanji urejevalnik"
 
-#: Preferences.java:387
+#: Preferences.java:411
 msgid "Check for updates on startup"
 msgstr "Preveri posodobitve ob zagonu"
 
-#: Preferences.java:396
+#: Preferences.java:420
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr ""
 
-#: Preferences.java:407
+#: Preferences.java:431
 msgid "Automatically associate .ino files with Arduino"
 msgstr ""
 
-#: Preferences.java:417
+#: Preferences.java:441
 msgid "More preferences can be edited directly in the file"
 msgstr ""
 
-#: Preferences.java:446
+#: Preferences.java:470
 msgid "(edit only when Arduino is not running)"
 msgstr ""
 
-#: Preferences.java:593
+#: Preferences.java:617
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr ""

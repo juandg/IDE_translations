@@ -79,7 +79,7 @@ msgstr "Pengaturan Halaman"
 msgid "Print"
 msgstr "Cetak"
 
-#: Editor.java:576 Preferences.java:277
+#: Editor.java:576 Preferences.java:287
 msgid "Preferences"
 msgstr "Preferensi"
 
@@ -261,7 +261,7 @@ msgstr "Tidak ada referensi yang tersedia untuk \"{0}\""
 msgid "{0}.html"
 msgstr "{0}.html"
 
-#: Editor.java:1843 Sketch.java:1647
+#: Editor.java:1843 Sketch.java:1612
 msgid "Compiling sketch..."
 msgstr "Menyusun sketsa..."
 
@@ -329,7 +329,7 @@ msgstr "Memindahkan"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:238
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
 msgid "Error"
 msgstr "Kesalahan"
 
@@ -525,7 +525,19 @@ msgstr "Keduanya NL & CR"
 msgid " baud"
 msgstr " baud"
 
-#: Serial.java:147
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr ""
+
+#: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
@@ -534,12 +546,12 @@ msgstr ""
 "Serial port ''{0}'' telah digunakan. Coba hentikan semua program yang mungkin "
 "menggunakannya."
 
-#: Serial.java:154
+#: Serial.java:180
 #, java-format
 msgid "Error opening serial port ''{0}''."
 msgstr "Kesalahan dalam membuka serial port ''{0}''."
 
-#: Serial.java:167
+#: Serial.java:193
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
@@ -548,7 +560,7 @@ msgstr ""
 "Serial port ''{0}'' tidak ditemukan. Apakah anda telah memilih yang tepat dari menu Peralatan > "
 "Serial Port?"
 
-#: Serial.java:424
+#: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
@@ -557,7 +569,7 @@ msgstr ""
 "Penyangga byte readBytesUntil() terlalu kecil untuk {0} bytes sampai dengan dan "
 "termasuk char {1}"
 
-#: Serial.java:567
+#: Serial.java:592
 #, java-format
 msgid "Error inside Serial.{0}()"
 msgstr "Kesalahan di dalam Serial.{0}()"
@@ -866,38 +878,38 @@ msgstr ""
 msgid "Could not add ''{0}'' to the sketch."
 msgstr "Tidak dapat menambahkan ''{0}'' ke sketsa."
 
-#: Sketch.java:1393 Sketch.java:1424
+#: Sketch.java:1396 Sketch.java:1427
 msgid "Build folder disappeared or could not be written"
 msgstr "Map Bangun hilang atau tidak dapat ditulis"
 
-#: Sketch.java:1408
+#: Sketch.java:1411
 msgid "Could not find main class"
 msgstr "Tidak dapat menemukan kelas utama"
 
-#: Sketch.java:1433
+#: Sketch.java:1436
 #, java-format
 msgid "Uncaught exception type: {0}"
 msgstr "Jenis pengecualian: {0} tidak tertangkap"
 
-#: Sketch.java:1465
+#: Sketch.java:1468
 #, java-format
 msgid "Problem moving {0} to the build folder"
 msgstr "Masalah dalam memindahkan {0} ke map bangun"
 
-#: Sketch.java:1661
+#: Sketch.java:1626
 msgid "Uploading..."
 msgstr "Mengunggah..."
 
-#: Sketch.java:1684
+#: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
 msgstr "Ukuran biner sketsa: {0} bytes (dari maksimum {1} byte)"
 
-#: Sketch.java:1689
+#: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
 msgstr "Tidak dapat menentukan ukuran program: {0}"
 
-#: Sketch.java:1694
+#: Sketch.java:1659
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
@@ -905,26 +917,26 @@ msgstr ""
 "Sketsa terlalu besar; lihat http://www.arduino.cc/en/Guide/Troubleshooting#size untuk "
 "saran tentang menguranginya."
 
-#: Sketch.java:1754
+#: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
 msgstr "Membutuhkan */ di akhir sebuah /* komentar */"
 
-#: Sketch.java:1796
+#: Sketch.java:1761
 msgid "Sketch Disappeared"
 msgstr "Sketsa Hilang"
 
-#: Sketch.java:1797
+#: Sketch.java:1762
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
 
-#: Sketch.java:1810
+#: Sketch.java:1775
 msgid "Could not re-save sketch"
 msgstr "Tidak dapat kembali menyimpan sketsa"
 
-#: Sketch.java:1811
+#: Sketch.java:1776
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
@@ -932,11 +944,22 @@ msgstr ""
 "Tidak dapat kembali menyimpan sketsa dengan benar. Anda mungkin berada dalam kesulitan pada saat ini,\n"
 "dan mungkin sudah saatnya untuk menyalin dan menyisipkan kode anda ke editor teks lain."
 
-#: Sketch.java:2060
+#: Sketch.java:2025
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
+msgstr ""
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr ""
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
 msgstr ""
 
 #: debug/Uploader.java:52
@@ -948,26 +971,26 @@ msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 msgid "Compiler error, please submit this code to {0}"
 msgstr "Kesalahan kompilator, harap kirim kode ini ke {0}"
 
-#: debug/Uploader.java:199
+#: debug/Uploader.java:209
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
 "serial port yang dipilih {0} tidak ada atau papan anda tidak terhubung"
 
-#: debug/Uploader.java:203
+#: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
 
-#: debug/Uploader.java:209
+#: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
 
-#: debug/Uploader.java:213
+#: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
@@ -977,24 +1000,24 @@ msgstr ""
 msgid "http://code.google.com/p/arduino/issues/list"
 msgstr "http://code.google.com/p/arduino/issues/list"
 
-#: debug/Compiler.java:79
+#: debug/Compiler.java:81
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr "Tidak ada papan yang dipilih; harap pilih sebuah papan dari menu Peralatan > Papan."
 
-#: debug/Compiler.java:422
+#: debug/Compiler.java:425
 #, java-format
 msgid "{0} returned {1}"
 msgstr "{0} kembali {1}"
 
-#: debug/Compiler.java:426
+#: debug/Compiler.java:429
 msgid "Error compiling."
 msgstr "Kesalahan dalam menyusun."
 
-#: debug/Compiler.java:465
+#: debug/Compiler.java:468
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr "Harap impor perpustakaan SPI dari menu Sketsa > Impor Perpustakaan."
 
-#: debug/Compiler.java:466
+#: debug/Compiler.java:469
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
@@ -1008,11 +1031,11 @@ msgstr ""
 "SPI.\n"
 "\n"
 
-#: debug/Compiler.java:471
+#: debug/Compiler.java:474
 msgid "The 'BYTE' keyword is no longer supported."
 msgstr "Kata kunci 'BYTE' tidak lagi didukung."
 
-#: debug/Compiler.java:472
+#: debug/Compiler.java:475
 msgid ""
 "\n"
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
@@ -1024,11 +1047,11 @@ msgstr ""
 "Harap gunakan Serial.write() sebagai gantinya.\n"
 "\n"
 
-#: debug/Compiler.java:477
+#: debug/Compiler.java:480
 msgid "The Server class has been renamed EthernetServer."
 msgstr "Kelas Server telah diubah namanya menjadi EthernetServer."
 
-#: debug/Compiler.java:478
+#: debug/Compiler.java:481
 msgid ""
 "\n"
 "As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
@@ -1040,11 +1063,11 @@ msgstr ""
 "menjadi EthernetServer.\n"
 "\n"
 
-#: debug/Compiler.java:483
+#: debug/Compiler.java:486
 msgid "The Client class has been renamed EthernetClient."
 msgstr "Kelas Client telah diubah namanya menjadi EthernetClient."
 
-#: debug/Compiler.java:484
+#: debug/Compiler.java:487
 msgid ""
 "\n"
 "As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
@@ -1056,11 +1079,11 @@ msgstr ""
 "menjadi EthernetClient.\n"
 "\n"
 
-#: debug/Compiler.java:489
+#: debug/Compiler.java:492
 msgid "The Udp class has been renamed EthernetUdp."
 msgstr "Kelas Udp telah diubah namanya menjadi EthernetUdp."
 
-#: debug/Compiler.java:490
+#: debug/Compiler.java:493
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
@@ -1072,11 +1095,11 @@ msgstr ""
 "EthernetClient.\n"
 "\n"
 
-#: debug/Compiler.java:495
+#: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
 msgstr "Wire.send() telah diubah namanya menjadi Wire.write()."
 
-#: debug/Compiler.java:496
+#: debug/Compiler.java:499
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
@@ -1088,11 +1111,11 @@ msgstr ""
 "konsistensi dengan perpustakaan lain.\n"
 "\n"
 
-#: debug/Compiler.java:501
+#: debug/Compiler.java:504
 msgid "Wire.receive() has been renamed Wire.read()."
 msgstr "Wire.receive() telah diubah namanya menjadi Wire.read()."
 
-#: debug/Compiler.java:502
+#: debug/Compiler.java:505
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
@@ -1103,6 +1126,14 @@ msgstr ""
 "Pada Arduino 1.0, fungsi Wire.receive() telah diubah namanya menjadi Wire.read() "
 "demi konsistensi dengan perpustakaan lain.\n"
 "\n"
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr ""
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
+msgstr ""
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1473,12 +1504,12 @@ msgid "Estonian"
 msgstr ""
 
 #: Preferences.java:93
-msgid "French"
-msgstr "Bahasa Perancis"
-
-#: Preferences.java:94
 msgid "Filipino"
 msgstr "Bahasa Filipina"
+
+#: Preferences.java:94
+msgid "French"
+msgstr "Bahasa Perancis"
 
 #: Preferences.java:95
 msgid "Galician"
@@ -1493,54 +1524,74 @@ msgid "Greek"
 msgstr "Bahasa Yunani"
 
 #: Preferences.java:98
+msgid "Hindi"
+msgstr ""
+
+#: Preferences.java:99
 msgid "Hungarian"
 msgstr "Bahasa Hungaria"
 
-#: Preferences.java:99
+#: Preferences.java:100
+msgid "Indonesian"
+msgstr ""
+
+#: Preferences.java:101
 msgid "Italian"
 msgstr "Bahasa Italia"
 
-#: Preferences.java:100
+#: Preferences.java:102
 msgid "Japanese"
 msgstr "Bahasa Jepang"
 
-#: Preferences.java:101
+#: Preferences.java:103
 msgid "Korean"
 msgstr ""
 
-#: Preferences.java:102
+#: Preferences.java:104
 msgid "Latvian"
 msgstr "Bahasa Latvia"
 
-#: Preferences.java:103
+#: Preferences.java:105
 msgid "Lithuaninan"
 msgstr ""
 
-#: Preferences.java:104
-msgid "Persian"
-msgstr "Bahasa Persia"
-
-#: Preferences.java:105
-msgid "Polish"
+#: Preferences.java:106
+msgid "Marathi"
 msgstr ""
 
-#: Preferences.java:106 Preferences.java:107
-msgid "Portuguese"
+#: Preferences.java:107
+msgid "Norwegian"
 msgstr ""
 
 #: Preferences.java:108
+msgid "Persian"
+msgstr "Bahasa Persia"
+
+#: Preferences.java:109
+msgid "Polish"
+msgstr ""
+
+#: Preferences.java:110 Preferences.java:111
+msgid "Portuguese"
+msgstr ""
+
+#: Preferences.java:112
 msgid "Romanian"
 msgstr "Bahasa Rumania"
 
-#: Preferences.java:109
+#: Preferences.java:113
 msgid "Russian"
 msgstr ""
 
-#: Preferences.java:110
+#: Preferences.java:114
 msgid "Spanish"
 msgstr "Bahasa Spanyol"
 
-#: Preferences.java:208
+#: Preferences.java:115
+msgid "Tamil"
+msgstr ""
+
+#: Preferences.java:218
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1548,16 +1599,16 @@ msgstr ""
 "Tidak dapat membaca pengaturan standar.\n"
 "Anda harus memasang ulang Arduino."
 
-#: Preferences.java:240
+#: Preferences.java:250
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "Tidak dapat membaca preferensi dari {0}"
 
-#: Preferences.java:259
+#: Preferences.java:269
 msgid "Error reading preferences"
 msgstr "Kesalahan dalam membaca preferensi"
 
-#: Preferences.java:261
+#: Preferences.java:271
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1566,67 +1617,67 @@ msgstr ""
 "Kesalahan dalam membaca berkas preferensi. Harap hapus (atau pindahkan)\n"
 "{0} dan mulai ulang Arduino."
 
-#: Preferences.java:297
+#: Preferences.java:307
 msgid "Sketchbook location:"
 msgstr "Lokasi buku sketsa:"
 
-#: Preferences.java:312
+#: Preferences.java:322
 msgid "Select new sketchbook location"
 msgstr "Pilih lokasi buku sketsa baru"
 
-#: Preferences.java:335
+#: Preferences.java:345
 msgid "Editor language: "
 msgstr ""
 
-#: Preferences.java:340 Preferences.java:356
+#: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
 msgstr ""
 
-#: Preferences.java:352
+#: Preferences.java:362
 msgid "Editor font size: "
 msgstr "Editor ukuran huruf: "
 
-#: Preferences.java:369
+#: Preferences.java:379
 msgid "Show verbose output during: "
 msgstr "Tampilkan keluaran yang berlebihan ketika: "
 
-#: Preferences.java:371
+#: Preferences.java:381
 msgid "compilation "
 msgstr "susunan "
 
-#: Preferences.java:373
+#: Preferences.java:383
 msgid "upload"
 msgstr "unggah"
 
-#: Preferences.java:382
+#: Preferences.java:392
 msgid "Verify code after upload"
 msgstr "Periksa kode setelah unggah"
 
-#: Preferences.java:391
+#: Preferences.java:401
 msgid "Use external editor"
 msgstr "Gunakan editor eksternal"
 
-#: Preferences.java:401
+#: Preferences.java:411
 msgid "Check for updates on startup"
 msgstr "Periksa pembaruan ketika program dimulai"
 
-#: Preferences.java:410
+#: Preferences.java:420
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "Perbaharui berkas sketsa ke ekstensi baru ketika menyimpan (.pde -> .ino)"
 
-#: Preferences.java:421
+#: Preferences.java:431
 msgid "Automatically associate .ino files with Arduino"
 msgstr "Asosiasikan otomatis berkas .ino dengan Arduino"
 
-#: Preferences.java:431
+#: Preferences.java:441
 msgid "More preferences can be edited directly in the file"
 msgstr "Preferensi lebih lanjut dapat diedit langsung pada berkas"
 
-#: Preferences.java:460
+#: Preferences.java:470
 msgid "(edit only when Arduino is not running)"
 msgstr "(mengedit hanya ketika Arduino sedang tidak berjalan)"
 
-#: Preferences.java:607
+#: Preferences.java:617
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "mengabaikan ukuran huruf tidak sah {0}"

@@ -78,7 +78,7 @@ msgstr "プリンタの設定..."
 msgid "Print"
 msgstr "印刷..."
 
-#: Editor.java:576 Preferences.java:263
+#: Editor.java:576 Preferences.java:287
 msgid "Preferences"
 msgstr "環境設定"
 
@@ -260,7 +260,7 @@ msgstr "リファレンスマニュアルに「{0}」はありません。"
 msgid "{0}.html"
 msgstr "{0}.html"
 
-#: Editor.java:1843 Sketch.java:1647
+#: Editor.java:1843 Sketch.java:1612
 msgid "Compiling sketch..."
 msgstr "スケッチをコンパイルしています..."
 
@@ -327,7 +327,7 @@ msgstr "移動中"
 
 #: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
 #: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
-#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:224
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
 msgid "Error"
 msgstr "エラー"
 
@@ -525,7 +525,19 @@ msgstr "CRおよびLF"
 msgid " baud"
 msgstr " bps"
 
-#: Serial.java:147
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr ""
+
+#: Serial.java:173
 #, java-format
 msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
@@ -534,12 +546,12 @@ msgstr ""
 "シリアルポート「{0}」は、ほかのアプリケーションが使用中です。"
 "シリアルポートを使っている可能性のあるアプリケーションを終了してみてください。"
 
-#: Serial.java:154
+#: Serial.java:180
 #, java-format
 msgid "Error opening serial port ''{0}''."
 msgstr "シリアルポート「{0}」が開けません。"
 
-#: Serial.java:167
+#: Serial.java:193
 #, java-format
 msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
@@ -549,7 +561,7 @@ msgstr ""
 "「ツール」メニューの「シリアルポート」で、"
 "正しいシリアルポートを選んでありますか？"
 
-#: Serial.java:424
+#: Serial.java:450
 #, java-format
 msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
@@ -557,7 +569,7 @@ msgid ""
 msgstr ""
 "readBytesUntil()で文字「{1}」が見つかるまで読み込もうとしましたが、バッファの長さ{0}バイトでは足りません。"
 
-#: Serial.java:567
+#: Serial.java:592
 #, java-format
 msgid "Error inside Serial.{0}()"
 msgstr "Serial.{0}()でエラー"
@@ -879,38 +891,38 @@ msgstr ""
 msgid "Could not add ''{0}'' to the sketch."
 msgstr "ファイル「{0}」をスケッチに加えることができませんでした。"
 
-#: Sketch.java:1393 Sketch.java:1424
+#: Sketch.java:1396 Sketch.java:1427
 msgid "Build folder disappeared or could not be written"
 msgstr "ビルド用のフォルダが消えてしまったか、書き込みができません。"
 
-#: Sketch.java:1408
+#: Sketch.java:1411
 msgid "Could not find main class"
 msgstr "メインのクラスが見つかりません。"
 
-#: Sketch.java:1433
+#: Sketch.java:1436
 #, java-format
 msgid "Uncaught exception type: {0}"
 msgstr "想定外の例外「{0}」が発生しました。"
 
-#: Sketch.java:1465
+#: Sketch.java:1468
 #, java-format
 msgid "Problem moving {0} to the build folder"
 msgstr "「{0}」をビルドフォルダに移動できませんでした。"
 
-#: Sketch.java:1661
+#: Sketch.java:1626
 msgid "Uploading..."
 msgstr "マイコンボードに書き込んでいます..."
 
-#: Sketch.java:1684
+#: Sketch.java:1649
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
 msgstr "コンパイル後のスケッチのサイズ：{0}バイト（最大容量{1}バイト）"
 
-#: Sketch.java:1689
+#: Sketch.java:1654
 msgid "Couldn't determine program size: {0}"
 msgstr "コンパイル後のサイズがわかりません：{0}"
 
-#: Sketch.java:1694
+#: Sketch.java:1659
 msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
@@ -918,15 +930,15 @@ msgstr ""
 "スケッチが大きすぎます。"
 "http://www.arduino.cc/en/Guide/Troubleshooting#size には、小さくするコツが書いてあります。"
 
-#: Sketch.java:1754
+#: Sketch.java:1719
 msgid "Missing the */ from the end of a /* comment */"
 msgstr "「/* */」形式のコメントの「*/」がありません。"
 
-#: Sketch.java:1796
+#: Sketch.java:1761
 msgid "Sketch Disappeared"
 msgstr "スケッチが消滅してしまいました。"
 
-#: Sketch.java:1797
+#: Sketch.java:1762
 msgid ""
 "The sketch folder has disappeared.\n"
 " Will attempt to re-save in the same location,\n"
@@ -936,11 +948,11 @@ msgstr ""
 "環境設定で指定している保存場所に保存し直します。\n"
 "このスケッチと一緒に保存していたファイルは失われるかもしれません。"
 
-#: Sketch.java:1810
+#: Sketch.java:1775
 msgid "Could not re-save sketch"
 msgstr "スケッチを保存し直すことができませんでした。"
 
-#: Sketch.java:1811
+#: Sketch.java:1776
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
@@ -949,7 +961,7 @@ msgstr ""
 "保存先に問題がある可能性があります。\n"
 "別のテキストエディタでスケッチを開き、コードをコピー＆ペーストして別のファイルに保存することをおすすめします。"
 
-#: Sketch.java:2060
+#: Sketch.java:2025
 msgid ""
 "The sketch name had to be modified. Sketch names can only consist\n"
 "of ASCII characters and numbers (but cannot start with a number).\n"
@@ -958,6 +970,17 @@ msgstr ""
 "都合により、スケッチの名前を変更しました。\n"
 "スケッチの名前に使える文字は半角英数字です（数字は先頭を除く）。\n"
 "また、64文字以下であることが必要です。"
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr ""
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
+msgstr ""
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -968,21 +991,21 @@ msgstr "https://developer.berlios.de/bugs/?group_id=3590"
 msgid "Compiler error, please submit this code to {0}"
 msgstr "コンパイラのエラーです。問題の起きたスケッチを{0}に送ってください。"
 
-#: debug/Uploader.java:199
+#: debug/Uploader.java:209
 #, java-format
 msgid ""
 "the selected serial port {0} does not exist or your board is not connected"
 msgstr ""
 "シリアルポート「{0}」が選択されていますが、そのポートは存在しないか、マイコンボードが接続されていません。"
 
-#: debug/Uploader.java:203
+#: debug/Uploader.java:213
 msgid ""
 "Device is not responding, check the right serial port is selected or RESET "
 "the board right before exporting"
 msgstr ""
 "マイコンボードが応答しません。シリアルポートが正しく選択されている事を確認してください。また、書き込みの直前にマイコンボードのリセットボタンを押してみてください。"
 
-#: debug/Uploader.java:209
+#: debug/Uploader.java:223
 msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
@@ -991,7 +1014,7 @@ msgstr ""
 "このページを参考にしてください。\n"
 "http://www.arduino.cc/en/Guide/Troubleshooting#upload"
 
-#: debug/Uploader.java:213
+#: debug/Uploader.java:227
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
@@ -1003,24 +1026,24 @@ msgstr ""
 msgid "http://code.google.com/p/arduino/issues/list"
 msgstr "http://code.google.com/p/arduino/issues/list"
 
-#: debug/Compiler.java:79
+#: debug/Compiler.java:81
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr "マイコンボードが選ばれていません。「ツール」メニューの「マイコンボード」の選択肢から、マイコンボードを選んでください。"
 
-#: debug/Compiler.java:422
+#: debug/Compiler.java:425
 #, java-format
 msgid "{0} returned {1}"
 msgstr "{0}が{1}を返しました。"
 
-#: debug/Compiler.java:426
+#: debug/Compiler.java:429
 msgid "Error compiling."
 msgstr "コンパイル時にエラーが発生しました。"
 
-#: debug/Compiler.java:465
+#: debug/Compiler.java:468
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr "「スケッチ」メニューの「ライブラリを使用」で、SPIライブラリを読み込んでください。"
 
-#: debug/Compiler.java:466
+#: debug/Compiler.java:469
 msgid ""
 "\n"
 "As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
@@ -1033,11 +1056,11 @@ msgstr ""
 "Ethernetライブラリまたはその他の、SPIライブラリに依存するライブラリを使用しているようですね。\n"
 "\n"
 
-#: debug/Compiler.java:471
+#: debug/Compiler.java:474
 msgid "The 'BYTE' keyword is no longer supported."
 msgstr "「BYTE」キーワードは、使用できなくなりました。"
 
-#: debug/Compiler.java:472
+#: debug/Compiler.java:475
 msgid ""
 "\n"
 "As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
@@ -1049,11 +1072,11 @@ msgstr ""
 "Serial.write()を使用してください。\n"
 "\n"
 
-#: debug/Compiler.java:477
+#: debug/Compiler.java:480
 msgid "The Server class has been renamed EthernetServer."
 msgstr "「Server」クラスは「EthernetServer」に名称変更されました。"
 
-#: debug/Compiler.java:478
+#: debug/Compiler.java:481
 msgid ""
 "\n"
 "As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
@@ -1064,11 +1087,11 @@ msgstr ""
 "Arduino 1.0以降、Ethernetライブラリの「Server」クラスは、「EthernetServer」に名称変更されました。\n"
 "\n"
 
-#: debug/Compiler.java:483
+#: debug/Compiler.java:486
 msgid "The Client class has been renamed EthernetClient."
 msgstr "「Client」クラスは「EthernetClient」に名称変更されました。"
 
-#: debug/Compiler.java:484
+#: debug/Compiler.java:487
 msgid ""
 "\n"
 "As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
@@ -1079,11 +1102,11 @@ msgstr ""
 "Arduino 1.0以降、Ethernetライブラリの「Client」クラスは、「EthernetClient」に名称変更されました。\n"
 "\n"
 
-#: debug/Compiler.java:489
+#: debug/Compiler.java:492
 msgid "The Udp class has been renamed EthernetUdp."
 msgstr "「Udp」クラスは「EthernetUdp」に名称変更されました。"
 
-#: debug/Compiler.java:490
+#: debug/Compiler.java:493
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
@@ -1094,11 +1117,11 @@ msgstr ""
 "Arduino 1.0以降、Ethernetライブラリの「Udp」クラスは、「EthernetUdp」に名称変更されました。\n"
 "\n"
 
-#: debug/Compiler.java:495
+#: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
 msgstr "「Wire.send()」は、「Wire.write()」に名称変更されました。"
 
-#: debug/Compiler.java:496
+#: debug/Compiler.java:499
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
@@ -1109,11 +1132,11 @@ msgstr ""
 "Arduino 1.0以降、「Wire.send()」関数は、他のライブラリとの整合性を高めるため、「Wire.write()」に名称変更されました。"
 "\n"
 
-#: debug/Compiler.java:501
+#: debug/Compiler.java:504
 msgid "Wire.receive() has been renamed Wire.read()."
 msgstr "「Wire.receive()」は、「Wire.read()」に名称変更されました。"
 
-#: debug/Compiler.java:502
+#: debug/Compiler.java:505
 msgid ""
 "\n"
 "As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
@@ -1123,6 +1146,14 @@ msgstr ""
 "\n"
 "Arduino 1.0以降、「Wire.receive()」関数は、他のライブラリとの整合性を高めるため、「Wire.read()」に名称変更されました。"
 "\n"
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr ""
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
+msgstr ""
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1453,86 +1484,130 @@ msgid "System Default"
 msgstr "パソコンの設定に従う"
 
 #: Preferences.java:84
+msgid "Arabic"
+msgstr ""
+
+#: Preferences.java:85
+msgid "Aragonese"
+msgstr ""
+
+#: Preferences.java:86
 msgid "Catalan"
 msgstr "カタルーニャ語"
 
-#: Preferences.java:85
+#: Preferences.java:87
 msgid "Chinese Simplified"
 msgstr "中国語（簡体字）"
 
-#: Preferences.java:86
+#: Preferences.java:88
 msgid "Chinese Traditional"
 msgstr "中国語（繁体字）"
 
-#: Preferences.java:87
+#: Preferences.java:89
 msgid "Danish"
 msgstr "デンマーク語"
 
-#: Preferences.java:88
+#: Preferences.java:90
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: Preferences.java:89
+#: Preferences.java:91
 msgid "English"
 msgstr "英語"
 
-#: Preferences.java:90
-msgid "French"
-msgstr "フランス語"
+#: Preferences.java:92
+msgid "Estonian"
+msgstr ""
 
-#: Preferences.java:91
+#: Preferences.java:93
 msgid "Filipino"
 msgstr "フィリピン語"
 
-#: Preferences.java:92
+#: Preferences.java:94
+msgid "French"
+msgstr "フランス語"
+
+#: Preferences.java:95
 msgid "Galician"
 msgstr "ガリシア語"
 
-#: Preferences.java:93
+#: Preferences.java:96
 msgid "German"
 msgstr "ドイツ語"
 
-#: Preferences.java:94
+#: Preferences.java:97
 msgid "Greek"
 msgstr "ギリシア語"
 
-#: Preferences.java:95
+#: Preferences.java:98
+msgid "Hindi"
+msgstr ""
+
+#: Preferences.java:99
 msgid "Hungarian"
 msgstr "ハンガリー語"
 
-#: Preferences.java:96
+#: Preferences.java:100
+msgid "Indonesian"
+msgstr ""
+
+#: Preferences.java:101
 msgid "Italian"
 msgstr "イタリア語"
 
-#: Preferences.java:97
+#: Preferences.java:102
 msgid "Japanese"
 msgstr "日本語"
 
-#: Preferences.java:98
+#: Preferences.java:103
+msgid "Korean"
+msgstr ""
+
+#: Preferences.java:104
 msgid "Latvian"
 msgstr "ラトビア語"
 
-#: Preferences.java:99
+#: Preferences.java:105
+msgid "Lithuaninan"
+msgstr ""
+
+#: Preferences.java:106
+msgid "Marathi"
+msgstr ""
+
+#: Preferences.java:107
+msgid "Norwegian"
+msgstr ""
+
+#: Preferences.java:108
 msgid "Persian"
 msgstr "ペルシャ語"
 
-#: Preferences.java:100
+#: Preferences.java:109
+msgid "Polish"
+msgstr ""
+
+#: Preferences.java:110 Preferences.java:111
 msgid "Portuguese"
 msgstr "ポルトガル語"
 
-#: Preferences.java:101
+#: Preferences.java:112
 msgid "Romanian"
 msgstr "ルーマニア語"
 
-#: Preferences.java:102
+#: Preferences.java:113
 msgid "Russian"
 msgstr "ロシア語"
 
-#: Preferences.java:103
+#: Preferences.java:114
 msgid "Spanish"
 msgstr "スペイン語"
 
-#: Preferences.java:194
+#: Preferences.java:115
+msgid "Tamil"
+msgstr ""
+
+#: Preferences.java:218
 msgid ""
 "Could not read default settings.\n"
 "You'll need to reinstall Arduino."
@@ -1540,16 +1615,16 @@ msgstr ""
 "既定の設定を読み込むことができませんでした。\n"
 "Arduino IDEをもう一度インストールしてください。"
 
-#: Preferences.java:226
+#: Preferences.java:250
 #, java-format
 msgid "Could not read preferences from {0}"
 msgstr "「{0}」から設定を読み込めませんでした。"
 
-#: Preferences.java:245
+#: Preferences.java:269
 msgid "Error reading preferences"
 msgstr "設定ファイルを読み込む際にエラーが発生しました。"
 
-#: Preferences.java:247
+#: Preferences.java:271
 #, java-format
 msgid ""
 "Error reading the preferences file. Please delete (or move)\n"
@@ -1558,67 +1633,67 @@ msgstr ""
 "初期設定ファイルを読み込む際にエラーが発生しました。"
 "「{0}」を削除または移動してから、Arduino IDEを再起動してください。"
 
-#: Preferences.java:283
+#: Preferences.java:307
 msgid "Sketchbook location:"
 msgstr "スケッチブックの保存場所："
 
-#: Preferences.java:298
+#: Preferences.java:322
 msgid "Select new sketchbook location"
 msgstr "スケッチブックの保存場所を決める"
 
-#: Preferences.java:321
+#: Preferences.java:345
 msgid "Editor language: "
 msgstr "言語設定："
 
-#: Preferences.java:326 Preferences.java:342
+#: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
 msgstr "  変更の反映にはArduino IDEの再起動が必要"
 
-#: Preferences.java:338
+#: Preferences.java:362
 msgid "Editor font size: "
 msgstr "エディタの文字の大きさ："
 
-#: Preferences.java:355
+#: Preferences.java:379
 msgid "Show verbose output during: "
 msgstr "より詳細な情報を表示する："
 
-#: Preferences.java:357
+#: Preferences.java:381
 msgid "compilation "
 msgstr "コンパイル "
 
-#: Preferences.java:359
+#: Preferences.java:383
 msgid "upload"
 msgstr "書き込み"
 
-#: Preferences.java:368
+#: Preferences.java:392
 msgid "Verify code after upload"
 msgstr "書き込みを検証する"
 
-#: Preferences.java:377
+#: Preferences.java:401
 msgid "Use external editor"
 msgstr "外部のエディタを使用する"
 
-#: Preferences.java:387
+#: Preferences.java:411
 msgid "Check for updates on startup"
 msgstr "起動時に最新バージョンの有無をチェックする"
 
-#: Preferences.java:396
+#: Preferences.java:420
 msgid "Update sketch files to new extension on save (.pde -> .ino)"
 msgstr "スケッチを保存する際に、拡張子を.pdeから.inoに変更する"
 
-#: Preferences.java:407
+#: Preferences.java:431
 msgid "Automatically associate .ino files with Arduino"
 msgstr ".inoファイルをArduino IDEに関連づける"
 
-#: Preferences.java:417
+#: Preferences.java:441
 msgid "More preferences can be edited directly in the file"
 msgstr "以下のファイルを直接編集すれば、より多くの設定を行うことができます。"
 
-#: Preferences.java:446
+#: Preferences.java:470
 msgid "(edit only when Arduino is not running)"
 msgstr "編集する際には、Arduino IDEを終了させておいてください。"
 
-#: Preferences.java:593
+#: Preferences.java:617
 #, java-format
 msgid "ignoring invalid font size {0}"
 msgstr "フォントサイズの指定「{0}」が異常なので無視します。"
