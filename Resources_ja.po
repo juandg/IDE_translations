@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-29 10:24-0400\n"
-"PO-Revision-Date: 2012-04-22 01:32+0900\n"
+"PO-Revision-Date: 2012-06-01 00:02+0900\n"
 "Last-Translator: Shigeru KANEMOTO <c2drQHN3aXRjaC1zY2llbmNlLmNvbQ==>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -531,11 +531,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"シリアルポート「{0}」は、他のソフトウェアで使われています。"
+"シリアルポートを使っている可能性の有るソフトウェアを終了させてみてください。"
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "シリアルポート「{0}」をタッチできませんでした。"
 
 #: Serial.java:173
 #, java-format
@@ -973,7 +975,7 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "シリアルポートを1200bpsで開閉する事により、リセットを行なっています。"
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -981,6 +983,12 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"選択されたシリアルポートには、Leonardoが接続されていません。"
+"シリアルポートを正しく選択しているかどうかを確認してください。"
+"もしも正しく選択している場合には、次の方法を試してください。"
+"Leonardoのリセットボタンを指で押し、"
+"押したままの状態でArduino IDEの「書き込み」ボタンをクリックし、"
+"リセットボタンから指を離します。"
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1149,11 +1157,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "「Mouse」はArduino Leonardoだけで使えます。"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "「Keyboard」はArduino Leonardoだけで使えます。"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1485,11 +1493,11 @@ msgstr "パソコンの設定に従う"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "アラビア語"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "アラゴン語"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1517,7 +1525,7 @@ msgstr "英語"
 
 #: Preferences.java:92
 msgid "Estonian"
-msgstr ""
+msgstr "エストニア語"
 
 #: Preferences.java:93
 msgid "Filipino"
@@ -1541,7 +1549,7 @@ msgstr "ギリシア語"
 
 #: Preferences.java:98
 msgid "Hindi"
-msgstr ""
+msgstr "ヒンディー語"
 
 #: Preferences.java:99
 msgid "Hungarian"
@@ -1549,7 +1557,7 @@ msgstr "ハンガリー語"
 
 #: Preferences.java:100
 msgid "Indonesian"
-msgstr ""
+msgstr "インドネシア語"
 
 #: Preferences.java:101
 msgid "Italian"
@@ -1561,7 +1569,7 @@ msgstr "日本語"
 
 #: Preferences.java:103
 msgid "Korean"
-msgstr ""
+msgstr "韓国語"
 
 #: Preferences.java:104
 msgid "Latvian"
@@ -1569,15 +1577,15 @@ msgstr "ラトビア語"
 
 #: Preferences.java:105
 msgid "Lithuaninan"
-msgstr ""
+msgstr "リトアニア語"
 
 #: Preferences.java:106
 msgid "Marathi"
-msgstr ""
+msgstr "マラーティ語"
 
 #: Preferences.java:107
 msgid "Norwegian"
-msgstr ""
+msgstr "ノルウェイ語"
 
 #: Preferences.java:108
 msgid "Persian"
@@ -1585,7 +1593,7 @@ msgstr "ペルシャ語"
 
 #: Preferences.java:109
 msgid "Polish"
-msgstr ""
+msgstr "ポーランド語"
 
 #: Preferences.java:110 Preferences.java:111
 msgid "Portuguese"
@@ -1605,7 +1613,7 @@ msgstr "スペイン語"
 
 #: Preferences.java:115
 msgid "Tamil"
-msgstr ""
+msgstr "タミル語"
 
 #: Preferences.java:218
 msgid ""
