@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-31 06:03-0400\n"
-"PO-Revision-Date: 2012-05-31 10:30+0200\n"
-"Last-Translator: Dubravko Penezic<dpenezic@gmail.com>\n"
+"PO-Revision-Date: 2012-06-01 15:03+0200\n"
+"Last-Translator: Dubravko Penezić <dpenezic@gmail.com>\n"
 "Language-Team: Croatian\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -531,11 +531,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"Serijski port  ''{0}'' je u uporabi. Zatvorite sve programe koji bi ga "
+"mogli koristiti."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Greška pri korištenju serijskog porta  ''{0}''."
 
 #: Serial.java:173
 #, java-format
@@ -967,7 +969,7 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Prisilni reset korištenjem 1200bps otvori/zatvori postuupka na portu "
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -975,6 +977,9 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"Nemogu pronaći Leonardo-a na odabranom portu. Provjerite jeste li "
+"ispravno odabrali port. Ako je port ispravan, pritisnite tipku reset na "
+"modulu, nakon osnovnog prijenosa."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1147,11 +1152,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Miš' je podržan samo na Arduino Leonardo-u"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Tipkovnica' je podržana samo na Arduino Leonardo-u"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1482,15 +1487,15 @@ msgstr "Pregledavanje"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Orginalne postavke"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Arabic"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonese"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1502,7 +1507,7 @@ msgstr "Chinese Simplified"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Chinese Traditional"
 
 #: Preferences.java:89
 msgid "Danish"
@@ -1518,7 +1523,7 @@ msgstr "English"
 
 #: Preferences.java:92
 msgid "Estonian"
-msgstr ""
+msgstr "Estonian"
 
 #: Preferences.java:93
 msgid "Filipino"
@@ -1542,7 +1547,7 @@ msgstr "Greek"
 
 #: Preferences.java:98
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 #: Preferences.java:99
 msgid "Hungarian"
@@ -1550,7 +1555,7 @@ msgstr "Hungarian"
 
 #: Preferences.java:100
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesian"
 
 #: Preferences.java:101
 msgid "Italian"
@@ -1562,7 +1567,7 @@ msgstr "Japanese"
 
 #: Preferences.java:103
 msgid "Korean"
-msgstr ""
+msgstr "Korean"
 
 #: Preferences.java:104
 msgid "Latvian"
@@ -1570,15 +1575,15 @@ msgstr "Latvian"
 
 #: Preferences.java:105
 msgid "Lithuaninan"
-msgstr ""
+msgstr "Lithuaninan"
 
 #: Preferences.java:106
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
 
 #: Preferences.java:107
 msgid "Norwegian"
-msgstr ""
+msgstr "Norwegian"
 
 #: Preferences.java:108
 msgid "Persian"
@@ -1586,11 +1591,11 @@ msgstr "Persian"
 
 #: Preferences.java:109
 msgid "Polish"
-msgstr ""
+msgstr "Polish"
 
 #: Preferences.java:110 Preferences.java:111
 msgid "Portuguese"
-msgstr ""
+msgstr "Portuguese"
 
 #: Preferences.java:112
 msgid "Romanian"
@@ -1598,7 +1603,7 @@ msgstr "Romanian"
 
 #: Preferences.java:113
 msgid "Russian"
-msgstr ""
+msgstr "Russian"
 
 #: Preferences.java:114
 msgid "Spanish"
@@ -1606,7 +1611,7 @@ msgstr "Spanish"
 
 #: Preferences.java:115
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: Preferences.java:218
 msgid ""
@@ -1644,7 +1649,7 @@ msgstr "Odaberite novu lokaciju za blok s skicama"
 
 #: Preferences.java:345
 msgid "Editor language: "
-msgstr ""
+msgstr "Jezik uređivanja: "
 
 #: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
@@ -1672,7 +1677,7 @@ msgstr "Provjera koda nakon prijenosa"
 
 #: Preferences.java:401
 msgid "Use external editor"
-msgstr "K0rištenje vanjskog uređivača teksta"
+msgstr "Korištenje vanjskog uređivača teksta"
 
 #: Preferences.java:411
 msgid "Check for updates on startup"
