@@ -996,7 +996,7 @@ msgstr ""
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
 msgstr ""
-"Forcer la réinitialisation en utilisant une ouverture/fermeture à 1200 bps "
+"Force la réinitialisation en utilisant une ouverture/fermeture à 1200 bps "
 "sur le port "
 
 #: debug/AvrdudeUploader.java:151
