@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: IDE_translations 1.01\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 07:48+0200\n"
-"PO-Revision-Date: 2012-04-17 15:31+0200\n"
+"PO-Revision-Date: 2012-06-06 01:12+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -216,7 +216,7 @@ msgstr "Couper"
 
 #: Editor.java:1143 Editor.java:2660
 msgid "Copy"
-msgstr "Coller"
+msgstr "Copier"
 
 #: Editor.java:1151 Editor.java:2668
 msgid "Copy for Forum"
@@ -548,11 +548,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"Port série « {0} » déjà utilisé. Essayez de quitter tout logiciel qui "
+"pourrait s''en servir."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Erreur de la commande « touch » sur le port série « {0} »."
 
 #: Serial.java:173
 #, java-format
@@ -994,6 +996,8 @@ msgstr ""
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
 msgstr ""
+"Forcer la réinitialisation en utilisant une ouverture/fermeture à 1200 bps "
+"sur le port "
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
@@ -1001,6 +1005,9 @@ msgid ""
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
 msgstr ""
+"Impossible de trouver une Leonardo sur le port sélectionné. Vérifiez que "
+"celui-ci est correct. Si c'est bien le cas, essayez en appuyant sur le "
+"bouton de réinitialisation après avoir lancé le téléversement."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1180,11 +1187,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "« Mouse » n'est pris en compte que par l'Arduino Leonardo"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "« Keyboard » n'est pris en compte que par l'Arduino Leonardo"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1579,7 +1586,7 @@ msgstr "grec"
 
 #: Preferences.java:98
 msgid "Hindi"
-msgstr ""
+msgstr "hindi"
 
 #: Preferences.java:99
 msgid "Hungarian"
@@ -1611,11 +1618,11 @@ msgstr "lituanien"
 
 #: Preferences.java:106
 msgid "Marathi"
-msgstr ""
+msgstr "marathe"
 
 #: Preferences.java:107
 msgid "Norwegian"
-msgstr ""
+msgstr "norvégien"
 
 #: Preferences.java:108
 msgid "Persian"
@@ -1643,7 +1650,7 @@ msgstr "espagnol"
 
 #: Preferences.java:115
 msgid "Tamil"
-msgstr ""
+msgstr "tamoul"
 
 #: Preferences.java:218
 msgid ""
