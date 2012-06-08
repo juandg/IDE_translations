@@ -1068,10 +1068,10 @@ msgstr "A clase Udp teve o nome mudado para EthernetUdp."
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
+"EthernetUdp.\n"
 "\n"
 msgstr "\n"
-"Desde a versão Arduino 1.0, a classe Udp na biblioteca Ethernet teve o nome mudado para EthernetClient.\n"
+"Desde a versão Arduino 1.0, a classe Udp na biblioteca Ethernet teve o nome mudado para EthernetUdp.\n"
 "\n"
 
 #: debug/Compiler.java:498
