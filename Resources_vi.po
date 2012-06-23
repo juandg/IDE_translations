@@ -1,0 +1,1709 @@
+# Spanish translations for the Arduino IDE.
+# Copyright (C) 2012
+# This file is distributed under the same license as the Arduino IDE package.
+# Juan Gomez <3f615b5b28bd435629faa36ded272d837cda2805>, 2012.
+# David Cuartielles <c7afdd1968c6506100ac15ecaad67a8305c50cc5>, 2012
+# Jesús Sánchez <da4122b3b83899758123e02c0feee62783987d2b>, 2012.
+# Eduardo Sacristan <3f615b5b28bd435629faa36ded272d837cda2805>, 2012.
+# Jose Manuel Escuder <dbda52959cefcb044bda126ee4b0dddb92fb2f0d, 2012
+# Merche Blasco <5066f2c416c20aa131abd52f58bba0aed8c9d5b6>, 2012
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-29 18:10 +0600\n"
+"PO-Revision-Date: 2012-04-08 23:20 +0600\n"
+"Last-Translator: Juan Gomez <3f615b5b28bd435629faa36ded272d837cda2805>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Editor.java:366
+msgid "No files were added to the sketch."
+msgstr "Không có tập tin trong bản thảo."
+
+#: Editor.java:369 Sketch.java:996
+msgid "One file added to the sketch."
+msgstr "Đã thêm một tập tin vào bản thảo."
+
+#: Editor.java:373
+#, java-format
+msgid "{0} files added to the sketch."
+msgstr "{0} tập tin vừa được thêm vào bản thảo."
+
+#: Editor.java:484
+msgid "File"
+msgstr "Tập tin"
+
+#: Editor.java:486 EditorToolbar.java:41
+msgid "New"
+msgstr "Tạo mới"
+
+#: Editor.java:494 Base.java:903
+msgid "Open..."
+msgstr "Mở..."
+
+#: Editor.java:503
+msgid "Sketchbook"
+msgstr "Tập bản thảo"
+
+#: Editor.java:509
+msgid "Examples"
+msgstr "Bài mẫu"
+
+#: Editor.java:514 Editor.java:1977
+msgid "Close"
+msgstr "Đóng"
+
+#: Editor.java:522 Editor.java:2017 Editor.java:2421 EditorToolbar.java:41
+#: EditorToolbar.java:46
+msgid "Save"
+msgstr "Lưu"
+
+#: Editor.java:530
+msgid "Save As..."
+msgstr "Lưu khác..."
+
+#: Editor.java:538 EditorToolbar.java:41
+msgid "Upload"
+msgstr "Tải lên bo"
+
+#: Editor.java:546 EditorToolbar.java:46
+msgid "Upload Using Programmer"
+msgstr "Tải lên bo dùng mạch nạp"
+
+#: Editor.java:556
+msgid "Page Setup"
+msgstr "Thiết lập trang"
+
+#: Editor.java:564
+msgid "Print"
+msgstr "In"
+
+#: Editor.java:576 Preferences.java:287
+msgid "Preferences"
+msgstr "Tùy chỉnh"
+
+#: Editor.java:586 Base.java:782
+msgid "Quit"
+msgstr "Thoát"
+
+#: Editor.java:600
+msgid "Sketch"
+msgstr "Bản thảo"
+
+#: Editor.java:602
+msgid "Verify / Compile"
+msgstr "Xác minh / Biên dịch"
+
+#: Editor.java:629
+msgid "Import Library..."
+msgstr "Thêm thư viện..."
+
+#: Editor.java:634
+msgid "Show Sketch Folder"
+msgstr "Xem thư mục chứa bản thảo"
+
+#: Editor.java:643
+msgid "Add File..."
+msgstr "Thêm tập tin..."
+
+#: Editor.java:656
+msgid "Tools"
+msgstr "Công cụ"
+
+#: Editor.java:662 EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Serial Monitor"
+msgstr "Giao tiếp nối tiếp"
+
+#: Editor.java:682
+msgid "Board"
+msgstr "Bo mạch"
+
+#: Editor.java:690
+msgid "Serial Port"
+msgstr "Cổng nối tiếp"
+
+#: Editor.java:695
+msgid "Programmer"
+msgstr "Mạch nạp"
+
+#: Editor.java:699
+msgid "Burn Bootloader"
+msgstr "Nạp chương trình khởi động"
+
+#: Editor.java:923
+msgid "serialMenu is null"
+msgstr "Không có cổng nối tiếp nào"
+
+#: Editor.java:927 Editor.java:934
+msgid "name is null"
+msgstr "Không có tên"
+
+#: Editor.java:986
+msgid "error retrieving port list"
+msgstr "Lỗi khi truy xuất danh sách các cổng"
+
+#: Editor.java:1002
+msgid "Help"
+msgstr "Giúp đỡ"
+
+#: Editor.java:1041
+msgid "Getting Started"
+msgstr "Bài khởi động"
+
+#: Editor.java:1049
+msgid "Environment"
+msgstr "Môi trường"
+
+#: Editor.java:1057
+msgid "Troubleshooting"
+msgstr "Xử lí sự cố"
+
+#: Editor.java:1065
+msgid "Reference"
+msgstr "Tham khảo"
+
+#: Editor.java:1073 Editor.java:2728
+msgid "Find in Reference"
+msgstr "Tìm trong tài liệu tham khảo"
+
+#: Editor.java:1083
+msgid "Frequently Asked Questions"
+msgstr "Những câu hỏi thường gặp"
+
+#: Editor.java:1091
+msgid "Visit Arduino.cc"
+msgstr "Tới trang Arduino.cc"
+
+#: Editor.java:1094
+msgid "http://arduino.cc/"
+msgstr ""
+
+#: Editor.java:1102
+msgid "About Arduino"
+msgstr "Thông tin về Arduino"
+
+#: Editor.java:1116
+msgid "Edit"
+msgstr "Biên tập"
+
+#: Editor.java:1119 Editor.java:1341
+msgid "Undo"
+msgstr "Bỏ tác vụ"
+
+#: Editor.java:1124 Editor.java:1126 Editor.java:1376
+msgid "Redo"
+msgstr "Làm lại tác vụ"
+
+#: Editor.java:1135 Editor.java:2652
+msgid "Cut"
+msgstr "Cắt"
+
+#: Editor.java:1143 Editor.java:2660
+msgid "Copy"
+msgstr "Sao chép"
+
+#: Editor.java:1151 Editor.java:2668
+msgid "Copy for Forum"
+msgstr "Cắt cho vào forum"
+
+#: Editor.java:1163 Editor.java:2676
+msgid "Copy as HTML"
+msgstr "Sao chép dưới dạng HTML"
+
+#: Editor.java:1175 Editor.java:2684
+msgid "Paste"
+msgstr "Dán"
+
+#: Editor.java:1184 Editor.java:2692
+msgid "Select All"
+msgstr "Chọn tất cả"
+
+#: Editor.java:1194 Editor.java:2702
+msgid "Comment/Uncomment"
+msgstr "Chú thích/Không chú thích"
+
+#: Editor.java:1202 Editor.java:2710
+msgid "Increase Indent"
+msgstr "Tăng thụt lề"
+
+#: Editor.java:1210 Editor.java:2718
+msgid "Decrease Indent"
+msgstr "Giảm thụt lề"
+
+#: Editor.java:1220
+msgid "Find..."
+msgstr "Tìm kiếm..."
+
+#: Editor.java:1235
+msgid "Find Next"
+msgstr "Tìm tiếp"
+
+#: Editor.java:1245
+msgid "Find Previous"
+msgstr "Tìm về trước"
+
+#: Editor.java:1255
+msgid "Use Selection For Find"
+msgstr "Sử dụng Sự lựa chọn cho tìm kiếm"
+
+#: Editor.java:1816
+msgid "First select a word to find in the reference."
+msgstr "Đầu tiên chọn một từ để tìm trong mục tham khảo."
+
+#: Editor.java:1823
+#, java-format
+msgid "No reference available for \"{0}\""
+msgstr "Không có tham khảo cho \"{0}\""
+
+#: Editor.java:1826
+#, java-format
+msgid "{0}.html"
+msgstr ""
+
+#: Editor.java:1843 Sketch.java:1612
+msgid "Compiling sketch..."
+msgstr "Đang biên dịch bản thảo..."
+
+#: Editor.java:1864 Editor.java:1881
+msgid "Done compiling."
+msgstr "Biên dịch xong."
+
+#: Editor.java:1973
+#, java-format
+msgid "Save changes to \"{0}\"?  "
+msgstr "Lưu sự thay đổi tới \"{0}\"?  "
+
+#: Editor.java:2006
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Do you "
+"want to save changes to this sketch<BR> before closing?</b><p>If you don't "
+"save, your changes will be lost."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Bạn có muốn "
+"lưu sự thay đổi tới bản thảo này<BR> trước khi đóng lại?</b><p>Nếu bạn không "
+"lưu, sự thay đổi sẽ mất."
+
+#: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
+#: Sketch.java:741 Sketch.java:1046 Preferences.java:78
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: Editor.java:2017
+msgid "Don't Save"
+msgstr "Không lưu"
+
+#: Editor.java:2089
+msgid "Bad file selected"
+msgstr "Tập tin được chọn không tốt"
+
+#: Editor.java:2090
+msgid ""
+"Processing can only open its own sketches\n"
+"and other files ending in .ino or .pde"
+msgstr ""
+"Chương trình chỉ có thể mở bản thảo của chính nó\n"
+"và các tập tin với đuôi là .ino hoặc .pde"
+
+#: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
+#: Sketch.java:1046 Preferences.java:79
+msgid "OK"
+msgstr "Chấp nhận"
+
+#: Editor.java:2100
+#, java-format
+msgid ""
+"The file \"{0}\" needs to be inside\n"
+"a sketch folder named \"{1}\".\n"
+"Create this folder, move the file, and continue?"
+msgstr ""
+"Tập tin \"{0}\" cần phải ở trong\n"
+"một tập thư mục bản thảo có tên là \"{1}\".\n"
+"Tạo thư mục này, di chuyển tập tin, và tiếp tục?"
+
+#: Editor.java:2109
+msgid "Moving"
+msgstr "Đang di chuyển"
+
+#: Editor.java:2120 Editor.java:2131 Editor.java:2141 Editor.java:2159
+#: Sketch.java:479 Sketch.java:485 Sketch.java:500 Sketch.java:507
+#: Sketch.java:530 Sketch.java:547 Base.java:1861 Preferences.java:248
+msgid "Error"
+msgstr "Lỗi"
+
+#: Editor.java:2122
+#, java-format
+msgid "A folder named \"{0}\" already exists. Can't open sketch."
+msgstr "Thư mục tên là \"{0}\" đã tồn tại. Không thể mở bản thảo."
+
+#: Editor.java:2132
+msgid "Could not create the sketch folder."
+msgstr "Không thể tạo thư mục chứa các bản thảo."
+
+#: Editor.java:2141
+msgid "Could not copy to a proper location."
+msgstr "Không thể sao chép tới một địa chỉ riêng."
+
+#: Editor.java:2159
+msgid "Could not create the sketch."
+msgstr "Không thể tạo bản thảo."
+
+#: Editor.java:2166
+#, java-format
+msgid "{0} | Arduino {1}"
+msgstr ""
+
+#: Editor.java:2223 Editor.java:2261
+msgid "Saving..."
+msgstr "Đang lưu..."
+
+#: Editor.java:2228 Editor.java:2264
+msgid "Done Saving."
+msgstr "Đã lưu xong."
+
+#: Editor.java:2270
+msgid "Save Canceled."
+msgstr "Hủy bỏ tác vụ lưu trữ."
+
+#: Editor.java:2296
+#, java-format
+msgid ""
+"Serial port {0} not found.\n"
+"Retry the upload with another serial port?"
+msgstr ""
+"cổng nối tiếp số {0} không tìm thấy.\n"
+"Thử tải lên với một cổng khác?"
+
+#: Editor.java:2331
+msgid "Uploading to I/O Board..."
+msgstr "Nạp chương trình lên mạch I/O..."
+
+#: Editor.java:2348 Editor.java:2384
+msgid "Done uploading."
+msgstr "Đã nạp xong."
+
+#: Editor.java:2356 Editor.java:2392
+msgid "Upload canceled."
+msgstr "Việc nạp đã bị hủy."
+
+#: Editor.java:2420
+msgid "Save changes before export?"
+msgstr "Lưu những sự thay đổi trước khi xuất?"
+
+#: Editor.java:2435
+msgid "Export canceled, changes must first be saved."
+msgstr "Hủy xuất tập tin, sự thay đổi cần được lưu trước."
+
+#: Editor.java:2457
+msgid "Burning bootloader to I/O Board (this may take a minute)..."
+msgstr "Đang nạp chương trình khởi động cho mạch I/O (Có thễ mất vài phút)...\n"
+
+#: Editor.java:2463
+msgid "Done burning bootloader."
+msgstr "Đã nạp chương trình khởi động xong."
+
+#: Editor.java:2465 Editor.java:2469 Editor.java:2473
+msgid "Error while burning bootloader."
+msgstr "Có lỗi khi đang nạp chương trình khởi động."
+
+#: Editor.java:2500
+msgid "Printing..."
+msgstr "Đang in..."
+
+#: Editor.java:2517
+msgid "Done printing."
+msgstr "Đã in xong."
+
+#: Editor.java:2520
+msgid "Error while printing."
+msgstr "Lỗi khi đang in."
+
+#: Editor.java:2524
+msgid "Printing canceled."
+msgstr "Hủy lệnh in."
+
+#: Editor.java:2572
+#, java-format
+msgid "Bad error line: {0}"
+msgstr "Có lỗi ở dòng: {0}"
+
+#: Editor.java:2641
+msgid "Open URL"
+msgstr "Mở đường dẫn URL"
+
+#: UpdateCheck.java:53
+msgid "http://www.arduino.cc/latest.txt"
+msgstr ""
+
+#: UpdateCheck.java:103
+msgid ""
+"A new version of Arduino is available,\n"
+"would you like to visit the Arduino download page?"
+msgstr ""
+"Phiên bản mới của Arduino hiện có sẵn,\n"
+"Bạn có muốn tới trang của Arduino để tải về?"
+
+#: UpdateCheck.java:108 Preferences.java:76
+msgid "Yes"
+msgstr "Đồng ý"
+
+#: UpdateCheck.java:108 Preferences.java:77
+msgid "No"
+msgstr "Từ chối"
+
+#: UpdateCheck.java:111
+msgid "Update"
+msgstr "Nâng cấp"
+
+#: UpdateCheck.java:118
+msgid "http://www.arduino.cc/en/Main/Software"
+msgstr ""
+
+#: FindReplace.java:80
+msgid "Find:"
+msgstr "Tìm kiếm:"
+
+#: FindReplace.java:81
+msgid "Replace with:"
+msgstr "Thay bằng:"
+
+#: FindReplace.java:96
+msgid "Ignore Case"
+msgstr "Trường hợp bỏ qua"
+
+#: FindReplace.java:105
+msgid "Wrap Around"
+msgstr "Cuốn vòng quanh"
+
+#: FindReplace.java:120 FindReplace.java:131
+msgid "Replace All"
+msgstr "Thay thế tất cả"
+
+#: FindReplace.java:121 FindReplace.java:130 Sketch.java:1050
+msgid "Replace"
+msgstr "Thay thế"
+
+#: FindReplace.java:122 FindReplace.java:129
+msgid "Replace & Find"
+msgstr "Thay thế và tìm kiếm"
+
+#: FindReplace.java:123 FindReplace.java:128
+msgid "Previous"
+msgstr "Về trước"
+
+#: FindReplace.java:124 FindReplace.java:127
+msgid "Find"
+msgstr "Tìm kiếm"
+
+#: SerialMonitor.java:93
+msgid "Send"
+msgstr "Gửi"
+
+#: SerialMonitor.java:110
+msgid "Autoscroll"
+msgstr "Tự động cuốn"
+
+#: SerialMonitor.java:112
+msgid "No line ending"
+msgstr "Không có dòng kết thúc"
+
+#: SerialMonitor.java:112
+msgid "Newline"
+msgstr "Dòng mới"
+
+#: SerialMonitor.java:112
+msgid "Carriage return"
+msgstr "Xuống dòng"
+
+#: SerialMonitor.java:112
+msgid "Both NL & CR"
+msgstr "Cả hai NL & CR"
+
+#: SerialMonitor.java:130 SerialMonitor.java:133
+msgid " baud"
+msgstr " baud"
+
+#: Serial.java:120
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quitting any programs that may be "
+"using it."
+msgstr ""
+"Cổng nối tiếp ''{0}'' đang đượuc sử dụng. Tắt một số chương trình có thể  "
+"đang sử dụng nó."
+
+#: Serial.java:124
+#, java-format
+msgid "Error touching serial port ''{0}''."
+msgstr "Lỗi giao tiếp với cổng nối tiếp ''{0}''."
+
+#: Serial.java:173
+#, java-format
+msgid ""
+"Serial port ''{0}'' already in use. Try quiting any programs that may be "
+"using it."
+msgstr ""
+"Cổng nối tiếp ''{0}'' đang được sử dụng.  Tắt một số chương trình có thể  "
+"đang sử dụng nó."
+
+#: Serial.java:180
+#, java-format
+msgid "Error opening serial port ''{0}''."
+msgstr "Lỗi mở cổng nối tiếp ''{0}''."
+
+#: Serial.java:193
+#, java-format
+msgid ""
+"Serial port ''{0}'' not found. Did you select the right one from the Tools > "
+"Serial Port menu?"
+msgstr ""
+"Không tìm thấy cổng nối tiếp ''{0}''. Bạn có chọn đúng cỗng nối tiếp trong  "
+" Công cụ> Danh sách cổng nối tiếp?"
+
+#: Serial.java:450
+#, java-format
+msgid ""
+"readBytesUntil() byte buffer is too small for the {0} bytes up to and "
+"including char {1}"
+msgstr ""
+"Bộ đệm byte của readBytesUntil() quá nhỏ cho bytes {0} đến char {1} "
+
+#: Serial.java:592
+#, java-format
+msgid "Error inside Serial.{0}()"
+msgstr "Lỗi trong cổng nối tiếp.{0}()"
+
+#: tools/AutoFormat.java:91
+msgid "Auto Format"
+msgstr "Định dạng tự động"
+
+#: tools/AutoFormat.java:913 tools/format/src/AutoFormat.java:54
+msgid "No changes necessary for Auto Format."
+msgstr "Chưa có sự thay đổi cần thiết nào cho định dạng tự động."
+
+#: tools/AutoFormat.java:919
+msgid "Auto Format Canceled: Too many right parentheses."
+msgstr "Hủy định dạng tự động vì: có quá nhiều dấu ngoặc phải."
+
+#: tools/AutoFormat.java:922
+msgid "Auto Format Canceled: Too many left parentheses."
+msgstr "Hủy định dạng tự động vì: có quá nhiều dấu ngoặc trái."
+
+#: tools/AutoFormat.java:928
+msgid "Auto Format Canceled: Too many right curly braces."
+msgstr "Hủy định dạng tự động vì: có quá nhiều dấu ngoặc nhọn phải."
+
+#: tools/AutoFormat.java:931
+msgid "Auto Format Canceled: Too many left curly braces."
+msgstr "Hủy định dạng tự động vì: có quá nhiều dấu ngoặc nhọn trái."
+
+#: tools/AutoFormat.java:941
+msgid "Auto Format finished."
+msgstr "Hoàn thành định dạng tự động."
+
+#: tools/FixEncoding.java:41 tools/FixEncoding.java:58
+#: tools/FixEncoding.java:79
+msgid "Fix Encoding & Reload"
+msgstr "Sửa lỗi mã hóa và tải lại"
+
+#: tools/FixEncoding.java:57
+msgid "Discard all changes and reload sketch?"
+msgstr "Bỏ hết tất cả thay đổi và tải lại?"
+
+#: tools/FixEncoding.java:77
+msgid ""
+"An error occurred while trying to fix the file encoding.\n"
+"Do not attempt to save this sketch as it may overwrite\n"
+"the old version. Use Open to re-open the sketch and try again.\n"
+msgstr ""
+"Một lỗi xảy ra khi sửa tập tin mã hóa\n"
+"Đừng cố lưu bản thảo này khi mà nó có thể viết đè lên \n"
+"bản cũ. Sử dụng Mở để mở lại bản thảo và thử lại\n"
+
+#: tools/Archiver.java:48
+msgid "Archive Sketch"
+msgstr "Lưu trữ bản thảo"
+
+#: tools/Archiver.java:59
+msgid "yyMMdd"
+msgstr "yyMMdd"
+
+#: tools/Archiver.java:74
+msgid "Couldn't archive sketch"
+msgstr "Không thể lưu trữ tài liệu"
+
+#: tools/Archiver.java:75
+msgid ""
+"Archiving the sketch has been canceled because\n"
+"the sketch couldn't save properly."
+msgstr "" 
+"Lưu trữ bản thảo bị hủy vì \n"
+"bản thảo không thể lưu hợp lệ."
+
+#: tools/Archiver.java:109
+msgid "Archive sketch as:"
+msgstr "Lưu trữ bản thảo với tên:"
+
+#: tools/Archiver.java:139
+msgid "Archive sketch canceled."
+msgstr "Lưu trữ bản thảo bị hủy bỏ."
+
+#: SketchCode.java:83
+#, java-format
+msgid "Error while loading code {0}"
+msgstr "Lỗi xảy ra khi đang tải code {0}"
+
+#: SketchCode.java:258
+#, java-format
+msgid ""
+"\"{0}\" contains unrecognized characters.If this code was created with an "
+"older version of Processing,you may need to use Tools -> Fix Encoding & "
+"Reload to updatethe sketch to use UTF-8 encoding. If not, you may need "
+"todelete the bad characters to get rid of this warning."
+msgstr ""
+"\"{0}\" chứa những kí tự không nhận ra. Nếu bộ code này được tạo bởi  "
+"một phiên bản cũ của Processing, bạn có thể cần phải sử dụng Công cụ -> Sửa lỗi mã hóa & Tải lại"
+" để nâng cấp bản thảo với chuẩn mã hóa UTF-8. Nếu không, bạn cần phải xóa  "
+"những kí tự không đúng để tránh lời cảnh báo này."
+
+#: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
+msgid "Sketch is Read-Only"
+msgstr "Bản thảo chỉ đọc"
+
+#: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
+msgid ""
+"Some files are marked \"read-only\", so you'll\n"
+"need to re-save the sketch in another location,\n"
+"and try again."
+msgstr ""
+"Một vài tập tin được đánh dấu \"chỉ đọc\",\n"
+"bởi vậy nên bạn cần lưu lại bản thảo ở một nơi khác, \n"
+"và thử lại."
+
+#: Sketch.java:286
+msgid "Name for new file:"
+msgstr "Tên cho tập tin mới:"
+
+#: Sketch.java:298
+msgid "Sketch is Untitled"
+msgstr "Bản thảo không có tiêu đề"
+
+#: Sketch.java:299
+msgid ""
+"How about saving the sketch first \n"
+"before trying to rename it?"
+msgstr ""
+"Bản thảo của bạn sẽ được lưu lại trước khi \n"
+"thay đổi tên của nó?"
+
+#: Sketch.java:359 Sketch.java:366 Sketch.java:377
+msgid "Problem with rename"
+msgstr "Việc đổi tên có vấn đề"
+
+#: Sketch.java:360
+msgid "The name cannot start with a period."
+msgstr "Tên không thể bắt đầu với dấu chấm câu."
+
+#: Sketch.java:368
+#, java-format
+msgid "\".{0}\" is not a valid extension."
+msgstr "\".{0}\" không phải là một phần mở rộng hợp lệ."
+
+#: Sketch.java:378
+msgid ""
+"The main file can't use an extension.\n"
+"(It may be time for your to graduate to a\n"
+"\"real\" programming environment)"
+msgstr ""
+"Tập tin chính không thể sử dụng phần mở rộng.\n"
+"(Nó có thể tốn thời gian cho bạn để nâng cấp đến một\n"
+"môi trường lập trình \"real\")"
+
+#: Sketch.java:400 Sketch.java:414 Sketch.java:423 Sketch.java:863
+msgid "Nope"
+msgstr "Không"
+
+#: Sketch.java:402
+#, java-format
+msgid "A file named \"{0}\" already exists in \"{1}\""
+msgstr "Tập tin tên \"{0}\" đã tồn tại trong \"{1}\""
+
+#: Sketch.java:415
+msgid "You can't have a .cpp file with the same name as the sketch."
+msgstr "Bạn không thể có tập tin có đuôi .cpp với tên trùng với bản thảo."
+
+#: Sketch.java:425
+msgid ""
+"You can't rename the sketch to \"{0}\"\n"
+"because the sketch already has a .cpp file with that name."
+msgstr ""
+"Bạn không thể thay đổi tên bản thảo thành \"{0}\"\n"
+"vì bản thảo đã có một tập tin cùng tên có đuôi .cpp."
+
+#: Sketch.java:459
+msgid "Cannot Rename"
+msgstr "Không thể thay đổi tên"
+
+#: Sketch.java:461
+#, java-format
+msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
+msgstr "Xin lỗi, đã tồn tại một bản thảo (hoặc thư mục) với tên \"{0}\"."
+
+#: Sketch.java:479
+msgid "Could not rename the sketch. (0)"
+msgstr "Không thể thay đổi tên của bản thảo. (0)"
+
+#: Sketch.java:487 Sketch.java:532
+#, java-format
+msgid "Could not rename \"{0}\" to \"{1}\""
+msgstr "Không thể thay đổi tên từ \"{0}\" thành \"{1}\""
+
+#: Sketch.java:500
+msgid "Could not rename the sketch. (1)"
+msgstr "Không thể thay đổi tên của bản thảo. (1)"
+
+#: Sketch.java:507
+msgid "Could not rename the sketch. (2)"
+msgstr "Không thể thay đổi tên của bản thảo. (2)"
+
+#: Sketch.java:544
+msgid "createNewFile() returned false"
+msgstr "createNewFile() trả về sai"
+
+#: Sketch.java:591
+msgid "Are you sure you want to delete this sketch?"
+msgstr "Bạn có chắc muốn xóa bản thảo này?"
+
+#: Sketch.java:592
+#, java-format
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr "Bạn có chắc muốn xóa \"{0}\"?"
+
+#: Sketch.java:595 EditorHeader.java:314
+msgid "Delete"
+msgstr "Xóa"
+
+#: Sketch.java:620
+msgid "Couldn't do it"
+msgstr "Không thể làm điều này"
+
+#: Sketch.java:621
+#, java-format
+msgid "Could not delete \"{0}\"."
+msgstr "Không thể xóa \"{0}\"."
+
+#: Sketch.java:651
+msgid "removeCode: internal error.. could not find code"
+msgstr "removeCode: lỗi nội bộ.. không thể tìm thấy code"
+
+#: Sketch.java:724
+msgid "Sketch is read-only"
+msgstr "Bản thảo là chỉ-đọc"
+
+#: Sketch.java:725
+msgid ""
+"Some files are marked \"read-only\", so you'll\n"
+"need to re-save this sketch to another location."
+msgstr ""
+"Một vài tập tin được đánh dấu \"chỉ-đọc\",\n"
+"bạn cần phải lưu bản thảo này tới một nơi khác."
+
+#: Sketch.java:743
+msgid ""
+"In Arduino 1.0, the default file extension has changed\n"
+"from .pde to .ino.  New sketches (including those created\n"
+"by \"Save-As\" will use the new extension.  The extension\n"
+"of existing sketches will be updated on save, but you can\n"
+"disable this in the Preferences dialog.\n"
+"\n"
+"Save sketch and update its extension?"
+msgstr ""
+"Trong Arduino 1.0, phần mở rộng mặc định của tập tin đã thay đổi \n"
+"từ .pde thành .ino. Bản thảo mới (bao gồm cả những cái được tạo bởi \n"
+"\"Lưu thành..\" cũng sẽ sử dụng phần mở rộng mới này. Phần mở rộng\n"
+"của những bản thảo đã có sẽ được nâng cấp khi lưu, nhưng bạn có thể\n"
+"tắt chức năng này trong bảng Tùy chỉnh\n"
+"\n"
+"Lưu bản thảo và nâng cấp phần mở rộng của nó?"
+
+#: Sketch.java:750
+msgid ".pde -> .ino"
+msgstr ""
+
+#: Sketch.java:829
+msgid "Save sketch folder as..."
+msgstr "Lưu thư mục của bản thảo thành..."
+
+#: Sketch.java:865
+msgid ""
+"You can't save the sketch as \"{0}\"\n"
+"because the sketch already has a .cpp file with that name."
+msgstr ""
+"Bạn không thể lưu bản thảo thành \"{0}\"\n"
+"vì tên đó đã được dùng cho một tập tin .cpp trong cùng bản thảo."
+
+#: Sketch.java:886
+msgid "How very Borges of you"
+msgstr "Kì quá"
+
+#: Sketch.java:887
+msgid ""
+"You cannot save the sketch into a folder\n"
+"inside itself. This would go on forever."
+msgstr ""
+"Bạn không thể lưu bản thảo trong một thư mục chứa chính nó.\n"
+"Điều này có thể gây lặp vô tận ."
+
+#: Sketch.java:979
+msgid "Select an image or other data file to copy to your sketch"
+msgstr "Chọn một hình ảnh hoặc tập tin dữ liệu khác vào bản thảo của bạn"
+
+#: Sketch.java:1047
+#, java-format
+msgid "Replace the existing version of {0}?"
+msgstr "Thay thế phiên bản hiện tại của {0}?"
+
+#: Sketch.java:1069 Sketch.java:1092
+msgid "Error adding file"
+msgstr "Lỗi thêm tập tin"
+
+#: Sketch.java:1070
+#, java-format
+msgid "Could not delete the existing ''{0}'' file."
+msgstr "Không thể cóa tập tin hiện hành ''{0}''."
+
+#: Sketch.java:1078
+msgid "You can't fool me"
+msgstr "Xin đừng lừa em ^^"
+
+#: Sketch.java:1079
+msgid ""
+"This file has already been copied to the\n"
+"location from which where you're trying to add it.\n"
+"I ain't not doin nuthin'."
+msgstr ""
+"Tập tin này đã được sao chép đến nơi mà \n"
+"bạn đang cố gắng thêm vào.\n"
+"Tôi không làm gì nhé."
+
+#: Sketch.java:1093
+#, java-format
+msgid "Could not add ''{0}'' to the sketch."
+msgstr "Không thể thêm ''{0}'' vào bản thảo."
+
+#: Sketch.java:1396 Sketch.java:1427
+msgid "Build folder disappeared or could not be written"
+msgstr "Thư mục làm việc không còn hoặc không thể viết lên"
+
+#: Sketch.java:1411
+msgid "Could not find main class"
+msgstr "Không thể tìm lớp chính"
+
+#: Sketch.java:1436
+#, java-format
+msgid "Uncaught exception type: {0}"
+msgstr "Không nhận ra ngoại lệ này: {0}"
+
+#: Sketch.java:1468
+#, java-format
+msgid "Problem moving {0} to the build folder"
+msgstr "Có vấn đề khi di chuyển {0} tới thư mục làm việc"
+
+#: Sketch.java:1626
+msgid "Uploading..."
+msgstr "Đang tải lên..."
+
+#: Sketch.java:1649
+#, java-format
+msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
+msgstr "Kích thước nhị phân của bản thảo là: {0} bytes (tối đa là {1} bytes)"
+
+#: Sketch.java:1654
+msgid "Couldn't determine program size: {0}"
+msgstr "Không thể xác định kích thước của chương trình: {0}"
+
+#: Sketch.java:1659
+msgid ""
+"Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
+"tips on reducing it."
+msgstr ""
+"Bản thảo quá lớn; xem http://www.arduino.cc/en/Guide/"
+"Troubleshooting#size để biết thêm những chỉ dẫn giảm bớt chương trình."
+
+#: Sketch.java:1719
+msgid "Missing the */ from the end of a /* comment */"
+msgstr "Thiếu dấu */ ở cuối cúa cặp lệnh /* chú thích */"
+
+#: Sketch.java:1761
+msgid "Sketch Disappeared"
+msgstr "Bản thảo biến mất"
+
+#: Sketch.java:1762
+msgid ""
+"The sketch folder has disappeared.\n"
+" Will attempt to re-save in the same location,\n"
+"but anything besides the code will be lost."
+msgstr ""
+"Thư mục chứa bản thảo đã biến mất.\n"
+" Chương trình sẽ lưu lại tại cùng địa chỉ, \n"
+"nhưng mọi thứ ngoài code sẽ bị mất."
+
+#: Sketch.java:1775
+msgid "Could not re-save sketch"
+msgstr "Không thể lưu bản thảo lại"
+
+#: Sketch.java:1776
+msgid ""
+"Could not properly re-save the sketch. You may be in trouble at this point,\n"
+"and it might be time to copy and paste your code to another text editor."
+msgstr ""
+"Không thể lưu bản thảo lại một cách chính xác. Bạn có thể gặp vấn đề từ đây, \n"
+"và có thể mất một ít thời gian để sao chép và dán code của bạn tới một soạn thảo khác."
+
+#: Sketch.java:2025
+msgid ""
+"The sketch name had to be modified. Sketch names can only consist\n"
+"of ASCII characters and numbers (but cannot start with a number).\n"
+"They should also be less less than 64 characters long."
+msgstr ""
+"Tên của bản thảo đã bị sửa đổi. Tên của bản thảo chỉ có thể chứa\n"
+"kí tự ASCII và số (tuy nhiên không được bắt đầu bằng số). \n"
+"Tên của bản thảo nên ngắn hơn 64 kí tự.\n"
+
+#: debug/AvrdudeUploader.java:96
+msgid "Forcing reset using 1200bps open/close on port "
+msgstr "Bắt buộc khởi động lại bởi đóng / mở cổng với tốc độ 1200bps "
+
+#: debug/AvrdudeUploader.java:151
+msgid ""
+"Couldn’t find a Leonardo on the selected port. Check that you have the "
+"correct port selected.  If it is correct, try pressing the board's reset "
+"button after initiating the upload."
+msgstr "Không thể tìm thấy Leonardo trên cổng đã chọn. Hãy kiểm tra rằng bạn "
+"đã chọn đúng cổng. Nếu đã chọn đúng, thử nhấn nút khởi động lại bo mạch của bạn "
+"sau khi thiết lập để tải lên."
+
+#: debug/Uploader.java:52
+msgid "https://developer.berlios.de/bugs/?group_id=3590"
+msgstr ""
+
+#: debug/Uploader.java:54 debug/Compiler.java:43
+#, java-format
+msgid "Compiler error, please submit this code to {0}"
+msgstr "Lỗi biên dịch, xin hảy gửi đoạn code này tới {0}"
+
+#: debug/Uploader.java:209
+#, java-format
+msgid ""
+"the selected serial port {0} does not exist or your board is not connected"
+msgstr ""
+"Cổng nối tiếp được chọn {0} không tồn tại hoặc bo mạch của bạn chưa được kết nối"
+
+#: debug/Uploader.java:213
+msgid ""
+"Device is not responding, check the right serial port is selected or RESET "
+"the board right before exporting"
+msgstr ""
+"Thiết bị không phản hồi, kiểm tra xem đã đúng cổng nối tiếp được chọn chưa hoặc "
+"khởi động lại bo mạch ngay trước khi xuất khẩu "
+
+#: debug/Uploader.java:223
+msgid ""
+"Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload for suggestions."
+msgstr ""
+"Gặp vấn đề khi tải xuống bo. Xem http://www.arduino.cc/en/Guide/"
+"Troubleshooting#upload để có nững lời khuyên về trường hợp này."
+
+#: debug/Uploader.java:227
+msgid ""
+"Wrong microcontroller found.  Did you select the right board from the Tools "
+"> Board menu?"
+msgstr ""
+"Tìm thấy chip vi điều khiển không đúng. Bạn đã chọn đúng loại bo \n"
+"từ mục Công cụ> Danh sách bo ?"
+
+#: debug/Compiler.java:41
+msgid "http://code.google.com/p/arduino/issues/list"
+msgstr ""
+
+#: debug/Compiler.java:81
+msgid "No board selected; please choose a board from the Tools > Board menu."
+msgstr "Chưa chọn bo mạch; xin hãy chọn một bo từ Công cụ > Danh sách bo."
+
+#: debug/Compiler.java:425
+#, java-format
+msgid "{0} returned {1}"
+msgstr "{0} trả về {1}"
+
+#: debug/Compiler.java:429
+msgid "Error compiling."
+msgstr "Lỗi biên dịch."
+
+#: debug/Compiler.java:468
+msgid "Please import the SPI library from the Sketch > Import Library menu."
+msgstr "Xin hãy nhập thêm thư viện SPI từ Bản thảo > Nhập từ danh sách thư viện."
+
+#: debug/Compiler.java:469
+msgid ""
+"\n"
+"As of Arduino 0019, the Ethernet library depends on the SPI library.\n"
+"You appear to be using it or another library that depends on the SPI "
+"library.\n"
+"\n"
+msgstr ""
+"Từ phiên bản 0019, thư viện cho Ethernet phục thuộc vào thư viện SPI.\n"
+"Bạn có vẻ đang sử dụng nó hoặc thư viện khác mà có phụ thuộc vào thư viện SPI."
+
+#: debug/Compiler.java:474
+msgid "The 'BYTE' keyword is no longer supported."
+msgstr "Từ khóa 'BYTE' không còn dùng được nữa."
+
+#: debug/Compiler.java:475
+msgid ""
+"\n"
+"As of Arduino 1.0, the 'BYTE' keyword is no longer supported.\n"
+"Please use Serial.write() instead.\n"
+"\n"
+msgstr ""
+"\n"
+"Trong Arduino 1.0, từ khóa 'BYTE' không còn được sử dụng. \n"
+"Xin hãy sử dụng hàm Serial.write() để thay thế.\n"
+"\n"
+
+#: debug/Compiler.java:480
+msgid "The Server class has been renamed EthernetServer."
+msgstr "Lớp Server đã được đổi tên thành EthernetServer."
+
+#: debug/Compiler.java:481
+msgid ""
+"\n"
+"As of Arduino 1.0, the Server class in the Ethernet library has been renamed "
+"to EthernetServer.\n"
+"\n"
+msgstr ""
+"\n"
+"Trong Arduino 1.0, lớp Server trong thư viện Ethernet đã được \n"
+"đổi tên thành EthernetServer.\n"
+"\n"
+
+#: debug/Compiler.java:486
+msgid "The Client class has been renamed EthernetClient."
+msgstr "Lớp Client đã được đổi tên thành EthernetClient."
+
+#: debug/Compiler.java:487
+msgid ""
+"\n"
+"As of Arduino 1.0, the Client class in the Ethernet library has been renamed "
+"to EthernetClient.\n"
+"\n"
+msgstr ""
+"\n"
+"Trong Arduino 1.0, lớp Client trong thư viện Ethernet đã được \n"
+"đổi tên thành EthernetClient.\n"
+"\n"
+
+#: debug/Compiler.java:492
+msgid "The Udp class has been renamed EthernetUdp."
+msgstr "Lớp Udp đã được đổi tên thành EthernetUdp."
+
+#: debug/Compiler.java:493
+msgid ""
+"\n"
+"As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
+"EthernetUdp.\n"
+"\n"
+msgstr ""
+
+#: debug/Compiler.java:498
+msgid "Wire.send() has been renamed Wire.write()."
+msgstr "Wire.send() được đổi tên thành Wire.write()."
+
+#: debug/Compiler.java:499
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.send() function was renamed to Wire.write() for "
+"consistency with other libraries.\n"
+"\n"
+msgstr ""
+"\n"
+"Trong Arduino 1.0, hàm Wire.send() được đổi tên thành Wire.write() "
+"để nhất quán với các thư viện khác.\n"
+"\n"
+
+#: debug/Compiler.java:504
+msgid "Wire.receive() has been renamed Wire.read()."
+msgstr "Wire.receive() được đổi tên thành Wire.read()."
+
+#: debug/Compiler.java:505
+msgid ""
+"\n"
+"As of Arduino 1.0, the Wire.receive() function was renamed to Wire.read() "
+"for consistency with other libraries.\n"
+"\n"
+msgstr ""
+"\n"
+"Trong Arduino 1.0, hàm Wire.receive() được đổi tên thành Wire.read() "
+"để nhất quán với các thư viện khác.\n"
+"\n"
+
+#: debug/Compiler.java:510
+msgid "'Mouse' only supported on the Arduino Leonardo"
+msgstr "'Mouse' chỉ được dùng trong Arduino Leonardo"
+
+#: debug/Compiler.java:515
+msgid "'Keyboard' only supported on the Arduino Leonardo"
+msgstr "'Keyboard' chỉ được dùng trong Arduino Leonardo"
+
+#: EditorConsole.java:152
+msgid "Console Error"
+msgstr "Lỗi giao diện điều khiển"
+
+#: EditorConsole.java:153
+msgid ""
+"A problem occurred while trying to open the\n"
+"files used to store the console output."
+msgstr ""
+"Lỗi xảy ra khi mở những tập tin \n"
+"dùng để chứa tín hiệu xuất ra từ giao diện điều khiển."
+
+#: Base.java:184
+msgid "Non-fatal error while setting the Look & Feel."
+msgstr "Lỗi không nguy hiểm xảy ra khi thiết lập Nhìn & Cảm nhận."
+
+#: Base.java:185
+msgid "The error message follows, however Arduino should run fine."
+msgstr "Có thông báo lỗi, tuy nhiên Arduino vẫn có thể chạy tốt."
+
+#: Base.java:220
+msgid "Problem Setting the Platform"
+msgstr "Thiết lập Nền có vấn đề "
+
+#: Base.java:221
+msgid ""
+"An unknown error occurred while trying to load\n"
+"platform-specific code for your machine."
+msgstr "Một lỗi lạ xuất hiện khi \n"
+"tải đoạn mã đặc tả nền lên máy bạn."
+
+#: Base.java:232
+msgid "Please install JDK 1.5 or later"
+msgstr "Xin hãy cài đặt JDK 1.5 hoặc hơn nữa"
+
+#: Base.java:233
+msgid ""
+"Arduino requires a full JDK (not just a JRE)\n"
+"to run. Please install JDK 1.5 or later.\n"
+"More information can be found in the reference."
+msgstr ""
+"Arduino cần đầy đủ JDK (không chỉ JRE) \n"
+"để chạy. Xin hãy cài đặt JDK 1.5 hoặc hơn nữa.\n"
+"Thông tin thêm có thể tìm thấy trong mục tham khảo."
+
+#: Base.java:257
+msgid "Sketchbook folder disappeared"
+msgstr "Thư mục tập bản thảo biến mất"
+
+#: Base.java:258
+msgid ""
+"The sketchbook folder no longer exists.\n"
+"Arduino will switch to the default sketchbook\n"
+"location, and create a new sketchbook folder if\n"
+"necessary. Arduino will then stop talking about\n"
+"himself in the third person."
+msgstr ""
+"Thư mục tập bản thảo đã không còn nữa.\n"
+"Arduino sẽ chuyển tới nơi tập bản thảo mặc định, \n"
+"và tạo mới một thư mục tập bản thảo mới nếu \n"
+"cần thiết. Arduino sẽ không cảnh báo nữa."
+
+#: Base.java:532
+msgid "Time for a Break"
+msgstr "Giờ giải lao"
+
+#: Base.java:533
+msgid ""
+"You've reached the limit for auto naming of new sketches\n"
+"for the day. How about going for a walk instead?"
+msgstr ""
+"Bạn vừa chạm tới giới hạn cho điền tên tự động bản thảo mới\n"
+"trong một ngày. Bạn nên nghỉ một chút và đi lại cho khuây khỏa?"
+
+#: Base.java:537
+msgid "Sunshine"
+msgstr "Ánh dương"
+
+#: Base.java:538
+msgid "No really, time for some fresh air for you."
+msgstr "Hú ù, hít thở không khí trong lành thôi ."
+
+#: Base.java:633
+msgid "Open an Arduino sketch..."
+msgstr "Mở một bản thảo Arduino..."
+
+#: Base.java:772
+msgid ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Are you "
+"sure you want to Quit?</b><p>Closing the last open sketch will quit Arduino."
+msgstr ""
+"<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Bạn có chắc \n"
+"muốn thoát?</b><p>Đóng bản thảo cuối cùng sẽ thoát chương trình Arduino."
+
+#: Base.java:970
+msgid "Contributed"
+msgstr "Đóng góp"
+
+#: Base.java:1095
+msgid "Sketch Does Not Exist"
+msgstr "Bản thảo không tồn tại"
+
+#: Base.java:1096
+msgid ""
+"The selected sketch no longer exists.\n"
+"You may need to restart Arduino to update\n"
+"the sketchbook menu."
+msgstr ""
+"Bản thảo được chọn không còn tồn tại nữa.\n"
+"Bạn cần phải khởi động lại Arduino để nâng cấp \n"
+"danh sách tập bản thảo."
+
+#: Base.java:1125
+#, java-format
+msgid ""
+"The sketch \"{0}\" cannot be used.\n"
+"Sketch names must contain only basic letters and numbers\n"
+"(ASCII-only with no spaces, and it cannot start with a number).\n"
+"To get rid of this message, remove the sketch from\n"
+"{1}"
+msgstr ""
+"Bản thảo \"{0}\" không dùng được.\n"
+"Tên của bản thảo chỉ được chứa kí tự cơ bản và số\n"
+"(chỉ dùng mã ASCII và không dùng khoảng trắng, không bắt đầu bằng số).\n"
+"Để tránh thông báo này, xóa bản thảo khỏi \n"
+"{1}"
+
+#: Base.java:1132
+msgid "Ignoring sketch with bad name"
+msgstr "Bỏ qua bản thảo với tên ko đúng"
+
+#: Base.java:1202
+#, java-format
+msgid ""
+"The library \"{0}\" cannot be used.\n"
+"Library names must contain only basic letters and numbers.\n"
+"(ASCII only and no spaces, and it cannot start with a number)"
+msgstr ""
+"Thư viện \"{0}\" không dùng được.\n"
+"Tên thư viện chỉ được chứa kí tự cơ bản và số.\n"
+"(chỉ dùng mã ASCII và không dùng khoảng trắng, không bắt đầu bằng số)"
+
+#: Base.java:1207
+msgid "Ignoring bad library name"
+msgstr "Bỏ qua thư viện với tên không đúng"
+
+#: Base.java:1432
+msgid "Problem getting data folder"
+msgstr "Lấy dữ liệu thư mục gặp vấn đề"
+
+#: Base.java:1433
+msgid "Error getting the Arduino data folder."
+msgstr "Lỗi khi lấy dữ liệu từ thư mục dữ liệu Arduino."
+
+#: Base.java:1440
+msgid "Settings issues"
+msgstr "Thiết lập vấn đề"
+
+#: Base.java:1441
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your settings."
+msgstr ""
+"Arduino không thể chạy vì nó không thể \n"
+"tạo một thư mục để chứa những cấu hình của bạn."
+
+#: Base.java:1602
+msgid "You forgot your sketchbook"
+msgstr "Bạn đã quên tập bản thảo"
+
+#: Base.java:1603
+msgid ""
+"Arduino cannot run because it could not\n"
+"create a folder to store your sketchbook."
+msgstr ""
+"Arduino không thể chạy vì nó khộng thể \n"
+"tạo một thư mục để chứa tập bản thảo của bạn."
+
+#: Base.java:1623
+msgid "Select (or create new) folder for sketches..."
+msgstr "Chọn (hoặc tạo mới) thư mục cho tập bản thảo..."
+
+#: Base.java:1647
+msgid "Problem Opening URL"
+msgstr "Vấn đề khi mở đường dẫn URL"
+
+#: Base.java:1648
+#, java-format
+msgid ""
+"Could not open the URL\n"
+"{0}"
+msgstr ""
+"Không thể mở đường dẫn URL\n"
+"{0}"
+
+#: Base.java:1671
+msgid "Problem Opening Folder"
+msgstr "Vấn đề khi mở thư mục"
+
+#: Base.java:1672
+#, java-format
+msgid ""
+"Could not open the folder\n"
+"{0}"
+msgstr ""
+"Không thể mở thư mục\n"
+"{0}"
+
+#: Base.java:1785
+msgid "Guide_MacOSX.html"
+msgstr ""
+
+#: Base.java:1787
+msgid "Guide_Windows.html"
+msgstr ""
+
+#: Base.java:1789
+msgid "http://www.arduino.cc/playground/Learning/Linux"
+msgstr ""
+
+#: Base.java:1794
+msgid "index.html"
+msgstr ""
+
+#: Base.java:1799
+msgid "Guide_Environment.html"
+msgstr ""
+
+#: Base.java:1804
+msgid "environment"
+msgstr "môi trường"
+
+#: Base.java:1804
+msgid "platforms.html"
+msgstr ""
+
+#: Base.java:1809
+msgid "Guide_Troubleshooting.html"
+msgstr ""
+
+#: Base.java:1814
+msgid "FAQ.html"
+msgstr ""
+
+#: Base.java:1826
+msgid "Message"
+msgstr "Thông điệp"
+
+#: Base.java:1842
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: Base.java:2196
+#, java-format
+msgid "Could not remove old version of {0}"
+msgstr "Không thể bỏ phiên bản cũ của {0}"
+
+#: Base.java:2206
+#, java-format
+msgid "Could not replace {0}"
+msgstr "Không thể thay thế {0}"
+
+#: Base.java:2247 Base.java:2270
+#, java-format
+msgid "Could not delete {0}"
+msgstr "Không thể xóa {0}"
+
+#: EditorHeader.java:292
+msgid "New Tab"
+msgstr "Thẻ mới"
+
+#: EditorHeader.java:300
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: EditorHeader.java:326
+msgid "Previous Tab"
+msgstr "Thẻ trước"
+
+#: EditorHeader.java:340
+msgid "Next Tab"
+msgstr "Thẻ kế tiếp"
+
+#: EditorToolbar.java:41 EditorToolbar.java:46
+msgid "Verify"
+msgstr "Xác minh"
+
+#: EditorToolbar.java:41
+msgid "Open"
+msgstr "Mở"
+
+#: EditorToolbar.java:46
+msgid "New Editor Window"
+msgstr "Cửa sổ soạn thảo mới"
+
+#: EditorToolbar.java:46
+msgid "Open in Another Window"
+msgstr "Mở trong một cửa sổ khác"
+
+#: Platform.java:167
+msgid "No launcher available"
+msgstr "Không có chương trình khởi chạy nào sẵn sàng"
+
+#: Platform.java:168
+msgid ""
+"Unspecified platform, no launcher available.\n"
+"To enable opening URLs or folders, add a \n"
+"\"launcher=/path/to/app\" line to preferences.txt"
+msgstr ""
+"Nền không xác định, không có chương trình khởi chạy nào sẵn sàng.\n"
+"Để cho phép mở đường dẫn URL hoặc thư mục, thêm dòng \n"
+"\"launcher=/đường dẫn/đến/app\" vào preferences.txt"
+
+#: Theme.java:52
+msgid ""
+"Could not read color theme settings.\n"
+"You'll need to reinstall Processing."
+msgstr ""
+"Không thể đọc thiết lập màu nền."
+"Bạn sẽ phải cài lại Processing."
+
+#: Preferences.java:80
+msgid "Browse"
+msgstr "Đường dẫn"
+
+#: Preferences.java:83
+msgid "System Default"
+msgstr "Hệ thống mặc định"
+
+#: Preferences.java:84
+msgid "Arabic"
+msgstr "Tiếng A rập"
+
+#: Preferences.java:85
+msgid "Aragonese"
+msgstr "Tiếng Aragon"
+
+#: Preferences.java:86
+msgid "Catalan"
+msgstr "Tiếng Catalan"
+
+#: Preferences.java:87
+msgid "Chinese Simplified"
+msgstr "Tiếng Trung giản thể"
+
+#: Preferences.java:88
+msgid "Chinese Traditional"
+msgstr "Tiếng Trung truyền thống"
+
+#: Preferences.java:89
+msgid "Danish"
+msgstr "Tiếng Đan Mạch"
+
+#: Preferences.java:90
+msgid "Dutch"
+msgstr "Tiếng Hà Lan"
+
+#: Preferences.java:91
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: Preferences.java:92
+msgid "Estonian"
+msgstr "Tiếng Estonia"
+
+#: Preferences.java:93
+msgid "Filipino"
+msgstr "Tiếng Philipin"
+
+#: Preferences.java:94
+msgid "French"
+msgstr "Tiếng Pháp"
+
+#: Preferences.java:95
+msgid "Galician"
+msgstr "Tiếng Galicia"
+
+#: Preferences.java:96
+msgid "German"
+msgstr "Tiếng Đức"
+
+#: Preferences.java:97
+msgid "Greek"
+msgstr "Tiếng Hy lạp"
+
+#: Preferences.java:98
+msgid "Hindi"
+msgstr "Tiếng Hindi"
+
+#: Preferences.java:99
+msgid "Hungarian"
+msgstr "Tiếng Hungari"
+
+#: Preferences.java:100
+msgid "Indonesian"
+msgstr "Tiếng Indonesia"
+
+#: Preferences.java:101
+msgid "Italian"
+msgstr "Tiếng Italy"
+
+#: Preferences.java:102
+msgid "Japanese"
+msgstr "Tiếng Nhật"
+
+#: Preferences.java:103
+msgid "Korean"
+msgstr "Tiếng Hàn quốc"
+
+#: Preferences.java:104
+msgid "Latvian"
+msgstr "Tiếng Latvia"
+
+#: Preferences.java:105
+msgid "Lithuaninan"
+msgstr "Tiếng Lithuania"
+
+#: Preferences.java:106
+msgid "Marathi"
+msgstr "Tiếng Marathi"
+
+#: Preferences.java:107
+msgid "Norwegian"
+msgstr "Tiếng Nauy"
+
+#: Preferences.java:108
+msgid "Persian"
+msgstr "Tiếng Ba tư"
+
+#: Preferences.java:109
+msgid "Polish"
+msgstr "Tiếng Ba lan"
+
+#: Preferences.java:110 Preferences.java:111
+msgid "Portuguese"
+msgstr "Tiếng Bồ đào nha"
+
+#: Preferences.java:112
+msgid "Romanian"
+msgstr "Tiếng Romani"
+
+#: Preferences.java:113
+msgid "Russian"
+msgstr "Tiếng Nga"
+
+#: Preferences.java:114
+msgid "Spanish"
+msgstr "Tiếng Tây ban nha"
+
+#: Preferences.java:115
+msgid "Tamil"
+msgstr "Tiếng Ta min"
+
+#: Preferences.java:218
+msgid ""
+"Could not read default settings.\n"
+"You'll need to reinstall Arduino."
+msgstr ""
+"Không thể đọc cấu hình mặc định.\n"
+"Bạn cần phải cài Arduino lại."
+
+#: Preferences.java:250
+#, java-format
+msgid "Could not read preferences from {0}"
+msgstr "Không thể đọc các tùy chỉnh từ {0}"
+
+#: Preferences.java:269
+msgid "Error reading preferences"
+msgstr "Lỗi khi đọc các tùy chỉnh"
+
+#: Preferences.java:271
+#, java-format
+msgid ""
+"Error reading the preferences file. Please delete (or move)\n"
+"{0} and restart Arduino."
+msgstr ""
+"Lỗi khi đọc tập tin tùy chỉnh. Xin hãy xóa (hoặc di chuyển) \n"
+"{0} và khởi động lại Arduino."
+
+#: Preferences.java:307
+msgid "Sketchbook location:"
+msgstr "Địa chỉ của tập bản thảo:"
+
+#: Preferences.java:322
+msgid "Select new sketchbook location"
+msgstr "Chọn một địa chỉ mới cho tập bản thảo"
+
+#: Preferences.java:345
+msgid "Editor language: "
+msgstr "Ngôn ngữ soạn thảo: "
+
+#: Preferences.java:350 Preferences.java:366
+msgid "  (requires restart of Arduino)"
+msgstr " (đòi hỏi khởi động lại Arduino)"
+
+#: Preferences.java:362
+msgid "Editor font size: "
+msgstr "Cỡ chữ soạn thảo: "
+
+#: Preferences.java:379
+msgid "Show verbose output during: "
+msgstr "Xem kết quả dài trong khi: "
+
+#: Preferences.java:381
+msgid "compilation "
+msgstr "biên dịch "
+
+#: Preferences.java:383
+msgid "upload"
+msgstr "nạp lên bo"
+
+#: Preferences.java:392
+msgid "Verify code after upload"
+msgstr "Kiểm tra code sau khi nạp"
+
+#: Preferences.java:401
+msgid "Use external editor"
+msgstr "Sử dụng chương trình soạn thảo khác"
+
+#: Preferences.java:411
+msgid "Check for updates on startup"
+msgstr "Kiểm tra nâng cấp khi khởi động"
+
+#: Preferences.java:420
+msgid "Update sketch files to new extension on save (.pde -> .ino)"
+msgstr "Nâng cấp các tập tin bản thảo sang định dạng mới khi lưu (.pde -> .ino)"
+
+#: Preferences.java:431
+msgid "Automatically associate .ino files with Arduino"
+msgstr "Tự động liên kết tập tin .ino với Arduino"
+
+#: Preferences.java:441
+msgid "More preferences can be edited directly in the file"
+msgstr "Thêm nhiều tùy chỉnh có thể chỉnh trực tiếp ngay trong tập tin"
+
+#: Preferences.java:470
+msgid "(edit only when Arduino is not running)"
+msgstr "(chỉ chỉnh sửa khi Arduino không chạy)"
+
+#: Preferences.java:617
+#, java-format
+msgid "ignoring invalid font size {0}"
+msgstr "bỏ qua cỡ chữ không đúng {0}"
