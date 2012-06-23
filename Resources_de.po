@@ -517,12 +517,13 @@ msgstr " baud"
 msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
-msgstr ""
+msgstr "Der serielle Port ''{0}'' wird bereits verwendet. Versuchen Sie, "
+"alle Programme zu beenden, die ihn nutzen könnten."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Fehler beim Berühren des seriellen Ports ''{0}''."
 
 #: Serial.java:173
 #, java-format
@@ -909,14 +910,17 @@ msgstr "Der Sketchname musste geändert werden. Sketchnamen können nur\nASCII-Z
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Reset mit 1200bps Öffnen/Schließen wird erzwungen am Port "
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
 "Couldn’t find a Leonardo on the selected port. Check that you have the "
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
-msgstr ""
+msgstr "Am ausgewählten Port konnte kein Leonardo gefunden werden. Bitte "
+"überprüfen Sie, ob Sie den richtigen Port ausgewählt haben. Wenn er korrekt ist, "
+"versuchen Sie, den Reset-Knopf des Boards zu drücken, nachdem der Upload "
+"eingeleitet wurde."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1025,9 +1029,9 @@ msgstr "Die Klasse Udp wurde zu EthernetUdp umbenannt."
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
+"EthernetUdp.\n"
 "\n"
-msgstr "\nSeit Arduino 1.0 wurde die Klasse Udp in der Ethernet Library zu EthernetClient umbenannt.\n\n"
+msgstr "\nSeit Arduino 1.0 wurde die Klasse Udp in der Ethernet Library zu EthernetUdp umbenannt.\n\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
@@ -1055,11 +1059,11 @@ msgstr "\nSeit Arduino 1.0 wurde die Funktion Wire.receive() wegen der Übereins
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Mouse' wird nur von Arduino Leonardo unterstützt"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Keyboard' wird nur vom Arduino Leonardo unterstützt"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1351,55 +1355,55 @@ msgstr "Durchsuchen"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Systemeinstellung"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonisch"
 
 #: Preferences.java:86
 msgid "Catalan"
-msgstr "Català"
+msgstr "Catalanisch"
 
 #: Preferences.java:87
 msgid "Chinese Simplified"
-msgstr "大陆简体"
+msgstr "Vereinfachtes Chinesisch"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Traditionelles Chinesisch"
 
 #: Preferences.java:89
 msgid "Danish"
-msgstr "Dansk"
+msgstr "Dänisch"
 
 #: Preferences.java:90
 msgid "Dutch"
-msgstr "Nederlands"
+msgstr "Niederländisch"
 
 #: Preferences.java:91
 msgid "English"
-msgstr "English"
+msgstr "Englisch"
 
 #: Preferences.java:92
 msgid "Estonian"
-msgstr ""
+msgstr "Estnisch"
 
 #: Preferences.java:93
 msgid "Filipino"
-msgstr "Pilipino"
+msgstr "Philippinisch"
 
 #: Preferences.java:94
 msgid "French"
-msgstr "Français"
+msgstr "Französisch"
 
 #: Preferences.java:95
 msgid "Galician"
-msgstr "Galego"
+msgstr "Galizisch"
 
 #: Preferences.java:96
 msgid "German"
@@ -1407,75 +1411,75 @@ msgstr "Deutsch"
 
 #: Preferences.java:97
 msgid "Greek"
-msgstr "ελληνικά"
+msgstr "Griechisch"
 
 #: Preferences.java:98
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 #: Preferences.java:99
 msgid "Hungarian"
-msgstr "Magyar"
+msgstr "Ungarisch"
 
 #: Preferences.java:100
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesisch"
 
 #: Preferences.java:101
 msgid "Italian"
-msgstr "Italiano"
+msgstr "Italienisch"
 
 #: Preferences.java:102
 msgid "Japanese"
-msgstr "日本語"
+msgstr "Japanisch"
 
 #: Preferences.java:103
 msgid "Korean"
-msgstr ""
+msgstr "Koreanisch"
 
 #: Preferences.java:104
 msgid "Latvian"
-msgstr "Latviešu Valoda"
+msgstr "Lettisch"
 
 #: Preferences.java:105
 msgid "Lithuaninan"
-msgstr ""
+msgstr "Litauisch"
 
 #: Preferences.java:106
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
 
 #: Preferences.java:107
 msgid "Norwegian"
-msgstr ""
+msgstr "Norwegisch"
 
 #: Preferences.java:108
 msgid "Persian"
-msgstr "فارسی"
+msgstr "Persisch"
 
 #: Preferences.java:109
 msgid "Polish"
-msgstr ""
+msgstr "Polnisch"
 
 #: Preferences.java:110 Preferences.java:111
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugiesisch"
 
 #: Preferences.java:112
 msgid "Romanian"
-msgstr "Limba Română"
+msgstr "Rumänisch"
 
 #: Preferences.java:113
 msgid "Russian"
-msgstr ""
+msgstr "Russisch"
 
 #: Preferences.java:114
 msgid "Spanish"
-msgstr "Español"
+msgstr "Spanisch"
 
 #: Preferences.java:115
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: Preferences.java:218
 msgid ""
@@ -1509,7 +1513,7 @@ msgstr "Neuen Sketchbook Speicherort auswählen"
 
 #: Preferences.java:345
 msgid "Editor language: "
-msgstr ""
+msgstr "Editor-Sprache:"
 
 #: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"
@@ -1517,7 +1521,7 @@ msgstr "  (benötigt einen Neustart von Arduino)"
 
 #: Preferences.java:362
 msgid "Editor font size: "
-msgstr "Editor Schriftgröße: "
+msgstr "Editor-Schriftgröße: "
 
 #: Preferences.java:379
 msgid "Show verbose output during: "

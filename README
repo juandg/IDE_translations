@@ -30,7 +30,33 @@ The *.po files include:
 The copyright notice could look like:
 
 # Spanish translations for PACKAGE package.
-# Copyright (C)ng with 'msgid': this is the original sentence in English
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# D. Cuartielles <d.cuartielles@arduino.cc>, 2012.
+#
+
+There is not much to be said about that. However, the machine-readable block contains much more information:
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-30 11:00+0100\n"
+"PO-Revision-Date: 2012-04-01 09:25+0100\n"
+"Last-Translator: D. Cuartielles <d.cuartielles@arduino.cc>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+It is important to note that, within the Arduino IDE, we work using UTF-8 encoded strings.
+
+The translation area is divided into blocks. Each block has three parts:
+
+- a line starting with a hashtag '#': indicating the files where those strings were taken from
+- a line starting with 'msgid': this is the original sentence in English
 - a line starting with 'msgstr': this is the translation
 
 An example of one of those blocks would be:
@@ -56,33 +82,7 @@ How can I contribute?
 ---------------------
 
 The translations are a community contribution. They allow using Arduino's IDE based on your language preferences, however it might be the case there is no translation to your language. It is always possible to contribute by either generating a new language file or improving an existing one.
- 2012 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# D. Cuartielles <d.cuartielles@arduino.cc>, 2012.
 
-There is not much to be said about that. However, the machine-readable block contains much more information:
-
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-30 11:00+0100\n"
-"PO-Revision-Date: 2012-04-01 09:25+0100\n"
-"Last-Translator: D. Cuartielles <d.cuartielles@arduino.cc>\n"
-"Language-Team: Spanish\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-It is important to note that, within the Arduino IDE, we work using UTF-8 encoded strings.
-
-The translation area is divided into blocks. Each block has three parts:
-
-- a line starting with a hashtag '#': indicating the files where those strings were taken from
-- a line starti
 If you want to contribute this is the way to do it:
 
 1) you should subscribe to the translations@arduino.cc email list. Just follow this URL and fill in your details:
@@ -100,6 +100,44 @@ http://arduino.cc/playground/Main/LanguagesIDE
 5) once you are done with the translation, you have to inform via email that you are done. If you didn't do so, the rest of the translators wouldn't know your file is ready to be part of the next Arduino release
 
 
+When the strings updated
+------------------------
+
+The strings in the Arduino IDE source code may change. This should occur by reasons like new features, deleted features, fix of typos and others. What do we have to do when this occur?
+
+We provide "i18n_template.py" Python script. This script takes the "*.po" file names as arguments, and process each "*.po" files using "Resources_en.po" as a template. This script adds strings newly found in "Resources_en.po" and removes strings which no longer available in "Resources_en.po" while keeping the order of the strings and the each comments. You need a Python interpreter to run this script.
+
+As a contributing translator:
+
+ 1. The maintainer of this repository will provide updated "Resources_en.po".
+ 2. Pull the update like this:
+      % cd IDE_translations
+      % git pull upstream master
+ 3. Reflect the change to your language "XX":
+      % ./i18n_template.py Resources_XX.po
+ 4. Check the difference:
+      % git diff Resources.XX.po
+    This will show you the added/deleted/modified strings.
+ 5. Translate the added/modified strings.
+    You may want to check the difference by repeating the step 4 above.
+    You may want to make a branch before starting translation.
+
+As a repository maintainer:
+
+ 1. You have to prepare the updated "Resources_en.po" by following steps.
+ 2. Pull the update of Arduino IDE source code:
+      % cd Arduino
+      % git pull upstream master
+ 3. Change directory:
+      % cd app/src/processing/app
+ 4. Extract the new strings:
+      % ./i18n_update.sh
+ 5. Copy the updated "Resources_en.po" to IDE_translations repository:
+      % cp Resources_en.po __somewhere__
+ 6. Revert the changes made by "i18n_update.sh":
+      % git checkout -f
+
+
 Credits
 -------
 
@@ -110,7 +148,7 @@ This is a list of contributors that have released *.po files ordered by language
 3 Catalan: Albert Segura <alb.segu(at)gmail(dot)com>
 4 Chinese (Simplified): ledong
 5 Chinese (Taiwan): yehnan
-6 Croatian: Marko Baricevic, Mark Bilandzic
+6 Croatian: Marko Baricevic, Mark Bilandzic, Dubravko Penezic
 7 Danish: Anders Bech Mellson
 8 Dutch: Marcel Veldhuijzen, JO3RI <info@jo3ri.be> (http://www.JO3RI.be)
 9 Estonian: Cougar <cougar@random.ee>

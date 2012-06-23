@@ -537,11 +537,13 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quitting any programs that may be "
 "using it."
 msgstr ""
+"El puerto serial ''{0}'' ya está en uso. Intenta cerrar cualquier otro "
+"programa que pueda estar usándolo."
 
 #: Serial.java:124
 #, java-format
 msgid "Error touching serial port ''{0}''."
-msgstr ""
+msgstr "Error usando el comando 'touch' en el puerto serial ''{0}''."
 
 #: Serial.java:173
 #, java-format
@@ -549,7 +551,7 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"El puerto serial ''{0}'' ya Está en uso. Intenta  cerrar cualquier otro "
+"El puerto serial ''{0}'' ya está en uso. Intenta cerrar cualquier otro "
 "programa que pueda estar usándolo."
 
 #: Serial.java:180
@@ -982,14 +984,17 @@ msgstr ""
 
 #: debug/AvrdudeUploader.java:96
 msgid "Forcing reset using 1200bps open/close on port "
-msgstr ""
+msgstr "Usando abrir/cerrar a 1200bps para forzar un reset en el puerto "
 
 #: debug/AvrdudeUploader.java:151
 msgid ""
 "Couldn’t find a Leonardo on the selected port. Check that you have the "
 "correct port selected.  If it is correct, try pressing the board's reset "
 "button after initiating the upload."
-msgstr ""
+msgstr "No se pudo encontrar una tarjeta Leonardo en el puerto seleccionádo. "
+"Verifíca que hayas seleccionádo el puerto correcto. Si en realidad es el "
+"correcto, intenta presionar el botón reset en la tarjeta al momento de "
+"iniciar la carga de código"
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1122,7 +1127,7 @@ msgstr "La clase Udp ha sido renombrada EthernetUdp."
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
+"EthernetUdp.\n"
 "\n"
 msgstr ""
 "\n"
@@ -1164,11 +1169,11 @@ msgstr ""
 
 #: debug/Compiler.java:510
 msgid "'Mouse' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Mouse' es soportado solo en el Arduino Leonardo"
 
 #: debug/Compiler.java:515
 msgid "'Keyboard' only supported on the Arduino Leonardo"
-msgstr ""
+msgstr "'Keyboard' es soportado solo en el Arduino Leonardo"
 
 #: EditorConsole.java:152
 msgid "Console Error"
@@ -1502,15 +1507,15 @@ msgstr "Navegar"
 
 #: Preferences.java:83
 msgid "System Default"
-msgstr ""
+msgstr "Predeterminado del sistema"
 
 #: Preferences.java:84
 msgid "Arabic"
-msgstr ""
+msgstr "Árabe"
 
 #: Preferences.java:85
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonés"
 
 #: Preferences.java:86
 msgid "Catalan"
@@ -1522,7 +1527,7 @@ msgstr "Chino Simplificado"
 
 #: Preferences.java:88
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Chino Tradicional"
 
 #: Preferences.java:89
 msgid "Danish"
@@ -1538,7 +1543,7 @@ msgstr "Ingles"
 
 #: Preferences.java:92
 msgid "Estonian"
-msgstr ""
+msgstr "Estonio"
 
 #: Preferences.java:93
 msgid "Filipino"
@@ -1570,7 +1575,7 @@ msgstr "Húngaro"
 
 #: Preferences.java:100
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesio"
 
 #: Preferences.java:101
 msgid "Italian"
@@ -1582,7 +1587,7 @@ msgstr "Japonés"
 
 #: Preferences.java:103
 msgid "Korean"
-msgstr ""
+msgstr "Coreano"
 
 #: Preferences.java:104
 msgid "Latvian"
@@ -1590,15 +1595,15 @@ msgstr "Letón"
 
 #: Preferences.java:105
 msgid "Lithuaninan"
-msgstr ""
+msgstr "Lituano"
 
 #: Preferences.java:106
 msgid "Marathi"
-msgstr ""
+msgstr "Maratí"
 
 #: Preferences.java:107
 msgid "Norwegian"
-msgstr ""
+msgstr "Noruego"
 
 #: Preferences.java:108
 msgid "Persian"
@@ -1606,11 +1611,11 @@ msgstr "Persa"
 
 #: Preferences.java:109
 msgid "Polish"
-msgstr ""
+msgstr "Polaco"
 
 #: Preferences.java:110 Preferences.java:111
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugués"
 
 #: Preferences.java:112
 msgid "Romanian"
@@ -1618,7 +1623,7 @@ msgstr "Rumano"
 
 #: Preferences.java:113
 msgid "Russian"
-msgstr ""
+msgstr "Ruso"
 
 #: Preferences.java:114
 msgid "Spanish"
@@ -1664,7 +1669,7 @@ msgstr "Selecciona la nueva ubicación del Sketchbook"
 
 #: Preferences.java:345
 msgid "Editor language: "
-msgstr ""
+msgstr "Idioma para el editor: "
 
 #: Preferences.java:350 Preferences.java:366
 msgid "  (requires restart of Arduino)"

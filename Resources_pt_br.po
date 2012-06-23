@@ -1031,9 +1031,9 @@ msgstr "A clase Udp foi renomeada para EthernetUdp."
 msgid ""
 "\n"
 "As of Arduino 1.0, the Udp class in the Ethernet library has been renamed to "
-"EthernetClient.\n"
+"EthernetUdp.\n"
 "\n"
-msgstr "\nA partir do Arduino 1.0, a classe Udp na biblioteca Ethernet foi renomeada para EthernetClient.\n"
+msgstr "\nA partir do Arduino 1.0, a classe Udp na biblioteca Ethernet foi renomeada para EthernetUdp.\n"
 
 #: debug/Compiler.java:498
 msgid "Wire.send() has been renamed Wire.write()."
